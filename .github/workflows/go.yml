@@ -28,7 +28,9 @@ jobs:
       run: go run main.go
       
     - name: move output file
-      run: cp ./* ./publish/ 
+      run: |
+          mkdir -p ./publish/
+          cp ./*.txt ./publish/
       
     - name: Release and upload assets
       uses: softprops/action-gh-release@v0.1.6
