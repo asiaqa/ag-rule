@@ -70,7 +70,9 @@ jobs:
     - name: Commit config #提交配置文件
       run: |
          rm -rf ./publish/
-         echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.log
+         echo `date +"%Y-%m-%d %H:%M:%S"` ZJC > time.log
+         git config --global user.email ${{ secrets.EMAIL }}
+         git config --global user.name ${{ secrets.NAME }}
          git add .
-         git commit -am "Done"
+         git commit -am `date +"%Y-%m-%d %H:%M:%S"` Done
          git push
