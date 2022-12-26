@@ -25,5 +25,5 @@ jobs:
         check-latest: true
 
     - name: Build
-      run: go build -v ./...
+      run: go run main.go
 
