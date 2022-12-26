@@ -67,12 +67,12 @@ jobs:
             curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@release/${file}"
           done
     
-    - name: Commit config #提交配置文件
+    - name: Commit *.txt
       run: |
          rm -rf ./publish/
          echo `date +"%Y-%m-%d %H:%M:%S"` ZJC > time.log
          git config --global user.email ${{ secrets.EMAIL }}
          git config --global user.name ${{ secrets.NAME }}
-         git add .
-         git commit -am `date +"%Y-%m-%d %H:%M:%S"` Done
+         git add ./output.txt
+         git commit -am "DONE"
          git push
