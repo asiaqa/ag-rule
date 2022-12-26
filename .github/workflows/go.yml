@@ -34,7 +34,7 @@ jobs:
     - name: move output file
       run: |
           mkdir -p ./publish/
-          cp ./*.txt ./publish/
+          cp ./output.txt ./publish/
       
     - name: Release and upload assets
       uses: softprops/action-gh-release@v0.1.6
@@ -66,3 +66,10 @@ jobs:
           for file in $(ls); do
             curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@release/${file}"
           done
+    
+    - name: Commit config #提交配置文件
+      run: |
+         echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.log
+         git add .
+         git commit -am "Done"
+         git push
