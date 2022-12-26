@@ -109,8 +109,10 @@ func remove(loc string) {
 }
 
 func main() {
-	remove("temp.txt")
 	readlink("master.txt", "temp.txt")
 	processing("temp.txt", "output.txt", "custom.txt")
+	remove("temp.txt")
+	readlink("simple.txt", "temp.txt")
+	processing("temp.txt", "output_simple.txt", "custom.txt")
 	remove("temp.txt")
 }
