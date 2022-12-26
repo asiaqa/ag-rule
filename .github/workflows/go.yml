@@ -70,9 +70,9 @@ jobs:
     - name: Commit *.txt
       run: |
          rm -rf ./publish/
-         echo `date +"%Y-%m-%d %H:%M:%S"` ZJC > time.log
+         echo `date +"%Y-%m-%d %H:%M:%S"` ZJC > outputtime.log
          git config --global user.email ${{ secrets.EMAIL }}
          git config --global user.name ${{ secrets.NAME }}
-         git add ./output*.txt
+         git add ./output*
          git commit -am "FINISHED"
          git push
