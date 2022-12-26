@@ -1,10 +1,10 @@
 # Combine all self-use adguard home rules into two files, updates twice per day
 
-## Fully Block Rule Link: MP-MASTER
+## Fully Block Rules Link: MP-MASTER
 
 https://raw.githubusercontent.com/asiaqa/ag-rule/main/output.txt
 
-## Simplified Block Rule Link: MP-SIMPLE
+## Simplified Block Rules Link: MP-SIMPLE
 
 https://raw.githubusercontent.com/asiaqa/ag-rule/main/output_simple.txt
 
