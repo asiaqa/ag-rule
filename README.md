@@ -1,4 +1,4 @@
-# Combine all self-use adguard home rules into two files, update 4 times everyday. 
+# Combine all self-use adguard home rules into two files, update 4 times per day
 
 ## Full block link:
 
