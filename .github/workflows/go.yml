@@ -34,7 +34,7 @@ jobs:
     - name: move output file
       run: |
           mkdir -p ./publish/
-          cp ./output.txt ./publish/
+          cp ./output*.txt ./publish/
       
     - name: Release and upload assets
       uses: softprops/action-gh-release@v0.1.6
@@ -73,6 +73,6 @@ jobs:
          echo `date +"%Y-%m-%d %H:%M:%S"` ZJC > time.log
          git config --global user.email ${{ secrets.EMAIL }}
          git config --global user.name ${{ secrets.NAME }}
-         git add ./output.txt
-         git commit -am "DONE"
+         git add ./output*.txt
+         git commit -am "FINISHED"
          git push
