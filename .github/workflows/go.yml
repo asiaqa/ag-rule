@@ -20,7 +20,7 @@ jobs:
     - name: Set timezone
       uses: szenius/set-timezone@v1.0
       with:
-        timezoneLinux: "Asia/HongKong"
+        timezoneLinux: "Asia/hong_kong"
     - name: Set up Go 1.x.y
       uses: actions/setup-go@v3
       with:
