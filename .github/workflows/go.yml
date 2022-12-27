@@ -32,10 +32,31 @@ jobs:
     - name: Run main.go
       run: go run main.go
       
+    - name: Create output.txt
+      run: |
+          echo "# Title: MP Master Adguard Home Rules List" > output.txt
+          echo "# Verison time: $(date +%Y%m%d%H%M)" >> output.txt
+          echo "# Expires: 1 days" >> output.txt
+          echo "# Below are the links of the adblock rules" >> output.txt
+          while IFS= read -r line; do echo "# $line" >> output.txt; done < master.txt
+          cat out.txt >> output.txt
+          
+    - name: Create output_simple.txt
+      run: |
+          echo "# Title: MP Simple Adguard Home Rules List" > output_simple.txt
+          echo "# Verison time: $(date +%Y%m%d%H%M)" >> output_simple.txt
+          echo "# Expires: 1 days" >> output_simple.txt
+          echo "# Below are the links of the adblock rules" >> output_simple.txt
+          while IFS= read -r line; do echo "# $line" >> output_simple.txt; done < simple.txt
+          cat out_simple.txt >> output_simple.txt
+          
+      
     - name: move output file
       run: |
           mkdir -p ./publish/
           cp ./output*.txt ./publish/
+          
+
       
     - name: Release and upload assets
       uses: softprops/action-gh-release@v0.1.6
