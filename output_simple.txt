@@ -1,3 +1,15 @@
+# Title: MP Simple Adguard Home Rules List
+# Verison: 202212272135
+# Expires: around 1 day
+# Below are the links of the adblock rules
+# https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+# https://adaway.org/hosts.txt
+# https://easylist-downloads.adblockplus.org/easylistchina.txt
+# https://easylist-downloads.adblockplus.org/easylist.txt
+# https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt
+# https://easylist-downloads.adblockplus.org/easyprivacy.txt
+# https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
+# https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt
 ||5754909.com^
 ||impresivedate.com^
 ||neeladou.net^
@@ -32633,6 +32645,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||useg.nextdigital.com.hk^
 ||web-trace.ksapisrv.com^
 ||tracking.vid4u.org^
+||a.centrum.cz^
 ||bisko.mall.tv^
 ||bnr.alza.cz^
 ||counter.cnw.cz^
@@ -32641,6 +32654,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||i.imedia.cz^
 ||log.cpex.cz^
 ||log.idnes.cz^
+||mer.stdout.cz^
 ||pixel.biano.cz^
 ||pixel.cpex.cz^
 ||ssp.seznam.cz^
@@ -39983,6 +39997,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||snbklas.cn^
 ||grecoi.xyz^
 ||gcihkyd.cn^
+||ifyso.icu^
+||zhengtong.link^
+||zgm1.com^
+||zytsbro.cn^
 ||001adafg.xyz^
 ||0024aaaa.com^
 ||004fsdljasd.xyz^
@@ -55159,7 +55177,6 @@ charlestownwyllie.oaklawnnonantum.com^
 127.0.0.1 zucks.net
 127.0.0.1 zwaar.org
 127.0.0.1 log-collector.svctr.zynga.com
-[Adblock Plus 2.0]
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -90mh-gg.
@@ -55905,10 +55922,7 @@ ubmcmm.baidustatic.com
 ||23.234.217.12^
 ||laomo365.com^$third-party
 ||utlove02.com^$third-party
-||ifyso.icu^
-||zhengtong.link^
-||zgm1.com^
-||zytsbro.cn^
+||gravvxa.cn^
 .8ox.cn
 ~etao1.com##a[href*=".etao1.com/"]
 ~zhidmai.com##a[href*="https://www.zhidmai.com"]
@@ -85844,7 +85858,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ||settings.crashlytics.com^
 ||mitv.tracking.intl.miui.com^
 ||sdkconfig.ad.intl.xiaomi.com^
-[Adblock Plus 1.1]
 &action=confection_send_data&
 &action=js_stats&
 &action=js_stats_
@@ -97386,10 +97399,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||union.360.cn/1899.js
 ||w3t.cn^*/fx.js
 ||yigouw.com/c.js
-||a.centrum.cz^
 ||h.seznam.cz/hit/
 ||h.seznam.cz/js/dot-small.js
-||mer.stdout.cz^
 ||r2b2.cz/events.php?
 ||stat.kununu.cz^$third-party
 ||bbl.k.dk/tracking/
@@ -111182,6 +111193,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||mmstat.com/eg.js$script,domain=aliexpress.com
 @@||moengage.com/v2/$xmlhttprequest,domain=olx.com.lb
 @@||moengage.com/webpush/$script,domain=olx.com.lb
+@@||mopar.com/moparsvc/mopar-analytics-state$~third-party
 @@||mozu.com^*/analytics.js$script,domain=acehardware.com
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|motortrendondemand.com
