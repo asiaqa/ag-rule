@@ -27,7 +27,7 @@ jobs:
           echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           
-    - name: Run
+    - name: Run main.go
       run: go run main.go
       
     - name: move output file
@@ -68,10 +68,9 @@ jobs:
     
     - name: Commit *.txt
       run: |
-         rm -rf ./publish/
-         echo `date +"%Y-%m-%d %H:%M:%S"` ZJC CKC > output.log
+         echo `date +"%Y-%m-%d %H:%M:%S"` ZJC CKC >> output.log
          git config --global user.email ${{ secrets.EMAIL }}
          git config --global user.name ${{ secrets.NAME }}
          git add ./output*
-         git commit -am "FINISHED"
+         git commit -am "Updated"
          git push
