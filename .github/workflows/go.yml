@@ -39,8 +39,9 @@ jobs:
           echo "# Expires: around 1 day" >> output.txt
           echo "# Below are the links of the adblock rules" >> output.txt
           while IFS= read -r line; do echo "# $line" >> output.txt; done < master.txt
-          echo "##########################################" >> output.txt
+          echo "####################################################################################" >> output.txt
           cat out.txt >> output.txt
+          echo "####################################################################################" >> output.txt
           
     - name: Create output_simple.txt
       run: |
@@ -49,17 +50,15 @@ jobs:
           echo "# Expires: around 1 day" >> output_simple.txt
           echo "# Below are the links of the adblock rules" >> output_simple.txt
           while IFS= read -r line; do echo "# $line" >> output_simple.txt; done < simple.txt
-          echo "##########################################" >> output.txt
+          echo "####################################################################################" >> output_simple.txt
           cat out_simple.txt >> output_simple.txt
+          echo "####################################################################################" >> output_simple.txt
           
-      
     - name: move output file
       run: |
           mkdir -p ./publish/
           cp ./output*.txt ./publish/
           
-
-      
     - name: Release and upload assets
       uses: softprops/action-gh-release@v0.1.6
       with:
