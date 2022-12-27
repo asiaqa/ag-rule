@@ -16,7 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-
+    
+    - name: Set timezone
+      uses: szenius/set-timezone@v1.0
+      with:
+        timezoneLinux: "Asia/HongKong"
     - name: Set up Go 1.x.y
       uses: actions/setup-go@v3
       with:
