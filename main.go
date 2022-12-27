@@ -38,20 +38,20 @@ func download(link string, loc string) {
 	// Create a local file to save the downloaded file
 	file, err := os.OpenFile(loc, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
-		// handle error
+		fmt.Println(err)
 	}
 	defer file.Close()
 
 	// Use io.Copy to copy the response body to the local file
 	_, err = io.Copy(file, response.Body)
 	if err != nil {
-		// handle error
+		fmt.Println(err)
 	}
 	return
 }
 func processing(loc string, output string, custom string) {
-	i := 0
-	j := 0
+	i := 0 // Number of duplicated items
+	j := 0 // Number of valid items
 	outputFile, err := os.Create(output)
 	if err != nil {
 		fmt.Println(err)
@@ -68,11 +68,8 @@ func processing(loc string, output string, custom string) {
 		// Get the current line
 		line := scanner.Text()
 		// Check if the line is started from "[blank] or [space] or # or !"
-		match, _ := regexp.MatchString("^[ #!]|^$", line)
+		match, _ := regexp.MatchString("^[ #!]|^$|^\\[", line)
 		if match {
-			// Mark the line as written
-			//print(line + "-")
-			//println(match)
 			linesWritten[line] = true
 		}
 		if !linesWritten[line] {
@@ -112,9 +109,9 @@ func remove(loc string) {
 
 func main() {
 	readlink("master.txt", "temp.txt")
-	processing("temp.txt", "output.txt", "custom.txt")
+	processing("temp.txt", "out.txt", "custom.txt")
 	remove("temp.txt")
 	readlink("simple.txt", "temp.txt")
-	processing("temp.txt", "output_simple.txt", "custom.txt")
+	processing("temp.txt", "out_simple.txt", "custom.txt")
 	remove("temp.txt")
 }
