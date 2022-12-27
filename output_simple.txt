@@ -1,5 +1,5 @@
 # Title: MP Simple Adguard Home Rules List
-# Verison: 202212272154
+# Verison: 202212280109
 # Expires: around 1 day
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
@@ -55921,9 +55921,10 @@ ubmcmm.baidustatic.com
 /\.zdx[0-9]{1,2}\.site:/$script,third-party
 ||23.234.217.11^
 ||23.234.217.12^
+||gravvxa.cn^
+||js22f.net^
 ||laomo365.com^$third-party
 ||utlove02.com^$third-party
-||gravvxa.cn^
 .8ox.cn
 ~etao1.com##a[href*=".etao1.com/"]
 ~zhidmai.com##a[href*="https://www.zhidmai.com"]
@@ -60757,8 +60758,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
-789ys.com##h1[style]
-domp4.cc##h1[style]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -65983,6 +65982,7 @@ engadget.com#?#.Py\(40px\):-abp-has(> article > .D\(f\) > .Pos\(r\)[data-ylk*=":
 aae3.com##form + center > p[align="center"]
 guilinlife.com#?#li:-abp-has(> div > .content-other > .content-type:-abp-contains(广告))
 dmh8.me##h1
+789ys.com,domp4.cc##h1[style]
 cnbeta.com##h2 > a[href^="https://active.greatroma.com"]
 hao.360.com#?#.cube-mod:-abp-has(> .cube-bd > .cube-card > .project-root > ._CUBE_A_D_CLK_)
 ifeng.com#?#.box_list:-abp-has(.tuig)
