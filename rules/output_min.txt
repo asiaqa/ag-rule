@@ -1,5 +1,5 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202212282246
+# Verison: 202212290142
 # Expires: around 1 day
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
@@ -60859,8 +60859,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
-91duba.com,iduba.com##.jq_notice
-91duba.com,iduba.com###m_hot_rec_main > div > .noLikeList
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -61741,6 +61739,7 @@ playno1.com###m2
 playno1.com###m7
 2345.com###m_banner
 2345.com###m_banner_2
+91duba.com,iduba.com###m_hot_rec_main > div > .noLikeList
 chacuo.net###mailtooltipss
 kaka12345.cc###main
 g-years.com,ghoffice.com,gpsuu.com,mydigit.cn###main > .textMes
@@ -63877,6 +63876,7 @@ mamecn.com##.jjMain_bg
 soyunpan.com##.jmwb
 hahamx.cn##.joke-list-anecdote
 qq.com##.jpBanner
+91duba.com,iduba.com##.jq_notice
 juqingba.cn##.jqright1
 jrj.com.cn##.jrj-ad
 zhanqi.tv##.js-activity-show
