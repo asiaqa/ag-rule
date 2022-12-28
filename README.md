@@ -3,10 +3,12 @@
 ## Fully Block Rules Link: MP-MASTER
 
 https://raw.githubusercontent.com/asiaqa/ag-rule/main/output.txt
+https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/output.txt
 
 ## Simplified Block Rules Link: MP-SIMPLE
 
 https://raw.githubusercontent.com/asiaqa/ag-rule/main/output_simple.txt
+https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/output_simple.txt
 
 ## 注意
 
