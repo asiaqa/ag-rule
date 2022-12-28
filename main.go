@@ -36,7 +36,7 @@ func download(link string, loc string) {
 	defer response.Body.Close()
 
 	// Create a local file to save the downloaded file
-	file, err := os.OpenFile(loc, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	file, err := os.OpenFile(loc, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -95,7 +95,7 @@ func processing(loc string, output string, custom string) {
 	defer outputFile.Close()
 	println(strconv.Itoa(i) + " of items are deleted")
 	println(strconv.Itoa(j) + " of items are included")
-	println(output + " is created")
+	println(output + " is created with addition rules from " + custom)
 	return
 
 }
@@ -108,10 +108,7 @@ func remove(loc string) {
 }
 
 func main() {
-	readlink(os.Args[1], "temp.txt")
-	processing("temp.txt", os.Args[2], os.Args[3])
-	remove("temp.txt")
-       // readlink("simple.txt", "temp.txt")
- //	processing("temp.txt", "out_simple.txt", "custom.txt")
-//	remove("temp.txt")
+	readlink(os.Args[1], "ckczjc")
+	processing("ckczjc", os.Args[2], os.Args[3])
+	remove("ckczjc")
 }
