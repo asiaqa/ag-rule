@@ -113,8 +113,8 @@ jobs:
          echo `date +"%Y-%m-%d %H:%M:%S"` ZJC CKC >> ./rules/output.log
          git config --global user.email ${{ secrets.EMAIL }}
          git config --global user.name ${{ secrets.NAME }}
-         git add ./rules/output*
-         git add ./output.txt
-         git add ./output_simple.txt
+         git add ./rules/output* ./output.txt ./output_simple.txt
+         git commit --dry-run > ,/rules/commit.log
+         git commit ./rules/commit.log
          git commit -m "${{ env.RELEASE_NAME }}"
          git push
