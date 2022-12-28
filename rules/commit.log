@@ -1,23 +1,28 @@
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	modified:   output.txt
-	modified:   output_simple.txt
-	modified:   rules/output.log
-	modified:   rules/output_full.txt
-	modified:   rules/output_medium.txt
-	modified:   rules/output_min.txt
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	out_full.txt
-	out_med.txt
-	out_min.txt
-	output_full.txt
-	output_medium.txt
-	output_min.txt
-	publish/
-	rules/commit.log
-
+diff --git a/rules/commit.log b/rules/commit.log
+index 6643af3..e69de29 100644
+--- a/rules/commit.log
++++ b/rules/commit.log
+@@ -1,23 +0,0 @@
+-On branch main
+-Your branch is up to date with 'origin/main'.
+-
+-Changes to be committed:
+-  (use "git restore --staged <file>..." to unstage)
+-	modified:   output.txt
+-	modified:   output_simple.txt
+-	modified:   rules/output.log
+-	modified:   rules/output_full.txt
+-	modified:   rules/output_medium.txt
+-	modified:   rules/output_min.txt
+-
+-Untracked files:
+-  (use "git add <file>..." to include in what will be committed)
+-	out_full.txt
+-	out_med.txt
+-	out_min.txt
+-	output_full.txt
+-	output_medium.txt
+-	output_min.txt
+-	publish/
+-	rules/commit.log
+-
