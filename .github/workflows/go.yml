@@ -37,7 +37,7 @@ jobs:
       
     - name: Create output_full.txt
       run: |
-          echo "# Title: MP Master Adguard Home Rules List" > output_full.txt
+          echo "# Title: MP Fully block Adguard Home Rules List" > output_full.txt
           echo "# Verison: $(date +%Y%m%d%H%M)" >> output_full.txt
           echo "# Expires: around 1 day" >> output_full.txt
           echo "# Below are the links of the adblock rules" >> output_full.txt
@@ -48,7 +48,7 @@ jobs:
           
     - name: Create output_medium.txt
       run: |
-          echo "# Title: MP Simple Adguard Home Rules List" > output_medium.txt
+          echo "# Title: MP Medium Adguard Home Rules List" > output_medium.txt
           echo "# Verison: $(date +%Y%m%d%H%M)" >> output_medium.txt
           echo "# Expires: around 1 day" >> output_medium.txt
           echo "# Below are the links of the adblock rules" >> output_medium.txt
@@ -59,7 +59,7 @@ jobs:
           
     - name: Create output_min.txt
       run: |
-          echo "# Title: MP Simple Adguard Home Rules List" > output_min.txt
+          echo "# Title: MP Min Adguard Home Rules List" > output_min.txt
           echo "# Verison: $(date +%Y%m%d%H%M)" >> output_min.txt
           echo "# Expires: around 1 day" >> output_min.txt
           echo "# Below are the links of the adblock rules" >> output_min.txt
