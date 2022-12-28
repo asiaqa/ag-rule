@@ -109,7 +109,7 @@ jobs:
     
     - name: Commit *.txt
       run: |
-         echo `date +"%Y-%m-%d %H:%M:%S"` ZJC CKC >> output.log
+         echo `date +"%Y-%m-%d %H:%M:%S"` ZJC CKC >> ./rules/output.log
          git config --global user.email ${{ secrets.EMAIL }}
          git config --global user.name ${{ secrets.NAME }}
          git add ./rules/output*
