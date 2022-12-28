@@ -1,4 +1,4 @@
-# Combine all self-use adguard home rules into two files, updates twice per day
+# Combine all self-use adguard home rules into two files, updates 3 times per day
 
 ## Fully Block Rules Link: MP-FULL
 
@@ -18,9 +18,13 @@ https://raw.githubusercontent.com/asiaqa/ag-rule/main/rules/output_min.txt
 
 https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/output_min.txt
 
-## 注意
+## How to use
 
-请勿滥用本仓库
+1. Folk this repo
+2. Go to Edit setting with all upstream block lists
+- Update the XX_fules.txt with the upstream block rules link
+- Update custom.txt with the rules that you want to exclude / include.
+3. Run Github Actions..
 
 ## Thanks
 
