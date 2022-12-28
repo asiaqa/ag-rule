@@ -72,6 +72,7 @@ jobs:
     - name: move output file
       run: |
           mkdir -p ./publish/
+          diff ./ ./rules/ > ./rules/diff.log
           cp ./output*.txt ./publish/
           cp ./output*.txt ./rules/
           cp ./output_min.txt output_simple.txt
@@ -113,6 +114,6 @@ jobs:
          echo `date +"%Y-%m-%d %H:%M:%S"` ZJC CKC >> ./rules/date.log
          git config --global user.email ${{ secrets.EMAIL }}
          git config --global user.name ${{ secrets.NAME }}
-         git add ./rules/output* ./output.txt ./output_simple.txt ./rules/date.log
+         git add ./rules/output* ./output.txt ./output_simple.txt ./rules/date.log ./rules/diff.log
          git commit -m "${{ env.RELEASE_NAME }}"
          git push
