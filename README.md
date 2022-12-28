@@ -20,11 +20,7 @@ https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/output_min.txt
 
 ## How to use
 
-1. Folk this repo
-2. Go to Edit setting with all upstream block lists
-2.1 Update the XX_fules.txt with the upstream block rules link
-2.2 Update custom.txt with the rules that you want to exclude / include.
-3. Run Github Actions..
+TBD
 
 ## Thanks
 
