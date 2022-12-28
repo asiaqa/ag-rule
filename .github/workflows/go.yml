@@ -72,7 +72,7 @@ jobs:
     - name: move output file
       run: |
           mkdir -p ./publish/
-          ls ./rules/
+          diff ./ ./rules/ > ./rules/diff.log
           cp ./output*.txt ./publish/
           cp ./output*.txt ./rules/
           cp ./output_min.txt output_simple.txt
