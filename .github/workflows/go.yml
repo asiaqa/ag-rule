@@ -110,10 +110,11 @@ jobs:
     
     - name: Commit *.txt
       run: |
+         rm -f ./rules/commit.log
          git config --global user.email ${{ secrets.EMAIL }}
          git config --global user.name ${{ secrets.NAME }}
          git add ./rules/output* ./output.txt ./output_simple.txt
-         git diff |& tee ./rules/commit.log
+         git diff 2>&1 | tee ./rules/commit.log
          echo `date +"%Y-%m-%d %H:%M:%S"` ZJC CKC >> ./rules/date.log
          git add ./rules/commit.log ./rules/date.log
          git commit -m "${{ env.RELEASE_NAME }}"
