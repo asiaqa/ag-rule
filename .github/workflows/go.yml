@@ -70,8 +70,6 @@ jobs:
           
     - name: move output file
       run: |
-          cp output_min.txt output_simple.txt 
-          cp output_full.txt output.txt
           mkdir -p ./publish/
           cp ./output*.txt ./publish/
           
