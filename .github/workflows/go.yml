@@ -31,9 +31,9 @@ jobs:
           
     - name: Run main.go
       run: |
-          go run main.go full_rules.txt out_full.txt "./setting/custom.txt"
-          go run main.go medium_rules.txt out_med.txt custom.txt
-          go run main.go min_rules.txt out_min.txt custom.txt
+          go run main.go "./setting/full_rules.txt" out_full.txt "./setting/custom.txt"
+          go run main.go "./setting/medium_rules.txt" out_med.txt "./setting/custom.txt"
+          go run main.go "./setting/min_rules.txt" out_min.txt "./setting/custom.txt"
       
     - name: Create output_full.txt
       run: |
@@ -41,7 +41,7 @@ jobs:
           echo "# Verison: $(date +%Y%m%d%H%M)" >> output_full.txt
           echo "# Expires: around 1 day" >> output_full.txt
           echo "# Below are the links of the adblock rules" >> output_full.txt
-          while IFS= read -r line; do echo "# $line" >> output_full.txt; done < full_rules.txt
+          while IFS= read -r line; do echo "# $line" >> output_full.txt; done < "./setting/full_rules.txt"
           echo "####################################################################################" >> output_full.txt
           cat out_full.txt >> output_full.txt
           echo "####################################################################################" >> output_full.txt
@@ -52,7 +52,7 @@ jobs:
           echo "# Verison: $(date +%Y%m%d%H%M)" >> output_medium.txt
           echo "# Expires: around 1 day" >> output_medium.txt
           echo "# Below are the links of the adblock rules" >> output_medium.txt
-          while IFS= read -r line; do echo "# $line" >> output_medium.txt; done < medium_rules.txt
+          while IFS= read -r line; do echo "# $line" >> output_medium.txt; done < "./setting/medium_rules.txt"
           echo "####################################################################################" >> output_medium.txt
           cat out_med.txt >> output_medium.txt
           echo "####################################################################################" >> output_medium.txt
@@ -63,7 +63,7 @@ jobs:
           echo "# Verison: $(date +%Y%m%d%H%M)" >> output_min.txt
           echo "# Expires: around 1 day" >> output_min.txt
           echo "# Below are the links of the adblock rules" >> output_min.txt
-          while IFS= read -r line; do echo "# $line" >> output_min.txt; done < min_rules.txt
+          while IFS= read -r line; do echo "# $line" >> output_min.txt; done < "./setting/min_rules.txt"
           echo "####################################################################################" >> output_min.txt
           cat out_min.txt  >> output_min.txt
           echo "####################################################################################" >> output_min.txt
