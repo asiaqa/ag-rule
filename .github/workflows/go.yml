@@ -31,7 +31,7 @@ jobs:
           
     - name: Run main.go
       run: |
-          go run main.go full_rules.txt out_full.txt custom.txt
+          go run main.go full_rules.txt out_full.txt "./setting/custom.txt"
           go run main.go medium_rules.txt out_med.txt custom.txt
           go run main.go min_rules.txt out_min.txt custom.txt
       
