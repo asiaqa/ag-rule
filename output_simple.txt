@@ -1,5 +1,5 @@
 # Title: MP Simple Adguard Home Rules List
-# Verison: 202212280819
+# Verison: 202212281311
 # Expires: around 1 day
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
@@ -55960,6 +55960,10 @@ ubmcmm.baidustatic.com
 ||23.234.217.12^
 ||laomo365.com^$third-party
 ||utlove02.com^$third-party
+||krqole.xyz^
+||b62.xyz^
+||ooeogk.xyz^
+||ocyakni.cn^
 .8ox.cn
 ~etao1.com##a[href*=".etao1.com/"]
 ~zhidmai.com##a[href*="https://www.zhidmai.com"]
@@ -93915,6 +93919,7 @@ _mongo_stats/
 ||spylog.ru^$third-party
 ||spywords.com^$third-party
 ||sqate.io^$third-party
+||squeezely.tech^$third-party
 ||squidanalytics.com^$third-party
 ||srmdata.com^$third-party
 ||srpx.net^$third-party
@@ -94764,6 +94769,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dockdigestion.com^$third-party
 ||dogcollarfavourbluff.com^$third-party
 ||dollardelta.com^$third-party
+||doubtdrawer.com^
 ||dq95d35.com^$third-party
 ||drydrum.com^$third-party
 ||ejyymghi.com^$third-party
@@ -96864,6 +96870,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.mixi.media^
 ||static.parsely.com^$third-party
 ||staticmoly.me/metric.php
+||stats.callnowbutton.com^
 ||stats.phoenix-widget.com^
 ||stats.smartclip.net^
 ||stats.topofblogs.com^
