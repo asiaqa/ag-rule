@@ -30,7 +30,9 @@ jobs:
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           
     - name: Run main.go
-      run: go run main.go
+      run: |
+          go run main.go master.txt out.txt custom.txt
+          go run main.go simple.txt out_simple.txt custom.txt
       
     - name: Create output.txt
       run: |
