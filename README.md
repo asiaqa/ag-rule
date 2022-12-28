@@ -1,4 +1,4 @@
-# Combine all self-use adguard home rules into two files, updates 3 times per day
+# Combine all self-use adguard home rules into three files, updates 3 times per day
 
 ## Fully Block Rules Link: MP-FULL
 
