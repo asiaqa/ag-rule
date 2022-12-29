@@ -29,4 +29,7 @@ jobs:
       with:
           node-version: '12.x'
     - run: npm install
+    
+    - name: Install hostlist-complier
+      run: npm i -g @adguard/hostlist-compiler
 
