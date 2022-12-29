@@ -1,10 +1,9 @@
 {
-  "name": "MP List",
-  "description": "List description",
+  "name": "TEMP LIST",
   "sources": [
     {
       "source": "zjc",
-      "transformations": ["RemoveComments", "Compress","Validate", "Deduplicate", "TrimLines"]
+      "transformations": ["RemoveComments", "Compress","Validate", "Deduplicate", "TrimLines","RemoveEmptyLines"]
     }
   ]
 }
