@@ -28,7 +28,7 @@ jobs:
       uses: actions/setup-node@v3
       
     - name: Install dependencies for Node.js
-      run: npm install    
+      run: apt install npm  
       
     - name: Install hostlist-complier
       run: npm i -g @adguard/hostlist-compiler
