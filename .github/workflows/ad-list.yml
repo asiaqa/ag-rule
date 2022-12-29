@@ -45,7 +45,7 @@ jobs:
           go run main.go "./setting/full_rules.txt" out_full.txt "./setting/custom.txt"
           go run main.go "./setting/medium_rules.txt" out_med.txt "./setting/custom.txt"
           go run main.go "./setting/min_rules.txt" out_min.txt "./setting/custom.txt"
-      
+    
     - name: Create output_full.txt
       run: |
           echo "# Title: MP Fully block Adguard Home Rules List" > output_full.txt
