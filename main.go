@@ -81,6 +81,7 @@ func processing(loc string, output string, custom string) {
 			linesWritten[line] = true
 		} else {
 			i++
+			fmt.Println("removed: "+line)	
 		}
 	}
 	customFile, err := os.Open(custom)
