@@ -117,9 +117,4 @@ func main() {
                   fmt.Println("Data Cleansing completed")
    	}             
         processing("ckc", os.Args[2], os.Args[3])
-        remove("zjc")
-        remove("ckc")
-	processing("ckc", os.Args[2], os.Args[3])
-	remove("zjc")
-	remove("ckc")
 }
