@@ -1,0 +1,10 @@
+{
+  "name": "MP List",
+  "description": "List description",
+  "sources": [
+    {
+      "source": "test.txt",
+      "transformations": ["RemoveComments", "Compress","Validate", "Deduplicate", "TrimLines"]
+    }
+  ]
+}
