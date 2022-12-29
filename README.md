@@ -1,22 +1,22 @@
 # Combine all self-use adguard home rules into three files, updates 3 times per day
 
-## Fully Block Rules Link: MP-FULL
+## Full Block Rules Link: MP-FULL
 
 https://raw.githubusercontent.com/asiaqa/ag-rule/main/rules/output_full.txt
 
-https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/output_full.txt
+https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/output_full.txt  (12 hours delay)
 
 ## Medium Block Rules Link: MP-MED
 
 https://raw.githubusercontent.com/asiaqa/ag-rule/main/rules/output_medium.txt
 
-https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/output_medium.txt
+https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/output_medium.txt   (12 hours delay)
 
 ## Min Block Rules Link: MP-MIN
 
 https://raw.githubusercontent.com/asiaqa/ag-rule/main/rules/output_min.txt
 
-https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/output_min.txt
+https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/output_min.txt    (12 hours delay)
 
 ## How to use
 
