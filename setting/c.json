@@ -3,7 +3,7 @@
   "description": "List description",
   "sources": [
     {
-      "source": "test.txt",
+      "source": "ckc",
       "transformations": ["RemoveComments", "Compress","Validate", "Deduplicate", "TrimLines"]
     }
   ]
