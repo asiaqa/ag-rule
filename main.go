@@ -111,10 +111,12 @@ func remove(loc string) {
 func main() {
 	readlink(os.Args[1], "zjc")
 	cmd := exec.Command("hostlist-compiler", "-c", "./setting/c.json", "-o", "ckc")
-	if err := cmd.Output(); err != nil { 
-                  fmt.Println("Error: ", err)
+	out, err := cmd.CombinedOutput()
+	if err != nil { 
+                fmt.Println("Error: ", err)
         } else  {
-                  fmt.Println("Data Cleansing completed")
+		fmt.Println(string(out))
+                fmt.Println("Data Cleansing completed")
    	}             
         processing("ckc", os.Args[2], os.Args[3])
 	remove("ckc")
