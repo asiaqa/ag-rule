@@ -8,6 +8,7 @@ import (
 	"os"
 	"regexp"
 	"strconv"
+	"os/exec"
 )
 
 func readlink(master string, loc string) {
@@ -108,7 +109,9 @@ func remove(loc string) {
 }
 
 func main() {
-	readlink(os.Args[1], "ckczjc")
-	processing("ckczjc", os.Args[2], os.Args[3])
-	remove("ckczjc")
+	readlink(os.Args[1], "zjc")
+	cmd := exec.Command("hostlist-compiler", "-c", "./setting/c.json", "-o", "ckc")
+	processing("ckc", os.Args[2], os.Args[3])
+	remove("zjc")
+	remove("ckc")
 }
