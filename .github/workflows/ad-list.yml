@@ -26,6 +26,8 @@ jobs:
         
     - name: Use Node.js
       uses: actions/setup-node@v3
+      with:
+        node-version: '12.x'
     - run: npm install
       
     - name: Install hostlist-complier
@@ -46,7 +48,7 @@ jobs:
     
     - name: Create output_full.txt
       run: |
-          echo "# Title: MP Fully block Adguard Home Rules List" > output_full.txt
+          echo "# Title: MP Full block Adguard Home Rules List" > output_full.txt
           echo "# Verison: $(date +%Y%m%d%H%M)" >> output_full.txt
           echo "# Expires: around 1 day" >> output_full.txt
           echo "# Below are the links of the adblock rules" >> output_full.txt
