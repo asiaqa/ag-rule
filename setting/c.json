@@ -3,7 +3,7 @@
   "description": "List description",
   "sources": [
     {
-      "source": "ckc",
+      "source": "zjc",
       "transformations": ["RemoveComments", "Compress","Validate", "Deduplicate", "TrimLines"]
     }
   ]
