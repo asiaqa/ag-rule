@@ -9,7 +9,7 @@ on:
     types: [started]
   schedule: 
     - cron: 21 23,11 * * *
-    - cron: 01 5 * * *
+    - cron: 01 5,15 * * *
 
 jobs:
 
