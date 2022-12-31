@@ -1,0 +1,27 @@
+on:
+  push:
+     branches:
+       - master
+
+name: ⏫ Copying Setting
+
+jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    # Copy the 'post' folder
+    - name: Push posts
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source_file: 'setting/' # Folder to copy
+        destination_repo: '${{ secrets.PATH }}' # Target repo
+        destination_folder: 'setting/' # Folder where to copy it
+        user_email: '${{ secrets.EMAIL }}'
+        user_name: '${{ secrets.NAME }}'
+        commit_message: "SYNC FROM SOURCE"
+        git_server: 'github.com'
