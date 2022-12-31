@@ -67,3 +67,9 @@ https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt
 
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/adblocker
+
+## P.S. MP Super Block Rules Link: MP-SUPER
+
+https://raw.githubusercontent.com/asiaqa/ag-rule/main/rules/output_super.txt
+
+https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/output_super.txt    (12 hours delay)
