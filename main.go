@@ -6,15 +6,16 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"os/exec"
 	"regexp"
 	"strconv"
-	"os/exec"
 )
 
 func readlink(master string, loc string) {
 	inputFile, err := os.Open(master)
 	if err != nil {
 		fmt.Println(err)
+		return
 	}
 	defer inputFile.Close()
 	scanner := bufio.NewScanner(inputFile)
@@ -31,6 +32,7 @@ func download(link string, loc string) {
 	response, err := http.Get(link)
 	if err != nil {
 		fmt.Println(err)
+		return
 	} else {
 		fmt.Println("download:" + link + " completed!")
 	}
@@ -40,6 +42,7 @@ func download(link string, loc string) {
 	file, err := os.OpenFile(loc, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
 	if err != nil {
 		fmt.Println(err)
+		return
 	}
 	defer file.Close()
 
@@ -47,20 +50,23 @@ func download(link string, loc string) {
 	_, err = io.Copy(file, response.Body)
 	if err != nil {
 		fmt.Println(err)
+		return
 	}
 	return
 }
-func processing(loc string, output string, custom string) {
+func processing(loc string, output string, custom string) (j int) {
 	i := 0 // Number of duplicated items
-	j := 0 // Number of valid items
+	j = 0  // Number of valid items
 	outputFile, err := os.Create(output)
 	if err != nil {
 		fmt.Println(err)
+		return 0
 	}
 	linesWritten := make(map[string]bool)
 	inputFile, err := os.Open(loc)
 	if err != nil {
 		fmt.Println(err)
+		return 0
 	}
 	defer inputFile.Close()
 	scanner := bufio.NewScanner(inputFile)
@@ -81,12 +87,13 @@ func processing(loc string, output string, custom string) {
 			linesWritten[line] = true
 		} else {
 			i++
-			fmt.Println("removed: "+line)	
+			fmt.Println("removed: " + line)
 		}
 	}
 	customFile, err := os.Open(custom)
 	if err != nil {
 		fmt.Println(err)
+		return 0
 	}
 	defer customFile.Close()
 	scanner1 := bufio.NewScanner(customFile)
@@ -98,7 +105,7 @@ func processing(loc string, output string, custom string) {
 	println(strconv.Itoa(i) + " of items are deleted")
 	println(strconv.Itoa(j) + " of items are included")
 	println(output + " is created with addition rules from " + custom)
-	return
+	return j
 
 }
 func remove(loc string) {
@@ -106,20 +113,21 @@ func remove(loc string) {
 	if err != nil {
 		fmt.Println(err)
 	}
-	return
 }
 
 func main() {
 	readlink(os.Args[1], "zjc")
 	cmd := exec.Command("hostlist-compiler", "-c", "./setting/c.json", "-o", "ckc")
 	out, err := cmd.CombinedOutput()
-	if err != nil { 
-                fmt.Println("Error: ", err)
-        } else  {
+	if err != nil {
+		fmt.Println("Error: ", err)
+	} else {
 		fmt.Println(string(out))
-                fmt.Println("Data Cleansing completed")
-   	}             
-        processing("ckc", os.Args[2], os.Args[3])
+		fmt.Println("Data Cleansing completed")
+	}
+	number := 0
+	number = processing("ckc", os.Args[2], os.Args[3])
 	remove("ckc")
 	remove("zjc")
+	println("###" + strconv.Itoa(number) + "###")
 }
