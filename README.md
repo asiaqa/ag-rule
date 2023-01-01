@@ -1,3 +1,6 @@
+[![Ad-list-processing](https://github.com/asiaqa/ag-rule/actions/workflows/ad-list.yml/badge.svg)](https://github.com/asiaqa/ag-rule/actions/workflows/ad-list.yml)
+
+
 # Combine all self-use adguard home rules into three files, updates 3 times per day
 
 ## Full Block Rules Link: MP-FULL
