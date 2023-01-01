@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202301020012
+# Verison: 202301020219
 # Expires: around 1 day
-# Total number of rules = 74026
+# Total number of rules = 74031
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -20,6 +20,9 @@
 # https://filters.adtidy.org/extension/ublock/filters/224.txt
 # https://cdn.jsdelivr.net/gh/neoFelhz/neohosts@gh-pages/basic/hosts
 ####################################################################################
+||prxy.online^
+||repointderider.com^
+||belbenback.live^
 ||tontent.powzers.lol^
 ||snicherchitra.space^
 ||nostrilquarryprecursor.com^
@@ -1973,6 +1976,7 @@ vkcdnservice.appspot.com^
 ||2e3f31faae.com^
 ||2e552e6db0.com^
 ||2e8dgn8n0e0l.com^
+||2fb8or7ai.de^
 ||2fd8c0e9fc.com^
 ||2fe913d83a.com^
 ||2g6gj3aojcrj.com^
@@ -6039,6 +6043,7 @@ vkcdnservice.appspot.com^
 ||chitika.net^
 ||chjhsfctkeve.xyz^
 ||chl7rysobc3ol6xla.com^
+||chlibopi.xyz^
 ||cho7932105co3l2ate3covere53d.com^
 ||choahees.net^
 ||chobsang.net^
@@ -7362,6 +7367,7 @@ vkcdnservice.appspot.com^
 ||dissolvedhaunch.com^
 ||distilled.ie^
 ||distinctlynobleprosecute.com^
+||distorted-basket.pro^
 ||distorttrucknurture.com^
 ||distractiontradingamass.com^
 ||distressedsensesmanage.com^
@@ -11302,6 +11308,7 @@ vkcdnservice.appspot.com^
 ||kloynfsag.com^
 ||klsdee.com^
 ||klyeconnecte.xyz^
+||kmapagpkik.com^
 ||kmqkdhqaqt.com^
 ||kmuvaerfumy.com^
 ||kneeansweras.com^
@@ -11934,6 +11941,7 @@ vkcdnservice.appspot.com^
 ||loulauzo.com^
 ||louloapi.com^
 ||loulouly.net^
+||loungeagain.com^
 ||loungebearing.com^
 ||lourdoueisienne.website^
 ||lousebankroll.com^
@@ -16282,6 +16290,7 @@ vkcdnservice.appspot.com^
 ||rvwtpwmtnfj.com^
 ||rwkdqtenbr.com^
 ||rwlfznyvivh.com^
+||rwqsuobfskxrlfx.com^
 ||rwturquxinm.com^
 ||rwzexfzoyqf.com^
 ||rxeosevsso.com^
@@ -17058,6 +17067,7 @@ vkcdnservice.appspot.com^
 ||socialbars-web1.com^
 ||sociallycontend.com^
 ||socialvone.com^
+||socids.com^
 ||sociocast.com^
 ||sociomantic.com^
 ||socketboredomdigital.com^
@@ -19548,6 +19558,7 @@ vkcdnservice.appspot.com^
 ||wegetpaid.net^
 ||wegotmedia.com^
 ||wehgprpfrx.xyz^
+||wehras.com^
 ||wel-wel-fie.com^
 ||welfarefit.com^
 ||wellhello.com^
@@ -40178,6 +40189,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||celcxjb.cn^
 ||wotui.ltd^
 ||vec4o.top^
+||wydfghjjh.live^
 ||001adafg.xyz^
 ||0024aaaa.com^
 ||004fsdljasd.xyz^
@@ -46690,6 +46702,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||video231.oss-cn-beijing.aliyuncs.com^
 ||xpj08.oss-cn-beijing.aliyuncs.com^
 ||ys2000.cdn.bcebos.com^
+||j8377.com^
 ||380.tw^
 ||52av.be^
 ||1024mzs.pw^
@@ -49703,7 +49716,6 @@ charlestownwyllie.oaklawnnonantum.com^
 .728x90-
 .728x90.
 .900x100.
-||2fb8or7ai.de^
 ||2mdn.net^
 ||alipromo.com^
 ||alitems.com^
@@ -49714,8 +49726,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||auditude.com^
 ||burlydeclined.com
 ||buyeasy.by^
-||chlibopi.xyz^
-||distorted-basket.pro^
 ||dzubavstal.com
 ||evgywgur.com
 ||get-me-wow.
@@ -49725,17 +49735,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hsrvz.com
 ||imasdk.googleapis.com^
 ||impact-ad.jp^
-||kmapagpkik.com^
 ||kqzyfj.com^
 ||loadercdn.com^
-||loungeagain.com^
 ||ntv.io^
 ||piguiqproxy.com^
 ||requismucuta.com
-||rwqsuobfskxrlfx.com^
-||socids.com^
 ||studabsently.com
-||wehras.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
