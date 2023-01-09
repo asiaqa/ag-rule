@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202301100224
+# Verison: 202301100731
 # Expires: around 1 day
-# Total number of rules = 73222
+# Total number of rules = 73232
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -49021,6 +49021,7 @@ charlestownwyllie.oaklawnnonantum.com^
 .728x90.
 .900x100.
 ||2mdn.net^
+||360yield-basic.com^
 ||alipromo.com^
 ||alitems.com^
 ||altruisticcost.com
@@ -49028,8 +49029,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||atmasroofy.com
 ||auberginecorny.com
 ||auditude.com^
+||balkscaked.com^
+||bulgae.com^
 ||burlydeclined.com
 ||buyeasy.by^
+||disperserepeatedly.com^
 ||dzubavstal.com
 ||evgywgur.com
 ||get-me-wow.
@@ -49041,10 +49045,14 @@ charlestownwyllie.oaklawnnonantum.com^
 ||impact-ad.jp^
 ||kqzyfj.com^
 ||loadercdn.com^
+||lqcaznzllnrfh.com^
 ||ntv.io^
 ||piguiqproxy.com^
+||poinsk.com^
 ||requismucuta.com
 ||studabsently.com
+||trollsvide.com^
+||xkesalwueyz.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -49445,6 +49453,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||browser.events.data.microsoft.com^
 ||collect.*.miui.com^
 ||collector-*.px-client.net^
+||commerce.bing.com^
 ||csi.gstatic.com^
 ||firebaselogging-pa.googleapis.com^
 ||g.msn.com^
@@ -49460,6 +49469,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||try.abtasty.com^
 ||uim.tifbs.net^
 ||d241ujsiy3yht0.cloudfront.net
+||d3gi6isrskhoq.cloudfront.net^
 ||aff*.kolektiva.net^
 -logging.nextmedia.com^
 ||stats2.*.fdnames.com^
