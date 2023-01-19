@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202301191120
+# Verison: 202301191607
 # Expires: around 1 day
-# Total number of rules = 74046
+# Total number of rules = 74051
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -40140,6 +40140,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ruyqiolnz.cyou^
 ||fyzbvwb.cn^
 ||zdrvtmj.cn^
+||bavxxf.xyz^
+||huijizhen.com^
+||buttn.cyou^
+||dfghaqea.xyz^
+||doubleclicks.biz^
+||ajkcdpm.cn^
 ||001adafg.xyz^
 ||0024aaaa.com^
 ||004fsdljasd.xyz^
@@ -49602,8 +49608,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||track.zorkanetwork.com^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
-||bavxxf.xyz^
-||huijizhen.com^
 -ad-300x600-
 -ad-336x280-
 -ad-458x80.
@@ -74065,4 +74069,5 @@ ads.tiktok.com
 metrics.icloud.com
 adtago.s3.amazonaws.com
 @@||acme.zerossl.com^$important
+@@||ncp-gw-abu.media.yahoo.com^$important
 ####################################################################################
