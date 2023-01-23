@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202301240220
+# Verison: 202301240344
 # Expires: around 1 day
-# Total number of rules = 73441
+# Total number of rules = 73444
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -73460,4 +73460,7 @@ metrics.icloud.com
 adtago.s3.amazonaws.com
 @@||acme.zerossl.com^$important
 @@||ncp-gw-abu.media.yahoo.com^$important
+ads.pinterest.com
+ads.tiktok.com
+
 ####################################################################################
