@@ -8,8 +8,8 @@ on:
   watch:
     types: [started]
   schedule: 
-    - cron: 21 23,11 * * *
-    - cron: 01 3,18 * * *
+    - cron: 21 11 * * *
+    - cron: 01 3 * * *
 
 jobs:
 
