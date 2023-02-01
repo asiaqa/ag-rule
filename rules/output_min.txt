@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202302011132
+# Verison: 202302011927
 # Expires: around 1 day
-# Total number of rules = 73666
+# Total number of rules = 73722
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -38780,6 +38780,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ads.botbanhang.vn^
 ||ads.platform.zalo.me^
 ||ads.thanhnien.vn^
+||ads.vtc.vn^
 ||ads.zalo.me^
 ||ads.zaloapp.com^
 ||ads.zdn.vn^
@@ -38838,6 +38839,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||customers.fptad.com^
 ||daleriki.com^
 ||delivery.akadigital.vn^
+||delivery.vtc.vn^
+||delivery.vtcnew.com.vn^
+||delivery.vtcnews.vn^
 ||donglogs.com^
 ||dtadnetwork.com^
 ||elogs.vnexpress.net^
@@ -38993,6 +38997,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.playzing.g6.zing.vn^
 ||tracking.tv.zing.vn^
 ||tracking.vnncdn.net^
+||tracking.vtc.vn^
+||tracking.vtcnew.com.vn^
 ||tracking2.vnncdn.net^
 ||trk-pcweb.api.zaloapp.com^
 ||urekamedia.com^
@@ -39232,8 +39238,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cskh.onlinecrm.vn^
 ||csmads.gameclick.vn^
 ||delecpuzz.com^
-||delivery.vtc.vn^
-||delivery.vtcnew.com.vn^
 ||deltago.com^
 ||demopage.me^
 ||deqik.com^
@@ -39427,6 +39431,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||t2zc6vo8zj2ch6sh6kvu5vq8cjz4iv8v2aj1ckjy8zktaj8vm6visk6als8l.me^
 ||ta.toprework.vn^
 ||tagging-qadkfoj6ha-as.a.run.app^
+||tech.zapps.me^
 ||thongke.arttimes.vn^
 ||thongke.baotintuc.vn^
 ||thongke.bookingcare.vn^
@@ -39471,7 +39476,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.vegaid.vn^
 ||tracking.vht.com.vn^
 ||tracking.vietbao.vn^
-||tracking.vtcnew.com.vn^
 ||trackingapi.foody.vn^
 ||trackingvn.zingplay.com^
 ||trackity.tiki.vn^
@@ -39860,6 +39864,14 @@ charlestownwyllie.oaklawnnonantum.com^
 ||knyjes.xyz^
 ||cwpbohx.cn^
 ||dbtojr.xyz^
+||lpncqju.cn^
+||94188.xyz^
+||kscly.com^
+||qtbzeey.cn^
+||gskbzle.cn^
+||afdplay.xyz^
+||zax01.com^
+||huijixian.com^
 ||001adafg.xyz^
 ||0024aaaa.com^
 ||004fsdljasd.xyz^
@@ -49323,6 +49335,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||track.zorkanetwork.com^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
+||resumes.ren^
+||v16rs.cn^
+||butaeit.cn^
+||yc444.cn^
 -ad-300x600-
 -ad-336x280-
 -ad-458x80.
@@ -49517,30 +49533,66 @@ charlestownwyllie.oaklawnnonantum.com^
 .728x90.
 .900x100.
 ||2mdn.net^
+||33ece6a950.com^
+||5608bd4f7e.com^
 ||alipromo.com^
 ||alitems.com^
 ||altruisticcost.com
+||antelintere.xyz^
 ||atdmt.com^
+||atfqpjvl.com^
 ||atmasroofy.com
 ||auberginecorny.com
 ||auditude.com^
+||batakfry.com^
 ||burlydeclined.com
 ||buyeasy.by^
+||calexits.uno^
+||ccjzuavqrh.com^
+||cheap-result.pro^
+||cleftinform.com^
+||cottxdaaetckn.com^
 ||dzubavstal.com
+||eligiblebraceelitist.com^
+||ethnicmovescrupulous.com^
 ||evgywgur.com
+||excretekings.com^
+||feignthat.com^
+||flannelbeforehand.com^
+||galliestorpify.com^
+||gaulshiite.life^
 ||get-me-wow.
 ||givekeeperstirring.com
 ||gleameddelightprosperity.com
 ||googletagservices.com^
+||h52ek3i.de^
 ||hsrvz.com
 ||imasdk.googleapis.com^
 ||impact-ad.jp^
+||kablic.com^
 ||kqzyfj.com^
 ||loadercdn.com^
+||makqfcvs.com^
+||matmechanic.com^
+||moistlytactoid.com^
+||nhalcyw.com^
 ||ntv.io^
+||nudgeworry.com^
+||occultshout.com^
 ||piguiqproxy.com^
+||publicunloadbags.com^
+||rebrea.com^
+||recklessliver.com^
 ||requismucuta.com
+||rndglosr.xyz^
+||routingnaias.com^
 ||studabsently.com
+||theusualsuspectz.biz^
+||tightervarying.com^
+||tragicbeyond.com^
+||tuffetenolize.com^
+||ulyhadchos.com^
+||uninvitedcurly.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -49558,6 +49610,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ohmygosh.info^
 ||watchmyvids.xyz^
 ||cas.*.criteo.com^
+||d3imksvhtbujlm.cloudfront.net^
 ||aff-jp.dxlive.com^
 ||affiliate.dtiserv.com^
 ||affiliates.cupidplc.com^
@@ -49895,6 +49948,7 @@ charlestownwyllie.oaklawnnonantum.com^
 -coin-hive.js
 -monero-miner-
 -logabpstatus.
+||bringmethehats.com^
 ||captcha-display.com^
 ||cxense.com^
 ||googletagmanager.com^
@@ -60043,6 +60097,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||analytics.allovoisins.com^
 ||cdtm.cdiscount.com^
 ||compteur.developpez.com^
+||e.legalstart.fr^
 ||events-logs.doctolib.com^
 ||forecast.huffingtonpost.fr^
 ||fsm.lapresse.ca^
@@ -60053,6 +60108,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||p.pagesjaunes.fr^
 ||pixel.dugwood.com^
 ||pixel.ionos.fr^
+||pt.legalstart.fr^
 ||res.paruvendu.fr^
 ||s5.charliehebdo.fr^
 ||stat.ouedkniss.com^
