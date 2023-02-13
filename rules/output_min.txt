@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202302131132
+# Verison: 202302131928
 # Expires: around 1 day
-# Total number of rules = 73683
+# Total number of rules = 73705
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -27777,6 +27777,7 @@ vkcdnservice.appspot.com^
 ||t.yesware.com^
 ||tagman.britishairways.com^
 |piwik.
+||analytics.dashboard.fingerprint.com^
 ||tracking.ensonhaber.com^
 ||l.traxmag.com^
 ||pixel-*.rubiconproject.com^
@@ -31649,6 +31650,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||serpentshampoo.com^
 ||shaggytank.com^
 ||shinestuart.com^
+||shiveringspot.com^
 ||showstranger.com^
 ||simplesidewalk.com^
 ||skillfulsock.com^
@@ -40117,6 +40119,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ccgjmzv.cn^
 ||wbe4sp.top^
 ||pehlvl.xyz^
+||lh54.top^
+||44629.com^
+||wutou20230201.live^
 ||001adafg.xyz^
 ||0024aaaa.com^
 ||004fsdljasd.xyz^
@@ -49282,6 +49287,11 @@ analytics-*.aasaam.com
 ||track.zorkanetwork.com^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
+||ncvkzz.cn^
+||xiaohui668.club^
+||gejulm1314.com^
+||liutou20230203.live^
+||albertabelen.com^
 -ad-300x600-
 -ad-336x280-
 -ad-458x80.
@@ -49483,8 +49493,11 @@ analytics-*.aasaam.com
 ||atmasroofy.com
 ||auberginecorny.com
 ||auditude.com^
+||baywoodkbps.space^
+||bookmanzyzzyva.com^
 ||burlydeclined.com
 ||buyeasy.by^
+||dopiesttrotter.com^
 ||dzubavstal.com
 ||evgywgur.com
 ||get-me-wow.
@@ -49494,13 +49507,23 @@ analytics-*.aasaam.com
 ||hsrvz.com
 ||imasdk.googleapis.com^
 ||impact-ad.jp^
+||kerbayarugate.com^
 ||kqzyfj.com^
 ||loadercdn.com^
 ||ntv.io^
+||ouchruse.com^
+||outdilateinterrupt.com^
+||pallaliven.com^
+||panyarspan.com^
+||patenssabzi.com^
 ||piguiqproxy.com^
+||rearerstombs.com^
 ||requismucuta.com
 ||rubiconproject.com^
+||suddensjesu.com^
 ||trust.zone^
+||upsweephalms.com^
+||womsauph.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -49909,7 +49932,6 @@ analytics-*.aasaam.com
 ||analytics-api.dvdfab.
 ||analytics-proxy.springboard.com^
 ||analytics.academy.com^
-||analytics.dashboard.fingerprint.com^
 ||analytics.designspiration.com^
 ||analytics.footballdb.com^
 ||analytics.freemake.com^
@@ -60118,7 +60140,6 @@ analytics-*.aasaam.com
 ||vatrack.hinet.net^
 ||web-player-tracker.biliapi.net^
 ||webstat.kuwo.cn^
-||wl.jd.com^
 ||ylog.huya.com^
 ||zio.xcar.com.cn^
 ||jslog.post.cz^
@@ -72911,6 +72932,7 @@ analytics-*.aasaam.com
 ||orbit.jd.com^
 ||skdisplay.jd.com^
 ||union.m.jd.com^
+||wl.jd.com^
 ||zt.jd.com^
 ||ads.wepiao.com^
 ||adm0.autoimg.cn^
