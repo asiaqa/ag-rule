@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202302151129
+# Verison: 202302151929
 # Expires: around 1 day
-# Total number of rules = 73896
+# Total number of rules = 73907
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -22184,6 +22184,7 @@ vkcdnservice.appspot.com^
 ||atresadvertising.com^
 ||1080872514.rsc.cdn77.org^
 ||1675450967.rsc.cdn77.org^
+||a-delivery.rmbl.ws^
 ||a.ucoz.net^
 ||ad-serve.b-cdn.net^
 ||ad.about.co.kr^
@@ -30237,6 +30238,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||monitoring-sdk.experimentation.intuit.com^
 ||logging.api.intuit.com^
 ||analytics.prod.mybuddy.ai^
+||dualstack-logs.amap.com^
 ||logs.amap.com^
 ||edmanalytics.pandahall.com^
 ||applogs.pixelfederation.com^
@@ -30491,6 +30493,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dratingmaject.com^
 ||dspx.tv^
 ||e1e.io^
+||easycompute.systems^
 ||efreecode.com^
 ||egoi.site^
 ||emycewiw.xyz^
@@ -30515,6 +30518,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fptls.com^
 ||fptls2.com^
 ||fpxau.net^
+||funnelserv.systems^
 ||fzlnk.com^
 ||g10300385420.co^
 ||g11686975765.co^
@@ -30566,6 +30570,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||loloclicks.biz^
 ||lsdm.co^
 ||maggieeatstheangel.com^
+||mb-tracking.com^
 ||mcangelus.com^
 ||mdhv.io^
 ||mediamathrdrt.com^
@@ -40310,6 +40315,17 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zunnnh.xyz^
 ||zxfas56.com^
 ||zxtkfvm.cn^
+||micfu.cyou^
+||2hfby.top^
+||ipyud.cn^
+||m6ku1.cn^
+||hskzoab.cn^
+||s65m.win^
+||lgxm.cool^
+||199aaa.us^
+||nqhqpq.cn^
+||65oml.cn^
+||553aaa.us^
 ||001adafg.xyz^
 ||0024aaaa.com^
 ||004fsdljasd.xyz^
@@ -47750,6 +47766,7 @@ analytics-*.aasaam.com
 ||letysheeps.ru^
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
+@@||app-cdn.minepi.com^|
 @@||crm-cdn.peek-cloppenburg.com^|
 @@||c.office.com^|
 @@||surveymyopinion.researchnow.com^|
@@ -49477,8 +49494,6 @@ analytics-*.aasaam.com
 ||track.zorkanetwork.com^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
-||micfu.cyou^
-||2hfby.top^
 -ad-300x600-
 -ad-336x280-
 -ad-458x80.
@@ -50054,10 +50069,7 @@ analytics-*.aasaam.com
 -logabpstatus.
 ||captcha-display.com^
 ||cxense.com^
-||easycompute.systems^
-||funnelserv.systems^
 ||googletagmanager.com^
-||mb-tracking.com^
 ||tw.cx^
 ||zdbb.net^
 ||zenaps.com^
@@ -62459,7 +62471,6 @@ analytics-*.aasaam.com
 ||adashx.ut.amap.com^
 ||amap-aos-info-nogw.amap.com^
 ||optimus-ads.amap.com^
-||dualstack-logs.amap.com^
 ||amateurhub.cam^
 ||consent.amateurphotographer.co.uk^
 ||amateurporn.net^
