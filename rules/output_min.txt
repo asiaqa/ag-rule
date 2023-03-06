@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202303061130
+# Verison: 202303061930
 # Expires: around 1 day
-# Total number of rules = 75380
+# Total number of rules = 75395
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -19,6 +19,7 @@
 # https://www.i-dont-care-about-cookies.eu/abp/
 # https://filters.adtidy.org/extension/ublock/filters/224.txt
 ####################################################################################
+||assaystalonic.com^
 ||aawulszemel.com^
 ||lmgdmwyd.com^
 ||pwxueuocf.com^
@@ -3904,7 +3905,6 @@ vkcdnservice.appspot.com^
 ||aspiredcapitol.com^
 ||asrety.com^
 ||assailusefullyenemies.com^
-||assaystalonic.com^
 ||assembledscout.com^
 ||assembleservers.com^
 ||assentproduct.com^
@@ -41788,6 +41788,10 @@ cdn-settings.appsflyersdk.com^
 ||iauto.wang^
 ||lijie.in^
 ||vlbbxt.xyz^
+||feixun.info^
+||teowa.cyou^
+||okcf.top^
+||pqjprom.cn^
 ||001adafg.xyz^
 ||0024aaaa.com^
 ||004fsdljasd.xyz^
@@ -48515,6 +48519,7 @@ analytics-*.aasaam.com
 ||letysheeps.ru^
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
+@@||px.a8.net^|
 @@||app-cdn.minepi.com^|
 @@||crm-cdn.peek-cloppenburg.com^|
 @@||c.office.com^|
@@ -50236,8 +50241,6 @@ analytics-*.aasaam.com
 ||track.zorkanetwork.com^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
-||feixun.info^
-||teowa.cyou^
 -ad-300x600-
 -ad-336x280-
 -ad-458x80.
@@ -50441,19 +50444,31 @@ analytics-*.aasaam.com
 ||auditude.com^
 ||burlydeclined.com
 ||buyeasy.by^
+||d2jp0uspx797vc.cloudfront.net^
+||defenseneckpresent.com^
+||dinahmerfolk.life^
+||ducvkabzox.com^
 ||evgywgur.com
+||frailcockroachconfiguration.com^
 ||get-me-wow.
 ||givekeeperstirring.com
 ||gleameddelightprosperity.com
 ||googletagservices.com^
+||gouzaich.com^
+||hailerroloway.com^
 ||hsrvz.com
 ||imasdk.googleapis.com^
 ||impact-ad.jp^
+||kileysgreeney.com^
 ||kqzyfj.com^
 ||loadercdn.com^
 ||ntv.io^
+||puddingdefeated.com^
+||rebbredbe.com^
 ||requismucuta.com
 ||rubiconproject.com^
+||saunutha.xyz^
+||spratstatters.com^
 ||trust.zone^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
