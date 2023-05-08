@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202305081927
+# Verison: 202305090013
 # Expires: around 1 day
-# Total number of rules = 80560
+# Total number of rules = 80575
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -44520,6 +44520,10 @@ inapps.appsflyersdk.com^
 ||mk795.cn^
 ||zhanghao164.xyz^
 ||risrauj.cn^
+||wxfkanv.cn^
+||robberyinscription.com^
+||uu6522uu.com^
+||uu6873uu.com^
 ||001adafg.xyz^
 ||003aldjads.xyz^
 ||004fsdljasd.xyz^
@@ -52606,10 +52610,7 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
-||wxfkanv.cn^
-||robberyinscription.com^
-||uu6522uu.com^
-||uu6873uu.com^
+||bili96.co^
 -ad-300x600-
 -ad-336x280-
 -ad-458x80.
@@ -80579,4 +80580,18 @@ adtago.s3.amazonaws.com
 @@||mirrors.cloud.tencent.com^$important
 ||adtago.s3.amazonaws.com^
 @@||raw.githubusercontent.com^$important
+@@||*.ga^
+@@||*.gq^
+@@||*.cf^
+@@||*.pw^
+@@||*.top^
+@@||*.ml^
+@@||*.loan^
+@@||*.agency^
+@@||*.gdn^
+@@||*.bid^
+@@||*.ooo^
+@@||*.sbs^
+@@||*.discount^
+@@||*.cfd^
 ####################################################################################
