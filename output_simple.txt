@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202305251926
+# Verison: 202305261122
 # Expires: around 1 day
-# Total number of rules = 81362
+# Total number of rules = 81372
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -19,6 +19,7 @@
 # https://www.i-dont-care-about-cookies.eu/abp/
 # https://filters.adtidy.org/extension/ublock/filters/224.txt
 ####################################################################################
+||vidsservices.space^
 ||dekkcewpqrep.com^
 ||ugripaid.com^
 ||qctzwkrczwjw.com^
@@ -1261,6 +1262,7 @@
 ||d71e6dd31a026d45.com
 ||adrunnr.com^
 ||samsungtvads.com^
+||notification.tubecup.net^
 ||d3dpet1g0ty5ed.cloudfront.net^
 ||banners.defenceweb.co.za^
 ||smart-placements-sdk.ex.co^
@@ -43579,7 +43581,6 @@ inapps.appsflyersdk.com^
 ||stats.healthcare.se^
 ||stats.helsingborg.se^
 ||stats.jibber.social^
-||stats.playoncenter.com^
 ||stats.poddtoppen.se^
 ||stats.userneeds.com^
 ||statsapi.tiendeo.se^
@@ -44891,6 +44892,7 @@ inapps.appsflyersdk.com^
 ||adbtwyxl96.fun^
 ||adcd7.com^
 ||adelaideceliacd.com^
+||aeletheacd.com^
 ||afndhou.xyz^
 ||agwdac.xyz^
 ||aicpa.club^
@@ -44930,6 +44932,7 @@ inapps.appsflyersdk.com^
 ||blue-rain.com.cn^
 ||blvnsgr.xyz^
 ||blxfqq.com^
+||bnz9.cn^
 ||bockd.xyz^
 ||boshao666.com^
 ||bovhzz.xyz^
@@ -44990,12 +44993,15 @@ inapps.appsflyersdk.com^
 ||ddqkqq.com^
 ||denghaishan1.cn^
 ||dertyhsf.xyz^
+||dezstd.xyz^
 ||dgfqqq.com^
 ||dhaxhsa325.com^
 ||dhxrxn.xyz^
 ||diekd.xyz^
+||diggtp001.com^
 ||djahkee.xyz^
 ||dkcwnsu.xyz^
+||dl520.fun^
 ||doccd.xyz^
 ||donku.club^
 ||dpaic.xyz^
@@ -45115,6 +45121,7 @@ inapps.appsflyersdk.com^
 ||ijnuhb.top^
 ||imks.cn^
 ||imu2021.site^
+||inmcd.xyz^
 ||ioiksw.cn^
 ||ipeef.xyz^
 ||iqybys.xyz^
@@ -45135,6 +45142,7 @@ inapps.appsflyersdk.com^
 ||jinmin.online^
 ||jiqadoi.cn^
 ||jiuba20230320.live^
+||jjnrqq.com^
 ||jlzz.name^
 ||jn060.xyz^
 ||jndyl.xyz^
@@ -45186,6 +45194,7 @@ inapps.appsflyersdk.com^
 ||ljte0.com^
 ||lkidke.com^
 ||lkmxqq.com^
+||lkqyqwk.xyz^
 ||lmlzht.xyz^
 ||lnnjnv.xyz^
 ||lnpqqq.com^
@@ -45235,6 +45244,7 @@ inapps.appsflyersdk.com^
 ||networkname.xyz^
 ||nezqmud.com^
 ||ningdebus.club^
+||nkvwvx.xyz^
 ||nntsdp.xyz^
 ||nogff.top^
 ||npdkdb.xyz^
@@ -45245,6 +45255,7 @@ inapps.appsflyersdk.com^
 ||nwandlc.top^
 ||nwecd.xyz^
 ||ocoda.xyz^
+||ogtphoj.cn^
 ||oimzak.xyz^
 ||ojuhwc.xyz^
 ||on-you.cn^
@@ -45282,6 +45293,7 @@ inapps.appsflyersdk.com^
 ||prtlth.xyz^
 ||pvjlfjz.cn^
 ||pzlxnd.xyz^
+||q1zcp.com^
 ||qange.com^
 ||qatuaad.cn^
 ||qfblqq.com^
@@ -45296,9 +45308,11 @@ inapps.appsflyersdk.com^
 ||qkwsqq.com^
 ||qm6ef.xyz^
 ||qnmtqq.com^
+||qooav.top^
 ||qpoiwnelc.com^
 ||qqied.xyz^
 ||quancuncq.xyz^
+||qvcyeknp.xyz^
 ||qwahk.com^
 ||qwrdj.xyz^
 ||radish-cake.xyz^
@@ -45324,6 +45338,7 @@ inapps.appsflyersdk.com^
 ||rshrpmk.xyz^
 ||rtdxqq.com^
 ||rtjmln.xyz^
+||s3nycv.xyz^
 ||sa3a.cn^
 ||sanguine.ren^
 ||sbyueyue.xyz^
@@ -45523,19 +45538,14 @@ inapps.appsflyersdk.com^
 ||zscgoqt.cn^
 ||zvfaxh.xyz^
 ||zxgko.cn^
-||ogtphoj.cn^
-||s3nycv.xyz^
-||dezstd.xyz^
-||jjnrqq.com^
-||lkqyqwk.xyz^
-||dl520.fun^
-||inmcd.xyz^
-||nkvwvx.xyz^
-||q1zcp.com^
-||aeletheacd.com^
-||bnz9.cn^
-||qvcyeknp.xyz^
-||qooav.top^
+||c9cc.icu^
+||lobqpt.xyz^
+||vuxxtn.xyz^
+||kpiwgio.cn^
+||yankuojjqq.com^
+||hrngmf.com^
+||oiljomy.xyz^
+||jweod.xyz^
 ||001adafg.xyz^
 ||003aldjads.xyz^
 ||004fsdljasd.xyz^
@@ -53623,6 +53633,9 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
+||zetcul.xyz^
+||77tum.top^
+||xuxiaoran.xyz^
 -ad-300x600-
 -ad-336x280-
 -ad-458x80.
@@ -54184,6 +54197,7 @@ analytics-*.aasaam.com
 .v4.analytics.
 .vsTracking.
 .web-vitals-reporting.
+://a869.
 ://segment-api.
 ://segment-cdn.
 ||internal-matomo.
@@ -68160,7 +68174,6 @@ analytics-*.aasaam.com
 ||epu.1024txt.xyz^
 ||m.107279.com^
 ||107788.com^
-||creative.1111cpc.com^
 ||111ol.com^
 ||oss-asq-static.11222.cn^
 ||1133.cc^
@@ -69443,7 +69456,6 @@ analytics-*.aasaam.com
 ||ds-pc.admsger.com^
 ||admtpmp124.com^
 ||adnanny.com^
-||adnexus.mobi^
 ||adnexus.net^
 ||adnyg.com^
 ||3dns-2.adobe.com^
@@ -69503,7 +69515,6 @@ analytics-*.aasaam.com
 ||aduu.cn^
 ||advantagemedia.com^
 ||advcash.com^
-||pic.adver.com.tw^
 ||adview.cn^
 ||adview.com^
 ||platform.adwep.com^
@@ -70686,7 +70697,6 @@ analytics-*.aasaam.com
 ||cdn-code.host^
 ||cdn-jquery.host^
 ||woaizhongguo.cdn111222.com^
-||1454623486.rsc.cdn77.org^
 ||1480876790.rsc.cdn77.org^
 ||api.cdnbye.com^
 ||cdncounter.top^
@@ -72087,6 +72097,7 @@ analytics-*.aasaam.com
 ||m.fnlve.cn^
 ||m.fnwnwi.cn^
 ||pv.focus.cn^
+||cmp.focus.de^
 ||focuscat.com^
 ||sm-sp.followfollow.com^
 ||followistic.com^
@@ -73311,7 +73322,6 @@ analytics-*.aasaam.com
 ||intelligems.io^
 ||intelserviceupdate.com^
 ||intely.cn^
-||intensedebate.com^
 ||intentiq.com^
 ||interestingz.pw^
 ||internebula.net^
@@ -74436,7 +74446,6 @@ analytics-*.aasaam.com
 ||js.lmggdka.cn^
 ||lmknjb1.com^
 ||lmmaoo.com^
-||lmodr.biz^
 ||cookies.lmt.lv^
 ||aoovqo8t.stats.lncld.net^
 ||lndjj.com^
@@ -75832,6 +75841,7 @@ analytics-*.aasaam.com
 ||hwt.player888.cn^
 ||playerassets.info^
 ||playercdn.net^
+||playoncenter.com^
 ||cmp.playpilot.com^
 ||plerdy.com^
 ||plexcoin.info^
@@ -77884,6 +77894,7 @@ analytics-*.aasaam.com
 ||trusteverything.de^
 ||trustutn.org^
 ||sealserver.trustwave.com^
+||truyoproductionuscdn.truyo.com^
 ||trw12.com^
 ||try9.com^
 ||ts6.net^
@@ -77921,7 +77932,6 @@ analytics-*.aasaam.com
 ||tubeadnetwork.com^
 ||tubeadv.com^
 ||tubecorporate.com^
-||notification.tubecup.net^
 ||tubepush.eu^
 ||tubesweet.com^
 ||tubetitties.com^
