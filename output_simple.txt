@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202306061128
+# Verison: 202306061929
 # Expires: around 1 day
-# Total number of rules = 81699
+# Total number of rules = 81700
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -8666,7 +8666,6 @@ vkcdnservice.appspot.com^
 ||dkrbus.com^
 ||dkswptmwowowp.xyz^
 ||dkxwedcdky.com^
-||dl-protect.net^
 ||dl-rms.com^
 ||dledthebarrowb.xyz^
 ||dlfvgndsdfsn.com^
@@ -26004,6 +26003,7 @@ vkcdnservice.appspot.com^
 ||digitalpush.org^
 ||digitalthrottle.com^
 ||disqusads.com^
+||dl-protect.net^
 ||dochase.com^
 ||dollarsponsor.com^
 ||domainadvertising.com^
@@ -53018,6 +53018,7 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
+||heretrail.com^
 -ad-300x600-
 -ad-336x280-
 -ad-458x80.
@@ -53548,7 +53549,6 @@ analytics-*.aasaam.com
 -inview-tracker.
 -optimization-metrics.
 -page-analytics.
--pixelfront-analytics.
 -quantcast-measurement.
 -rttracking.
 -sa-tracker-
@@ -53558,7 +53558,6 @@ analytics-*.aasaam.com
 -trackingScript.
 .analytics.min.
 .beacon.min.js
-.cdn-tracking.js
 .eloqua.js
 .EventTracking.
 .gatracker.
@@ -53660,6 +53659,7 @@ analytics-*.aasaam.com
 ||binocule21c.merriam-webster.com^
 ||blitz-analytics-batch-server.blitz.gg^
 ||c.fingerprint.com^
+||c.thredup.com^
 ||c.xbox.com^
 ||click.nudevista.com^
 ||click.sinx.com^
@@ -53695,6 +53695,7 @@ analytics-*.aasaam.com
 ||dtag.breadfinancial.com^
 ||dumpster.cam4.com^
 ||ea.epochbase.com^
+||ec.thredup.com^
 ||eec.crunchyroll.com^
 ||engagefront.meteomedia.com^
 ||engine.traceparts.com^
