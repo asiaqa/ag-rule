@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202306061929
+# Verison: 202306071128
 # Expires: around 1 day
-# Total number of rules = 81700
+# Total number of rules = 81751
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -19,6 +19,9 @@
 # https://www.i-dont-care-about-cookies.eu/abp/
 # https://filters.adtidy.org/extension/ublock/filters/224.txt
 ####################################################################################
+||worshipstubborn.com^
+||unmightboxen.com^
+||sbkuuzozlm.com^
 ||soodihee.net^
 ||biubxxaxucyou.com^
 ||scptp1.com^
@@ -32894,6 +32897,7 @@ vkcdnservice.appspot.com^
 |piwik.
 ||analytics.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
+||stats.online-convert.com^
 ||ss.azuremagazine.com^
 ||logger*.kma.go.kr^
 ||webtracking.fe.union-investment.de^
@@ -35460,6 +35464,7 @@ inapps.appsflyersdk.com^
 ||tktracker.aotter.net^
 ||tkrecorder.aotter.net^
 ||fdplttrk.com^
+||tracking-*.trnox.com^
 ||tracking.trnox.com^
 ||omni-ads.omni.news^
 ||analytics-events.inshorts.com^
@@ -42554,6 +42559,7 @@ inapps.appsflyersdk.com^
 ||i4tvy8vk9f74.com^
 ||mineralisasse.site^
 ||adserver.icimedias.ca^
+||x-lift.jp^
 ||amazonlogistics.jp^
 ||assistads.net^
 ||cnt.affiliate.fc2.com^
@@ -43698,6 +43704,7 @@ inapps.appsflyersdk.com^
 ||investerarbrevet.se^
 ||ion.btcswe.com^
 ||jackwolfskinsverige.com.se^
+||js.glitnoraffiliates.com^
 ||js.pafpartners.com^
 ||jss.jajja.com^
 ||jssdk.pulse.schibsted.com^
@@ -43763,6 +43770,7 @@ inapps.appsflyersdk.com^
 ||nordishopping.com^
 ||norranstats.azurewebsites.net^
 ||norstatsurveys.com^
+||ntrfr.expekt.se^
 ||nucleusanalytics.io^
 ||oas.market.se^
 ||omni-ad-blocket.herokuapp.com^
@@ -45221,6 +45229,7 @@ inapps.appsflyersdk.com^
 ||bapdkgmvn.xyz^
 ||baucdngb.xyz^
 ||baytfede.xyz^
+||bcb9.cn^
 ||bcivqxd.cn^
 ||bcvxfgy.xyz^
 ||bdrzxp.xyz^
@@ -45255,6 +45264,7 @@ inapps.appsflyersdk.com^
 ||brzfqq.com^
 ||bwandlv.top^
 ||bwwlw.cn^
+||bxoiksm.xyz^
 ||c9cc.icu^
 ||campu.ltd^
 ||caozhixiong.cn^
@@ -45326,6 +45336,7 @@ inapps.appsflyersdk.com^
 ||dpaic.xyz^
 ||dqazwsxd.xyz^
 ||drtyujgsg.xyz^
+||dsbt7.com^
 ||dsctnsn.xyz^
 ||dshapv.xyz^
 ||dszhqww.cn^
@@ -45368,6 +45379,7 @@ inapps.appsflyersdk.com^
 ||feild.xyz^
 ||ffbjhl.xyz^
 ||fijipic.xyz^
+||fillhr.xyz^
 ||findnam.xyz^
 ||fionamignon.com^
 ||fjnsnt.xyz^
@@ -45426,6 +45438,7 @@ inapps.appsflyersdk.com^
 ||hejbd.cn^
 ||heliangjun2.cn^
 ||helid.xyz^
+||heretrail.com^
 ||hfhytx.xyz^
 ||hgpdoa.cn^
 ||hhrnxr.xyz^
@@ -45466,6 +45479,7 @@ inapps.appsflyersdk.com^
 ||ioiksw.cn^
 ||ipeef.xyz^
 ||iqybys.xyz^
+||isancio.top^
 ||itoken.pro^
 ||iughyy7919.com^
 ||iwandlo.top^
@@ -45659,6 +45673,7 @@ inapps.appsflyersdk.com^
 ||pithjpf.cn^
 ||pkkylyx.xyz^
 ||pkynqq.com^
+||pohpll.xyz^
 ||poiqwnekb.com^
 ||poopd.xyz^
 ||poppy.fit^
@@ -45702,6 +45717,7 @@ inapps.appsflyersdk.com^
 ||rbbbdj.xyz^
 ||rbrv9.cn^
 ||rbxunao.cn^
+||rcsden.top^
 ||rcxysoj.cn^
 ||rdtjkwy.cn^
 ||readme.red^
@@ -45971,10 +45987,13 @@ inapps.appsflyersdk.com^
 ||ztaan.top^
 ||zvfaxh.xyz^
 ||zxgko.cn^
-||bcb9.cn^
-||pohpll.xyz^
-||rcsden.top^
-||bxoiksm.xyz^
+||kehbcv.top^
+||uxcnhsf.cn^
+||pyjqhb.xyz^
+||rsinnxoe.com^
+||guzsjdl.cn^
+||lvjtiaa.xyz^
+||mwandlx.top^
 ||001adafg.xyz^
 ||003aldjads.xyz^
 ||004fsdljasd.xyz^
@@ -53018,7 +53037,6 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
-||heretrail.com^
 -ad-300x600-
 -ad-336x280-
 -ad-458x80.
@@ -53211,32 +53229,59 @@ analytics-*.aasaam.com
 .900x100.
 ||2mdn.net^
 ||adswizz.com^
+||afearprevoid.com^
 ||alipromo.com^
 ||alitems.com^
 ||altruisticcost.com
+||anchusauredo.com^
 ||atdmt.com^
 ||atmasroofy.com
 ||auberginecorny.com
 ||auditude.com^
 ||becorsolaom.com
+||bergsmouflon.com^
 ||burlydeclined.com
 ||buyeasy.by^
+||cineolesloth.com^
+||crusilyparonym.com^
+||cuddleangkhak.com^
+||dorkingvoust.com^
 ||evgywgur.com
+||farmagegaudful.com^
+||forseekvalouwe.com^
 ||get-me-wow.
 ||gleameddelightprosperity.com
 ||googletagservices.com^
+||grubsnuchale.com^
+||hauganes.net^
 ||hsrvz.com
 ||hwyjfhdjgoorb.com
 ||imasdk.googleapis.com^
 ||impact-ad.jp^
+||iteneanrhina.com^
 ||kqzyfj.com^
+||lerotminored.com^
 ||loadercdn.com^
+||miwhethi.xyz^
 ||ntv.io^
+||phidianbesmut.com^
+||pinguinmomma.com^
+||ragerystenchy.com^
 ||requismucuta.com
+||ropedsawwort.com^
 ||rubiconproject.com^
+||shellypartile.com^
+||shivateicher.com^
+||slimlyeneas.com^
+||thongsalhagi.com^
 ||totaladblock.com^
 ||tracker19875.space
 ||trust.zone^
+||uncannyuneaths.com^
+||upbuoyearfuls.com^
+||weirmelamin.com^
+||whsledorking.com^
+||writhehawm.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -53257,6 +53302,11 @@ analytics-*.aasaam.com
 ||ohmygosh.info^
 ||watchmyvids.xyz^
 ||cas.*.criteo.com^
+||d1180od816jent.cloudfront.net^
+||d13pxqgp3ixdbh.cloudfront.net^
+||d1ux93ber9vlwt.cloudfront.net^
+||d28uhswspmvrhb.cloudfront.net^
+||d3rr3d0n31t48m.cloudfront.net^
 ||a.adult-videos.org^
 ||aff-jp.dxlive.com^
 ||affiliate.dtiserv.com^
@@ -53574,14 +53624,15 @@ analytics-*.aasaam.com
 .vsTracking.
 .web-vitals-reporting.
 ://a869.
+://internal-matomo.
 ://segment-api.
 ://segment-cdn.
-||internal-matomo.
 -coin-hive.js
 -monero-miner-
 -logabpstatus.
 ||captcha-display.com^
 ||cxense.com^
+||geotargetly-api-*.com^
 ||googletagmanager.com^
 ||tw.cx^
 ||zdbb.net^
@@ -58308,7 +58359,6 @@ analytics-*.aasaam.com
 ||go.wm.plantemoran.com^
 ||goto.benchmarkeducation.com^
 ||grow.business.xerox.com^
-||hfd.bridgetowermedia.com^
 ||hotel-marketing.hrs.com^
 ||hub.hubinternational.com^
 ||info-fsi.stanford.edu^
@@ -69982,6 +70032,7 @@ analytics-*.aasaam.com
 ||e.breezily168.com^
 ||m.breezily168.com^
 ||brfiles.com^
+||hfd.bridgetowermedia.com^
 ||brightadnetwork.com^
 ||brightinfo.com^
 ||brizads.com^
