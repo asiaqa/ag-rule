@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202306271137
+# Verison: 202306271929
 # Expires: around 1 day
-# Total number of rules = 81885
+# Total number of rules = 81889
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -19,6 +19,7 @@
 # https://www.i-dont-care-about-cookies.eu/abp/
 # https://filters.adtidy.org/extension/ublock/filters/224.txt
 ####################################################################################
+||bbvbyzzyrebek.top^
 ||phasecrance.com^
 ||napainsi.net^
 ||emqomxdwrhol.com^
@@ -54126,6 +54127,8 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
+||crf999.cn^
+||gahvy6ww.icu^
 -ad-300x600-
 -ad-336x280-
 -ad-458x80.
@@ -81776,6 +81779,7 @@ wpjslib-chunk-notification.js^
 ||cdn.realpeoplemedia.co.uk^
 ||ccm19.dsg-schweiz.ch^
 ||ere.wew.92kkdy.cc^
+||tacool.com^$badfilter
 ||apiimg.com^$badfilter
 ||unpkg.com^$badfilter
 -1316632262.cos.
