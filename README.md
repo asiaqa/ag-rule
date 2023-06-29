@@ -21,6 +21,13 @@ https://raw.githubusercontent.com/asiaqa/ag-rule/main/rules/output_min.txt
 
 https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/output_min.txt    (12 hours delay)
 
+## Github Hosts for Mainland China (Thanks,521xueweihan/GitHub520)
+
+https://raw.githubusercontent.com/asiaqa/ag-rule/main/rules/hosts
+
+https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/hosts    (12 hours delay)
+
+
 ## How to use
 
 TBD
@@ -64,6 +71,8 @@ https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt
 
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt
+
+https://github.com/521xueweihan/GitHub520/blob/main/hosts
 
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt
 
