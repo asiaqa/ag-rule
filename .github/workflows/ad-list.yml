@@ -107,6 +107,8 @@ jobs:
           cp ./output*.txt ./rules/
           cp ./output_min.txt output_simple.txt
           cp ./output_full.txt output.txt
+          wget https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts -O ./publish/hosts
+          cp ./publish/hosts ./rules/hosts
           
     - name: Release and upload assets
       uses: softprops/action-gh-release@v0.1.6
@@ -144,6 +146,6 @@ jobs:
          echo `date +"%Y-%m-%d %H:%M:%S"` ZJC CKC >> ./rules/date.log
          git config --global user.email ${{ secrets.EMAIL }}
          git config --global user.name ${{ secrets.NAME }}
-         git add ./rules/output* ./output.txt ./output_simple.txt ./rules/date.log
+         git add ./rules/output* ./output.txt ./output_simple.txt ./rules/date.log ./rules/hosts
          git commit -m "${{ env.RELEASE_NAME }}"
          git push
