@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202306291927
+# Verison: 202306300221
 # Expires: around 1 day
-# Total number of rules = 81885
+# Total number of rules = 81912
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -19,6 +19,7 @@
 # https://www.i-dont-care-about-cookies.eu/abp/
 # https://filters.adtidy.org/extension/ublock/filters/224.txt
 ####################################################################################
+||code.adsinnov.com^
 ||desgolurkom.com^
 ||neetoutoo.com^
 ||equirekeither.xyz^
@@ -21405,7 +21406,6 @@ vkcdnservice.appspot.com^
 ||sixtybirthsuperstition.com^
 ||sizeilksohs.com^
 ||siziermamas.com^
-||sizyreelingly.com^
 ||sizzlerisoflor.com^
 ||sjhfnmfki.com^
 ||sjomilbedwarf.digital^
@@ -29053,6 +29053,7 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||analytics.gtflixtv.com^
 ||colossusssp.com^
 ||consentag.eu^
 ||collect-v*.51.la^
@@ -32457,6 +32458,7 @@ vkcdnservice.appspot.com^
 ||visilabs.net^
 .ay.delivery^
 ||functionalclam.com^
+||guidecent.com^
 ||rebelhen.com^
 ||guardeddirection.com^
 ||enormousfoot.com^
@@ -38148,6 +38150,7 @@ inapps.appsflyersdk.com^
 ||pegasus.unifygroup.com^
 ||perso.aws.arc.pub^
 ||ping.dozuki.com^
+||ping.fastsimon.com^
 ||ping.instantsearchplus.com^
 ||pings.vidpulse.com^
 ||pix.revjet.com^
@@ -54035,6 +54038,7 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
+||kifyeldd.top^
 -ad-300x600-
 -ad-336x280-
 -ad-458x80.
@@ -54219,25 +54223,49 @@ analytics-*.aasaam.com
 .900x100.
 ||2mdn.net^
 ||62h.site
+||7mediaxx-ai.com^
 ||adswizz.com^
 ||alipromo.com^
 ||alitems.com^
 ||atdmt.com^
 ||auditude.com^
 ||buyeasy.by^
+||cabbagesemestergeoffrey.com^
+||dalymix.com^
+||dalysv.com^
+||delulu.uno^
+||ekrnhbmrbbvwdro.com^
+||excellent-vids.online^
+||extractdissolve.com^
+||fbpgdlprsiz.com^
 ||get-me-wow.
 ||googletagservices.com^
 ||imasdk.googleapis.com^
 ||impact-ad.jp^
+||iopiopiop.org^
+||kelephoodmen.com^
 ||kqzyfj.com^
+||lighes.com^
+||ljokijpwtkwib.com^
 ||lntriguingdate.net
 ||loadercdn.com^
+||mvcwfqntrnatng.com^
+||nonecoffeehousesuspicious.com^
 ||ntv.io^
+||originjargon.com^
+||otherofherlittle.info^
+||pithgregor.com^
+||pretty-size.pro^
+||rkgwzfwjgk.com^
 ||rubiconproject.com^
+||scalesfilamentmow.com^
 ||totaladblock.com^
 ||tracker19875.space
 ||trust.zone^
 ||videoplaza.tv^
+||vkitfufickpy.com^
+||yoxepo.uno^
+||zaistaug.net^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -54258,6 +54286,7 @@ analytics-*.aasaam.com
 ||kinkadservercdn.com^
 ||ohmygosh.info^
 ||watchmyvids.xyz^
+||1657705582.rsc.cdn77.org^
 ||cas.*.criteo.com^
 ||a.adult-videos.org^
 ||aff-jp.dxlive.com^
@@ -54549,10 +54578,7 @@ analytics-*.aasaam.com
 -geoIP.js
 -inview-tracker.
 -optimization-metrics.
--page-analytics.
 -quantcast-measurement.
--rttracking.
--sa-tracker-
 -scroll-tracker.js
 -track-inview.
 -tracking-pixel.
@@ -54570,8 +54596,8 @@ analytics-*.aasaam.com
 .siteclarity.
 .sitetracking.
 .skimlinks.js
+.snowplowanalytics.
 .v4.analytics.
-.vsTracking.
 .web-vitals-reporting.
 ://a869.
 ://internal-matomo.
@@ -77410,6 +77436,7 @@ analytics-*.aasaam.com
 ||v.sixiuwl.cn^
 ||sixsigmatraffic.com^
 ||siyuanmall.com^
+||sizyreelingly.com^
 ||m.sjaidu.com^
 ||e.sjc1v.cn^
 ||sjdjcn.cn^
