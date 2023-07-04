@@ -27,6 +27,12 @@ https://raw.githubusercontent.com/asiaqa/ag-rule/main/rules/hosts
 
 https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/hosts    (12 hours delay)
 
+## DoH block list (Thanks,dibdot/DoH-IP-blocklists)
+
+https://raw.githubusercontent.com/asiaqa/ag-rule/main/rules/output_doh_block.txt
+
+https://cdn.jsdelivr.net/gh/asiaqa/ag-rule@release/output_doh_block.txt   (12 hours delay)
+
 
 ## How to use
 
