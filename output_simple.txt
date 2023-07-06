@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202307061137
+# Verison: 202307061930
 # Expires: around 1 day
-# Total number of rules = 84284
+# Total number of rules = 84294
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -19,6 +19,8 @@
 # https://www.i-dont-care-about-cookies.eu/abp/
 # https://filters.adtidy.org/extension/ublock/filters/224.txt
 ####################################################################################
+||pseemsee.com^
+||blbazybajvzvw.top^
 ||excellentvids.online^
 ||adsterratech.com^
 ||blkwrjerbklya.top^
@@ -46197,6 +46199,7 @@ inapps.appsflyersdk.com^
 ||kahgjjd.com^
 ||kgeesh.site^
 ||fjsytjs.cn^
+||yh18h8s.com^
 ||tqdctl.xyz^
 ||wuye3d.com^
 ||xiaoxiuapp.com^
@@ -52257,6 +52260,7 @@ analytics-*.aasaam.com
 ||letysheeps.ru^
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
+@@|ezodn.com^|
 @@||gate.first-id.fr^|
 @@||leechers-paradise.org^|
 @@||data-*.herz-fuer-tiere.de^|
@@ -53931,6 +53935,7 @@ analytics-*.aasaam.com
 ||alitems.com^
 ||atdmt.com^
 ||auditude.com^
+||bookeryboutre.com^
 ||buyeasy.by^
 ||get-me-wow.
 ||googletagservices.com^
@@ -53938,12 +53943,16 @@ analytics-*.aasaam.com
 ||impact-ad.jp^
 ||kqzyfj.com^
 ||loadercdn.com^
+||nableriptide.com^
 ||ntv.io^
 ||rubiconproject.com^
+||smokerythrow.com^
+||tawniessmoot.com^
 ||totaladblock.com^
 ||tracker19875.space
 ||trust.zone^
 ||videoplaza.tv^
+||whethobs.xyz^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -53964,6 +53973,7 @@ analytics-*.aasaam.com
 ||kinkadservercdn.com^
 ||ohmygosh.info^
 ||watchmyvids.xyz^
+||ads.travelaudience.com^
 ||cas.*.criteo.com^
 ||srv.tunefindforfans.com^
 ||a.adult-videos.org^
