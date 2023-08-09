@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202308091124
+# Verison: 202308091929
 # Expires: around 1 day
-# Total number of rules = 85950
+# Total number of rules = 85951
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -19,6 +19,7 @@
 # https://www.i-dont-care-about-cookies.eu/abp/
 # https://filters.adtidy.org/extension/ublock/filters/224.txt
 ####################################################################################
+||gastersliddry.com^
 ||anemenzemkwkm.top^
 ||ginsicih.xyz^
 ||manoirshrine.com^
@@ -48027,6 +48028,8 @@ inapps.appsflyersdk.com^
 ||hxinitv.icu^
 ||mkjnba.com^
 ||dqjojx.xyz^
+||tknkfd.xyz^
+||ygzqlnt.cn^
 ||zxrcfw.com^
 ||zypzzv.xyz^
 ||01fen.com^
@@ -55310,8 +55313,6 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
-||tknkfd.xyz^
-||ygzqlnt.cn^
 -ad-300x600-
 -ad-458x80.
 -ad-banner-
@@ -55910,7 +55911,6 @@ analytics-*.aasaam.com
 ||analytics.synedat.com^
 ||analytics.wavebox.io^
 ||analytics.yugen.to^
-||analytics4.dashboard.fingerprint.com^
 ||api.privacyguides.net^
 ||appanalysis.banggood.com^
 ||assets.instacart.com^
@@ -55989,8 +55989,6 @@ analytics-*.aasaam.com
 ||fp.measure.office.com^
 ||fpa-cdn.adweek.com^
 ||fpa-cdn.arstechnica.com^
-||fpa-cdn.decrypt.co^
-||fpa-events.decrypt.co^
 ||fpc.fingerprint.com^
 ||fpt.microsoft.com^
 ||fresnel-events.vimeocdn.com^
@@ -56127,7 +56125,6 @@ analytics-*.aasaam.com
 ||stats.calcalist.co.il^
 ||stats.davidickedelivery.com^
 ||stats.gateio.ch^
-||stats.hd24.watch^
 ||stats.ibtimes.sg^
 ||stats.justpaste.it^
 ||stats.newsweek.com^
@@ -56203,8 +56200,8 @@ analytics-*.aasaam.com
 ||content22.citibank.com.au^
 ||content22.online.citi.com^
 ||event.evtm.53.com^
-||gfp.intuit.com^
 ||idstatus.sky.com^
+||qfp.intuit.com^
 ||rba-screen.healthsafe-id.com^
 ||rsx.afterpay.com^
 ||svc2.sc.com^
@@ -75641,6 +75638,8 @@ arketing.indianadunes.com^
 ||img752.de92.com^
 ||imgcdn.de92.com^
 ||sourcepoint.deadspin.com^
+||fpa-cdn.decrypt.co^
+||fpa-events.decrypt.co^
 ||stat.dedecms.com^
 ||deecash.com^
 ||e.deimm.com^
@@ -76358,6 +76357,7 @@ arketing.indianadunes.com^
 ||findicons.com^
 ||findqc.com^
 ||finead.cn^
+||analytics4.dashboard.fingerprint.com^
 ||e.fipipo.cn^
 ||m.fipipo.cn^
 ||firefang.cn^
@@ -77096,6 +77096,7 @@ arketing.indianadunes.com^
 ||m.hchik.com^
 ||img.hcwifi.cn^
 ||hczzw.com^
+||stats.hd24.watch^
 ||e.hdanc.com^
 ||m.hdanc.com^
 ||hdbaichuan.cn^
