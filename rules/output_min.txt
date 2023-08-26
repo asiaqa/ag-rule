@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202308261124
+# Verison: 202308261928
 # Expires: around 1 day
-# Total number of rules = 86713
+# Total number of rules = 86720
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -39175,6 +39175,7 @@ inapps.appsflyersdk.com^
 ||pvd.to^
 ||pzz.events^
 ||qflm.net^
+||qortex.ai^
 ||qualaroo.com^
 ||quartic.pl^
 ||quintesse.io^
@@ -40349,7 +40350,6 @@ inapps.appsflyersdk.com^
 ||events.jotform.com^
 ||events.matterport.com^
 ||events.missena.io^
-||events.qortex.ai^
 ||events.realgravity.com^
 ||events.shareably.net^
 ||events.split.io^
@@ -56192,6 +56192,11 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
+||fads315.com^
+||ykkbwdf.cn^
+||uhwnrfu.cn^
+||z3yfkdjd.icu^
+||erlirscid.com^
 -ad-300x600-
 -ad-458x80.
 -ad-banner-
@@ -56726,6 +56731,8 @@ analytics-*.aasaam.com
 ||hostingcloud.party
 ||hostingcloud.racing
 ||wasm.stream
+||fewjuice.com^
+||api-analytics-prd.pelcro.com^
 ||bc.geocities.
 ||collector-*.px-client.net^
 ||csi.gstatic.com^
