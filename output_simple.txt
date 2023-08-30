@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202308301123
+# Verison: 202308301929
 # Expires: around 1 day
-# Total number of rules = 86773
+# Total number of rules = 86790
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -30021,6 +30021,7 @@ vkcdnservice.appspot.com^
 ||unblockia.com^
 ||undertone.com^
 ||unibots.in^
+||unibotscdn.com^
 ||urlcash.net^
 ||usemax.de^
 ||usenetjunction.com^
@@ -38829,6 +38830,7 @@ inapps.appsflyersdk.com^
 ||autoline-top.com^
 ||avapartner.com^
 ||awstats.cloud^
+||awswaf.com^
 ||azointel.com^
 ||b1js.com^
 ||baremetrics.com^
@@ -39472,6 +39474,7 @@ inapps.appsflyersdk.com^
 ||xdisctracking.pw^
 ||xstats.net^
 ||xtraffstat.com^
+||yextevents.com^
 ||yieldlift.com^
 ||yldr.io^
 ||your-analytics.org^
@@ -40602,6 +40605,7 @@ inapps.appsflyersdk.com^
 ||reporting-api.gannettinnovation.com^
 ||reporting.cdndex.io^
 ||reports-api.sqreen.io^
+||reports.hibu.com^
 ||reports.pagesuite-professional.co.uk^
 ||reports.sdiapi.com^
 ||rest.wildstar-online.com^
@@ -56251,6 +56255,8 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
+||bsbaswq.cn^
+||ca.yangshengtv.com^
 -ad-300x600-
 -ad-458x80.
 -ad-banner-
@@ -56398,23 +56404,32 @@ analytics-*.aasaam.com
 .728x90-
 .900x100.
 ||adswizz.com^
+||akchapxw.com^
+||alcovesoftenedenthusiastic.com^
 ||alipromo.com^
 ||alitems.com^
 ||atdmt.com^
 ||auditude.com^
 ||buyeasy.by^
+||dursocoa.com^
 ||get-me-wow.
 ||googletagservices.com^
+||helperinadmissible.com^
 ||imasdk.googleapis.com^
 ||kqzyfj.com^
 ||loadercdn.com^
+||mesqwrte.net^
 ||ntv.io^
 ||rubiconproject.com^
+||snjlhmb.com^
 ||totaladblock.com^
 ||trust.zone^
 ||ucationininancee.info
+||ujidhusjvmbfv.com^
 ||videoplaza.tv^
 ||wpnrtnmrewunrtok.xyz^
+||wyscmkd.com^
+||yuqyihkyk.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -56782,6 +56797,7 @@ analytics-*.aasaam.com
 ||bc.geocities.
 ||collector-*.px-client.net^
 ||csi.gstatic.com^
+||doppler-beacon.cbsivideo.com^
 ||firebaselogging-pa.googleapis.com^
 ||g.msn.com^
 ||geo.ngtv.io^
@@ -57099,6 +57115,7 @@ analytics-*.aasaam.com
 ||track-visit.monday.com^
 ||track.mrgugu.com^
 ||tracker.affiliate.iqbroker.com^
+||tracking.christianpost.com^
 ||tracking.engineering.cloud.seek.com.au^
 ||tracking.shopstyle.com^
 ||trackr.vivenu.com^
