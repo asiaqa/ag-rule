@@ -86,6 +86,8 @@ https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt
 
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/adblocker
 
+https://filter.futa.gg/hosts.txt
+
 ## P.S. MP Super Block Rules Link: MP-SUPER
 
 https://raw.githubusercontent.com/asiaqa/ag-rule/main/rules/output_super.txt
