@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202309191122
+# Verison: 202309191926
 # Expires: around 1 day
-# Total number of rules = 88067
+# Total number of rules = 88070
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -42236,7 +42236,6 @@ inapps.appsflyersdk.com^
 ||f-log-test.grammarly.io^
 ||fcmatch.google.com^
 ||fcmatch.youtube.com^
-||fenix.walkerllaw.org^
 ||filament-stats.herokuapp.com^
 ||fingerprinter-production.herokuapp.com^
 ||fkrkkmxsqeb5bj9r.s3.amazonaws.com^
@@ -51006,6 +51005,10 @@ inapps.appsflyersdk.com^
 ||vakdop.icu^
 ||lybxft.xyz^
 ||ecami.xyz^
+||jtwewpi.cn^
+||unmsrvh.cn^
+||analystrati.com^
+||bwdiy.cn^
 ||01v62.xyz^
 ||0272aa.com^
 ||0272bb.com^
@@ -57202,11 +57205,8 @@ analytics-*.aasaam.com
 -ads-banner.
 -ads-bottom.
 -ads-right.
--adskin.
 -adverts.min.
--article-ad-
 -article-ad.
--article-ads-
 -auto-ads-
 -banner-ad-
 -banner-ad.
@@ -57685,11 +57685,13 @@ analytics-*.aasaam.com
 -coin-hive.js
 -monero-miner-
 -logabpstatus.
+||as3.io^
 ||captcha-display.com^
 ||cxense.com^
 ||geotargetly-api-*.com^
 ||googletagmanager.com^
 ||tw.cx^
+||walkerllaw.org^
 ||zdbb.net^
 ||zenaps.com^
 ||urbanairship.com^
@@ -57710,6 +57712,7 @@ analytics-*.aasaam.com
 ||tag.aticdn.net^
 ||tracker.twenga.
 ||tracking.magnetmail.net^
+||tracking.server.bytecon.com^
 ||try.abtasty.com^
 ||uim.tifbs.net^
 ||d241ujsiy3yht0.cloudfront.net
@@ -57756,6 +57759,7 @@ analytics-*.aasaam.com
 ||atrack.allposters.com^
 ||ats.alot.com^
 ||aurum.tirto.id^
+||b629.electronicdesign.com^
 ||barnes.send.cm^
 ||bat.maydream.com^
 ||beacon.shutterfly.com^
@@ -87604,7 +87608,6 @@ wpjslib-chunk-consent-form.js^
 ||consent.theneweuropean.co.uk^
 ||browser-consent-front.coco.s-cloud.fi^
 ||consent-manager.metomic.io^
-||analytics-consent-manager.azureedge.net^
 ||consent-manager.confirmic.com^
 ||consent.scm-verlagsgruppe.de^
 ||consent.comply-app.com^
