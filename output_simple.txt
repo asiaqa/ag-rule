@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202310101439
+# Verison: 202310101927
 # Expires: around 1 day
-# Total number of rules = 88584
+# Total number of rules = 88587
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -49124,6 +49124,7 @@ inapps.appsflyersdk.com^
 ||rapidads.de^
 ||revresrennab.de^
 ||rgadvert.com^
+||ringier-advertising.ch^
 ||securecnd.com^
 ||seitenaufruf.com^
 ||server4ads.com^
@@ -50955,6 +50956,8 @@ inapps.appsflyersdk.com^
 ||xcqbbcqpl.xyz^
 ||gmx24.top^
 ||actrqdr.cn^
+||dkvakldvnsv.com^
+||lkoqtvvajktpjsk.xyz^
 ||01v62.xyz^
 ||023best.cn^
 ||0272aa.com^
@@ -56204,6 +56207,8 @@ analytics-*.aasaam.com
 ||letysheeps.ru^
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
+@@||data.digital.costco.ca^|
+@@||data.digital.costco.com^|
 @@||api.karte.io^|
 @@||sponsor.nitropay.com^|
 @@||click.cptrack.de^|
@@ -58051,8 +58056,6 @@ analytics-*.aasaam.com
 ||smartshare.lgtvsdp.com^
 ||rdx2.lgtvsdp.com^
 ||lgtvcommon.com^
-/^[a-rt-z][a-z]{10,14}$/
-/^[a-z]{7,10}$/$ctag=device_tv
 ||aic-ngfts.lge.com^
 ||legacyportal.nettvservices.com^
 ||nettv.corio.com^
