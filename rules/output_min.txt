@@ -1,5 +1,5 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202310211122
+# Verison: 202310211927
 # Expires: around 1 day
 # Total number of rules = 89011
 # Below are the links of the adblock rules
@@ -44007,6 +44007,7 @@ inapps.appsflyersdk.com^
 ||lentainform.com^
 ||mediatoday.ru^
 ||mobtop.ru^
+||netlog.ru^
 ||otclick-adv.ru^
 ||retag.xyz^
 ||rnet.plus^
@@ -44170,6 +44171,7 @@ inapps.appsflyersdk.com^
 ||hyrankhit.meldingcloud.com^
 ||log.hiiir.com^
 ||log.tagtic.cn^
+||mcs.zijieapi.com^
 ||report.meituan.com^
 ||ssac.suning.com^
 ||stat.ws.126.net^
@@ -44181,6 +44183,7 @@ inapps.appsflyersdk.com^
 ||tracking.cat898.com^
 ||trail.71baomu.com^
 ||web-trace.ksapisrv.com^
+||webstat.qiumibao.com^
 ||wlog.kuaishou.com^
 ||tracking.vid4u.org^
 ||a.centrum.cz^
@@ -44365,6 +44368,7 @@ inapps.appsflyersdk.com^
 ||countervov.emitech.vn^
 ||f-emc.ngsp.gov.vn^
 ||tracking.aita.gov.vn^
+||za.zalo.me^
 ||adclient-uol.lp.uol.com.br^
 ||adv.r7.com^
 ||s.mangalivre.net^
@@ -51339,6 +51343,11 @@ inapps.appsflyersdk.com^
 ||zzyy20.top^
 ||asfybkiy.xyz^
 ||usxuyr.icu^
+||zzyy17.top^
+||bzvhgbr.xyz^
+||foizico.cn^
+||fptdxkm.com^
+||faxffjo.com^
 ||zchvyet.cn^
 ||zcpsc.top^
 ||zents2.top^
@@ -58088,9 +58097,9 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
-||zzyy17.top^
-||bzvhgbr.xyz^
-||foizico.cn^
+||44jui.top^
+||klfbnklddfbkn.com^
+||shipostrich.com^
 -ad-300x600-
 -ad-458x80.
 -ad-banner-
@@ -58551,20 +58560,14 @@ analytics-*.aasaam.com
 ||config.ioam.de^$ctag=device_tv|device_other
 -adobe-analytics.
 -amp-error-reporting.
--analytics-events.
--appanalytics-
 -click-tracker.
 -didomi.js
--ga-tracker.
 -gatracker.
 -geoIP.js
 -inview-tracker.
--optimization-metrics.
--quantcast-measurement.
 -scroll-tracker.js
 -track-inview.
 -tracking-pixel.
--trackingScript.
 .beacon.min.js
 .eloqua.js
 .EventTracking.
@@ -58614,13 +58617,10 @@ analytics-*.aasaam.com
 ||d2fj3s7h83rb61.cloudfront.net
 ||aff*.kolektiva.net^
 -logging.nextmedia.com^
-||mcs.zijieapi.com^
-||webstat.qiumibao.com^
 ||stats2.*.fdnames.com^
 ||stats-*.p2pnow.ru^
 ||tms-st.cdn.ngenix.net^
 ||tracker.comagic.ru^
-||za.zalo.me^
 ||za.zdn.vn^
 ||a.electerious.com^
 ||a.tellonym.me^
