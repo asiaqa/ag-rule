@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202310271122
+# Verison: 202310271928
 # Expires: around 1 day
-# Total number of rules = 89263
+# Total number of rules = 89262
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -51587,6 +51587,9 @@ inapps.appsflyersdk.com^
 ||lmfehr.xyz^
 ||df-long.cn^
 ||lryqef.xyz^
+||gmx38.top^
+||cjohpsc.cn^
+||tongjiniao.com^
 ||zzyy20.top^
 ||01v62.xyz^
 ||023best.cn^
@@ -58441,6 +58444,7 @@ analytics-*.aasaam.com
 ||auditude.com^
 ||buyeasy.by^
 ||cusilbwq.xyz
+||fuck.hentaitimes.com^
 ||get-me-wow.
 ||googletagservices.com^
 ||imasdk.googleapis.com^
@@ -58803,7 +58807,6 @@ analytics-*.aasaam.com
 -amp-error-reporting.
 -click-tracker.
 -didomi.js
--gatracker.
 -geoIP.js
 -inview-tracker.
 -scroll-tracker.js
@@ -58812,12 +58815,8 @@ analytics-*.aasaam.com
 .beacon.min.js
 .eloqua.js
 .EventTracking.
-.gatracker.
 .gatracking.js
 .Google.Tracker.js
-.googleanalytics.js
-.googleanalytics.prod.
-.ntpagetag.
 .skimlinks.js
 .v4.analytics.
 ://a869.
