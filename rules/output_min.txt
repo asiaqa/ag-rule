@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202311291122
+# Verison: 202311291926
 # Expires: around 1 day
-# Total number of rules = 89886
+# Total number of rules = 89888
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -20,6 +20,8 @@
 # https://filters.adtidy.org/extension/ublock/filters/224.txt
 # https://filter.futa.gg/hosts.txt
 ####################################################################################
+||zsgpdafjd.com^
+||wzcznlufq.com^
 ||ytvigqwx.com^
 ||waunsgraphs.website^
 ||homierceston.top^
@@ -39869,7 +39871,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||analysys.cn^
 ||ntracker-collector.naver.com^
 ||ace.naver.com^
-||api.sec.intl.miui.com^
 ||authbe.sec.intl.miui.com^
 ||flash.sec.intl.miui.com^
 ||api.setting.intl.miui.com^
@@ -44580,7 +44581,6 @@ inapps.appsflyersdk.com^
 ||dnt-userreport.com^
 ||tags.op-palvelut.fi^
 ||links.boom.ge^
-||analytics.skroutz.gr^
 ||heartbeat.pmd.444.hu^
 ||rum.marquardmedia.hu^
 ||videostat-new.index.hu^
@@ -52161,6 +52161,7 @@ inapps.appsflyersdk.com^
 ||bavkvoks.xyz^
 ||oouiqi.xyz^
 ||fxkfhbn.xyz^
+||commonwealthproficient.com^
 ||zzyy18.top^
 ||zzyy19.top^
 ||zzyy20.top^
@@ -57426,6 +57427,7 @@ analytics-*.aasaam.com
 ||letysheeps.ru^
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
+@@||cmp.inmobi.com^|
 @@||cdn.us*.exponea.com^|
 @@||data.digital.costco.ca^|
 @@||data.digital.costco.com^|
