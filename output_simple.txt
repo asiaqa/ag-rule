@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202312061122
+# Verison: 202312061925
 # Expires: around 1 day
-# Total number of rules = 89505
+# Total number of rules = 89506
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -51122,7 +51122,7 @@ inapps.appsflyersdk.com^
 ||log.vietnamplus.vn^
 ||log.zalo.video^
 ||log.zingmp3.vn^
-||log.zingnews.com.vn^
+||log.znews.vn^
 ||logen.vietnamplus.vn^
 ||loges.vietnamplus.vn^
 ||logfr.vietnamplus.vn^
@@ -51276,7 +51276,6 @@ inapps.appsflyersdk.com^
 ||younetmedia.com^
 ||za.zapps.vn^
 ||za.zingmp3.vn^
-||za.zingnews.com.vn^
 ||zads.me.zing.vn^
 ||zalo-ads-240-td.zadn.vn^
 ||zalo-ads-240.zadn.vn^
@@ -52596,6 +52595,8 @@ inapps.appsflyersdk.com^
 ||epebuk.xyz^
 ||jspqhh.xyz^
 ||awareista.com^
+||zigyspv.icu^
+||linj.top^
 ||zzyy19.top^
 ||zzyy20.top^
 ||01v62.xyz^
@@ -58519,7 +58520,8 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
-||zigyspv.icu^
+||yshlor.icu^
+||ioswhi.com^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
@@ -59018,7 +59020,6 @@ analytics-*.aasaam.com
 ://segment-api.
 ://segment-cdn.
 ||adservice.google.
--logabpstatus.
 ||captcha-display.com^
 ||cxense.com^
 ||geotargetly-api-*.com^
