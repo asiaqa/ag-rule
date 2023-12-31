@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202312311122
+# Verison: 202312311925
 # Expires: around 1 day
-# Total number of rules = 90526
+# Total number of rules = 90532
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -53574,6 +53574,8 @@ inapps.appsflyersdk.com^
 ||evbrkhz.xyz^
 ||vtnmxx.xyz^
 ||fyexyd.icu^
+||uydzfldt.xyz^
+||bydzfldt.xyz^
 ||zzyy20.top^
 ||01v62.xyz^
 ||027dir.com^
@@ -59507,7 +59509,8 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
-||uydzfldt.xyz^
+||xydzfldt.xyz^
+||tydzfldt.xyz^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
@@ -60005,12 +60008,15 @@ analytics-*.aasaam.com
 ||hostingcloud.racing
 ||wasm.stream
 ||bc.geocities.
+||beamanalytics.b-cdn.net^
+||calltrack.co^
 ||collector-*.px-client.net^
 ||csi.gstatic.com^
 ||firebaselogging-pa.googleapis.com^
 ||g.msn.com^
 ||geo.ngtv.io^
 ||log-*.previewnetworks.com^
+||logs.mezmo.com^
 ||mcdp-*.outbrain.com^
 ||monitor.azure.com^
 ||tag.aticdn.net^
