@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202401061122
+# Verison: 202401061926
 # Expires: around 1 day
-# Total number of rules = 102122
+# Total number of rules = 102143
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -35534,6 +35534,7 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||trk.a-dsp.com^
 ||metrics.plaid.com^
 ||api.iterable.com^
 ||t.arcade.show^
@@ -51082,6 +51083,11 @@ inapps.appsflyersdk.com^
 ||iumboa.xyz^
 ||dxxwdz.xyz^
 ||mnvxdkd.xyz^
+||m8oxd.xyz^
+||wkzsmj.icu^
+||lcid.top^
+||uogtrmjz.xyz^
+||bogtrmjz.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ||01v62.xyz^
@@ -57042,10 +57048,10 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
-||m8oxd.xyz^
-||wkzsmj.icu^
-||lcid.top^
-||uogtrmjz.xyz^
+||xogtrmjz.xyz^
+||szpbg.cn^
+||togtrmjz.xyz^
+||hjdha.cn^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
@@ -57143,29 +57149,43 @@ analytics-*.aasaam.com
 .480x60.
 .728x90-
 .900x100.
+||5a6c114183.com^
 ||adswizz.com^
+||advantageshallwayasks.com^
 ||alipromo.com^
 ||alitems.com^
 ||atdmt.com^
 ||auditude.com^
 ||buyeasy.by^
+||bydcczwmxyd.com^
+||cifqfyafsolzb.com^
 ||cusilbwq.xyz
+||cxfrmhsj.com^
+||dhyanaquintes.digital^
+||diqnioryshzpge.com^
+||dtqbqmzzbeck.com^
+||ftdvpextzx.com^
 ||gbpkmltxpcsj.xyz
 ||get-me-wow.
 ||googletagservices.com^
 ||hvkwmvpxvjo.xyz
 ||imasdk.googleapis.com^
+||incompletethong.com^
 ||kqzyfj.com^
 ||loadercdn.com^
+||npdocxjt.com^
 ||ntv.io^
 ||olnjitvizo.com
+||pfiuyt.com^
 ||rubiconproject.com^
 ||succeedscene.com^
 ||tedious-weight.pro
 ||totaladblock.com^
+||tqwxtglpr.com^
 ||trust.zone^
 ||ucationininancee.info
 ||videoplaza.tv^
+||wkmorvzqjmwav.top^
 ||wpnrtnmrewunrtok.xyz^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
@@ -57227,6 +57247,7 @@ analytics-*.aasaam.com
 ||creative.141live.com^
 ||creative.favy.cam^
 ||creative.kbnmnl.com^
+||creative.myavlive.com^
 ||creative.ohmycams.com^
 ||creative.strip.chat^
 ||creative.stripchat.com^
