@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202401301121
+# Verison: 202401301926
 # Expires: around 1 day
-# Total number of rules = 107027
+# Total number of rules = 107037
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -44907,6 +44907,7 @@ inapps.appsflyersdk.com^
 ||pl.connatix.com^
 ||plausibleio.workers.dev^
 ||play.adtonos.com^
+||player-metrics.instaread.co^
 ||pm.boostintegrated.com^
 ||popup-static.unisender.com^
 ||porpoise.azettl.net^
@@ -58326,6 +58327,14 @@ inapps.appsflyersdk.com^
 ||ypwlctfk.xyz^
 ||d10wv.fun^
 ||sxtnpzd.xyz^
+||iwwmaq.xyz^
+||zghsep.icu^
+||x08jd.top^
+||9s64g.icu^
+||1cecn.icu^
+||ovbgeum.cn^
+||cpwlctfk.xyz^
+||pmnct63.shop^
 ||zzyy19.top^
 ||zzyy20.top^
 ||01v62.xyz^
@@ -61080,12 +61089,17 @@ inapps.appsflyersdk.com^
 ||1.hao123.com^
 ||1.i999d.cn^
 ||100.pncdn.cn^
+||113.17.188.*.js
+||120.27.*.html
+||122.225.103.*.htm
 ||2016.bkill.net^
+||218.26.217.*.html
 ||3337723.com^
 ||3337738.com^
 ||5y9nfpes.52pk.com^
 ||614514.com^
 ||7xsf3h.com1.z0.glb.clouddn.com^
+||8*.tianya.cn^
 ||801.tianyaui.com^
 ||874547.men^
 ||8jkx.com^
@@ -63948,11 +63962,8 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
-||iwwmaq.xyz^
-||zghsep.icu^
-||x08jd.top^
-||9s64g.icu^
-||1cecn.icu^
+||czresus.cn^
+||xpwlctfk.xyz^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
@@ -66561,6 +66572,10 @@ analytics-*.aasaam.com
 ||aff*.kolektiva.net^
 -logging.nextmedia.com^
 ||stats2.*.fdnames.com^
+||assets.datarize.ai^
+||dtr-onsite-feed.datarize.ai^
+||log.pipeline.datarize.io^
+||realtime-profiling.datarize.ai^
 ||stats-*.p2pnow.ru^
 ||tms-st.cdn.ngenix.net^
 ||tracker.comagic.ru^
@@ -106602,11 +106617,6 @@ nanoGDPR.min.js^
 ||vns86.oss-*.aliyuncs.com^
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||121.204.246.*.gif
-||113.17.188.*.js
-||120.27.*.html
-||122.225.103.*.htm
-||218.26.217.*.html
-||8*.tianya.cn^
 ||adi*.cnool.net^
 ||ax.*.ifeng.com^
 ||impservice*.yodao.com^
