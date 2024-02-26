@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202402261123
+# Verison: 202402261926
 # Expires: around 1 day
-# Total number of rules = 112200
+# Total number of rules = 112203
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -63171,6 +63171,8 @@ analytics-*.aasaam.com
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
 ||log-collector.svctr.zynga.com^
+||szmnd.cn^
+||qqkkpos.com^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
@@ -64133,6 +64135,7 @@ analytics-*.aasaam.com
 ||evs.icy-lake.kickstarter.com^
 ||exr-mms.expertreviews.co.uk^
 ||f362.nola.com^
+||faro-collector-prod-*.grafana.net^
 ||fathom.app.silverbeak.com^
 ||fathom.tdvm.net^
 ||fbo-statistics-collector-tc.is.flippingbook.com^
