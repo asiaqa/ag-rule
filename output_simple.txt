@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202403121125
+# Verison: 202403121926
 # Expires: around 1 day
-# Total number of rules = 112938
+# Total number of rules = 112951
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -46220,7 +46220,6 @@ inapps.appsflyersdk.com^
 ||collector.api.video^
 ||collector.automote.co.nz^
 ||collector.clareity.net^
-||collector.dmp.cnna.io^
 ||collector.sspinc.io^
 ||collector5.zipy.ai^
 ||collectorsvc.apac.vesta.io^
@@ -50742,15 +50741,23 @@ inapps.appsflyersdk.com^
 ||alkemi.com.se^
 ||ambassador.referralhero.com^
 ||amd.sellingsimplified.net^
+||analytics.allas.se^
 ||analytics.apotekhjartat.se^
 ||analytics.ciseway.se^
+||analytics.elle.se^
+||analytics.femina.se^
+||analytics.hant.se^
 ||analytics.hpscloud.se^
 ||analytics.icagruppen.se^
 ||analytics.ica.se^
 ||analytics.kb.se^
+||analytics.mabra.com^
+||analytics.motherhood.se^
 ||analytics.nikkasystems.com^
+||analytics.residencemagazine.se^
 ||analytics.smhi.se^
 ||analytics.sunet.se^
+||analytics.svenskdam.se^
 ||analytics.svt.se^
 ||analytics.undeco.se^
 ||analytics.vackertvader.se^
@@ -56685,6 +56692,9 @@ inapps.appsflyersdk.com^
 ||rcyzsh.icu^
 ||snifdlab.top^
 ||oppnfev.xyz^
+||0tq6ub.cn^
+||njhvalu.cn^
+||osisk.com^
 ||zojyob.icu^
 ||zopuqv.icu^
 ||zsjpi.cn^
@@ -63881,8 +63891,7 @@ analytics-*.aasaam.com
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
-||0tq6ub.cn^
-||njhvalu.cn^
+||c81.ipanocloud.com^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
@@ -64415,6 +64424,7 @@ analytics-*.aasaam.com
 ||adscore.com^
 ||adstk.io^
 ||adultium.com^
+||aggle.net^
 ||agma-analytics.de^
 ||alpha1trk.com^
 ||altopd.com^
@@ -64445,6 +64455,7 @@ analytics-*.aasaam.com
 ||cliquelead.com^
 ||cloudwp.io^
 ||clrt.ai^
+||cnna.io^
 ||confiant-integrations.net^
 ||convead.io^
 ||conversationalsdevelopment.nl^
@@ -64511,6 +64522,7 @@ analytics-*.aasaam.com
 ||g990421675.co^
 ||g990421676.co^
 ||gbqofs.com^
+||gcprivacy.com^
 ||geotargetly-api-*.com^
 ||getdeviceinf.com^
 ||glamipixel.com^
@@ -64716,6 +64728,7 @@ analytics-*.aasaam.com
 ||log-*.previewnetworks.com^
 ||mcdp-*.outbrain.com^
 ||monitor.azure.com^
+||t.spbx.app^
 ||tag.aticdn.net^
 ||tracker.twenga.
 ||tracking.magnetmail.net^
