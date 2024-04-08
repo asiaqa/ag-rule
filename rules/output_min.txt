@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202404081122
+# Verison: 202404081926
 # Expires: around 1 day
-# Total number of rules = 115008
+# Total number of rules = 115031
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -20,6 +20,8 @@
 # https://filters.adtidy.org/extension/ublock/filters/224.txt
 # https://filter.futa.gg/hosts.txt
 ####################################################################################
+||hoomigri.com^
+||bittrafficads.com^
 ||mpsauudmnwarh.com^
 ||ishaweewouta.com^
 ||unclogslenis.top^
@@ -45221,6 +45223,8 @@ vkcdnservice.appspot.com^
 ||affex.org^
 ||tagman.britishairways.com^
 |piwik.
+||metrics.thefeed.com^
+||gtm.thefeed.com^
 ||collector.xhaccess.com^
 ||amplitude.chess.com^
 ||matomo.cloudfront.similarweb.io^
@@ -54631,6 +54635,7 @@ inapps.appsflyersdk.com^
 ||dadw55.com^
 ||daef33.com^
 ||daikinvietnam.vn^
+||dailyssshopee.com^
 ||daisyshopp.com^
 ||dangky.electricz.xyz^
 ||dangkyappbank.online^
@@ -54688,6 +54693,7 @@ inapps.appsflyersdk.com^
 ||dichvucong.cvgov.com^
 ||dichvucong.dancuquocgia.net^
 ||dichvucong.dulieuquocgia.com^
+||dichvucong.govnx.com^
 ||dichvucong.hgov.cc^
 ||dichvucong.hgov.net^
 ||dichvucong.kgov.net^
@@ -54695,6 +54701,7 @@ inapps.appsflyersdk.com^
 ||dichvucong.tgovn.cc^
 ||dichvucong.tkgov.com^
 ||dichvucong.vgovn.net^
+||dichvucong.vsgov.com^
 ||dichvucong.xgovn.net^
 ||dichvucong.zlgov.com^
 ||dichvucong.zvgov.com^
@@ -55294,6 +55301,7 @@ inapps.appsflyersdk.com^
 ||keygenwin.com^
 ||kfdg22.com^
 ||kfdg55.com^
+||khach-hang-ca-nhan-vip5.com^
 ||khangdz215.tk^
 ||khcn-han-muc-tin-dung-ca-nhan.com^
 ||khcn-tindung-vp.com^
@@ -55796,6 +55804,7 @@ inapps.appsflyersdk.com^
 ||nang-cap-vip-vpbank.com^
 ||nang-han-muc-ido-vpbank.com^
 ||nang-han-muc-vip-vpbank.com^
+||nang-hang-ca-nhan-vib-mrk1.com^
 ||nang-hang-tin-dung-ca-nhan.com^
 ||nanghanmuc-thetindung.com^
 ||nanghanmuc-tindungvn.com^
@@ -57971,6 +57980,7 @@ inapps.appsflyersdk.com^
 ||vn55779p.com^
 ||vn55866shp.com^
 ||vn6315shp.com^
+||vn63251s.com^
 ||vn66733shop.com^
 ||vn667755s.com^
 ||vn66954shp.com^
@@ -58877,6 +58887,11 @@ inapps.appsflyersdk.com^
 ||pmiskc.cn^
 ||srwwce.xyz^
 ||qnalzly.top^
+||mldzwmt.xyz^
+||guwohvw.icu^
+||1f84e33459.com^
+||vwyycnq.cn^
+||mmo2350.top^
 ||zsjpi.cn^
 ||zttuvj.xyz^
 ||ztxjutz.xyz^
@@ -64265,6 +64280,7 @@ analytics-*.aasaam.com
 ||letysheeps.ru^
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
+||api2.branch.io^$dnsrewrite=0.0.0.0
 @@||infra-api.newrelic.com^|
 @@||tms.capitalone.com^|
 @@||redir.ownpage.fr^|
@@ -65784,8 +65800,6 @@ analytics-*.aasaam.com
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
-||mldzwmt.xyz^
-||guwohvw.icu^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
@@ -65893,16 +65907,22 @@ analytics-*.aasaam.com
 ||auditude.com^
 ||buyeasy.by^
 ||chattedhelio.top
+||consensushistorianarchery.com^
 ||cusilbwq.xyz
+||fkxsklor.com^
 ||gbpkmltxpcsj.xyz
 ||get-me-wow.
 ||googletagservices.com^
 ||hvkwmvpxvjo.xyz
 ||imasdk.googleapis.com^
+||jeoawamjbblkq.top^
 ||kqzyfj.com^
 ||loadercdn.com^
+||ngjgnidajyls.xyz^
 ||ntv.io^
 ||proffering.xyz
+||profitableheavilylord.com^
+||resolvedswordlinked.com^
 ||rubiconproject.com^
 ||succeedscene.com^
 ||tedious-weight.pro
@@ -65911,6 +65931,7 @@ analytics-*.aasaam.com
 ||trust.zone^
 ||ucationininancee.info
 ||videoplaza.tv^
+||woetcwdynnltfnh.com^
 ||wpnrtnmrewunrtok.xyz^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
@@ -98198,6 +98219,7 @@ analytics-*.aasaam.com
 @@||star.c10r.facebook.com^
 @@||www.fbsbx.com^
 @@||star.fallback.c10r.facebook.com^
+/^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
 /^(\S+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
 @@||ad.vivo.com.cn^
 @@||ads.alafish.cn^
@@ -98254,6 +98276,7 @@ analytics-*.aasaam.com
 /^(\S+\.)?hg[0-9]{4,5}\.com?$/
 /^(\S+\.)?333[1-9]{2}[0-9]{2}\.com?$/
 /^(\S+\.)?5551[0-9]{3}\.com?$/
+||*serror*.wo.com.cn^$dnstype=A|CNAME
 ||ads*-normal-hl.zijieapi.com^
 ||bj*.9669.cn^
 ||gg*.miguvideo.com^
