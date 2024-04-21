@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202404211121
+# Verison: 202404211925
 # Expires: around 1 day
-# Total number of rules = 116891
+# Total number of rules = 116906
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -41235,6 +41235,7 @@ vkcdnservice.appspot.com^
 ||proto2ad.durasite.net^
 ||pubfeed.linkby.com^
 ||public.porn.fr^
+||pushtoast-a.akamaihd.net^
 ||qsearch-a.akamaihd.net^
 ||random-affiliate.atimaze.com^
 ||rotabanner.kulichki.net^
@@ -67174,6 +67175,7 @@ analytics-*.aasaam.com
 .480x60.
 .728x90-
 .900x100.
+||a9ae7df45f.com^
 ||adswizz.com^
 ||alipromo.com^
 ||alitems.com^
@@ -67182,22 +67184,30 @@ analytics-*.aasaam.com
 ||buyeasy.by^
 ||chattedhelio.top
 ||cusilbwq.xyz
+||fraer.cloud^
 ||gbpkmltxpcsj.xyz
+||gebiqxmcc.com^
 ||get-me-wow.
 ||googletagservices.com^
 ||hvkwmvpxvjo.xyz
 ||imasdk.googleapis.com^
 ||kqzyfj.com^
 ||loadercdn.com^
+||logshort.xyz^
 ||ntv.io^
 ||proffering.xyz
+||retaxenteron.top^
+||rpfytkt.com^
 ||rubiconproject.com^
 ||succeedscene.com^
 ||tedious-weight.pro
+||tionforeathyoug.info^
 ||totaladblock.com^
 ||tracker-tds.info
 ||trust.zone^
 ||ucationininancee.info
+||vafumjvrvjcup.com^
+||vecohgmpl.info^
 ||videoplaza.tv^
 ||wpnrtnmrewunrtok.xyz^
 /(https?:\/\/)104\.154\..{100,}/
@@ -67969,6 +67979,7 @@ analytics-*.aasaam.com
 ||c.gq.com^
 ||c.newyorker.com^
 ||c.thredup.com^
+||c.vanityfair.com^
 ||c.vogue.com^
 ||c.wired.com^
 ||c.xbox.com^
@@ -68167,6 +68178,7 @@ analytics-*.aasaam.com
 ||qc.arstechnica.com^
 ||qc.gq.com^
 ||qc.newyorker.com^
+||qc.vanityfair.com^
 ||qc.vogue.com^
 ||qc.wired.com^
 ||qm.redbull.com^
@@ -99731,6 +99743,8 @@ analytics-*.aasaam.com
 @@||star.c10r.facebook.com^
 @@||www.fbsbx.com^
 @@||star.fallback.c10r.facebook.com^
+@@||ads.cdn.tvb.com^
+@@||ads.console.aliyun.com^
 /^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
 /^(\S+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
 @@||ad.vivo.com.cn^
@@ -103319,6 +103333,7 @@ analytics-*.aasaam.com
 ||topapi.cp12.ott.cibntv.net^
 ||val.atm.cp31.ott.cibntv.net^
 ||vali-g1.cp31.ott.cibntv.net^
+||ykad-data.cp31.ott.cibntv.net^
 ||cieh.mx^
 ||cig.com.cn^
 ||ciimg.com^
