@@ -32,6 +32,7 @@ jobs:
       
     - name: Install hostlist-complier
       run: npm i -g @adguard/hostlist-compiler
+      run: npm i -g @adguard/dead-domains-linter
         
     - name: Set folder condition, variables and timezone
       run: |
@@ -42,6 +43,7 @@ jobs:
           
     - name: Run main.go
       run: |
+          dead-domains-linter --auto
           go run main.go "./setting/super_rules.txt" out_super.txt "./setting/custom.txt"
           go run main.go "./setting/full_rules.txt" out_full.txt "./setting/custom.txt"
           go run main.go "./setting/medium_rules.txt" out_med.txt "./setting/custom.txt"
