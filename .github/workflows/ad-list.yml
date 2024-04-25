@@ -31,8 +31,9 @@ jobs:
     - run: npm install
       
     - name: Install hostlist-complier
-      run: npm i -g @adguard/hostlist-compiler
-      run: npm i -g @adguard/dead-domains-linter
+      run: |
+        npm i -g @adguard/hostlist-compiler
+        npm i -g @adguard/dead-domains-linter
         
     - name: Set folder condition, variables and timezone
       run: |
