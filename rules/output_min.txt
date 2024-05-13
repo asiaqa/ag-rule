@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202405131124
+# Verison: 202405131926
 # Expires: around 1 day
-# Total number of rules = 117519
+# Total number of rules = 117522
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -47240,6 +47240,7 @@ vkcdnservice.appspot.com^
 ||affex.org^
 ||tagman.britishairways.com^
 |piwik.
+||analytics.andisearch.com^
 ||stlog.dmarket.docomo.ne.jp^
 ||stats.myserverhome.de^
 ||amethyst.6pm.com^
@@ -68094,6 +68095,7 @@ analytics-*.aasaam.com
 ||ucationininancee.info
 ||videoplaza.tv^
 ||wpnrtnmrewunrtok.xyz^
+||yoibbka.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -68814,6 +68816,7 @@ analytics-*.aasaam.com
 ||firebaselogging-pa.googleapis.com^
 ||g.msn.com^
 ||geo.ngtv.io^
+||gtmfsstatic.getgoogletagmanager.com^
 ||log-*.previewnetworks.com^
 ||mcdp-*.outbrain.com^
 ||monitor.azure.com^
