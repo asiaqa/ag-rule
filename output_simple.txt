@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202406051927
+# Verison: 202406061126
 # Expires: around 1 day
-# Total number of rules = 117764
+# Total number of rules = 117775
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -20,6 +20,8 @@
 # https://filters.adtidy.org/extension/ublock/filters/224.txt
 # https://filter.futa.gg/hosts.txt
 ####################################################################################
+||journeymv.com^
+||deliman.net^
 ||nyihcpzdloe.com^
 ||fualujqbhqyn.xyz^
 ||pafiptuy.net^
@@ -41134,6 +41136,7 @@ vkcdnservice.appspot.com^
 ||b9f25b.site^
 ||bc98ad.xyz^
 ||bcbe.site^
+||bd5a57.xyz^
 ||ca3d.site^
 ||ca9246.xyz^
 ||caa2c4.xyz^
@@ -46828,6 +46831,7 @@ vkcdnservice.appspot.com^
 ||d1udjti6mtxz9q.cloudfront.net^
 ||tagman.britishairways.com^
 |piwik.
+||collect.stepstone.co.uk^
 ||analytics.poferries.com^
 ||collector-*.px-cloud.net^
 ||collector-*.px-cdn.net^
@@ -60525,6 +60529,14 @@ inapps.appsflyersdk.com^
 ||zthxobgk.icu^
 ||vfphbh.xyz^
 ||dljzcl.cn^
+||binga01.shop^
+||cbcgqs.xyz^
+||tsdfxv.xyz^
+||ancxeftgyu.top^
+||ifjslio.top^
+||qrmozsc.icu^
+||jtezxmpb.xyz^
+||nlxgjwye.icu^
 ||0322cfmtl.cc^
 ||07dy.cc^
 ||0940088.com^
@@ -69328,7 +69340,6 @@ analytics-*.aasaam.com
 ||cnt.iceporn.com^
 ||cnt.viptube.com^
 ||collect.reagroupdata.com.au^
-||collect.stepstone.co.uk^
 ||collect.thunder-io.com^
 ||collector-px0py5pczn.octopart.com^
 ||collector.xhamster.desi^
