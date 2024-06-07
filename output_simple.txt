@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202406071127
+# Verison: 202406071927
 # Expires: around 1 day
-# Total number of rules = 117800
+# Total number of rules = 117804
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -49737,6 +49737,7 @@ inapps.appsflyersdk.com^
 ||client.tahono.com^
 ||clouderrorreporting.googleapis.com^
 ||cloudfront-labs.amazonaws.com^
+||cloudmetrics.xenforo.com^
 ||cltgtstor001.blob.core.windows.net^
 ||cnt.3dmy.net^
 ||cnt.mastorage.net^
@@ -68438,6 +68439,10 @@ analytics-*.aasaam.com
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
+||pdnwbwyf.icu^
+||hntkgpd.cn^
+||itjgwn.xyz^
+||anbkzt.xyz^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
@@ -69280,7 +69285,6 @@ analytics-*.aasaam.com
 ||pushmaster-cdn.xyz^
 ||urbanairship.com^
 ||bc.geocities.
-||cloudmetrics.xenforo.com^
 ||collector-*.px-client.net^
 ||csi.gstatic.com^
 ||firebaselogging-pa.googleapis.com^
