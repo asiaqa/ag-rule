@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202407021125
+# Verison: 202407021926
 # Expires: around 1 day
-# Total number of rules = 117704
+# Total number of rules = 117709
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -1285,6 +1285,7 @@
 ||revrtb.com^
 ||newbluetrue.xyz^
 ||onemediawork.com^
+||ad.twinrdengine.com^
 ||d2lg0swrp15nsj.cloudfront.net^
 ||dpeqm8xv96fuc.cloudfront.net^
 ||d127s3e8wcl3q6.cloudfront.net^
@@ -40488,12 +40489,14 @@ vkcdnservice.appspot.com^
 ||bc98ad.xyz^
 ||bcbe.site^
 ||bd5a57.xyz^
+||c31133f7.xyz^
 ||ca3d.site^
 ||ca9246.xyz^
 ||caa2c4.xyz^
 ||cd57296e.xyz^
 ||ce357c.xyz^
 ||cfb98a.xyz^
+||d23d450d.xyz^
 ||d477275c.xyz^
 ||d84bc26d.site^
 ||d8b0a5.xyz^
@@ -54229,6 +54232,7 @@ inapps.appsflyersdk.com^
 ||gamblingsyndication.com^
 ||gameanalytics.com^
 ||girohjalm.com.se^
+||gtm.ekonomifakta.se^
 ||gtm.findroommate.dk^
 ||gtm.stampenmedia.se^
 ||gwen.insertcoin.se^
@@ -60067,6 +60071,7 @@ inapps.appsflyersdk.com^
 ||ajoqu.cn^
 ||hdtvnr.xyz^
 ||cjgymo.xyz^
+||hzrnbl.xyz^
 ||0322cfmtl.cc^
 ||07dy.cc^
 ||0940088.com^
@@ -66736,6 +66741,7 @@ analytics-*.aasaam.com
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
 ||api2.branch.io^$dnsrewrite=0.0.0.0
+@@||sax.sina.com.cn^|
 @@||linka.page^|
 @@||track.webgains.com^|
 @@||secureimage.securedataimages.com^|
@@ -68245,7 +68251,6 @@ analytics-*.aasaam.com
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
-||hzrnbl.xyz^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
