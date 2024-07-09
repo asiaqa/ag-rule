@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202407081927
+# Verison: 202407091127
 # Expires: around 1 day
-# Total number of rules = 118766
+# Total number of rules = 118779
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -20,6 +20,8 @@
 # https://filters.adtidy.org/extension/ublock/filters/224.txt
 # https://filter.futa.gg/hosts.txt
 ####################################################################################
+||femqrjwnk.xyz^
+||routowoashie.xyz^
 serve.yourporngod.com^
 serve.everydayporn.co^
 ||xlvul.ajscdn.com^
@@ -1292,6 +1294,7 @@ serve.everydayporn.co^
 ||revrtb.com^
 ||newbluetrue.xyz^
 ||onemediawork.com^
+||srtb.msn.cn^
 ||advertising-cdn.dpgmedia.cloud^
 ||d2lg0swrp15nsj.cloudfront.net^
 ||dpeqm8xv96fuc.cloudfront.net^
@@ -40619,6 +40622,7 @@ vkcdnservice.appspot.com^
 ||ec44.site^
 ||f090.site^
 ||f2f8.xyz^
+||f33d11b5.xyz^
 ||f417a726.xyz^
 ||f4c9a0fb.xyz^
 ||f6176563.site^
@@ -42921,6 +42925,8 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||exacttarget.com^
+||analytics.launch.bz^
 ||qobuz.surveysparrow.com^
 ||srvr.dmvs-apac.com^
 ||dash.zintrack.com^
@@ -46331,6 +46337,7 @@ vkcdnservice.appspot.com^
 ||d1udjti6mtxz9q.cloudfront.net^
 ||tagman.britishairways.com^
 |piwik.
+||trc.r25.jp^
 ||anal.doubledouble.top^
 ||peach-analytics.vercel.app^
 ||lfmetrics.loyalfans.com^
@@ -60234,6 +60241,16 @@ inapps.appsflyersdk.com^
 ||lgpjw.cn^
 ||eqkvks.xyz^
 ||sdipsumb.top^
+||wuisaq.top^
+||jgvkxp.xyz^
+||mrtlisx.top^
+||fbqrt.cn^
+||edipsumw.top^
+||tvgkatu.icu^
+||snux.cn^
+||qpigoa.xyz^
+||vihqpr.xyz^
+||goodvibe1.com^
 ||0322cfmtl.cc^
 ||07dy.cc^
 ||0940088.com^
@@ -68478,9 +68495,6 @@ analytics-*.aasaam.com
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
-||wuisaq.top^
-||jgvkxp.xyz^
-||mrtlisx.top^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
@@ -76947,12 +76961,10 @@ analytics-*.aasaam.com
 ||sc.wa.gto.db.com^
 ||sc2.constantcontact.com^
 ||sc2.infor.com^
-||sc2metrics.exacttarget.com^
 ||scadobe.vpay.co.kr^
 ||scanalytics.wral.com^
 ||sci.intuit.ca^
 ||sci.quickbooks.com^
-||scmetrics.exacttarget.com^
 ||scmetrics.shell.com^
 ||scmetrics.vodafone.it^
 ||scnd.landsend.co.uk^
@@ -118483,6 +118495,7 @@ nanoGDPR.min.js^
 ||esunebk.top^
 ||usaniik.top^
 ||shoplinestickers.com^
+||signin.authen-connexion.info^
 ||app.exodus.com.alchemys.cl^
 ||in.appcenter.ms^
 ||baixingnew.com^
