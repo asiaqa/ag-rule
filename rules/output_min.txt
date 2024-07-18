@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202407181129
+# Verison: 202407181929
 # Expires: around 1 day
-# Total number of rules = 119136
+# Total number of rules = 119139
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -60546,6 +60546,7 @@ inapps.appsflyersdk.com^
 ||bdipsumv.top^
 ||juznlx.xyz^
 ||molpmh.xyz^
+||hjrcjz.xyz^
 ||gkypgw.xyz^
 ||lyislol.top^
 ||tgrpzl.xyz^
@@ -68874,7 +68875,9 @@ analytics-*.aasaam.com
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
-||hjrcjz.xyz^
+||baijs010.xyz^
+||doujs09.xyz^
+||google-js-08.xyz^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
@@ -102109,6 +102112,7 @@ analytics-*.aasaam.com
 @@||star.fallback.c10r.facebook.com^
 @@||ads.cdn.tvb.com^
 @@||ads.console.aliyun.com^
+@@||tracking.ubisoft.com^
 /^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
 /^(\S+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
 @@||ad.vivo.com.cn^
@@ -103337,7 +103341,6 @@ analytics-*.aasaam.com
 ||cysd.7kww.net^
 ||tj.7kww.net^
 ||7ldou.com^
-||7moor-fs1.com^
 ||m.7n3e8o.com^
 ||m.7nej2.com^
 ||e.7ogh2e.cn^
@@ -103809,7 +103812,6 @@ analytics-*.aasaam.com
 ||adtechus.com^
 ||adtector.com^
 ||adreport.adtianmai.com^
-||https-filtering-check.adtidy.org^
 ||adtiming.com^
 ||adtrk.me^
 ||adttt.com^
@@ -105137,6 +105139,9 @@ analytics-*.aasaam.com
 ||a.booksir.cn^
 ||c.booksir.com.cn^
 ||booster3d.com^
+||bootcdn.cn^
+||bootcdn.net^
+||bootcss.com^
 ||boowang.com^
 ||boredborder.com^
 ||boredcrown.com^
@@ -106338,7 +106343,6 @@ analytics-*.aasaam.com
 ||terms-drcn.platform.dbankcloud.cn^
 ||weather-community-drcn.weather.dbankcloud.cn^
 ||grs.dbankcloud.com^
-||oauth-login-drcn.platform.dbankcloud.com^
 ||grs.platform.dbankcloud.ru^
 ||m.dbaof.com^
 ||e.dbeii.com^
@@ -107973,7 +107977,6 @@ analytics-*.aasaam.com
 ||googleanalytics.com^
 ||clientservices.googleapis.com^
 ||crashlyticsreports-pa.googleapis.com^
-||firebaseinstallations.googleapis.com^
 ||jnn-pa.googleapis.com^
 ||footprints-pa.googleapis.com^
 ||googlecommerce.com^
@@ -114125,6 +114128,8 @@ analytics-*.aasaam.com
 ||static-cnt.bi^
 ||static-cnt.bid^
 ||static-sb.com^
+||staticfile.net^
+||staticfile.org^
 ||staticiv.com^
 ||staticjs.cn^
 ||staticsfs.host^
@@ -116375,7 +116380,6 @@ analytics-*.aasaam.com
 ||union1.xiaojianjian.net^
 ||xiaomeihq.info^
 ||xiaomengquan.cn^
-||a0.app.xiaomi.com^
 ||api.installer.xiaomi.com^
 ||bss.pandora.xiaomi.com^
 ||de.pandora.xiaomi.com^
@@ -118093,7 +118097,6 @@ analytics-*.aasaam.com
 ||c.zoepb.cn^
 ||castatic.fengkongcloud.com^
 ||cd.dabansuan.cn^
-||cdn.bootcdn.net^
 ||cdn.openxt.cn^
 ||cdn.viccscxz.cn^
 ||cdn.wuxiqiangheng.com^
