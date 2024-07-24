@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202407241127
+# Verison: 202407241926
 # Expires: around 1 day
-# Total number of rules = 117909
+# Total number of rules = 117906
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -47361,7 +47361,6 @@ vkcdnservice.appspot.com^
 ||metricus.artlebedev.ru^
 ||pipe-collect.ebu.io^
 ||d3kyk5bao1crtw.cloudfront.net^
-||o365diagtelemetry.trafficmanager.net^
 ||collect.asics.com^
 ||api.axept.io^
 ||log.ohou.se^
@@ -60662,6 +60661,9 @@ inapps.appsflyersdk.com^
 ||ryqgdrh.icu^
 ||ietlwso.top^
 ||jdfzfd.xyz^
+||doujs01.shop^
+||bewr1.com^
+||heatherssb.com^
 ||yfasjfk.icu^
 ||hetlwsu.top^
 ||1p3yg.icu^
@@ -67423,8 +67425,6 @@ analytics-*.aasaam.com
 ||playtest-api.topaz-analytics.com^
 ||m1.torrenti.al^
 ||s.tpctrust.com^
-||analytics-listener.trafficmanager.net^
-||collector-main.trafficmanager.net^
 ||tremormedia.com^
 ||analytics.tresensa.com^
 ||trialpay.com^
@@ -67613,9 +67613,7 @@ analytics-*.aasaam.com
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
-||doujs01.shop^
-||bewr1.com^
-||heatherssb.com^
+||trafficmanager.net^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
@@ -67713,6 +67711,7 @@ analytics-*.aasaam.com
 .480x60.
 .728x90-
 .900x100.
+||44e29c19ac.com^
 ||adswizz.com^
 ||alipromo.com^
 ||alitems.com^
@@ -67724,16 +67723,21 @@ analytics-*.aasaam.com
 ||dxotbknruf.com
 ||gbpkmltxpcsj.xyz
 ||get-me-wow.
+||good-ads-online.com^
 ||googletagservices.com^
+||hqxghzyfvxrdpt.com^
 ||hvkwmvpxvjo.xyz
 ||imasdk.googleapis.com^
 ||jcufklto.com
 ||kqzyfj.com^
 ||loadercdn.com^
+||ndaspiratiotyukn.com^
 ||ntv.io^
+||o3sxhw5ad.com^
 ||oqfrudzatovc.com
 ||proffering.xyz
 ||rubiconproject.com^
+||spokesperson254.fun^
 ||succeedscene.com^
 ||suppressedbottlesenjoyable.com
 ||tedious-weight.pro
@@ -67741,7 +67745,9 @@ analytics-*.aasaam.com
 ||tracker-tds.info
 ||trust.zone^
 ||ucationininancee.info
+||uxjpyfzorpkcg.com^
 ||videoplaza.tv^
+||vsgyfixkbow.com^
 ||wpnrtnmrewunrtok.xyz^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
@@ -67759,6 +67765,7 @@ analytics-*.aasaam.com
 ||mimosaavior.top
 ||1756119262.rsc.cdn77.org
 ||allsportsflix.
+||c.bigcomics.win^
 ||cas.*.criteo.com^
 ||srv.tunefindforfans.com^
 ||a.fimoa.xyz^
@@ -106732,7 +106739,6 @@ analytics-*.aasaam.com
 ||googleanalytics.com^
 ||clientservices.googleapis.com^
 ||crashlyticsreports-pa.googleapis.com^
-||jnn-pa.googleapis.com^
 ||footprints-pa.googleapis.com^
 ||googlecommerce.com^
 ||googleflights-cn.net^
@@ -113717,16 +113723,6 @@ analytics-*.aasaam.com
 ||trafficfuel.com^
 ||trafficguard.ai^
 ||trafficjam.cn^
-||azwancan.trafficmanager.net^
-||blobcollector.events.data.trafficmanager.net^
-||bn2-ris-ap-prod-atm.trafficmanager.net^
-||bn2-ris-prod-atm.trafficmanager.net^
-||compatexchange1.trafficmanager.net^
-||ieonlinews.trafficmanager.net^
-||insideruser.trafficmanager.net^
-||settingsfd-geo.trafficmanager.net^
-||tele.trafficmanager.net^
-||uks.b.prd.ags.trafficmanager.net^
 ||trafficmp.com^
 ||trafficroots.com^
 ||trafforsrv.com^
@@ -117361,6 +117357,7 @@ analytics-*.aasaam.com
 ||m1.ad.10010.com^
 ||ads.oway.mobi^
 ||track.adxwork.com^
+||jnn-pa.googleapis.com^
 ||adservice.google.com.au^
 ||tracking.klickthru.com^
 ||mobile.Banzai.it^
