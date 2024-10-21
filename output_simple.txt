@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202410211135
+# Verison: 202410211931
 # Expires: around 1 day
-# Total number of rules = 110925
+# Total number of rules = 110931
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -20,6 +20,8 @@
 # https://filters.adtidy.org/extension/ublock/filters/224.txt
 # https://filter.futa.gg/hosts.txt
 ####################################################################################
+||fafmimgubcm.com^
+||8dwd87c7a091b12x.com^
 ||thirdgas.com^
 ||variable-love.pro^
 ||negationomitor.com^
@@ -35336,6 +35338,7 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||leadinfo.net^
 ||lordoftheentertainingostriches.com^
 ||accessv.org^
 ||applog.zijieapi.com^
@@ -45486,6 +45489,7 @@ inapps.appsflyersdk.com^
 ||exchange.informer.ua^
 ||hdvmyo.com^
 ||adsy.mail.bg^
+||kingbaba.org^
 ||yelads2.life^
 ||dizimax2.com^
 ||siberreklam.com^
@@ -53071,6 +53075,10 @@ inapps.appsflyersdk.com^
 ||lalabaos1021.top^
 ||uvwnkmf.icu^
 ||gwogrgq.icu^
+||exqvak.xyz^
+||tfzah.icu^
+||rbsr0.icu^
+||buresdv.top^
 ||lalabaos1020.top^
 ||mdqikg.xyz^
 ||sv2fo.icu^
@@ -58805,6 +58813,7 @@ analytics-*.aasaam.com
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
 ||api2.branch.io^$dnsrewrite=0.0.0.0
+@@||www.dogpile.com^|
 @@||acs-m.daraz.com.bd^|
 @@||f-gear.ec-optimizer.com^|
 @@||hidive.com^|
@@ -60316,9 +60325,6 @@ analytics-*.aasaam.com
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
 ||beacon.ztgame.com^
-||exqvak.xyz^
-||tfzah.icu^
-||rbsr0.icu^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
@@ -93121,6 +93127,7 @@ analytics-*.aasaam.com
 ||ia.ekstrabladet.dk^
 ||nrpukcsgboqr0gz2o8.www.bolighub.dk^
 ||analytics.allovoisins.com^
+||at.pagesjaunes.fr^
 ||bmly.impots.gouv.fr^
 ||cdtm.cdiscount.com^
 ||compteur.developpez.com^
@@ -101758,7 +101765,6 @@ analytics-*.aasaam.com
 ||leaddyno.com^
 ||leadelephant.com^
 ||leadfamly.com^
-||leadinfo.net^
 ||leadintel.io^
 ||leadpages.co^
 ||my.leadpages.net^
