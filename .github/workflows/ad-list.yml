@@ -109,7 +109,9 @@ jobs:
           cp ./output_min.txt output_simple.txt
           cp ./output_full.txt output.txt
           wget https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts -O ./publish/hosts
-          wget https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains.txt -O ./publish/output_doh_block.txt
+          wget https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains.txt -O ./publish/output_doh_block1.txt
+          wget https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt -O ./publish/output_doh_block2.txt
+          cat ./publish/output_doh_block1.txt ./publish/output_doh_block2.txt | sort | uniq > ./publish/output_doh_block.txt
           wget https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/best.txt -O ./publish/BT-Trackers.txt
           cp ./publish/hosts ./rules/hosts
           cp ./publish/output_doh_block.txt ./rules/output_doh_block.txt
