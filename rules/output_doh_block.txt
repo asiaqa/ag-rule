@@ -1,15 +1,15 @@
 !
 ! Description: Prevent methods to bypass your DNS, blocks encrypted DNS, VPN, TOR, Proxies.
-! Expires: 7 days
+! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 01 Nov 2024 18:56 UTC
+! Last modified: 03 Nov 2024 10:59 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3534
+! Number of entries: 3511
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1101.1856.26
+! Version: 2024.1103.1059.05
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1775,7 +1775,6 @@ zxcvb.pp.ua
 ||atris.cyou^
 ||au-syd-w-f-1.nashkan.net^
 ||au.rslvr.eu^
-||ausyd2.mask-t.apple-dns.net^
 ||auto-aufladen.de^
 ||avira-vpn.com^
 ||avira-vpn.net^
@@ -1973,7 +1972,6 @@ zxcvb.pp.ua
 ||createssh.com^
 ||createssh.net^
 ||criarssh.com^
-||crownproxy.com^
 ||croxy.network^
 ||croxy.org^
 ||croxy.red^
@@ -1982,7 +1980,6 @@ zxcvb.pp.ua
 ||croxyproxy.com^
 ||croxyproxy.net^
 ||croxyproxy.rocks^
-||croxyproxy.us^
 ||crushus.com^
 ||crusty.motorcycles^
 ||crypticvpn.com^
@@ -2063,8 +2060,6 @@ zxcvb.pp.ua
 ||de-fsn-w-p-1.nashkan.net^
 ||de.dns.privex.io^
 ||de.teradns.org^
-||deber3.mask-t.apple-dns.net^
-||dedus1.mask-t.apple-dns.net^
 ||deep-henchman-excuse.cfd^
 ||deepwebvpn.net^
 ||defencevpn.com^
@@ -2472,7 +2467,6 @@ zxcvb.pp.ua
 ||dns.roedel.cloud^
 ||dns.ronc.ru^
 ||dns.rotunneling.net^
-||dns.rslvr.eu^
 ||dns.rubyfish.cn^
 ||dns.sarak.as^
 ||dns.sarakas.net^
@@ -3018,7 +3012,6 @@ zxcvb.pp.ua
 ||gb-lon-w-f-1.nashkan.net^
 ||gb-lon-w-p-1.nashkan.net^
 ||gb-lon-w-p-2.nashkan.net^
-||gbslo5.mask-t.apple-dns.net^
 ||gclouddns.com^
 ||gecko.fun^
 ||geckovpn.xyz^
@@ -3171,7 +3164,6 @@ zxcvb.pp.ua
 ||hkg01.dnscry.pt^
 ||hkg02.dnscry.pt^
 ||hkname.freecdn.one^
-||hktko1.mask-t.apple-dns.net^
 ||hmavpn.com^
 ||hola-vpn.com^
 ||hola.org^
@@ -3227,7 +3219,6 @@ zxcvb.pp.ua
 ||idealvpn.com^
 ||idolproxy.com^
 ||idvanish.com^
-||iedub2.mask-t.apple-dns.net^
 ||ifyoublockthisurgay-ggnewo.vercel.app^
 ||ihctw.synology.me^
 ||iij.jp^
@@ -3310,7 +3301,6 @@ zxcvb.pp.ua
 ||jp1.f7b6h9.tk^
 ||jp2.ooroot.com^
 ||jpdns.cola16.app^
-||jptyo12.mask-t.apple-dns.net^
 ||jsmapper.com^
 ||judua3rtinpst0s.xyz^
 ||juproxy.com^
@@ -3551,7 +3541,6 @@ zxcvb.pp.ua
 ||nl-dro-w-p-1.nashkan.net^
 ||nl.dns.privex.io^
 ||nl.rslvr.eu^
-||nlhfd1.mask-t.apple-dns.net^
 ||nntime.com^
 ||noads.imbuffering.com^
 ||nocensor.work^
@@ -3748,7 +3737,6 @@ zxcvb.pp.ua
 ||plainproxies.com^
 ||play5r.com^
 ||playproxy.com^
-||please.dontsteal.my.id^
 ||pluton.plan9-dns.com^
 ||pm1239-bd.xyz^
 ||pm7051-br.xyz^
@@ -4112,7 +4100,6 @@ zxcvb.pp.ua
 ||selfadserver.com^
 ||serverhoya.com^
 ||serverssh.net^
-||sesto4.mask-t.apple-dns.net^
 ||setupvpn.com^
 ||sf-helper.com^
 ||sg-dns1.bancuh.com^
@@ -4123,7 +4110,6 @@ zxcvb.pp.ua
 ||sg1.dnswarden.com^
 ||sg2.ooroot.com^
 ||sgn01.dnscry.pt^
-||sgsin8.mask-t.apple-dns.net^
 ||shadeyouvpn.com^
 ||shadowsocks.org^
 ||shadowsurf.com^
@@ -4454,7 +4440,6 @@ zxcvb.pp.ua
 ||tuxlervpn.com^
 ||tvone.info^
 ||tw2.ooroot.com^
-||twntc1.mask-t.apple-dns.net^
 ||twoproxy.net^
 ||tx.teradns.org^
 ||tyo01.dnscry.pt^
@@ -4680,19 +4665,11 @@ zxcvb.pp.ua
 ||usa-proxy.org^
 ||usafastproxy.info^
 ||usaip.eu^
-||usatl5.mask-t.apple-dns.net^
 ||usawebproxy.com^
 ||usawebproxy.net^
-||usbos2.mask-t.apple-dns.net^
-||uschi7.mask-t.apple-dns.net^
-||usdal2.mask-t.apple-dns.net^
-||usden6.mask-t.apple-dns.net^
 ||userload.co^
 ||userproxy.com^
 ||uskt.info^
-||uslax2.mask-t.apple-dns.net^
-||usmia1.mask-t.apple-dns.net^
-||usuyk1.mask-t.apple-dns.net^
 ||usvpn.cf^
 ||uswebproxy.com^
 ||uswebproxy.net^
