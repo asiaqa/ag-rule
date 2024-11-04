@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 03 Nov 2024 10:59 UTC
+! Last modified: 04 Nov 2024 04:31 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3511
+! Number of entries: 3505
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1103.1059.05
+! Version: 2024.1104.0431.28
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1620,7 +1620,6 @@ zxcvb.pp.ua
 ||adguard.ef67daisuki.club^
 ||adguard.ender.fr^
 ||adguard.frutuozo.com.br^
-||adguard.gambini.org^
 ||adguard.haneulo.com^
 ||adguard.hartley.cloud^
 ||adguard.ihatemy.live^
@@ -3077,7 +3076,6 @@ zxcvb.pp.ua
 ||graef.in^
 ||granules.us^
 ||gratisproxy.nl^
-||gratisvpn.com^
 ||gravity.sciencevictory.org^
 ||greatestfreeproxy.com^
 ||green2.jnraptor.net^
@@ -3149,7 +3147,6 @@ zxcvb.pp.ua
 ||hidevpn.info^
 ||hideway.eu^
 ||hideweb.org^
-||hidexy.com^
 ||hidingit.com^
 ||hidingyour.info^
 ||hiload.in^
@@ -3175,7 +3172,6 @@ zxcvb.pp.ua
 ||home-server.store^
 ||home.enjoymylife.net^
 ||home.wriedts.de^
-||home27.duckdns.org^
 ||homemail.info^
 ||homeproxy.com^
 ||homeproxy.net^
@@ -3188,7 +3184,6 @@ zxcvb.pp.ua
 ||hotbot.com^
 ||hotbotvpn.com^
 ||hotfreevpn.com^
-||hothide.com^
 ||hotspotshield.com^
 ||hotspotvpn.com^
 ||howdy.id^
@@ -3330,7 +3325,6 @@ zxcvb.pp.ua
 ||kr1.ooroot.com^
 ||kr2.ooroot.com^
 ||kronos.plan9-dns.com^
-||krtekvpn.duckdns.org^
 ||kryptovpn.kryptotel.net^
 ||kx-97795-tr.xyz^
 ||kz-pav-w-p-1.nashkan.net^
