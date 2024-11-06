@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 05 Nov 2024 04:24 UTC
+! Last modified: 06 Nov 2024 04:13 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3519
+! Number of entries: 3515
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1105.0424.58
+! Version: 2024.1106.0413.10
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -3295,7 +3295,6 @@ zxcvb.pp.ua
 ||jnb01.dnscry.pt^
 ||jp-dns1.bancuh.com^
 ||jp-tyo-w-p-1.nashkan.net^
-||jp.68360612.xyz^
 ||jp.rslvr.eu^
 ||jp.tiar.app^
 ||jp.tiarap.org^
@@ -4416,7 +4415,6 @@ zxcvb.pp.ua
 ||tpe01.dnscry.pt^
 ||tradeadspace.info^
 ||traffmonetizer.com^
-||travelvpn.info^
 ||travelvpn.net^
 ||trf01.dnscry.pt^
 ||trialproxy.com^
@@ -4484,7 +4482,6 @@ zxcvb.pp.ua
 ||unblock-proxy.com^
 ||unblock-sites.com^
 ||unblock-us.com^
-||unblock-video.com^
 ||unblock-websites.com^
 ||unblock.it^
 ||unblock.pink^
@@ -4694,7 +4691,6 @@ zxcvb.pp.ua
 ||videocollage.us^
 ||videoproxy.site^
 ||videounblock.com^
-||videounblocked.com^
 ||videounblocker.net^
 ||vidproxy.com^
 ||vie01.dnscry.pt^
