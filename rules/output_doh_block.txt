@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 17 Nov 2024 04:18 UTC
+! Last modified: 18 Nov 2024 04:14 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3508
+! Number of entries: 3593
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1117.0418.13
+! Version: 2024.1118.0414.32
 003153.xyz
 052419.xyz
 0ms.dev
@@ -1554,6 +1554,7 @@ zrh1-ns01.monzoon.net
 zxcvb.pp.ua
 ||0000a-fast-proxy.de^
 ||003153.xyz^
+||052419.xyz^
 ||0ms.dev^
 ||0x3d.lu^
 ||1.dns.noridev.moe^
@@ -1622,6 +1623,7 @@ zxcvb.pp.ua
 ||37er19htfd.execute-api.us-east-1.amazonaws.com^
 ||3dcosas.xyz^
 ||3dns.eu^
+||3jjxxl.tech^
 ||3proxy.de^
 ||401-0506.b-cdn.net^
 ||401-0507.b-cdn.net^
@@ -1657,6 +1659,7 @@ zxcvb.pp.ua
 ||acrea.cz^
 ||activpn.com^
 ||actmobile.com^
+||ad.anym0re.ru^
 ||ad.huyct.net^
 ||ad.justincounts.com^
 ||ad.tzockt.beer^
@@ -1730,6 +1733,7 @@ zxcvb.pp.ua
 ||adguard.shuting.idv.tw^
 ||adguard.sparshbajaj.me^
 ||adguard.sscw.win^
+||adguard.taxiora.tn^
 ||adguard.twotigers.xyz^
 ||adguard.wirimij.nl^
 ||adguard.zachitect.com^
@@ -1928,7 +1932,9 @@ zxcvb.pp.ua
 ||bluesnap.com^
 ||blufvpn.com^
 ||bmetrics.org^
+||bne01.dnscry.pt^
 ||bodvpn.com^
+||bog01.dnscry.pt^
 ||boi9osyg1uwtyafn.com^
 ||bolehvpn.net^
 ||bom01.dnscry.pt^
@@ -1950,6 +1956,7 @@ zxcvb.pp.ua
 ||browsec.com^
 ||browser.lol^
 ||bru-be.prcdn.net^
+||bru01.dnscry.pt^
 ||btguard.com^
 ||bts01.dnscry.pt^
 ||bubbleset.com^
@@ -2013,6 +2020,7 @@ zxcvb.pp.ua
 ||cloud.198.games^
 ||cloud.samutz.com^
 ||cloud.tezoi.com^
+||cloudbenders.fun^
 ||cloudflare-dns.com^
 ||cloudflare-gateway.com^
 ||cloudflareresolve.com^
@@ -2220,6 +2228,7 @@ zxcvb.pp.ua
 ||dns.artikel10.org^
 ||dns.ashleyjackson.net^
 ||dns.asterimoon.com^
+||dns.asysec.com^
 ||dns.azsopro.net^
 ||dns.b33.space^
 ||dns.b612.me^
@@ -2279,6 +2288,7 @@ zxcvb.pp.ua
 ||dns.csaonline.de^
 ||dns.csswg.org^
 ||dns.cwlys.com^
+||dns.cybertonic.tech^
 ||dns.cynthialabs.net^
 ||dns.d365.in^
 ||dns.d4d.moe^
@@ -2336,6 +2346,7 @@ zxcvb.pp.ua
 ||dns.fizz.studio^
 ||dns.flatuslifir.is^
 ||dns.flightspace.net^
+||dns.floriantinney.de^
 ||dns.flwagners.com^
 ||dns.flymc.cc^
 ||dns.freopc.fr^
@@ -2357,6 +2368,7 @@ zxcvb.pp.ua
 ||dns.google^
 ||dns.grqu.de^
 ||dns.guard.io^
+||dns.guardmydns.com^
 ||dns.gutwe.in^
 ||dns.ha-dvin.pp.ua^
 ||dns.hahnjo.de^
@@ -2373,6 +2385,7 @@ zxcvb.pp.ua
 ||dns.horcrux.vip^
 ||dns.hostux.net^
 ||dns.hotta.page^
+||dns.hshoe.cn^
 ||dns.hugo0.moe^
 ||dns.hujiayucc.cn^
 ||dns.huseynov.work^
@@ -2425,6 +2438,7 @@ zxcvb.pp.ua
 ||dns.korzhyk.pp.ua^
 ||dns.kosan.moe^
 ||dns.kukal.cz^
+||dns.kumoumi.net^
 ||dns.kuuhaku.moe^
 ||dns.kxy.ink^
 ||dns.l337.site^
@@ -2441,6 +2455,7 @@ zxcvb.pp.ua
 ||dns.lista.my.id^
 ||dns.listo.click^
 ||dns.lobbygod.com^
+||dns.luma-medien.com^
 ||dns.lvolland.fr^
 ||dns.maitrekuc.fr^
 ||dns.mandre.dev^
@@ -2450,10 +2465,12 @@ zxcvb.pp.ua
 ||dns.mateo.ovh^
 ||dns.maybe.icu^
 ||dns.mayx.eu.org^
+||dns.mbrjun.cn^
 ||dns.meeo.win^
 ||dns.melvin2204.nl^
 ||dns.mestdag.fr^
 ||dns.mh4ckt3mh4ckt1c4s.xyz^
+||dns.michelo.cl^
 ||dns.mihanentalpo.me^
 ||dns.mikeliu.org^
 ||dns.mikrotikrumahan.my.id^
@@ -2510,8 +2527,10 @@ zxcvb.pp.ua
 ||dns.panszelescik.pl^
 ||dns.pari.network^
 ||dns.pccoach.nl^
+||dns.peb-schmidt.de^
 ||dns.pernika.net^
 ||dns.pesaventofilippo.com^
+||dns.petqa.ru^
 ||dns.phillipjberry.net^
 ||dns.pierzchlewicz.pl^
 ||dns.pizzari.me^
@@ -2545,6 +2564,7 @@ zxcvb.pp.ua
 ||dns.ronc.ru^
 ||dns.rotunneling.net^
 ||dns.rubyfish.cn^
+||dns.salonia.it^
 ||dns.sarak.as^
 ||dns.sarakas.net^
 ||dns.sarilouis.com^
@@ -2583,9 +2603,11 @@ zxcvb.pp.ua
 ||dns.strassmair.org^
 ||dns.suhaila.dev^
 ||dns.superstefan.win^
+||dns.surobe.com^
 ||dns.sv-zauner.at^
 ||dns.svoi.dev^
 ||dns.swin.pro^
+||dns.sy.st^
 ||dns.syaifullah.com^
 ||dns.szpadel.ovh^
 ||dns.t-ipnet.de^
@@ -2634,9 +2656,11 @@ zxcvb.pp.ua
 ||dns.xlion.tw^
 ||dns.xuming.studio^
 ||dns.xusqui.com^
+||dns.yague.me^
 ||dns.yameenassotally.com^
 ||dns.yandex.ru^
 ||dns.yatima.tv^
+||dns.yuu-g.net^
 ||dns.zemows.industries^
 ||dns.zfsystem.tech^
 ||dns.zzuhacker.cn^
@@ -2657,6 +2681,7 @@ zxcvb.pp.ua
 ||dns1.pietjacobs.be^
 ||dns1.ryan-palmer.com^
 ||dns1.saferbfc.org^
+||dns1.serdcebolit.ru^
 ||dns1.sg.newpangea.de^
 ||dns1.techeasy.org^
 ||dns1.us.newpangea.de^
@@ -2711,8 +2736,10 @@ zxcvb.pp.ua
 ||doh-de.blahdns.com^
 ||doh-fi.blahdns.com^
 ||doh-jp.blahdns.com^
+||doh-own-recursion.nicolas-dorriere.fr^
 ||doh-primary-pool.detoxifypornblocker.com^
 ||doh-primary-pool.goodbyegambling.com^
+||doh-random-upstream.nicolas-dorriere.fr^
 ||doh-sg.blahdns.com^
 ||doh.30x.me^
 ||doh.360.cn^
@@ -2769,6 +2796,7 @@ zxcvb.pp.ua
 ||doh.funtopia.tv^
 ||doh.futa.app^
 ||doh.futa.gg^
+||doh.hajekj.net^
 ||doh.hottis.de^
 ||doh.ibr.cs.tu-bs.de^
 ||doh.immerda.ch^
@@ -2930,6 +2958,7 @@ zxcvb.pp.ua
 ||eu1.dns.lavate.ch^
 ||europe-west3-topvpn-873d5.cloudfunctions.net^
 ||eurproxy.com^
+||evn01.dnscry.pt^
 ||evpn.net^
 ||evyy.net^
 ||ewon.biz^
@@ -3008,6 +3037,7 @@ zxcvb.pp.ua
 ||fr1.dnswarden.com^
 ||fra-dns.bitdefender.net^
 ||fra01.dnscry.pt^
+||fra02.dnscry.pt^
 ||fra1.eyecay.xyz^
 ||frandcomfort.us^
 ||free-kree-k.xyz^
@@ -3160,6 +3190,7 @@ zxcvb.pp.ua
 ||gratisproxy.nl^
 ||gravity.sciencevictory.org^
 ||greatestfreeproxy.com^
+||greatideasforlife.lol^
 ||green2.jnraptor.net^
 ||greenpass.info^
 ||greenproxy.net^
@@ -3178,6 +3209,7 @@ zxcvb.pp.ua
 ||h-vpn.org^
 ||h.gjrick.tw^
 ||h0w.cc^
+||haf01.dnscry.pt^
 ||han01.dnscry.pt^
 ||hanniel.tech^
 ||hax.co.id^
@@ -3339,6 +3371,7 @@ zxcvb.pp.ua
 ||ipvanish.com^
 ||iron-dot-cobalt-antenna-219709.appspot.com^
 ||ironsocket.com^
+||isb01.dnscry.pt^
 ||isityet.net^
 ||ispcapi.mcafee.com^
 ||ispunblock.com^
@@ -3362,6 +3395,7 @@ zxcvb.pp.ua
 ||jetproxy.com^
 ||jetssh.com^
 ||jfalling.com^
+||jhb01.dnscry.pt^
 ||jit.ddns.net^
 ||jkdns.me^
 ||jkt01.dnscry.pt^
@@ -3383,6 +3417,7 @@ zxcvb.pp.ua
 ||k2vpn.io^
 ||kaiwu.xyz^
 ||katonetwork.com^
+||kavkaz.monster^
 ||keenow.com^
 ||keepanonymous.com^
 ||keithchung.hopto.org^
@@ -3428,8 +3463,10 @@ zxcvb.pp.ua
 ||lelux.fi^
 ||lesuo.top^
 ||let-vpn.com^
+||lewsha.lol^
 ||libertyvpn.net^
 ||lim01.dnscry.pt^
+||lim02.dnscry.pt^
 ||limevpn.com^
 ||limitlessproxy.com^
 ||lindung.pp.ua^
@@ -3439,6 +3476,7 @@ zxcvb.pp.ua
 ||lion.dns.qwer.pw^
 ||lionssh.com^
 ||liquidvpn.com^
+||lis01.dnscry.pt^
 ||litebrowser.net^
 ||litevpn.top^
 ||llk01.dnscry.pt^
@@ -3461,6 +3499,19 @@ zxcvb.pp.ua
 ||lux1.nixnet.xyz^
 ||luxembourg.privacy-dns.pw^
 ||lv1.nixnet.xyz^
+||mabuktogel.builders^
+||mabuktogel.business^
+||mabuktogel.cards^
+||mabuktogel.creditcard^
+||mabuktogel.degree^
+||mabuktogel.directory^
+||mabuktogel.enterprises^
+||mabuktogel.immobilien^
+||mabuktogel.limited^
+||mabuktogel.ltd^
+||mabuktogel.marketing^
+||mabuktogel.properties^
+||mabuktogel.solutions^
 ||mad01.dnscry.pt^
 ||maddw.com^
 ||mail.data.haus^
@@ -3492,6 +3543,8 @@ zxcvb.pp.ua
 ||maxfong.cc^
 ||maxvpn.info^
 ||mazevpn.com^
+||mc-sft.cn^
+||mecca-is.so-gorgeo.us.kg^
 ||mediahint.com^
 ||mediavpn.com^
 ||mega123proxy.com^
@@ -3507,9 +3560,11 @@ zxcvb.pp.ua
 ||metalinjection.us^
 ||mia01.dnscry.pt^
 ||michelo.line.pm^
+||mickedi.isgood.host^
 ||microvpn.com^
 ||mikezhang.xyz^
 ||mil01.dnscry.pt^
+||miniapp.global^
 ||minilla.store^
 ||miniprox.com^
 ||miniprox.info^
@@ -3556,6 +3611,7 @@ zxcvb.pp.ua
 ||myproxy.link^
 ||myproxy.lol^
 ||myproxysite.org^
+||myrra-is.so-gorgeo.us.kg^
 ||myspaceunlock.com^
 ||mytunneling.com^
 ||myturtle.net^
@@ -3567,6 +3623,7 @@ zxcvb.pp.ua
 ||n0.eu^
 ||n5.lsasss.com^
 ||naganohara-yoimiya.momokko.moe^
+||najiakeji.top^
 ||nana-is.so-gorgeo.us.kg^
 ||nanoproxy.com^
 ||napps-1.com^
@@ -3586,6 +3643,7 @@ zxcvb.pp.ua
 ||new-proxy-sites.blogspot.com^
 ||new-proxy.com.de^
 ||newads-cdn.com^
+||newd.rezyro.com^
 ||newipnow.com^
 ||newshosting.com^
 ||ngrok-free.app^
@@ -3622,6 +3680,7 @@ zxcvb.pp.ua
 ||nodes.gen4.ninja^
 ||noip.com^
 ||noodlevpn.com^
+||nora-is.so-gorgeo.us.kg^
 ||nordaccount.com^
 ||nordcdn.com^
 ||nordvpn.com^
@@ -3683,6 +3742,7 @@ zxcvb.pp.ua
 ||octohide.com^
 ||octovpn.net^
 ||odvr.nic.cz^
+||okado.online^
 ||okayfreedom.com^
 ||olympicproxy.net^
 ||omegaproxy.com^
@@ -3820,6 +3880,19 @@ zxcvb.pp.ua
 ||polandgrows.com^
 ||polargrizzly.com^
 ||polaris.cx^
+||polisitogel.accountant^
+||polisitogel.beauty^
+||polisitogel.builders^
+||polisitogel.contractors^
+||polisitogel.cruises^
+||polisitogel.diy^
+||polisitogel.green^
+||polisitogel.hair^
+||polisitogel.limo^
+||polisitogel.living^
+||polisitogel.luxe^
+||polisitogel.show^
+||polisitogel.webcam^
 ||pooblet.co.za^
 ||pope.cnblw.me^
 ||portalssh.com^
@@ -4039,6 +4112,7 @@ zxcvb.pp.ua
 ||pyproxy.com^
 ||qdns02.nymterm.com^
 ||qlf-doh.inria.fr^
+||qqmcfw.tech^
 ||qual.cuprum.ru^
 ||query.hdns.io^
 ||quick-proxy.com^
@@ -4060,6 +4134,7 @@ zxcvb.pp.ua
 ||ratecuts.us^
 ||rayneau.fr^
 ||rayobyte.com^
+||rdd01.dnscry.pt^
 ||rdns.faelix.net^
 ||rdu01.dnscry.pt^
 ||readandmath.today^
@@ -4073,6 +4148,7 @@ zxcvb.pp.ua
 ||res-acst1.absolight.net^
 ||res-acst2.absolight.net^
 ||res-acst3.absolight.net^
+||resolv.flokinet.net^
 ||resolv1.trash.net^
 ||resolv2.trash.net^
 ||resolv3.trash.net^
@@ -4223,6 +4299,7 @@ zxcvb.pp.ua
 ||siteunblocked.website^
 ||siteunblocked.xyz^
 ||sitework.info^
+||sitha-is.so-gorgeo.us.kg^
 ||sjc01.dnscry.pt^
 ||skydragoness.com^
 ||skynetwork.info^
@@ -4364,6 +4441,7 @@ zxcvb.pp.ua
 ||switzerland.privacy-dns.pw^
 ||syd.adfilter.net^
 ||syd01.dnscry.pt^
+||syd02.dnscry.pt^
 ||t-dz.com^
 ||tailscale.com^
 ||takhtakh.domyah.net^
@@ -4371,6 +4449,7 @@ zxcvb.pp.ua
 ||tbjr6.com^
 ||tbjr6.net^
 ||tbjr6.org^
+||tbs01.dnscry.pt^
 ||tbunet.com^
 ||tcpvpn.com^
 ||tecdrive.site^
@@ -4443,6 +4522,7 @@ zxcvb.pp.ua
 ||tky-dns.bitdefender.net^
 ||tll01.dnscry.pt^
 ||tlsext.com^
+||tlv01.dnscry.pt^
 ||tlz.asia^
 ||tnvpn.com^
 ||tonvpn.com^
@@ -4488,6 +4568,7 @@ zxcvb.pp.ua
 ||traffmonetizer.com^
 ||travelvpn.net^
 ||trf01.dnscry.pt^
+||tri-dns.net^
 ||trialproxy.com^
 ||tributh.net^
 ||trickbyte.com^
@@ -4501,6 +4582,7 @@ zxcvb.pp.ua
 ||tuandns.duckdns.org^
 ||tubeprox.com^
 ||tubeunblock.me^
+||tujenasnaszato.xyz^
 ||tungdnsne.duckdns.org^
 ||tunnelbear.com^
 ||tunnelbear.s3.amazonaws.com^
@@ -4750,6 +4832,7 @@ zxcvb.pp.ua
 ||uvpn.me^
 ||uw-dns.rubyfish.cn^
 ||v.dnscrypt.uk^
+||v.qdev.cc^
 ||v2.xx3210766.live^
 ||vanheim.ff.avast.com^
 ||vblocker.info^
@@ -4905,6 +4988,7 @@ zxcvb.pp.ua
 ||vps.fleuryk.ovh^
 ||vps.grussenmeyer.com^
 ||vps.jmarkin.ru^
+||vps.robotboard.de^
 ||vps1.jnraptor.net^
 ||vps2.jnraptor.net^
 ||vps4.scho.io^
@@ -4984,6 +5068,7 @@ zxcvb.pp.ua
 ||www.dnsadguard.co.uk^
 ||wyx.cloud^
 ||x9fnzrtl4x8pynsf.com^
+||xbcpb668.com^
 ||xcomplus.com^
 ||xcomvpn-7000b-default-rtdb.firebaseio.com^
 ||xenergy.cc^
