@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 19 Nov 2024 16:30 UTC
+! Last modified: 19 Nov 2024 23:06 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3594
+! Number of entries: 3618
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1119.1630.48
+! Version: 2024.1119.2306.20
 003153.xyz
 052419.xyz
 0ms.dev
@@ -2049,6 +2049,7 @@ zxcvb.pp.ua
 ||core-vpn.norton.com^
 ||corecloak.com^
 ||corsproxy.io^
+||coverproxy.com^
 ||cph01.dnscry.pt^
 ||cranking90s.fortnitebuilder.pro^
 ||crawlbase.com^
@@ -2438,6 +2439,7 @@ zxcvb.pp.ua
 ||dns.kosan.moe^
 ||dns.kukal.cz^
 ||dns.kumoumi.net^
+||dns.kusoneko.moe^
 ||dns.kuuhaku.moe^
 ||dns.kxy.ink^
 ||dns.l337.site^
@@ -2561,6 +2563,7 @@ zxcvb.pp.ua
 ||dns.rin.sh^
 ||dns.roedel.cloud^
 ||dns.ronc.ru^
+||dns.rootlab.top^
 ||dns.rotunneling.net^
 ||dns.rubyfish.cn^
 ||dns.salonia.it^
@@ -2908,6 +2911,7 @@ zxcvb.pp.ua
 ||dqwow4xvbctco.cloudfront.net^
 ||dreamvpn.us^
 ||droidvpn.com^
+||drs.rustsword.com^
 ||dsl-app.s3.us-east-2.amazonaws.com^
 ||dt4f1zrb25v4h.cloudfront.net^
 ||dt4oxny0f90is.cloudfront.net^
@@ -2983,6 +2987,7 @@ zxcvb.pp.ua
 ||fastfreeproxy.info^
 ||fastp.org^
 ||fastpro.info^
+||fastproxy.nl^
 ||fastproxy.org^
 ||fastproxynetwork.com^
 ||fastssh.com^
@@ -3084,6 +3089,7 @@ zxcvb.pp.ua
 ||freeproxyweb.net^
 ||freesafeip.com^
 ||freesupervpn.com^
+||freesurfproxy.com^
 ||freetrialvpn.com^
 ||freeukvpn.com^
 ||freevideoproxy.com^
@@ -3187,6 +3193,7 @@ zxcvb.pp.ua
 ||graef.in^
 ||granules.us^
 ||gratisproxy.nl^
+||gratisvpn.com^
 ||gravity.sciencevictory.org^
 ||greatestfreeproxy.com^
 ||greatideasforlife.lol^
@@ -3258,6 +3265,7 @@ zxcvb.pp.ua
 ||hidevpn.info^
 ||hideway.eu^
 ||hideweb.org^
+||hidexy.com^
 ||hidingit.com^
 ||hidingyour.info^
 ||hiload.in^
@@ -3409,6 +3417,7 @@ zxcvb.pp.ua
 ||jpdns.cola16.app^
 ||jsmapper.com^
 ||judua3rtinpst0s.xyz^
+||jupitervpn.ninja^
 ||juproxy.com^
 ||jurre-home.duckdns.org^
 ||justhost.bedro.cloud^
@@ -3758,6 +3767,7 @@ zxcvb.pp.ua
 ||onion.casa^
 ||onion.city^
 ||onion.direct^
+||onion.dog^
 ||onion.gq^
 ||onion.link^
 ||onion.lt^
@@ -4055,6 +4065,8 @@ zxcvb.pp.ua
 ||proxynova.com^
 ||proxyof.com^
 ||proxyone.net^
+||proxyoutlet.com^
+||proxypirates.com^
 ||proxypremium.top^
 ||proxypx.com^
 ||proxypy.org^
@@ -4099,6 +4111,8 @@ zxcvb.pp.ua
 ||publicdnsserver.com^
 ||pukanuragan.ru^
 ||punono.duckdns.org^
+||pupilproxy.com^
+||purchase-some.hotglue.click^
 ||puredns.org^
 ||purevpn-tools.com^
 ||purevpn.com.tw^
@@ -4434,6 +4448,7 @@ zxcvb.pp.ua
 ||sutausfjsajfas.englishpapers.online^
 ||swapip.com^
 ||sweden.privacy-dns.pw^
+||swiftshieldvpn.com^
 ||swissvpn.net^
 ||switch.ch^
 ||switchvpn.com^
@@ -4582,6 +4597,7 @@ zxcvb.pp.ua
 ||tuandns.duckdns.org^
 ||tubeprox.com^
 ||tubeunblock.me^
+||tubeunblock.net^
 ||tujenasnaszato.xyz^
 ||tungdnsne.duckdns.org^
 ||tunnelbear.com^
@@ -4774,6 +4790,7 @@ zxcvb.pp.ua
 ||unblockyouku.com^
 ||unblockyouku.org^
 ||unblockyoutube.co^
+||unblockyoutube.eu^
 ||unblockyoutube.video^
 ||unblockyoutubeatschool.com^
 ||unblockyoutubefree.net^
@@ -4837,6 +4854,7 @@ zxcvb.pp.ua
 ||vanheim.ff.avast.com^
 ||vblocker.info^
 ||vd.i81.ru^
+||vectroproxy.com^
 ||veepn.com^
 ||vercel-is-cool.vercel.app^
 ||veripn.com^
@@ -4844,6 +4862,7 @@ zxcvb.pp.ua
 ||videocollage.us^
 ||videoproxy.site^
 ||videounblock.com^
+||videounblocked.com^
 ||videounblocker.net^
 ||vidproxy.com^
 ||vie01.dnscry.pt^
@@ -4981,6 +5000,7 @@ zxcvb.pp.ua
 ||vpnunlimitedapp.com^
 ||vpnv6.com^
 ||vpnvip.com^
+||vpnwebsite.com^
 ||vpnwelt.com^
 ||vps-33e5a7f3.vps.ovh.us^
 ||vps.alloxr.info^
@@ -5009,6 +5029,7 @@ zxcvb.pp.ua
 ||weblockapp.com^
 ||weboproxy.com^
 ||webpro.xyz^
+||webproxy.best^
 ||webproxy.co.at^
 ||webproxy.com.de^
 ||webproxy.com^
@@ -5021,6 +5042,7 @@ zxcvb.pp.ua
 ||webproxyagent.com^
 ||webproxyfree.net^
 ||webproxyinc.com^
+||webproxyusa.com^
 ||webrunnerproxy.com^
 ||webshare.io^
 ||websitebypass.com^
@@ -5030,6 +5052,7 @@ zxcvb.pp.ua
 ||websynchrony.com^
 ||webtester.cc^
 ||webtunnel.org^
+||webtunnelx.com^
 ||webxify.com^
 ||wellpoint.com^
 ||wevpn.com^
@@ -5105,6 +5128,7 @@ zxcvb.pp.ua
 ||youtubebyclick.com^
 ||youtubefreeproxy.net^
 ||youtubeunblocked.live^
+||youtubeunblocked.org^
 ||youtubez.com^
 ||yovbak.com^
 ||yoyovpn.org^
