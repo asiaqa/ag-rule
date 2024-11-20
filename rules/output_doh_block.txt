@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 19 Nov 2024 00:40 UTC
+! Last modified: 19 Nov 2024 16:30 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
 ! Number of entries: 3594
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1119.0040.45
+! Version: 2024.1119.1630.48
 003153.xyz
 052419.xyz
 0ms.dev
@@ -300,6 +300,7 @@ dns.artikel10.org
 dns.ashleyjackson.net
 dns.asterimoon.com
 dns.asysec.com
+dns.auapi.fun
 dns.azsopro.net
 dns.b33.space
 dns.b612.me
@@ -862,7 +863,6 @@ doh.infotek.net.id
 doh.infracell.net
 doh.iucc.ac.il
 doh.jeroenhd.nl
-doh.kekew.info
 doh.kel.pe
 doh.kidzonet.io
 doh.killtw.im
@@ -1732,7 +1732,6 @@ zxcvb.pp.ua
 ||adguard.shuting.idv.tw^
 ||adguard.sparshbajaj.me^
 ||adguard.sscw.win^
-||adguard.taxiora.tn^
 ||adguard.twotigers.xyz^
 ||adguard.wirimij.nl^
 ||adguard.zachitect.com^
@@ -2228,6 +2227,7 @@ zxcvb.pp.ua
 ||dns.ashleyjackson.net^
 ||dns.asterimoon.com^
 ||dns.asysec.com^
+||dns.auapi.fun^
 ||dns.azsopro.net^
 ||dns.b33.space^
 ||dns.b612.me^
