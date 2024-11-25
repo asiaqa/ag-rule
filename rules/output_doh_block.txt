@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 24 Nov 2024 04:26 UTC
+! Last modified: 25 Nov 2024 04:15 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
 ! Number of entries: 3648
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1124.0426.25
+! Version: 2024.1125.0415.36
 003153.xyz
 052419.xyz
 0ms.dev
@@ -2209,6 +2209,7 @@ zxcvb.pp.ua
 ||dns.a47.me^
 ||dns.aa.net.uk^
 ||dns.aaflalo.me^
+||dns.aaytorr.com^
 ||dns.abdullahabas.de^
 ||dns.adguard.com^
 ||dns.adrianlam.com^
@@ -2369,7 +2370,6 @@ zxcvb.pp.ua
 ||dns.ginovs.nl^
 ||dns.girino.org^
 ||dns.glf.wtf^
-||dns.glorydns.com^
 ||dns.gnb09.id^
 ||dns.goldplate.org^
 ||dns.google.com^
@@ -3589,7 +3589,6 @@ zxcvb.pp.ua
 ||microvpn.com^
 ||mikezhang.xyz^
 ||mil01.dnscry.pt^
-||miniapp.global^
 ||minilla.store^
 ||miniprox.com^
 ||miniprox.info^
@@ -4917,6 +4916,7 @@ zxcvb.pp.ua
 ||vpn-free.download^
 ||vpn-professional.company^
 ||vpn-proxies.co.cc^
+||vpn-sd.ff.avast.com^
 ||vpn-server.xyz^
 ||vpn-services.co.cc^
 ||vpn-tw.teng.sh^
