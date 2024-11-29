@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 28 Nov 2024 04:17 UTC
+! Last modified: 28 Nov 2024 16:28 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3641
+! Number of entries: 3642
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1128.0417.35
+! Version: 2024.1128.1628.52
 003153.xyz
 052419.xyz
 0ms.dev
@@ -1174,7 +1174,6 @@ meganerd.nl
 megumin.is.my.waifu.cz
 mendozasdelivery.com
 mia01.dnscry.pt
-michelo.line.pm
 mickedi.isgood.host
 mikezhang.xyz
 mil01.dnscry.pt
@@ -1380,6 +1379,7 @@ safe.dot.dns.yandex.net
 safeservedns.com
 sandbox.opendns.com
 sbdns.co.in
+sdns22.gkonuralp.com
 sea01.dnscry.pt
 secondary.dns.seia.io
 secondary.dns.yandex.ru
@@ -4250,6 +4250,7 @@ zxcvb.pp.ua
 ||schoolproxy.co^
 ||schooxy.com^
 ||sciencesimplified.pro^
+||sdns22.gkonuralp.com^
 ||se3v5tjfff3aet.me^
 ||sea01.dnscry.pt^
 ||sec-tunnel.com^
