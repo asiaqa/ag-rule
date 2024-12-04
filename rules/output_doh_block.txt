@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 03 Dec 2024 04:34 UTC
+! Last modified: 04 Dec 2024 04:32 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3643
+! Number of entries: 3641
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1203.0434.06
+! Version: 2024.1204.0432.53
 003153.xyz
 052419.xyz
 0ms.dev
@@ -1694,7 +1694,6 @@ zxcvb.pp.ua
 ||adguard.ender.fr^
 ||adguard.frutuozo.com.br^
 ||adguard.gambini.org^
-||adguard.gbrossi.com.br^
 ||adguard.haneulo.com^
 ||adguard.hartley.cloud^
 ||adguard.ihatemy.live^
@@ -2568,7 +2567,6 @@ zxcvb.pp.ua
 ||dns.rootlab.top^
 ||dns.rotunneling.net^
 ||dns.rubyfish.cn^
-||dns.salonia.it^
 ||dns.sarak.as^
 ||dns.sarakas.net^
 ||dns.sarilouis.com^
@@ -2659,7 +2657,6 @@ zxcvb.pp.ua
 ||dns.xlion.tw^
 ||dns.xuming.studio^
 ||dns.xusqui.com^
-||dns.yague.me^
 ||dns.yameenassotally.com^
 ||dns.yandex.ru^
 ||dns.yatima.tv^
@@ -4817,6 +4814,7 @@ zxcvb.pp.ua
 ||unknownproxy.com^
 ||unlimitedvpnapp.com^
 ||unlocator.com^
+||unmoor.com^
 ||unrestrict.me^
 ||unrestrictedsurf.com^
 ||unrestricter.com^
