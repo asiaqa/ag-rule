@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202412031932
+# Verison: 202412041142
 # Expires: around 1 day
-# Total number of rules = 129900
+# Total number of rules = 129912
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -21,6 +21,7 @@
 # https://filter.futa.gg/hosts.txt
 # https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt
 ####################################################################################
+||op3xdork.xyz^
 ||qrifhajtabcy.com^
 ||joogruphezefaul.net^
 ||legiblyosmols.top^
@@ -7065,6 +7066,7 @@ vkcdnservice.appspot.com^
 ||conative.network^
 ||concealedcredulous.com^
 ||concealmentbrainpower.com^
+||concealmentmimic.com^
 ||concedederaserskyline.com^
 ||conceitedfedapple.com^
 ||conceivedtowards.com^
@@ -30466,6 +30468,7 @@ vkcdnservice.appspot.com^
 ||mktg.evvnt.com^
 ||monetize-static.viralize.tv^
 ||neural.myth.dev^
+||newtabextension.com^
 ||ogads-pa.googleapis.com^
 ||omegadblocker.com^
 ||onlinepromogift.com^
@@ -35972,6 +35975,8 @@ vkcdnservice.appspot.com^
 ||d1udjti6mtxz9q.cloudfront.net^
 ||tagman.britishairways.com^
 |piwik.
+||femetrics.grammarly.io^
+||media-stat.mail.ru^
 ||telemetry.tradingview.com^
 ||analytics.shorthand.com^
 ||gh.fanatical.com^
@@ -36245,7 +36250,6 @@ vkcdnservice.appspot.com^
 ||segment-api.goodrx.com^
 ||zion-telemetry-nonprod.api.cnn.io^
 ||log.suumo.jp^
-||femetrics.grammarly.io^
 ||realtimeanalytics.yext.com^
 ||stats.indianpornempire.com^
 ||lp.spac.me^
@@ -42496,6 +42500,7 @@ inapps.appsflyersdk.com^
 ||greencuttlefish.com^
 ||vst.videolink.host^
 ||tgb.hsmedia.ru^
+||media-advcycle.imgsmail.ru^
 ||sdk.kokocads.com^
 ||r1.ati.su^
 ||rcmjs.rambler.ru^
@@ -50158,6 +50163,11 @@ inapps.appsflyersdk.com^
 ||c4uy.icu^
 ||k5uj.icu^
 ||udamcst.top^
+||thaqne.com^
+||q1bp.icu^
+||odamcsk.top^
+||lumvkebr.icu^
+||scroscoi.com^
 ||sconat.com^
 ||cidhmxxb.icu^
 ||ig69.vip^
@@ -57560,7 +57570,10 @@ analytics-*.aasaam.com
 ||ziffdavis.com^
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
-||thaqne.com^
+||ldamcsl.top^
+||d5r.icu^
+||fo0.icu^
+||nuvaioqds.com^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
@@ -120560,7 +120573,6 @@ nanoGDPR.min.js^
 ||analytics.maigerrun.com^
 ||1l-view.mail.ru^
 ||1link.mail.ru^
-||media-stat.mail.ru^
 ||r0.mail.ru^
 ||top.mail.ru^
 ||mail-generali.com^
