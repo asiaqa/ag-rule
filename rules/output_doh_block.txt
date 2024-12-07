@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 05 Dec 2024 04:14 UTC
+! Last modified: 07 Dec 2024 05:45 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3641
+! Number of entries: 3636
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1205.0414.15
+! Version: 2024.1207.0545.34
 003153.xyz
 052419.xyz
 0ms.dev
@@ -1689,7 +1689,6 @@ zxcvb.pp.ua
 ||adguard.cloudmini.net^
 ||adguard.dantynes.cyou^
 ||adguard.dekonix.ru^
-||adguard.depieri.net^
 ||adguard.easez.net^
 ||adguard.ef67daisuki.club^
 ||adguard.ender.fr^
@@ -1984,7 +1983,6 @@ zxcvb.pp.ua
 ||cedarbranches.com^
 ||celo.net^
 ||cfdjb.org^
-||chandr1000.net^
 ||changemyip.com^
 ||chaos-system.de^
 ||check.peer2profit.site^
@@ -2361,6 +2359,7 @@ zxcvb.pp.ua
 ||dns.ginovs.nl^
 ||dns.girino.org^
 ||dns.glf.wtf^
+||dns.glorydns.com^
 ||dns.gnb09.id^
 ||dns.goldplate.org^
 ||dns.google.com^
@@ -2790,7 +2789,6 @@ zxcvb.pp.ua
 ||doh.funtopia.tv^
 ||doh.futa.app^
 ||doh.futa.gg^
-||doh.hajekj.net^
 ||doh.hottis.de^
 ||doh.ibr.cs.tu-bs.de^
 ||doh.immerda.ch^
@@ -3200,7 +3198,6 @@ zxcvb.pp.ua
 ||gratisvpn.com^
 ||gravity.sciencevictory.org^
 ||greatestfreeproxy.com^
-||greatideasforlife.lol^
 ||green2.jnraptor.net^
 ||greenpass.info^
 ||greenproxy.net^
@@ -3688,7 +3685,6 @@ zxcvb.pp.ua
 ||nocensor.work^
 ||nodepay.ai^
 ||nodes.gen4.ninja^
-||noip.com^
 ||noodlevpn.com^
 ||nora-is.so-gorgeo.us.kg^
 ||nordaccount.com^
@@ -3910,7 +3906,6 @@ zxcvb.pp.ua
 ||pooblet.co.za^
 ||pope.cnblw.me^
 ||portalssh.com^
-||portmap.host^
 ||portmap.io^
 ||portmapper.myonlineportal.net^
 ||portssh.com^
