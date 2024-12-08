@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 07 Dec 2024 15:25 UTC
+! Last modified: 08 Dec 2024 04:18 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3635
+! Number of entries: 3634
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1207.1525.47
+! Version: 2024.1208.0418.11
 003153.xyz
 052419.xyz
 0ms.dev
@@ -2602,6 +2602,7 @@ zxcvb.pp.ua
 ||dns.stirringphoto.com^
 ||dns.stormycloud.org^
 ||dns.strassmair.org^
+||dns.stvsk.ml^
 ||dns.suhaila.dev^
 ||dns.superstefan.win^
 ||dns.surobe.com^
@@ -2796,7 +2797,6 @@ zxcvb.pp.ua
 ||doh.infracell.net^
 ||doh.iucc.ac.il^
 ||doh.jeroenhd.nl^
-||doh.kekew.info^
 ||doh.kel.pe^
 ||doh.kidzonet.io^
 ||doh.killtw.im^
@@ -3884,7 +3884,6 @@ zxcvb.pp.ua
 ||pm1239-bd.xyz^
 ||pm7051-br.xyz^
 ||pm9352-bd.xyz^
-||pointtoserver.com^
 ||polandgrows.com^
 ||polargrizzly.com^
 ||polaris.cx^
