@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 07 Dec 2024 05:45 UTC
+! Last modified: 07 Dec 2024 15:25 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3636
+! Number of entries: 3635
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1207.0545.34
+! Version: 2024.1207.1525.47
 003153.xyz
 052419.xyz
 0ms.dev
@@ -72,7 +72,6 @@ adguard.bonsirven.eu
 adguard.cloudmini.net
 adguard.dantynes.cyou
 adguard.dekonix.ru
-adguard.depieri.net
 adguard.easez.net
 adguard.ef67daisuki.club
 adguard.ender.fr
@@ -669,6 +668,7 @@ dns.stevenz.net
 dns.stirringphoto.com
 dns.stormycloud.org
 dns.strassmair.org
+dns.stvsk.ml
 dns.suhaila.dev
 dns.superstefan.win
 dns.surobe.com
@@ -727,6 +727,7 @@ dns.yatima.tv
 dns.yuu-g.net
 dns.zemows.industries
 dns.zfsystem.tech
+dns.zui.lol
 dns.zzuhacker.cn
 dns0.eu
 dns01.flm9.net
@@ -857,7 +858,6 @@ doh.infotek.net.id
 doh.infracell.net
 doh.iucc.ac.il
 doh.jeroenhd.nl
-doh.kekew.info
 doh.kel.pe
 doh.kidzonet.io
 doh.killtw.im
@@ -3209,7 +3209,6 @@ zxcvb.pp.ua
 ||guardster.com^
 ||guavi.com^
 ||gumm.org^
-||gustamadh.dynv6.net^
 ||gva01.dnscry.pt^
 ||gvirabi.com^
 ||gztech.me^
