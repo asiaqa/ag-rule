@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 12 Dec 2024 16:24 UTC
+! Last modified: 13 Dec 2024 23:47 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
 ! Number of entries: 3713
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1212.1624.47
+! Version: 2024.1213.2347.24
 003153.xyz
 052419.xyz
 0ms.dev
@@ -2405,7 +2405,6 @@ zxcvb.pp.ua
 ||dns.hostux.net^
 ||dns.hotta.page^
 ||dns.hshoe.cn^
-||dns.hugo0.moe^
 ||dns.hujiayucc.cn^
 ||dns.huseynov.work^
 ||dns.huyhoangit.net^
@@ -4077,6 +4076,7 @@ zxcvb.pp.ua
 ||proxy2014.net^
 ||proxy2link.com^
 ||proxy2you.com^
+||proxy3.startpage.com^
 ||proxy4down.com^
 ||proxy4free.me^
 ||proxy4freedom.com^
