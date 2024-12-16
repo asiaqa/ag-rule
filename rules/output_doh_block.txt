@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 15 Dec 2024 04:32 UTC
+! Last modified: 15 Dec 2024 16:29 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3714
+! Number of entries: 3720
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1215.0432.25
+! Version: 2024.1215.1629.28
 003153.xyz
 052419.xyz
 0ms.dev
@@ -301,6 +301,7 @@ dns.artikel10.org
 dns.ashleyjackson.net
 dns.asterimoon.com
 dns.asysec.com
+dns.auapi.fun
 dns.azsopro.net
 dns.b33.space
 dns.b612.me
@@ -2171,6 +2172,7 @@ zxcvb.pp.ua
 ||defilter.us^
 ||den01.dnscry.pt^
 ||deproxyserver.com^
+||desbloquearredes.online^
 ||dewassh.net^
 ||dfw02.dnscry.pt^
 ||dg98q1fqxxogp.cloudfront.net^
@@ -3001,6 +3003,7 @@ zxcvb.pp.ua
 ||familyshield.opendns.com^
 ||farewellkou.click^
 ||fast-proxy.com.de^
+||fast-receive.com^
 ||fastest-proxy.com.de^
 ||fastestvpn.com^
 ||fastestvpn.info^
@@ -3066,6 +3069,7 @@ zxcvb.pp.ua
 ||fra01.dnscry.pt^
 ||fra02.dnscry.pt^
 ||fra1.eyecay.xyz^
+||francis-proxy.top^
 ||frandcomfort.us^
 ||free-kree-k.xyz^
 ||free-proxy-list.net^
@@ -3242,6 +3246,7 @@ zxcvb.pp.ua
 ||gumm.org^
 ||gva01.dnscry.pt^
 ||gvirabi.com^
+||gwopboyded.com^
 ||gztech.me^
 ||h-vpn.org^
 ||h.gjrick.tw^
@@ -3746,6 +3751,7 @@ zxcvb.pp.ua
 ||nova-is.so-gorgeo.us.kg^
 ||novatech.fun^
 ||nowcache.com^
+||nowhiteflags.xyz^
 ||nqma.net^
 ||ns.00dani.me^
 ||ns.data.haus^
@@ -4519,6 +4525,7 @@ zxcvb.pp.ua
 ||syd01.dnscry.pt^
 ||syd02.dnscry.pt^
 ||t-dz.com^
+||t92.online^
 ||tailscale.com^
 ||takhtakh.domyah.net^
 ||talk2m.com^
