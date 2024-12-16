@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202412161716
+# Verison: 202412161932
 # Expires: around 1 day
-# Total number of rules = 130450
+# Total number of rules = 130466
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -58086,6 +58086,7 @@ analytics-*.aasaam.com
 ||ziffdavis.com^
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
+||chussuth.com^
 ||bdad.123pan.cn^
 -ad-300x600-
 -ad-458x80.
@@ -58184,6 +58185,8 @@ analytics-*.aasaam.com
 .480x60.
 .728x90-
 .900x100.
+||2d5ac65613.com^
+||6e6cd153a6.com^
 ||adswizz.com^
 ||alipromo.com^
 ||alitems.com^
@@ -58191,23 +58194,37 @@ analytics-*.aasaam.com
 ||auditude.com^
 ||benelph.de^
 ||buyeasy.by^
+||cometappetit.shop^
+||crabletfrijole.shop^
+||db33180b93.com^
+||degradeaccusationshrink.com^
+||dinkeysosmetic.shop^
+||faggotstagily.shop^
 ||gbpkmltxpcsj.xyz
 ||get-me-wow.
 ||googletagservices.com^
+||hexinemicerun.top^
 ||hvkwmvpxvjo.xyz
 ||imasdk.googleapis.com^
 ||kqzyfj.com^
 ||loadercdn.com^
 ||ntv.io^
+||oghgrazubafz.com^
 ||ojrq.net^
+||pipilimagine.shop^
+||pisgahserve.com^
 ||proffering.xyz
+||psndhfrga.com^
+||riflepicked.com^
 ||rirteelraibsou.net
 ||rubiconproject.com^
 ||suppressedbottlesenjoyable.com
+||thickspaghetti.com^
 ||totaladblock.com^
 ||tracker-tds.info
 ||trust.zone^
 ||videoplaza.tv^
+||widiaoexhe.top^
 ||wpnrtnmrewunrtok.xyz^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
@@ -114525,7 +114542,6 @@ nanoGDPR.min.js^
 ||comclick.com^
 ||analytics.comcom.ge^
 ||ads.comeon.com^
-||cometappetit.shop^
 ||cometzone.com^
 ||comfm.com^
 ||rest.comfy.ua^
