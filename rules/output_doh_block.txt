@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 16 Dec 2024 16:28 UTC
+! Last modified: 17 Dec 2024 04:17 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3721
+! Number of entries: 3711
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1216.1628.47
+! Version: 2024.1217.0417.50
 003153.xyz
 052419.xyz
 0ms.dev
@@ -1545,7 +1545,6 @@ zero.dns0.eu
 zougloub.eu
 zrh1-ns01.monzoon.net
 zxcvb.pp.ua
-||0000a-fast-proxy.de^
 ||003153.xyz^
 ||052419.xyz^
 ||0ms.dev^
@@ -2248,7 +2247,6 @@ zxcvb.pp.ua
 ||dns.ashleyjackson.net^
 ||dns.asterimoon.com^
 ||dns.asysec.com^
-||dns.auapi.fun^
 ||dns.azsopro.net^
 ||dns.b33.space^
 ||dns.b612.me^
@@ -2820,7 +2818,6 @@ zxcvb.pp.ua
 ||doh.infracell.net^
 ||doh.iucc.ac.il^
 ||doh.jeroenhd.nl^
-||doh.kekew.info^
 ||doh.kel.pe^
 ||doh.kidzonet.io^
 ||doh.killtw.im^
@@ -3407,7 +3404,6 @@ zxcvb.pp.ua
 ||ipfreely.io^
 ||ipinator.com^
 ||ipoac.nl^
-||iportal.me^
 ||ipredator.se^
 ||iprivatevpn.com^
 ||iprovpn.com^
@@ -3425,6 +3421,7 @@ zxcvb.pp.ua
 ||ispunblock.com^
 ||ispvpn.com^
 ||ist01.dnscry.pt^
+||iterator.lazada.com^
 ||itopvpn.com^
 ||ivacy.com^
 ||ivnkn.xyz^
@@ -3724,7 +3721,6 @@ zxcvb.pp.ua
 ||ninjacloak.com^
 ||ninjaproxy.co.uk^
 ||ninjaproxy.eu^
-||ninjaproxy.ninja^
 ||ninjavpn.io^
 ||ninjaweb.xyz^
 ||njal.la^
@@ -3787,7 +3783,6 @@ zxcvb.pp.ua
 ||nslookup.io^
 ||nsv4w.com^
 ||nue01.dnscry.pt^
-||nue2.moderateinfra.net^
 ||nullsbrawly.xyz^
 ||nvi-dns.bitdefender.net^
 ||nvpn.net^
@@ -4129,7 +4124,6 @@ zxcvb.pp.ua
 ||proxypx.com^
 ||proxypy.org^
 ||proxyrooms.com^
-||proxys.pw^
 ||proxysan.info^
 ||proxyscope.com^
 ||proxyscrape.com^
@@ -4212,7 +4206,6 @@ zxcvb.pp.ua
 ||rdu01.dnscry.pt^
 ||readandmath.today^
 ||redhoodie.site^
-||redproxy.info^
 ||redschool.info^
 ||reflect4.me^
 ||relayon.org^
@@ -4353,7 +4346,6 @@ zxcvb.pp.ua
 ||shop-books-school.vercel.app^
 ||shopping-website.us^
 ||shopproxy.net^
-||shyf.info^
 ||simpleproxy.us^
 ||simplevpn.net^
 ||sin01.dnscry.pt^
@@ -4688,7 +4680,6 @@ zxcvb.pp.ua
 ||tyo01.dnscry.pt^
 ||tyo02.dnscry.pt^
 ||typaza.com^
-||tysonsbackagain.capnorthshore.org^
 ||u8sj3.com^
 ||uas2.com^
 ||ubint.net^
@@ -4928,7 +4919,6 @@ zxcvb.pp.ua
 ||v.qdev.cc^
 ||v2.xx3210766.live^
 ||vanheim.ff.avast.com^
-||vblocker.info^
 ||vd.i81.ru^
 ||vectroproxy.com^
 ||veepn.com^
