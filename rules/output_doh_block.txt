@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 20 Dec 2024 23:51 UTC
+! Last modified: 22 Dec 2024 04:41 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3714
+! Number of entries: 3712
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1220.2351.20
+! Version: 2024.1222.0441.16
 003153.xyz
 052419.xyz
 0ms.dev
@@ -2149,6 +2149,7 @@ zxcvb.pp.ua
 ||dac0miaxap05t.cloudfront.net^
 ||dailyvpn.io^
 ||dandelionsprout.asuscomm.com^
+||danhcan.top^
 ||darkfat.com^
 ||darkness.is.my.waifu.cz^
 ||darknet.to^
@@ -2455,7 +2456,6 @@ zxcvb.pp.ua
 ||dns.korzhyk.pp.ua^
 ||dns.kosan.moe^
 ||dns.kukal.cz^
-||dns.kumoumi.net^
 ||dns.kusoneko.moe^
 ||dns.kuuhaku.moe^
 ||dns.kxy.ink^
@@ -3521,7 +3521,6 @@ zxcvb.pp.ua
 ||letscomply.online^
 ||lewsha.lol^
 ||libertyvpn.net^
-||lim01.dnscry.pt^
 ||lim02.dnscry.pt^
 ||limevpn.com^
 ||limitlessproxy.com^
@@ -4290,7 +4289,6 @@ zxcvb.pp.ua
 ||schoolproxy.co^
 ||schooxy.com^
 ||sciencesimplified.pro^
-||sdns22.gkonuralp.com^
 ||se3v5tjfff3aet.me^
 ||sea01.dnscry.pt^
 ||sec-tunnel.com^
