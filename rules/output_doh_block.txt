@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 24 Dec 2024 06:09 UTC
+! Last modified: 25 Dec 2024 04:53 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3707
+! Number of entries: 3739
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1224.0609.06
+! Version: 2024.1225.0453.22
 003153.xyz
 052419.xyz
 0ms.dev
@@ -1551,6 +1551,7 @@ zxcvb.pp.ua
 ||123000123.xyz^
 ||12312300.xyz^
 ||123ani.me^
+||123anonymous.com^
 ||123app.info^
 ||123bay.org^
 ||123book.info^
@@ -1636,6 +1637,7 @@ zxcvb.pp.ua
 ||a.cpfrx.info^
 ||a.family.ns.dnslify.com^
 ||a.ns.dnslify.com^
+||a.passcloud.xyz^
 ||a.safe.ns.dnslify.com^
 ||a.zpn.me^
 ||a1free-optimal.prcdn.net^
@@ -1689,11 +1691,13 @@ zxcvb.pp.ua
 ||adguard.cloudmini.net^
 ||adguard.dantynes.cyou^
 ||adguard.dekonix.ru^
+||adguard.depieri.net^
 ||adguard.easez.net^
 ||adguard.ef67daisuki.club^
 ||adguard.ender.fr^
 ||adguard.frutuozo.com.br^
 ||adguard.gambini.org^
+||adguard.gbrossi.com.br^
 ||adguard.haneulo.com^
 ||adguard.hartley.cloud^
 ||adguard.ihatemy.live^
@@ -1839,6 +1843,7 @@ zxcvb.pp.ua
 ||area51.mywire.org^
 ||armorrush.eu.org^
 ||art-class-omg.vercel.app^
+||artclass.lol^
 ||artclass.site^
 ||asdsasd.vercel.app^
 ||asheranztwitch.online^
@@ -1880,6 +1885,7 @@ zxcvb.pp.ua
 ||bdns.nu^
 ||bdns.pro^
 ||beapasswpn.com^
+||bebasid.com^
 ||beecomf.xyz^
 ||beepassvpn.com^
 ||beetvpn.com^
@@ -1906,6 +1912,7 @@ zxcvb.pp.ua
 ||bi-tree.ru^
 ||bidehshomali.top^
 ||binhexsolutions.co.uk^
+||bit123.biz^
 ||bitping.com^
 ||biying.flymlc.com^
 ||bl.eq.md^
@@ -2064,6 +2071,7 @@ zxcvb.pp.ua
 ||createssh.com^
 ||createssh.net^
 ||criarssh.com^
+||crownproxy.com^
 ||croxy.network^
 ||croxy.org^
 ||croxy.red^
@@ -2911,6 +2919,8 @@ zxcvb.pp.ua
 ||doth.huque.com^
 ||dotvpn.com^
 ||doublehop.me^
+||dove.soapagent.com^
+||dove.soapclient.com^
 ||downloadvpnfree.com^
 ||doyouremember.love^
 ||dqwow4xvbctco.cloudfront.net^
@@ -3006,6 +3016,7 @@ zxcvb.pp.ua
 ||fastproxy.org^
 ||fastproxynetwork.com^
 ||fastssh.com^
+||fasttime.info^
 ||fastusaproxy.com^
 ||fastvpn.im^
 ||fastvpn.me^
@@ -3197,6 +3208,7 @@ zxcvb.pp.ua
 ||gizlen.net^
 ||gizlibaglanti.com^
 ||glacius.top^
+||global-proxy.com^
 ||globalchatinc.com^
 ||globalssh.net^
 ||globaltrx.com^
@@ -3236,6 +3248,7 @@ zxcvb.pp.ua
 ||guardster.com^
 ||guavi.com^
 ||gumm.org^
+||gustamadh.dynv6.net^
 ||gva01.dnscry.pt^
 ||gvirabi.com^
 ||gwopboyded.com^
@@ -3246,6 +3259,7 @@ zxcvb.pp.ua
 ||haf01.dnscry.pt^
 ||han01.dnscry.pt^
 ||hanniel.tech^
+||happy-vpn.com^
 ||hax.co.id^
 ||headproxy.com^
 ||heiwanotameno.com^
@@ -3291,6 +3305,7 @@ zxcvb.pp.ua
 ||hidessh.com^
 ||hidester.com^
 ||hidesurf.us^
+||hidetheinternet.com^
 ||hidethisip.net^
 ||hidevpn.info^
 ||hideway.eu^
@@ -3350,6 +3365,7 @@ zxcvb.pp.ua
 ||hungary.privacy-dns.pw^
 ||hustlersuniversity.pro^
 ||hyperbyte.net^
+||i.passcloud.xyz^
 ||i2p-projekt.de^
 ||i2pd.xyz^
 ||i4frgxs0s5.execute-api.us-east-1.amazonaws.com^
@@ -3529,6 +3545,7 @@ zxcvb.pp.ua
 ||litevpn.top^
 ||llk01.dnscry.pt^
 ||loadlow.me^
+||local.sufly.top^
 ||locaproxy.com^
 ||login.readinghelper.online^
 ||login.thegalleryofart.info^
@@ -3586,6 +3603,7 @@ zxcvb.pp.ua
 ||mathhelpnow.site^
 ||mathlearning.tech^
 ||mathnotes.help^
+||mathnotes.icu^
 ||maxfong.cc^
 ||maxvpn.info^
 ||mazevpn.com^
@@ -3935,6 +3953,7 @@ zxcvb.pp.ua
 ||pm1239-bd.xyz^
 ||pm7051-br.xyz^
 ||pm9352-bd.xyz^
+||pointtoserver.com^
 ||polandgrows.com^
 ||polargrizzly.com^
 ||polaris.cx^
@@ -3987,6 +4006,7 @@ zxcvb.pp.ua
 ||privoxy.org^
 ||pro-tower.com^
 ||pro.shecan.ir^
+||prohome.info^
 ||project-evoex.de^
 ||prontoproxy.info^
 ||propage.info^
@@ -4097,6 +4117,7 @@ zxcvb.pp.ua
 ||proxyer.net^
 ||proxyfactory.io^
 ||proxyfish.com^
+||proxyforfree.eu^
 ||proxyfree.org^
 ||proxygate.com^
 ||proxygizlen.com^
@@ -4115,6 +4136,8 @@ zxcvb.pp.ua
 ||proxyone.net^
 ||proxyoutlet.com^
 ||proxypirates.com^
+||proxypremium.top^
+||proxyprivate.info^
 ||proxypx.com^
 ||proxypy.org^
 ||proxyrooms.com^
@@ -4217,6 +4240,7 @@ zxcvb.pp.ua
 ||resolver.r0cket.net^
 ||resolver.rferee.dev^
 ||resolver.sunet.se^
+||resolver.unstoppable.io^
 ||resolver1-fs.opendns.com^
 ||resolver1.absolight.net^
 ||resolver1.ipv6-sandbox.opendns.com^
@@ -4267,6 +4291,7 @@ zxcvb.pp.ua
 ||safeservedns.com^
 ||safetysurf.net^
 ||safeunblock.com^
+||sail.msg.boats^
 ||samj.codes^
 ||sandbox.opendns.com^
 ||sandparticles.us^
@@ -4291,6 +4316,7 @@ zxcvb.pp.ua
 ||secretsline.org^
 ||secure-dns.dns-ga.de^
 ||secure-dns.pleumkungz.com^
+||secure-vpn.com^
 ||secure.anudeep.me^
 ||secure.avastdns.com^
 ||securefor.com^
@@ -4424,6 +4450,7 @@ zxcvb.pp.ua
 ||stackfront.xyz^
 ||stargate.one^
 ||starruby.us^
+||starrynight.site^
 ||starssh.com^
 ||starvpn.com^
 ||staticnetcontent.com^
@@ -4585,6 +4612,7 @@ zxcvb.pp.ua
 ||timmes.nl^
 ||timurpoyraz.com^
 ||tinf0il.tech^
+||tinfoil-is-ass.xyz^
 ||titaniumnetwork.org^
 ||tj.jamesxue.xyz^
 ||tky-dns.bitdefender.net^
@@ -4609,6 +4637,7 @@ zxcvb.pp.ua
 ||tor.calyxinstitute.org^
 ||tor.eff.org^
 ||tor.vasi.li^
+||tor2web.fi^
 ||tor2web.in^
 ||tor2web.io^
 ||tor2web.it^
@@ -4634,6 +4663,7 @@ zxcvb.pp.ua
 ||tradeadspace.info^
 ||trafflink.xyz^
 ||traffmonetizer.com^
+||travelvpn.info^
 ||travelvpn.net^
 ||trf01.dnscry.pt^
 ||tri-dns.net^
@@ -4863,6 +4893,7 @@ zxcvb.pp.ua
 ||unrestricter.com^
 ||unrestricter.org^
 ||unrestrictor.com^
+||untraceable.us^
 ||untracer.com^
 ||uproxy.online^
 ||ur-browser.com^
@@ -5044,6 +5075,7 @@ zxcvb.pp.ua
 ||vpnrice.com^
 ||vpns.best^
 ||vpnsecure.me^
+||vpnshazam.com^
 ||vpnshieldapp.com^
 ||vpnsuper.app^
 ||vpnto.bhadrikais.my.id^
