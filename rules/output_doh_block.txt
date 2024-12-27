@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 26 Dec 2024 16:36 UTC
+! Last modified: 27 Dec 2024 04:37 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
 ! Number of entries: 3739
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2024.1226.1636.08
+! Version: 2024.1227.0437.31
 003153.xyz
 052419.xyz
 0ms.dev
@@ -2248,7 +2248,6 @@ zxcvb.pp.ua
 ||dns.ashleyjackson.net^
 ||dns.asterimoon.com^
 ||dns.asysec.com^
-||dns.auapi.fun^
 ||dns.azsopro.net^
 ||dns.b33.space^
 ||dns.b612.me^
@@ -2819,6 +2818,7 @@ zxcvb.pp.ua
 ||doh.infracell.net^
 ||doh.iucc.ac.il^
 ||doh.jeroenhd.nl^
+||doh.kekew.info^
 ||doh.kel.pe^
 ||doh.kidzonet.io^
 ||doh.killtw.im^
@@ -3374,7 +3374,6 @@ zxcvb.pp.ua
 ||ibvpn.com^
 ||icitek.com^
 ||icpsuawn1zy5amys.com^
-||id.terra.my.id^
 ||idcloak.com^
 ||idealvpn.com^
 ||idolproxy.com^
@@ -5190,6 +5189,7 @@ zxcvb.pp.ua
 ||www-proxy.konstl01.xyz^
 ||www-proxy.sodemc.com^
 ||www-vpn.52oupa.com^
+||www-web.r-2.top^
 ||www-yy.in6.to^
 ||www.chungocoai.name.vn^
 ||www.dnsadguard.co.uk^
