@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 02 Jan 2025 06:23 UTC
+! Last modified: 02 Jan 2025 17:59 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3738
+! Number of entries: 3740
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0102.0623.29
+! Version: 2025.0102.1759.58
 003153.xyz
 052419.xyz
 0ms.dev
@@ -320,7 +320,6 @@ dns.bobstrecansky.com
 dns.bofh.in
 dns.braene.com
 dns.brahma.world
-dns.bravoc.one
 dns.brembeck.cloud
 dns.burgas.pro
 dns.busold.ws
@@ -431,7 +430,6 @@ dns.gi.co.id
 dns.ginovs.nl
 dns.girino.org
 dns.glf.wtf
-dns.glorydns.com
 dns.gnb09.id
 dns.goldplate.org
 dns.google
@@ -1027,7 +1025,6 @@ google-public-dns-b.google.com
 goose.buckyfan.net
 gru01.dnscry.pt
 guard.sntrk.ru
-gustamadh.dynv6.net
 gva01.dnscry.pt
 gztech.me
 h.gjrick.tw
@@ -2267,7 +2264,6 @@ zxcvb.pp.ua
 ||dns.bofh.in^
 ||dns.braene.com^
 ||dns.brahma.world^
-||dns.bravoc.one^
 ||dns.brembeck.cloud^
 ||dns.burgas.pro^
 ||dns.busold.ws^
@@ -3339,6 +3335,7 @@ zxcvb.pp.ua
 ||homeproxy.net^
 ||homevpn.eu^
 ||homevpn.info^
+||homeworkhelp.click^
 ||honeygain.me^
 ||hostdare.qtxd.net^
 ||hostless.club^
@@ -3453,6 +3450,7 @@ zxcvb.pp.ua
 ||jkdns.me^
 ||jkt01.dnscry.pt^
 ||jnb01.dnscry.pt^
+||joker81fansbase.site^
 ||jongserver.xyz^
 ||jp-dns1.bancuh.com^
 ||jp-tyo-w-p-1.nashkan.net^
@@ -3543,6 +3541,7 @@ zxcvb.pp.ua
 ||loadlow.me^
 ||local.sufly.top^
 ||locaproxy.com^
+||lochridge.org^
 ||login.readinghelper.online^
 ||login.thegalleryofart.info^
 ||lon01.dnscry.pt^
