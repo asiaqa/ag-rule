@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 04 Jan 2025 19:14 UTC
+! Last modified: 06 Jan 2025 03:25 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3733
+! Number of entries: 3731
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0104.1914.43
+! Version: 2025.0106.0325.33
 003153.xyz
 052419.xyz
 0ms.dev
@@ -388,7 +388,6 @@ dns.dnshome.de
 dns.dnswarden.com
 dns.dooks.uk
 dns.dotnet.win
-dns.dyn1.de
 dns.eddi.net
 dns.edgeburnmedia.com
 dns.edison42.dev
@@ -540,7 +539,6 @@ dns.michelo.cl
 dns.mihanentalpo.me
 dns.mikeliu.org
 dns.mikrotikrumahan.my.id
-dns.milkpie.one
 dns.mnet-online.de
 dns.mo0on15.com
 dns.molinero.dev
@@ -913,7 +911,6 @@ doh.wewitro.net
 doh.xcom.pro
 doh.xfinity.com
 doh.xyz
-doh.zephyrus.id
 doh.zknt.org
 doh003.280blocker.net
 doh1.b-cdn.net
@@ -1202,6 +1199,7 @@ ns.00dani.me
 ns.data.haus
 ns.mtsoln.com
 ns.nerdytechgeeks.co.za
+ns.net.kg
 ns.nwps.fi
 ns.ral9005.org
 ns.trcnet.fi
@@ -2333,7 +2331,6 @@ zxcvb.pp.ua
 ||dns.dnswarden.com^
 ||dns.dooks.uk^
 ||dns.dotnet.win^
-||dns.dyn1.de^
 ||dns.eddi.net^
 ||dns.edgeburnmedia.com^
 ||dns.edison42.dev^
@@ -2489,7 +2486,6 @@ zxcvb.pp.ua
 ||dns.mihanentalpo.me^
 ||dns.mikeliu.org^
 ||dns.mikrotikrumahan.my.id^
-||dns.milkpie.one^
 ||dns.mnet-online.de^
 ||dns.mo0on15.com^
 ||dns.molinero.dev^
@@ -2869,7 +2865,6 @@ zxcvb.pp.ua
 ||doh.xcom.pro^
 ||doh.xfinity.com^
 ||doh.xyz^
-||doh.zephyrus.id^
 ||doh.zknt.org^
 ||doh003.280blocker.net^
 ||doh1.b-cdn.net^
@@ -3758,6 +3753,7 @@ zxcvb.pp.ua
 ||ns.data.haus^
 ||ns.mtsoln.com^
 ||ns.nerdytechgeeks.co.za^
+||ns.net.kg^
 ||ns.nwps.fi^
 ||ns.ral9005.org^
 ||ns.trcnet.fi^
