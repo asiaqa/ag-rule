@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 07 Jan 2025 11:29 UTC
+! Last modified: 08 Jan 2025 03:37 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3732
+! Number of entries: 3723
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0107.1129.43
+! Version: 2025.0108.0337.01
 003153.xyz
 052419.xyz
 0ms.dev
@@ -1685,11 +1685,9 @@ zxcvb.pp.ua
 ||adguard.ef67daisuki.club^
 ||adguard.ender.fr^
 ||adguard.frutuozo.com.br^
-||adguard.gambini.org^
 ||adguard.gbrossi.com.br^
 ||adguard.haneulo.com^
 ||adguard.hartley.cloud^
-||adguard.ihatemy.live^
 ||adguard.io^
 ||adguard.jfchenier.ca^
 ||adguard.johanliebert.top^
@@ -2237,7 +2235,6 @@ zxcvb.pp.ua
 ||dns.ashleyjackson.net^
 ||dns.asterimoon.com^
 ||dns.asysec.com^
-||dns.auapi.fun^
 ||dns.azsopro.net^
 ||dns.b33.space^
 ||dns.b612.me^
@@ -2352,7 +2349,6 @@ zxcvb.pp.ua
 ||dns.fehlsprache.de^
 ||dns.ffnw.de^
 ||dns.filipccz.eu^
-||dns.fizz.studio^
 ||dns.flatuslifir.is^
 ||dns.flightspace.net^
 ||dns.floriantinney.de^
@@ -2803,7 +2799,6 @@ zxcvb.pp.ua
 ||doh.infracell.net^
 ||doh.iucc.ac.il^
 ||doh.jeroenhd.nl^
-||doh.kekew.info^
 ||doh.kel.pe^
 ||doh.kidzonet.io^
 ||doh.killtw.im^
@@ -3056,7 +3051,6 @@ zxcvb.pp.ua
 ||fra1.eyecay.xyz^
 ||francis-proxy.top^
 ||frandcomfort.us^
-||free-kree-k.xyz^
 ||free-proxy-list.net^
 ||free-proxy.com.de^
 ||free-proxy.com^
@@ -3178,7 +3172,6 @@ zxcvb.pp.ua
 ||getsiteunblocked.com^
 ||gettwifi.com^
 ||getusvpn.com^
-||getvpn.info^
 ||getvpnx.com^
 ||getxvpn.com^
 ||getxweb.com^
@@ -3318,7 +3311,6 @@ zxcvb.pp.ua
 ||home-server.store^
 ||home.enjoymylife.net^
 ||home.wriedts.de^
-||home27.duckdns.org^
 ||homemail.info^
 ||homeproxy.com^
 ||homeproxy.net^
@@ -3453,7 +3445,6 @@ zxcvb.pp.ua
 ||judua3rtinpst0s.xyz^
 ||jupitervpn.ninja^
 ||juproxy.com^
-||jurre-home.duckdns.org^
 ||justahotm3ss.xyz^
 ||justhost.bedro.cloud^
 ||justproxy.co.uk^
