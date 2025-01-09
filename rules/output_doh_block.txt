@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 08 Jan 2025 03:37 UTC
+! Last modified: 08 Jan 2025 20:02 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3723
+! Number of entries: 3727
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0108.0337.01
+! Version: 2025.0108.2002.51
 003153.xyz
 052419.xyz
 0ms.dev
@@ -224,7 +224,6 @@ d.bod.lol
 d.niaox.com
 d.toairs.com
 d2.shabi.icu
-dandelionsprout.asuscomm.com
 darkness.is.my.waifu.cz
 dart.kpsn.org
 darya.persiannit.net
@@ -851,6 +850,7 @@ doh.infotek.net.id
 doh.infracell.net
 doh.iucc.ac.il
 doh.jeroenhd.nl
+doh.kekew.info
 doh.kel.pe
 doh.kidzonet.io
 doh.killtw.im
@@ -1039,6 +1039,7 @@ hole.elbschloss.xyz
 home-server.store
 home.enjoymylife.net
 home.wriedts.de
+home27.duckdns.org
 hostdare.qtxd.net
 hrk01.dnscry.pt
 hshh.org
@@ -1081,6 +1082,7 @@ jp01.dns4me.net
 jp1.f7b6h9.tk
 jp2.ooroot.com
 jpdns.cola16.app
+jurre-home.duckdns.org
 justhost.bedro.cloud
 kaiwu.xyz
 kavkaz.monster
@@ -2799,6 +2801,7 @@ zxcvb.pp.ua
 ||doh.infracell.net^
 ||doh.iucc.ac.il^
 ||doh.jeroenhd.nl^
+||doh.kekew.info^
 ||doh.kel.pe^
 ||doh.kidzonet.io^
 ||doh.killtw.im^
@@ -2952,6 +2955,7 @@ zxcvb.pp.ua
 ||emuby.com^
 ||encrypt.me^
 ||englandproxy.co.uk^
+||enrollkirgo.com^
 ||epicbrowser.com^
 ||error.proxy.startpage.com^
 ||esel.stusta.mhn.de^
@@ -3028,6 +3032,7 @@ zxcvb.pp.ua
 ||fitnessdepotprices.com^
 ||fixproxy.com^
 ||fjr01.dnscry.pt^
+||flarquix.xyz^
 ||flashpull.com^
 ||flashput.net^
 ||flashputon.net^
@@ -3311,6 +3316,7 @@ zxcvb.pp.ua
 ||home-server.store^
 ||home.enjoymylife.net^
 ||home.wriedts.de^
+||home27.duckdns.org^
 ||homemail.info^
 ||homeproxy.com^
 ||homeproxy.net^
@@ -3445,6 +3451,7 @@ zxcvb.pp.ua
 ||judua3rtinpst0s.xyz^
 ||jupitervpn.ninja^
 ||juproxy.com^
+||jurre-home.duckdns.org^
 ||justahotm3ss.xyz^
 ||justhost.bedro.cloud^
 ||justproxy.co.uk^
@@ -3862,7 +3869,6 @@ zxcvb.pp.ua
 ||pandashield.com^
 ||pandavpn.pro^
 ||pandavpnpro.com^
-||pandorman.com^
 ||pango-paas.co^
 ||pankvyh.xyz^
 ||panmill.xyz^
