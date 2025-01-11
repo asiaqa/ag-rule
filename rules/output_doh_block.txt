@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 10 Jan 2025 11:38 UTC
+! Last modified: 11 Jan 2025 00:29 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3732
+! Number of entries: 3733
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0110.1138.45
+! Version: 2025.0111.0029.16
 003153.xyz
 052419.xyz
 0ms.dev
@@ -3574,6 +3574,7 @@ zxcvb.pp.ua
 ||maqgie.xyz^
 ||mask-api.fe2.apple-dns.net^
 ||mask-api.icloud.com^
+||mask-boot.icloud.com^
 ||mask-canary.icloud.com^
 ||mask-h2.icloud.com^
 ||mask.apple-dns.net^
