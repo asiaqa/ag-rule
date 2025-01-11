@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 10 Jan 2025 04:12 UTC
+! Last modified: 10 Jan 2025 11:38 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3720
+! Number of entries: 3732
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0110.0412.07
+! Version: 2025.0110.1138.45
 003153.xyz
 052419.xyz
 0ms.dev
@@ -453,6 +453,7 @@ dns.horcrux.vip
 dns.hostux.net
 dns.hotta.page
 dns.hshoe.cn
+dns.huas.me
 dns.hujiayucc.cn
 dns.huseynov.work
 dns.huyhoangit.net
@@ -1487,7 +1488,6 @@ vm.mytm.cc
 vno01.dnscry.pt
 vorlif.org
 vpsus3.pzhg.me
-vtcuong.site
 wantaquddin.com
 waw01.dnscry.pt
 waw02.dnscry.pt
@@ -2189,6 +2189,7 @@ zxcvb.pp.ua
 ||dns-nyc.aaflalo.me^
 ||dns-ovh.panszelescik.pl^
 ||dns-privacy.puregeni.us^
+||dns-savage.com^
 ||dns-tls.bitwiseshift.net^
 ||dns-tunnel-check.googlezip.net^
 ||dns-unfiltered.adguard.com^
@@ -3085,6 +3086,7 @@ zxcvb.pp.ua
 ||freeeuroproxy.com^
 ||freehiddenvpn.gq^
 ||freehollandproxy.nl^
+||freelux.world^
 ||freeme1001.com^
 ||freemicvpn.com^
 ||freenewslinks.com^
@@ -3469,6 +3471,7 @@ zxcvb.pp.ua
 ||kilabit.info^
 ||kiliclar.lol^
 ||kingsurfproxy.com^
+||kinoshka.su^
 ||kiri.nonexiste.net^
 ||kiv01.dnscry.pt^
 ||klcknerrip.com^
@@ -3624,6 +3627,7 @@ zxcvb.pp.ua
 ||mochiss3.xyz^
 ||mockblock.com^
 ||monoprivacy.io^
+||monro-stom-plus.info^
 ||monthlyssh.net^
 ||monvpn.com^
 ||morbitzer.de^
@@ -3677,6 +3681,7 @@ zxcvb.pp.ua
 ||napps-2.com^
 ||nat64.tuxis.nl^
 ||natfrp.cloud^
+||nathanielgavin.lol^
 ||naw01.dnscry.pt^
 ||nb66.me^
 ||ne1.ca^
@@ -3742,6 +3747,7 @@ zxcvb.pp.ua
 ||novatech.fun^
 ||nowcache.com^
 ||nowhiteflags.xyz^
+||noyourmean.xyz^
 ||nqma.net^
 ||ns.00dani.me^
 ||ns.data.haus^
@@ -4198,6 +4204,7 @@ zxcvb.pp.ua
 ||readandmath.today^
 ||redhoodie.site^
 ||redschool.info^
+||reezus.us^
 ||reflect4.me^
 ||relayon.org^
 ||remotedesktop.com^
@@ -4238,6 +4245,7 @@ zxcvb.pp.ua
 ||rifhchj.uk^
 ||ringvpn.com^
 ||riseup.net^
+||rnblyatclub.online^
 ||ro-buc-w-f-1.nashkan.net^
 ||ro-buc-w-p-1.nashkan.net^
 ||romania.privacy-dns.pw^
@@ -4283,6 +4291,7 @@ zxcvb.pp.ua
 ||sciencesimplified.pro^
 ||se3v5tjfff3aet.me^
 ||sea01.dnscry.pt^
+||seanfat.club^
 ||sec-tunnel.com^
 ||secretbrowser.net^
 ||secretproxy.org^
@@ -4532,6 +4541,7 @@ zxcvb.pp.ua
 ||theclickcheck.com^
 ||thecodeil.com^
 ||thefreevpn.com^
+||themeaningofallmeaningsforallofthemeaningsmeanings.lol^
 ||theproxies.net^
 ||theproxy.bz^
 ||theproxy.cc^
@@ -4667,6 +4677,7 @@ zxcvb.pp.ua
 ||tvone.info^
 ||tw2.ooroot.com^
 ||twingate.com^
+||twinklestarknights.com^
 ||twoproxy.net^
 ||tx.teradns.org^
 ||tyo01.dnscry.pt^
@@ -5188,6 +5199,7 @@ zxcvb.pp.ua
 ||ychen.gq^
 ||yd6n63ptky.com^
 ||yellowproxy.net^
+||yellowshiitake.com^
 ||ylink.info^
 ||yogavpn.com^
 ||youcanhide.net^
