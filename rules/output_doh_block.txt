@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 15 Jan 2025 03:22 UTC
+! Last modified: 15 Jan 2025 19:28 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3745
+! Number of entries: 3743
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0115.0322.11
+! Version: 2025.0115.1928.25
 003153.xyz
 052419.xyz
 0ms.dev
@@ -210,6 +210,7 @@ common.dot.dns.yandex.net
 commons.host
 comss.one
 comss.ru
+console.carestyle.org
 cph01.dnscry.pt
 crypto.sx
 cube.neubsi.at
@@ -297,7 +298,6 @@ dns.artikel10.org
 dns.ashleyjackson.net
 dns.asterimoon.com
 dns.asysec.com
-dns.auapi.fun
 dns.azsopro.net
 dns.b33.space
 dns.b612.me
@@ -1021,6 +1021,7 @@ google-public-dns-b.google.com
 goose.buckyfan.net
 gru01.dnscry.pt
 guard.sntrk.ru
+gustamadh.dynv6.net
 gva01.dnscry.pt
 gztech.me
 h.gjrick.tw
@@ -3224,7 +3225,6 @@ zxcvb.pp.ua
 ||granules.us^
 ||gratisproxy.nl^
 ||gratisvpn.com^
-||gravity.sciencevictory.org^
 ||greatestfreeproxy.com^
 ||green2.jnraptor.net^
 ||greenpass.info^
@@ -3367,7 +3367,6 @@ zxcvb.pp.ua
 ||idealvpn.com^
 ||idolproxy.com^
 ||ifyoublockthisurgay-ggnewo.vercel.app^
-||ihctw.synology.me^
 ||iij.jp^
 ||ikarosalpha.xyz^
 ||ikhebdorst.nl^
