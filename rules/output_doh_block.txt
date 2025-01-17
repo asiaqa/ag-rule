@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 16 Jan 2025 19:55 UTC
+! Last modified: 16 Jan 2025 22:58 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3738
+! Number of entries: 3737
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0116.1955.34
+! Version: 2025.0116.2258.45
 003153.xyz
 052419.xyz
 0ms.dev
@@ -1776,6 +1776,7 @@ zxcvb.pp.ua
 ||ananoos.com^
 ||anatomical.design^
 ||anchorfree.net^
+||androvpn.com^
 ||animeproxy.net^
 ||aniscartujo.com^
 ||anonine.com^
@@ -1842,6 +1843,7 @@ zxcvb.pp.ua
 ||ath01.dnscry.pt^
 ||atl01.dnscry.pt^
 ||atlasvpn.com^
+||atozproxy.com^
 ||atris.cyou^
 ||au-syd-w-f-1.nashkan.net^
 ||au.rslvr.eu^
@@ -2961,7 +2963,6 @@ zxcvb.pp.ua
 ||englandproxy.co.uk^
 ||enrollkirgo.com^
 ||epicbrowser.com^
-||error.proxy.startpage.com^
 ||esel.stusta.mhn.de^
 ||eth.link^
 ||ettego.com^
@@ -4075,7 +4076,6 @@ zxcvb.pp.ua
 ||proxy2014.net^
 ||proxy2link.com^
 ||proxy2you.com^
-||proxy3.startpage.com^
 ||proxy4down.com^
 ||proxy4free.me^
 ||proxy4freedom.com^
@@ -4885,7 +4885,6 @@ zxcvb.pp.ua
 ||urban-vpn.com^
 ||url10.org^
 ||urology.wiki^
-||us-browse.startpage.com^
 ||us-chi-w-f-1.nashkan.net^
 ||us-chi-w-p-1.nashkan.net^
 ||us-hil-w-f-1.nashkan.net^
