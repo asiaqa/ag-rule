@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 18 Jan 2025 11:33 UTC
+! Last modified: 19 Jan 2025 03:28 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3746
+! Number of entries: 3753
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0118.1133.42
+! Version: 2025.0119.0328.54
 003153.xyz
 052419.xyz
 0ms.dev
@@ -1586,6 +1586,7 @@ zxcvb.pp.ua
 ||2.dnscrypt-cert.dns.seby.io^
 ||2.dnscrypt-cert.ffmuc.net^
 ||2.dnscrypt-cert.opendns.com^
+||2.dnscrypt-cert.pumplex.com^
 ||2.dnscrypt-cert.quad9.net^
 ||2.dnscrypt-cert.shield-2.dnsbycomodo.com^
 ||233py.com^
@@ -2074,7 +2075,6 @@ zxcvb.pp.ua
 ||croxy.red^
 ||croxy.rocks^
 ||croxyproxy.best^
-||croxyproxy.co.in^
 ||croxyproxy.com.in^
 ||croxyproxy.com^
 ||croxyproxy.net^
@@ -2559,6 +2559,7 @@ zxcvb.pp.ua
 ||dns.psociety.de^
 ||dns.pub^
 ||dns.pumpkinvrar.com^
+||dns.pumplex.com^
 ||dns.qrtz.club^
 ||dns.quad9.net^
 ||dns.quiet.rocks^
@@ -3233,6 +3234,7 @@ zxcvb.pp.ua
 ||granules.us^
 ||gratisproxy.nl^
 ||gratisvpn.com^
+||gravity.sciencevictory.org^
 ||greatestfreeproxy.com^
 ||green2.jnraptor.net^
 ||greenpass.info^
@@ -3427,6 +3429,7 @@ zxcvb.pp.ua
 ||ist01.dnscry.pt^
 ||iterator.lazada.com^
 ||itopvpn.com^
+||itsayx.online^
 ||ivacy.com^
 ||ivnkn.xyz^
 ||ivpn.net^
@@ -4004,6 +4007,7 @@ zxcvb.pp.ua
 ||pro-tower.com^
 ||pro.shecan.ir^
 ||prohome.info^
+||prointern.info^
 ||project-evoex.de^
 ||propage.info^
 ||prostovpn.org^
@@ -4157,8 +4161,10 @@ zxcvb.pp.ua
 ||proxysite.video^
 ||proxysneak.com^
 ||proxysurfing.org^
+||proxythis.info^
 ||proxytime.net^
 ||proxytoplay.com^
+||proxyturbo.com^
 ||proxyunblock.site^
 ||proxyunblocker.org^
 ||proxyvpn.eu^
@@ -4204,6 +4210,7 @@ zxcvb.pp.ua
 ||rabbithole.site^
 ||racevpn.com^
 ||radmin-vpn.com^
+||radmin-vpn.org^
 ||rapidprivacy.com^
 ||rapidproxy.org^
 ||rapidproxy.us^
