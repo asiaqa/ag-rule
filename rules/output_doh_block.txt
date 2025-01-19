@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 17 Jan 2025 19:34 UTC
+! Last modified: 18 Jan 2025 11:33 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3744
+! Number of entries: 3746
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0117.1934.11
+! Version: 2025.0118.1133.42
 003153.xyz
 052419.xyz
 0ms.dev
@@ -601,6 +601,7 @@ dns.propheci.xyz
 dns.psociety.de
 dns.pub
 dns.pumpkinvrar.com
+dns.pumplex.com
 dns.qrtz.club
 dns.quad9.net
 dns.quiet.rocks
@@ -1398,6 +1399,7 @@ sky.rethinkdns.com
 skydragoness.com
 slc01.dnscry.pt
 sof01.dnscry.pt
+spacedns.org
 squidmall.vip
 sriedmueadguard.casa
 steering.nextdns.io
@@ -1683,6 +1685,7 @@ zxcvb.pp.ua
 ||adguard.ef67daisuki.club^
 ||adguard.ender.fr^
 ||adguard.frutuozo.com.br^
+||adguard.gambini.org^
 ||adguard.gbrossi.com.br^
 ||adguard.haneulo.com^
 ||adguard.hartley.cloud^
@@ -2401,6 +2404,7 @@ zxcvb.pp.ua
 ||dns.hostux.net^
 ||dns.hotta.page^
 ||dns.hshoe.cn^
+||dns.huas.me^
 ||dns.hujiayucc.cn^
 ||dns.huseynov.work^
 ||dns.huyhoangit.net^
