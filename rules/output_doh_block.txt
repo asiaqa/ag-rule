@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 19 Jan 2025 03:28 UTC
+! Last modified: 20 Jan 2025 03:24 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3753
+! Number of entries: 3757
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0119.0328.54
+! Version: 2025.0120.0324.41
 003153.xyz
 052419.xyz
 0ms.dev
@@ -1750,6 +1750,7 @@ zxcvb.pp.ua
 ||agh.workfordemo.co.in^
 ||agh.xinfeng16m.top^
 ||ahadns.net^
+||ahoj.email^
 ||airdns.org^
 ||airvpn.org^
 ||akashiro.co.id^
@@ -2200,7 +2201,6 @@ zxcvb.pp.ua
 ||dns-privacy.puregeni.us^
 ||dns-savage.com^
 ||dns-tls.bitwiseshift.net^
-||dns-tunnel-check.googlezip.net^
 ||dns-unfiltered.adguard.com^
 ||dns.0ooo.icu^
 ||dns.0x55.net^
@@ -2603,6 +2603,7 @@ zxcvb.pp.ua
 ||dns.shimul.me^
 ||dns.silen.org^
 ||dns.silentlybren.com^
+||dns.simplylinux.ch^
 ||dns.sindominio.net^
 ||dns.skrep.eu^
 ||dns.skrep.in^
@@ -3100,7 +3101,6 @@ zxcvb.pp.ua
 ||freehiddenvpn.gq^
 ||freehollandproxy.nl^
 ||freelux.world^
-||freeme1001.com^
 ||freemicvpn.com^
 ||freenewslinks.com^
 ||freeopenproxy.com^
@@ -3111,7 +3111,6 @@ zxcvb.pp.ua
 ||freeproxy.me^
 ||freeproxy.top^
 ||freeproxy.win^
-||freeproxyaccess.com^
 ||freeproxyserver.co^
 ||freeproxysites.co^
 ||freeproxyunblockyoutube.com^
@@ -3143,7 +3142,6 @@ zxcvb.pp.ua
 ||french-vpn.com^
 ||frog.dns.qwer.pw^
 ||frootvpn.com^
-||frysprinters.com^
 ||fuchur.pentament.de^
 ||fun4school.store^
 ||fwgw.orangepipc.mywire.org^
@@ -3377,6 +3375,7 @@ zxcvb.pp.ua
 ||idealvpn.com^
 ||idolproxy.com^
 ||ifyoublockthisurgay-ggnewo.vercel.app^
+||ihctw.synology.me^
 ||iij.jp^
 ||ikarosalpha.xyz^
 ||ikhebdorst.nl^
@@ -4089,6 +4088,7 @@ zxcvb.pp.ua
 ||proxy2014.net^
 ||proxy2link.com^
 ||proxy2you.com^
+||proxy3.startpage.com^
 ||proxy4down.com^
 ||proxy4free.me^
 ||proxy4freedom.com^
@@ -4439,6 +4439,7 @@ zxcvb.pp.ua
 ||squidproxyserver.com^
 ||sriedmueadguard.casa^
 ||ssh-free.com^
+||sshagan.net^
 ||sshdropbear.net^
 ||sshkit.com^
 ||sshmax.net^
@@ -4535,6 +4536,7 @@ zxcvb.pp.ua
 ||switch.ch^
 ||switchvpn.com^
 ||switchvpn.net^
+||swordvpn.com^
 ||syd.adfilter.net^
 ||syd01.dnscry.pt^
 ||syd02.dnscry.pt^
@@ -5138,6 +5140,7 @@ zxcvb.pp.ua
 ||webtunnel.org^
 ||webtunnelx.com^
 ||webxify.com^
+||webypass.info^
 ||wellpoint.com^
 ||wevpn.com^
 ||wez.fr^
@@ -5173,6 +5176,7 @@ zxcvb.pp.ua
 ||writingessaypros.com^
 ||wtools.eu^
 ||www-admin.mehtionthebeat.com^
+||www-bruh.xenon.lol^
 ||www-croxy.ghgi.site^
 ||www-funny.pinkertonmc.com^
 ||www-nsc.moebh.me^
