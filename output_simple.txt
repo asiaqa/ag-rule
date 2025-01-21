@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202501211131
+# Verison: 202501211932
 # Expires: around 1 day
-# Total number of rules = 131172
+# Total number of rules = 131175
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -36477,6 +36477,7 @@ vkcdnservice.appspot.com^
 ||d1udjti6mtxz9q.cloudfront.net^
 ||tagman.britishairways.com^
 |piwik.
+||dco.coupang.com^
 ||clickstream-*.homedepot.com^
 ||mr.homedepot.com^
 ||frontend-logger.flippback.com^
@@ -57259,6 +57260,9 @@ analytics-*.aasaam.com
 ||ziffdavis.com^
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
+||qhihoins.com^
+||uv4.fun^
+||01211sop.xyz^
 ||bdad.123pan.cn^
 ://a.ads.
 ://ad-api-
@@ -58109,7 +58113,6 @@ analytics-*.aasaam.com
 -logging.nextmedia.com^
 ||pv.sohu.com^
 ||stats2.*.fdnames.com^
-||dco.coupang.com^
 ||stats-*.p2pnow.ru^
 ||tms-st.cdn.ngenix.net^
 ||mtm.qdqmedia.com
