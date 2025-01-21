@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 20 Jan 2025 03:24 UTC
+! Last modified: 20 Jan 2025 20:16 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3757
+! Number of entries: 3755
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0120.0324.41
+! Version: 2025.0120.2016.41
 003153.xyz
 052419.xyz
 0ms.dev
@@ -121,7 +121,6 @@ africadns1.liquidtelecom.net
 africadns2.liquidtelecom.net
 ag.apollohct.com
 ag.ff0x.ca
-ag.marschi.de
 agh-yz.russel053.com
 agh.dshubham.xyz
 agh.fltn.us
@@ -1169,7 +1168,6 @@ mru01.dnscry.pt
 msr177.com
 muc01.dnscry.pt
 muli.stusta.mhn.de
-multi.dns.marbledfennec.net
 muxyuji.ru
 myatris.sbs
 myrra-is.so-gorgeo.us.kg
@@ -4080,7 +4078,6 @@ zxcvb.pp.ua
 ||proxy.schel.li^
 ||proxy.searchfiles.de^
 ||proxy.sh^
-||proxy.sx^
 ||proxy.toolur.com^
 ||proxy.vpner.com^
 ||proxy.wynd.network^
@@ -4283,7 +4280,6 @@ zxcvb.pp.ua
 ||rusvpn.com^
 ||rvpn.ws^
 ||rx.techomespace.com^
-||ryuto07219.site^
 ||s4-us2.startpage.com^
 ||s4m.tech^
 ||s4m.xyz^
