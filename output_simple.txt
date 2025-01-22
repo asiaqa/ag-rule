@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202501221133
+# Verison: 202501221932
 # Expires: around 1 day
-# Total number of rules = 131163
+# Total number of rules = 131170
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -36521,6 +36521,11 @@ vkcdnservice.appspot.com^
 ||d1udjti6mtxz9q.cloudfront.net^
 ||tagman.britishairways.com^
 |piwik.
+||metricreceiver.cellrebel.com^
+||events.app-performance.music.amazon.dev^
+||collector-*.px-client.net^
+||metrics-a.wbx2.com^
+||event.msi.com^
 ||dco.coupang.com^
 ||clickstream-*.homedepot.com^
 ||mr.homedepot.com^
@@ -50933,6 +50938,9 @@ inapps.appsflyersdk.com^
 ||scigzetg.com^
 ||bjfsk.xyz^
 ||jltwxisa.icu^
+||qo2.fun^
+||01221sop.xyz^
+||thangrurs.com^
 ||y0o.fun^
 ||icokamio.top^
 ||thrumulr.com^
@@ -55957,6 +55965,8 @@ analytics-*.aasaam.com
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
 ||api2.branch.io^$dnsrewrite=0.0.0.0
+@@|www.daraz.pk^|
+@@|daraz.com^|
 @@||sbs.demdex.net^|
 @@||cl.link-ag.net^|
 @@||action.metaffiliation.com^|
@@ -56362,7 +56372,6 @@ analytics-*.aasaam.com
 ||gcheck.carthook.com^
 ||production-cmp.isgprivacy.cbsi.com^
 ||cdnwidget.com^
-||metricreceiver.cellrebel.com^
 ||celltick.com^
 ||logagent-wf.centurygame.com^
 ||ta-collector.centurygame.com^
@@ -108950,7 +108959,6 @@ nanoGDPR.min.js^
 ||digprjsurvey.amazon.eu^
 ||dp-rsm-prod.amazon.com^
 ||messaging-director-us-east-1.amazon.com^
-||events.app-performance.music.amazon.dev^
 ||telemetry.pxt.amazon.dev^
 ||rcm.amazon.com^
 ||rcm-de.amazon.de^
@@ -129701,7 +129709,6 @@ nanoGDPR.min.js^
 ||analytics.wbtvd.com^
 ||wbupbv.com^
 ||wbvfj.xyz^
-||metrics-a.wbx2.com^
 ||wcam.tv^
 ||wcbghap63.shop^
 ||analytics.wcirb.com^
