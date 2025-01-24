@@ -3,15 +3,14 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 22 Jan 2025 03:19 UTC
+! Last modified: 24 Jan 2025 03:20 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3755
+! Number of entries: 3754
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0122.0319.11
+! Version: 2025.0124.0320.15
 003153.xyz
-052419.xyz
 0ms.dev
 1.dns.noridev.moe
 123000123.xyz
@@ -29,7 +28,6 @@ a.family.ns.dnslify.com
 a.ns.dnslify.com
 a.passcloud.xyz
 a.safe.ns.dnslify.com
-a.zpn.me
 abe01.dnscry.pt
 abel.waringer-atg.de
 abn01.dnscry.pt
@@ -298,6 +296,7 @@ dns.artikel10.org
 dns.ashleyjackson.net
 dns.asterimoon.com
 dns.asysec.com
+dns.auapi.fun
 dns.azsopro.net
 dns.b33.space
 dns.b612.me
@@ -989,7 +988,6 @@ fjr01.dnscry.pt
 fly.io
 fnt01.dnscry.pt
 fr-dns1.bancuh.com
-fr-gra-w-f-1.nashkan.net
 fr-gra-w-p-1.nashkan.net
 fr1.dnswarden.com
 fra-dns.bitdefender.net
@@ -1527,7 +1525,6 @@ zougloub.eu
 zrh1-ns01.monzoon.net
 zxcvb.pp.ua
 ||003153.xyz^
-||052419.xyz^
 ||0ms.dev^
 ||0x3d.lu^
 ||1.dns.noridev.moe^
@@ -1627,7 +1624,6 @@ zxcvb.pp.ua
 ||a.ns.dnslify.com^
 ||a.passcloud.xyz^
 ||a.safe.ns.dnslify.com^
-||a.zpn.me^
 ||a1free-optimal.prcdn.net^
 ||abcproxy.com^
 ||abe01.dnscry.pt^
@@ -2246,6 +2242,7 @@ zxcvb.pp.ua
 ||dns.ashleyjackson.net^
 ||dns.asterimoon.com^
 ||dns.asysec.com^
+||dns.auapi.fun^
 ||dns.azsopro.net^
 ||dns.b33.space^
 ||dns.b612.me^
@@ -2969,6 +2966,7 @@ zxcvb.pp.ua
 ||encrypt.me^
 ||endente.com^
 ||englandproxy.co.uk^
+||enproxy.com^
 ||enrollkirgo.com^
 ||epicbrowser.com^
 ||esel.stusta.mhn.de^
@@ -3061,7 +3059,6 @@ zxcvb.pp.ua
 ||fpn.firefox.com^
 ||fproxy.net^
 ||fr-dns1.bancuh.com^
-||fr-gra-w-f-1.nashkan.net^
 ||fr-gra-w-p-1.nashkan.net^
 ||fr1.dnswarden.com^
 ||fra-dns.bitdefender.net^
