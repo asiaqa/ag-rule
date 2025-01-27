@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 26 Jan 2025 03:17 UTC
+! Last modified: 27 Jan 2025 03:18 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3754
+! Number of entries: 3746
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0126.0317.55
+! Version: 2025.0127.0318.03
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -2906,7 +2906,6 @@ zxcvb.pp.ua
 ||doth.huque.com^
 ||dotvpn.com^
 ||doublehop.me^
-||dove.soapagent.com^
 ||dove.soapclient.com^
 ||downloadvpnfree.com^
 ||doyouremember.love^
@@ -3185,7 +3184,6 @@ zxcvb.pp.ua
 ||getusvpn.com^
 ||getvpnx.com^
 ||getxvpn.com^
-||getxweb.com^
 ||gfwvpn.com^
 ||ghadrboland.ir^
 ||ghostpath.com^
@@ -3735,7 +3733,6 @@ zxcvb.pp.ua
 ||nl-dro-w-p-1.nashkan.net^
 ||nl.dns.privex.io^
 ||nl.rslvr.eu^
-||nntime.com^
 ||noads.imbuffering.com^
 ||nocensor.work^
 ||nodepay.ai^
@@ -4241,7 +4238,6 @@ zxcvb.pp.ua
 ||resolver1.opendns.com^
 ||resolver2-fs.opendns.com^
 ||resolver2.absolight.net^
-||resolver2.dyndnsinternetguide.com^
 ||resolver2.ipv6-sandbox.opendns.com^
 ||resolver2.opendns.com^
 ||resolver3.absolight.net^
@@ -4527,7 +4523,6 @@ zxcvb.pp.ua
 ||switch.ch^
 ||switchvpn.com^
 ||switchvpn.net^
-||swordvpn.com^
 ||syd.adfilter.net^
 ||syd01.dnscry.pt^
 ||syd02.dnscry.pt^
@@ -4625,7 +4620,6 @@ zxcvb.pp.ua
 ||topsun.pw^
 ||toptip.cc^
 ||topvpn.cc^
-||topvpn.cn^
 ||topvpnguides.com^
 ||tor-ca.prcdn.net^
 ||tor-gateways.de^
@@ -4820,7 +4814,6 @@ zxcvb.pp.ua
 ||unblockedwarez.com^
 ||unblocker.net^
 ||unblocker.us^
-||unblockfacebook.eu^
 ||unblockfav.com^
 ||unblockfreeproxy.com^
 ||unblockit.app^
@@ -4944,7 +4937,6 @@ zxcvb.pp.ua
 ||videomy.online^
 ||videonew.online^
 ||videoproxy.site^
-||videounblocked.com^
 ||videounblocker.net^
 ||vidproxy.com^
 ||vie01.dnscry.pt^
