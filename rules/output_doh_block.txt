@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 27 Jan 2025 03:18 UTC
+! Last modified: 28 Jan 2025 03:14 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3746
+! Number of entries: 3744
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0127.0318.03
+! Version: 2025.0128.0314.35
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -273,7 +273,6 @@ dns.adguard-dns.com
 dns.adguard.com
 dns.adrianlam.com
 dns.aeiou.pp.ua
-dns.aerro.in
 dns.albony.xyz
 dns.alidns.com
 dns.alloxr.info
@@ -893,7 +892,6 @@ doh.suche.org
 doh.sunoaki.net
 doh.syshero.org
 doh.technochat.in
-doh.thio.me
 doh.tiar.app
 doh.tiarap.org
 doh.totoro.pub
@@ -2217,7 +2215,6 @@ zxcvb.pp.ua
 ||dns.adguard.com^
 ||dns.adrianlam.com^
 ||dns.aeiou.pp.ua^
-||dns.aerro.in^
 ||dns.albony.xyz^
 ||dns.alekberg.net^
 ||dns.alloxr.info^
@@ -2848,7 +2845,6 @@ zxcvb.pp.ua
 ||doh.sunoaki.net^
 ||doh.syshero.org^
 ||doh.technochat.in^
-||doh.thio.me^
 ||doh.this.web.id^
 ||doh.tiar.app^
 ||doh.tiarap.org^
