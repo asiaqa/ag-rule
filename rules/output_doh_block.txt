@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 30 Jan 2025 03:13 UTC
+! Last modified: 30 Jan 2025 15:35 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
 ! Number of entries: 3743
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0130.0313.56
+! Version: 2025.0130.1535.15
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -221,6 +221,7 @@ d.bod.lol
 d.niaox.com
 d.toairs.com
 d2.shabi.icu
+dandelionsprout.asuscomm.com
 darkness.is.my.waifu.cz
 dart.kpsn.org
 darya.persiannit.net
@@ -1093,6 +1094,7 @@ kr1.ooroot.com
 kr2.ooroot.com
 kracon.anycast.uncensoreddns.org
 kronos.plan9-dns.com
+krtekvpn.duckdns.org
 kx-97795-tr.xyz
 kz-pav-w-p-1.nashkan.net
 las-vegas.privacy-dns.pw
@@ -3483,6 +3485,7 @@ zxcvb.pp.ua
 ||kr1.ooroot.com^
 ||kr2.ooroot.com^
 ||kronos.plan9-dns.com^
+||krtekvpn.duckdns.org^
 ||kryptovpn.kryptotel.net^
 ||kx-97795-tr.xyz^
 ||kyoheitensai.com^
@@ -3817,7 +3820,6 @@ zxcvb.pp.ua
 ||onion.lt^
 ||onion.ly^
 ||onion.nu^
-||onion.pet^
 ||onion.rip^
 ||onion.sh^
 ||onion.to^
