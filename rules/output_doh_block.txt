@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 02 Feb 2025 03:19 UTC
+! Last modified: 03 Feb 2025 03:16 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3753
+! Number of entries: 3747
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0202.0319.25
+! Version: 2025.0203.0316.34
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1067,6 +1067,7 @@ jhb01.dnscry.pt
 jkdns.me
 jkt01.dnscry.pt
 jnb01.dnscry.pt
+johneldenring.lol
 jp-dns1.bancuh.com
 jp-kix.doh.sb
 jp-nrt.doh.sb
@@ -1767,7 +1768,6 @@ zxcvb.pp.ua
 ||ams2.startpage.com^
 ||anachem.online^
 ||ananoos.com^
-||anatomical.design^
 ||anchorfree.net^
 ||androvpn.com^
 ||animeproxy.net^
@@ -1893,7 +1893,6 @@ zxcvb.pp.ua
 ||bg.rslvr.eu^
 ||bgvpn.com^
 ||bi-tree.ru^
-||bidehshomali.top^
 ||binhexsolutions.co.uk^
 ||bit123.biz^
 ||bitping.com^
@@ -1977,7 +1976,6 @@ zxcvb.pp.ua
 ||canadianshield.cira.ca^
 ||cantblockthis.org^
 ||cantfindme.org^
-||caproxies.info^
 ||carebuzz.io^
 ||careproxy.com^
 ||casinovpn.com^
@@ -2041,7 +2039,6 @@ zxcvb.pp.ua
 ||confirmedvpn.com^
 ||connectionvpn.com^
 ||console.carestyle.org^
-||constitutional.design^
 ||consumervpn.trendmicro.com^
 ||contassh.com^
 ||contentabc.com^
@@ -2087,7 +2084,6 @@ zxcvb.pp.ua
 ||cyberghostvpn.com^
 ||cybersilent.com^
 ||cyberssh.com^
-||cybertruck.design^
 ||cynntex.fun^
 ||d.apemlegit.my.id^
 ||d.bod.lol^
@@ -2168,7 +2164,6 @@ zxcvb.pp.ua
 ||dialertoserver.com^
 ||digibitdesign.com^
 ||directoryproxy.info^
-||disciplinary.design^
 ||disconnect.me^
 ||diskcrmvpn.co.cc^
 ||districtnewyork.com^
@@ -2869,7 +2864,6 @@ zxcvb.pp.ua
 ||doh2.gslb2.xfinity.com^
 ||dohdot.coxlab.net^
 ||dohtrial.att.net^
-||dolopo.net^
 ||domainownership.us^
 ||dontblockme.org^
 ||dontfilter.us^
@@ -3441,6 +3435,7 @@ zxcvb.pp.ua
 ||jkdns.me^
 ||jkt01.dnscry.pt^
 ||jnb01.dnscry.pt^
+||johneldenring.lol^
 ||joker81fansbase.site^
 ||jongserver.xyz^
 ||jp-dns1.bancuh.com^
