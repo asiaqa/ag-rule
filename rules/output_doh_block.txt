@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 03 Feb 2025 03:16 UTC
+! Last modified: 03 Feb 2025 15:34 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3747
+! Number of entries: 3743
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0203.0316.34
+! Version: 2025.0203.1534.39
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1845,7 +1845,6 @@ zxcvb.pp.ua
 ||avira-vpn.net^
 ||avoidance.info^
 ||awabo.com^
-||awan.ftp.sh^
 ||award-vpn.com^
 ||awebproxy.com^
 ||awhoer.net^
@@ -2335,7 +2334,6 @@ zxcvb.pp.ua
 ||dns.eu-frankfurt-1.oraclecloud.com^
 ||dns.expert^
 ||dns.extrawdw.net^
-||dns.ezyss.id^
 ||dns.f4a.fun^
 ||dns.f97.xyz^
 ||dns.faked.org^
@@ -2948,7 +2946,6 @@ zxcvb.pp.ua
 ||emban-networks.com^
 ||emby.rasp.tv^
 ||emeraldeyex.dev^
-||ems115.shop^
 ||encrypt.me^
 ||endente.com^
 ||englandproxy.co.uk^
@@ -2968,7 +2965,6 @@ zxcvb.pp.ua
 ||evyy.net^
 ||ewon.biz^
 ||expatshield.com^
-||explore.francomedia.net^
 ||expressapisv2.net^
 ||expressvpn.com^
 ||expressvpn.net^
@@ -3179,7 +3175,6 @@ zxcvb.pp.ua
 ||ghostpath.com^
 ||gibblets.top^
 ||gifttrees.us^
-||gingerbread.design^
 ||gipvpn.com^
 ||giveproxy.com^
 ||gizlen.net^
@@ -3391,6 +3386,7 @@ zxcvb.pp.ua
 ||ipfreely.io^
 ||ipinator.com^
 ||ipoac.nl^
+||ipprotectionauth.goog^
 ||ipredator.se^
 ||iprivatevpn.com^
 ||iprovpn.com^
