@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 03 Feb 2025 15:34 UTC
+! Last modified: 05 Feb 2025 03:34 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3743
+! Number of entries: 3738
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0203.1534.39
+! Version: 2025.0205.0334.45
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1587,6 +1587,7 @@ zxcvb.pp.ua
 ||2fastsurfer.us^
 ||2proxy.de^
 ||2proxyweb.com^
+||30t.online^
 ||351242444.xyz^
 ||37er19htfd.execute-api.us-east-1.amazonaws.com^
 ||3dcosas.xyz^
@@ -3116,6 +3117,7 @@ zxcvb.pp.ua
 ||freeyouproxytube.com^
 ||freeyoutube.net^
 ||french-vpn.com^
+||frlolyt.site^
 ||frog.dns.qwer.pw^
 ||frootvpn.com^
 ||fuchur.pentament.de^
@@ -3153,6 +3155,7 @@ zxcvb.pp.ua
 ||get-xmore-link3s.com^
 ||get-xmore-links8.com^
 ||getcloak.com^
+||getcloser-websocket.com^
 ||getdnsapi.net^
 ||getflix.com^
 ||getfoxyproxy.org^
@@ -3237,7 +3240,6 @@ zxcvb.pp.ua
 ||hel01.dnscry.pt^
 ||helios.plan9-dns.com^
 ||helloworld.cx^
-||help.newhopes.info^
 ||helpmehide.net^
 ||herbalserver.me^
 ||heroproxy.com^
@@ -3335,7 +3337,6 @@ zxcvb.pp.ua
 ||httpdns.meituan.com^
 ||httpdserver.info^
 ||hungary.privacy-dns.pw^
-||hustlersuniversity.pro^
 ||hyperbyte.net^
 ||i.passcloud.xyz^
 ||i2p-projekt.de^
@@ -3676,7 +3677,6 @@ zxcvb.pp.ua
 ||natfrp.cloud^
 ||nathanielgavin.lol^
 ||naw01.dnscry.pt^
-||nb66.me^
 ||ne1.ca^
 ||needunblock.com^
 ||nenam.eu^
@@ -3732,7 +3732,6 @@ zxcvb.pp.ua
 ||nordvpn.com^
 ||nordvpnteams.com^
 ||northghost.com^
-||notartclass.design^
 ||notlong.com^
 ||notvpn.io^
 ||nova-is.so-gorgeo.us.kg^
@@ -3804,7 +3803,6 @@ zxcvb.pp.ua
 ||onevanalla.site^
 ||onion.am^
 ||onion.cab^
-||onion.casa^
 ||onion.city^
 ||onion.direct^
 ||onion.dog^
@@ -3896,7 +3894,6 @@ zxcvb.pp.ua
 ||personalvpn.biz^
 ||personalvpn.com^
 ||personaly.click^
-||petergriffin.design^
 ||phl01.dnscry.pt^
 ||photonsecure.com^
 ||phpbido.com^
@@ -3955,7 +3952,6 @@ zxcvb.pp.ua
 ||potatovpn.io^
 ||poxy.pl^
 ||ppira.com^
-||pplsearcher.com^
 ||pq7hdf.com^
 ||pr0xy.com^
 ||predecessor.info^
@@ -5173,7 +5169,6 @@ zxcvb.pp.ua
 ||www-web.r-2.top^
 ||www-yy.in6.to^
 ||www.chungocoai.name.vn^
-||www.dnsadguard.co.uk^
 ||www.i.cpfrx.info^
 ||wyx.cloud^
 ||x9fnzrtl4x8pynsf.com^
