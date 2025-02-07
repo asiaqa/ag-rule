@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202502071135
+# Verison: 202502071931
 # Expires: around 1 day
-# Total number of rules = 130465
+# Total number of rules = 130480
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -51382,6 +51382,8 @@ inapps.appsflyersdk.com^
 ||xtdvvp.icu^
 ||vbllxaaj.icu^
 ||apk02070oo.xyz^
+||pcqhe.cn^
+||wdinmae.top^
 ||fagrirtn.com^
 ||rqhajf.icu^
 ||trellq.com^
@@ -57934,22 +57936,33 @@ analytics-*.aasaam.com
 ||atdmt.com^
 ||auditude.com^
 ||benelph.de^
+||brahmiturgid.com^
+||buffatopmost.com^
 ||buyeasy.by^
+||d2tbszkvx1p56e.cloudfront.net^
+||dantaradiohd.net^
 ||gbpkmltxpcsj.xyz
 ||get-me-wow.
 ||googletagservices.com^
+||hoplekhornnist.space^
 ||hvkwmvpxvjo.xyz
 ||imasdk.googleapis.com^
 ||kqzyfj.com^
 ||loadercdn.com^
+||mnemtracery.shop^
+||morsalurluch.com^
 ||ntv.io^
 ||ojrq.net^
+||peweedroulrogh.net^
+||puntistbitless.shop^
 ||rubiconproject.com^
+||stroldcorkish.com^
 ||suppressedbottlesenjoyable.com
 ||totaladblock.com^
 ||trust.zone^
 ||videoplaza.tv^
 ||wpnrtnmrewunrtok.xyz^
+||zargonsoogloars.xyz^
 ||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
@@ -91080,6 +91093,8 @@ analytics-*.aasaam.com
 @@||track.vontron.com^
 @@||download.falco.org^
 @@||ad-block.dns.adguard.com^
+@@||tracking.doordash.com^
+@@||app.powerbi.com^
 /^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
 /^(\S+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
 @@||ad.vivo.com.cn^
