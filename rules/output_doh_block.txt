@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 07 Feb 2025 23:33 UTC
+! Last modified: 09 Feb 2025 03:21 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3735
+! Number of entries: 3737
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0207.2333.50
+! Version: 2025.0209.0321.19
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -208,7 +208,6 @@ common.dot.dns.yandex.net
 commons.host
 comss.one
 comss.ru
-console.carestyle.org
 cph01.dnscry.pt
 crypto.sx
 cube.neubsi.at
@@ -2794,6 +2793,7 @@ zxcvb.pp.ua
 ||doh.infracell.net^
 ||doh.iucc.ac.il^
 ||doh.jeroenhd.nl^
+||doh.kekew.info^
 ||doh.kel.pe^
 ||doh.kidzonet.io^
 ||doh.killtw.im^
@@ -3330,6 +3330,7 @@ zxcvb.pp.ua
 ||hshh.org^
 ||hsselite.com^
 ||html.cafe^
+||http-dns.imoim.net^
 ||httpdns-push.heytapmobile.com^
 ||httpdns-sc.aliyuncs.com^
 ||httpdns.meituan.com^
