@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 09 Feb 2025 03:21 UTC
+! Last modified: 09 Feb 2025 15:24 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3737
+! Number of entries: 3738
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0209.0321.19
+! Version: 2025.0209.1524.08
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1316,6 +1316,7 @@ resolv.flokinet.net
 resolv1.trash.net
 resolv2.trash.net
 resolv3.trash.net
+resolve2.r9x.cc
 resolver-eu.haringstad.com
 resolver.r0cket.net
 resolver.rferee.dev
@@ -4210,6 +4211,7 @@ zxcvb.pp.ua
 ||resolv1.trash.net^
 ||resolv2.trash.net^
 ||resolv3.trash.net^
+||resolve2.r9x.cc^
 ||resolver-eu.haringstad.com^
 ||resolver.r0cket.net^
 ||resolver.rferee.dev^
