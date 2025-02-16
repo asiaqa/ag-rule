@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 14 Feb 2025 16:34 UTC
+! Last modified: 15 Feb 2025 15:37 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3733
+! Number of entries: 3740
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0214.1634.49
+! Version: 2025.0215.1537.15
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1586,6 +1586,7 @@ zxcvb.pp.ua
 ||2fastsurfer.us^
 ||2proxy.de^
 ||2proxyweb.com^
+||2r34.com^
 ||30t.online^
 ||351242444.xyz^
 ||37er19htfd.execute-api.us-east-1.amazonaws.com^
@@ -1620,6 +1621,7 @@ zxcvb.pp.ua
 ||a.passcloud.xyz^
 ||a.safe.ns.dnslify.com^
 ||a1free-optimal.prcdn.net^
+||aaronzweb.xyz^
 ||abcproxy.com^
 ||abe01.dnscry.pt^
 ||abel.waringer-atg.de^
@@ -1648,7 +1650,6 @@ zxcvb.pp.ua
 ||adblockersite.com^
 ||adblockluna.com^
 ||addns1.m-it.ro^
-||adfiltro.fun^
 ||adfree.usableprivacy.net^
 ||adfreedns.top^
 ||adfreeproxy.com^
@@ -1761,6 +1762,7 @@ zxcvb.pp.ua
 ||alwaysvpn.com^
 ||amandahugnkiss.org^
 ||amanvpn.com^
+||amirabbasmousavi.news^
 ||ammmae150.news^
 ||ams01.dnscry.pt^
 ||ams02.dnscry.pt^
@@ -2053,6 +2055,7 @@ zxcvb.pp.ua
 ||crazysurfer.info^
 ||createssh.com^
 ||createssh.net^
+||creatine.wtf^
 ||criarssh.com^
 ||crownproxy.com^
 ||croxy-proxy.com^
@@ -3335,6 +3338,7 @@ zxcvb.pp.ua
 ||httpdns-sc.aliyuncs.com^
 ||httpdns.meituan.com^
 ||httpdserver.info^
+||hugeph.art^
 ||hungary.privacy-dns.pw^
 ||hyperbyte.net^
 ||i.passcloud.xyz^
@@ -3599,6 +3603,7 @@ zxcvb.pp.ua
 ||mendozasdelivery.com^
 ||metal-masters.us^
 ||metalinjection.us^
+||mfho.cc^
 ||mhany.xyz^
 ||mia01.dnscry.pt^
 ||mickedi.isgood.host^
@@ -5150,6 +5155,7 @@ zxcvb.pp.ua
 ||www-pa.linkall.uk^
 ||www-plo.declan-reid.me^
 ||www-pro.kosite.net^
+||www-proxy.bettercallghaith.wiki^
 ||www-proxy.facil.wtf^
 ||www-proxy.formen.cc^
 ||www-proxy.koirdsuzu.com^
@@ -5185,6 +5191,7 @@ zxcvb.pp.ua
 ||xvbelink.com^
 ||xvpn.io^
 ||yarp.lefolgoc.net^
+||yasosy.pro^
 ||ychen.cf^
 ||ychen.gq^
 ||yd6n63ptky.com^
