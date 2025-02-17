@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 16 Feb 2025 03:46 UTC
+! Last modified: 16 Feb 2025 15:39 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3741
+! Number of entries: 3770
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0216.0346.27
+! Version: 2025.0216.1539.14
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1034,7 +1034,6 @@ google-public-dns-b.google.com
 goose.buckyfan.net
 gru01.dnscry.pt
 guard.sntrk.ru
-gustamadh.dynv6.net
 gva01.dnscry.pt
 gztech.me
 h.gjrick.tw
@@ -1719,6 +1718,7 @@ zrh1-ns01.monzoon.net
 ||adguard.io^
 ||adguard.jfchenier.ca^
 ||adguard.johanliebert.top^
+||adguard.kasbot.net^
 ||adguard.kiboko.it^
 ||adguard.konikoni428.com^
 ||adguard.kss.ovh^
@@ -2015,6 +2015,7 @@ zrh1-ns01.monzoon.net
 ||cantfindme.org^
 ||carebuzz.io^
 ||careproxy.com^
+||cars-a.co.za^
 ||casinovpn.com^
 ||catchen121299.top^
 ||catdns.org^
@@ -2234,12 +2235,16 @@ zrh1-ns01.monzoon.net
 ||dns.354688.xyz^
 ||dns.3wv.de^
 ||dns.4-the.win^
+||dns.444723.xyz^
 ||dns.52306.org^
 ||dns.688447.xyz^
+||dns.775467.xyz^
 ||dns.7sec.com.br^
 ||dns.7vpn.com^
+||dns.853852.xyz^
 ||dns.886886886.xyz^
 ||dns.888654.xyz^
+||dns.8887744.xyz^
 ||dns.9999.sg^
 ||dns.a47.me^
 ||dns.aa.net.uk^
@@ -2289,8 +2294,10 @@ zrh1-ns01.monzoon.net
 ||dns.braene.com^
 ||dns.brahma.world^
 ||dns.brembeck.cloud^
+||dns.brono.cloud^
 ||dns.burgas.pro^
 ||dns.busold.ws^
+||dns.butterfly87.sbs^
 ||dns.cabbage.zone^
 ||dns.cahlen.com^
 ||dns.carson-family.com^
@@ -2307,6 +2314,7 @@ zrh1-ns01.monzoon.net
 ||dns.christian.moe^
 ||dns.chriswservers.com^
 ||dns.chromeina.top^
+||dns.chunghwamc.com^
 ||dns.circl.lu^
 ||dns.clanless.ovh^
 ||dns.clanto.cloud^
@@ -2339,6 +2347,7 @@ zrh1-ns01.monzoon.net
 ||dns.datenquark.de^
 ||dns.david888.com^
 ||dns.daw.dev^
+||dns.de.futuredns.eu.org^
 ||dns.deadsec.net^
 ||dns.decky.eu^
 ||dns.decloudus.com^
@@ -2357,6 +2366,7 @@ zrh1-ns01.monzoon.net
 ||dns.dnswarden.com^
 ||dns.dooks.uk^
 ||dns.dotnet.win^
+||dns.dremaxx.de^
 ||dns.dyn1.de^
 ||dns.eddi.net^
 ||dns.edgeburnmedia.com^
@@ -2658,6 +2668,7 @@ zrh1-ns01.monzoon.net
 ||dns.thegoodsource.net^
 ||dns.theres.one^
 ||dns.therifleman.name^
+||dns.thiz.top^
 ||dns.tierradeayala.com^
 ||dns.tipsy.coffee^
 ||dns.tls-data.de^
@@ -2674,6 +2685,7 @@ zrh1-ns01.monzoon.net
 ||dns.uplenk.com^
 ||dns.us-ashburn-1.oraclecloud.com^
 ||dns.us-phoenix-1.oraclecloud.com^
+||dns.us.futuredns.eu.org^
 ||dns.vaioswolke.xyz^
 ||dns.vault81.de^
 ||dns.velyn.my.id^
@@ -2681,6 +2693,7 @@ zrh1-ns01.monzoon.net
 ||dns.vinokurov.tk^
 ||dns.vishalk.com^
 ||dns.vmath.my.id^
+||dns.vod11.xyz^
 ||dns.vojtat.cz^
 ||dns.w3ctag.org^
 ||dns.wahr.top^
@@ -2770,11 +2783,13 @@ zrh1-ns01.monzoon.net
 ||doh-own-recursion.nicolas-dorriere.fr^
 ||doh-primary-pool.detoxifypornblocker.com^
 ||doh-primary-pool.goodbyegambling.com^
+||doh-pure.onedns.net^
 ||doh-random-upstream.nicolas-dorriere.fr^
 ||doh-sg.blahdns.com^
 ||doh.30x.me^
 ||doh.360.cn^
 ||doh.42l.fr^
+||doh.774445.xyz^
 ||doh.aaaab3n.moe^
 ||doh.abraservice.xyz^
 ||doh.amonsul.net^
@@ -2786,6 +2801,7 @@ zrh1-ns01.monzoon.net
 ||doh.asagiri.moe^
 ||doh.asia.dnswarden.com^
 ||doh.azoris.ovh^
+||doh.battle.christmas^
 ||doh.beauty^
 ||doh.blahdns.com^
 ||doh.blockerdns.com^
@@ -2872,6 +2888,7 @@ zrh1-ns01.monzoon.net
 ||doh.sb^
 ||doh.seby.io^
 ||doh.sidnlabs.nl^
+||doh.sublime9.xyz^
 ||doh.suche.org^
 ||doh.sunoaki.net^
 ||doh.syshero.org^
@@ -2939,6 +2956,7 @@ zrh1-ns01.monzoon.net
 ||dragoncgiproxy.online^
 ||dreamvpn.us^
 ||droidvpn.com^
+||droyd.top^
 ||drs.rustsword.com^
 ||dsl-app.s3.us-east-2.amazonaws.com^
 ||dt4f1zrb25v4h.cloudfront.net^
@@ -3547,6 +3565,7 @@ zrh1-ns01.monzoon.net
 ||letscomply.online^
 ||lewsha.lol^
 ||libertyvpn.net^
+||lifeisa.live^
 ||lim02.dnscry.pt^
 ||limevpn.com^
 ||limitlessproxy.com^
@@ -3603,6 +3622,7 @@ zrh1-ns01.monzoon.net
 ||mainssh.com^
 ||mallocapp.com^
 ||mallocprivacy.com^
+||man01.dnscry.pt^
 ||maqgie.xyz^
 ||mask-api.fe2.apple-dns.net^
 ||mask-api.icloud.com^
@@ -3653,6 +3673,7 @@ zrh1-ns01.monzoon.net
 ||mita-is.so-gorgeo.us.kg^
 ||mitmproxy.org^
 ||mnrv.trade^
+||moamao.shop^
 ||mobilejump.mobi^
 ||mobilevpn.net^
 ||mochiser1.com^
@@ -3813,6 +3834,7 @@ zrh1-ns01.monzoon.net
 ||nsec.arnor.org^
 ||nslookup.io^
 ||nsv4w.com^
+||ntwrkh.pro^
 ||nue01.dnscry.pt^
 ||nullsbrawly.xyz^
 ||nvi-dns.bitdefender.net^
@@ -3912,6 +3934,7 @@ zrh1-ns01.monzoon.net
 ||panzend.xyz^
 ||papervpn.info^
 ||par01.dnscry.pt^
+||paradise-human.shop^
 ||paranoia.mydns.network^
 ||parkviewenglish.buzz^
 ||parrotballs.worksheetsforteachers.xyz^
@@ -3927,6 +3950,7 @@ zrh1-ns01.monzoon.net
 ||pdx01.dnscry.pt^
 ||peekproxy.com^
 ||peoplesproxy.com^
+||pepetio.xyz^
 ||per.adfilter.net^
 ||perfect-privacy.com^
 ||perfectvpn.net^
@@ -4240,8 +4264,10 @@ zrh1-ns01.monzoon.net
 ||redhoodie.site^
 ||reezus.us^
 ||reflect4.me^
+||regiopolis.cloud^
 ||relayon.org^
 ||remotevpn.net^
+||renardbleu.dev^
 ||repocket.co^
 ||res-acst1.absolight.net^
 ||res-acst2.absolight.net^
@@ -4431,6 +4457,7 @@ zrh1-ns01.monzoon.net
 ||socialnetworkinfo.us^
 ||socks-proxy.net^
 ||sof01.dnscry.pt^
+||solaxy.live^
 ||soleilvpn-app.com^
 ||solidproxy.net^
 ||sourceproxy.com^
@@ -5234,6 +5261,7 @@ zrh1-ns01.monzoon.net
 ||yd6n63ptky.com^
 ||yellowproxy.net^
 ||yellowshiitake.com^
+||yhz01.dnscry.pt^
 ||ylink.info^
 ||yogavpn.com^
 ||youcanhide.net^
@@ -5262,6 +5290,7 @@ zrh1-ns01.monzoon.net
 ||yuyuproxy.online^
 ||yvr01.dnscry.pt^
 ||yxorproxy.com^
+||yyc01.dnscry.pt^
 ||yyz01.dnscry.pt^
 ||zacebookpk.com^
 ||zagbit.com^
@@ -5293,4 +5322,3 @@ zrh1-ns01.monzoon.net
 ||zrh1-ns01.monzoon.net^
 ||zscalertwo.net^
 ||zwyr157wwiu6eior.com^
-||zxcvb.pp.ua^
