@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 18 Feb 2025 03:41 UTC
+! Last modified: 19 Feb 2025 03:40 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3775
+! Number of entries: 3791
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0218.0341.29
+! Version: 2025.0219.0340.26
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -4097,12 +4097,14 @@ zrh1-ns01.monzoon.net
 ||proxy-2015.info^
 ||proxy-bypass.com^
 ||proxy-german.de^
+||proxy-internet.info^
 ||proxy-n-vpn.com^
 ||proxy-search.com^
 ||proxy-seller.com^
 ||proxy-service.com.de^
 ||proxy-site.com.de^
 ||proxy-site.net^
+||proxy-works.com^
 ||proxy-youtube.com^
 ||proxy-youtube.net^
 ||proxy.cc^
@@ -4121,6 +4123,7 @@ zrh1-ns01.monzoon.net
 ||proxy.schel.li^
 ||proxy.searchfiles.de^
 ||proxy.sh^
+||proxy.sx^
 ||proxy.toolur.com^
 ||proxy.vpner.com^
 ||proxy.wynd.network^
@@ -4149,6 +4152,7 @@ zrh1-ns01.monzoon.net
 ||proxydude.red^
 ||proxydude.xyz^
 ||proxyduke.bingle.pw^
+||proxyduke.lol^
 ||proxyelite.info^
 ||proxyen.com^
 ||proxyer.net^
@@ -4471,6 +4475,7 @@ zrh1-ns01.monzoon.net
 ||spanproxy.com^
 ||sparklabs.com^
 ||speedify.com^
+||speedproxy.online^
 ||speedshare.app^
 ||speedssh.com^
 ||speedyth.com^
@@ -4542,6 +4547,7 @@ zrh1-ns01.monzoon.net
 ||supervpn.im^
 ||supervpn.net^
 ||suredns.nl^
+||surf-for-free.com^
 ||surf100.com^
 ||surfall.net^
 ||surfbouncer.com^
@@ -4601,6 +4607,7 @@ zrh1-ns01.monzoon.net
 ||testaghome.meshkov.info^
 ||testguard.meexx.de^
 ||testpilot.firefox.com^
+||tetty-is.so-gorgeo.us.kg^
 ||thankvpn.com^
 ||the-cloak.com^
 ||thebestproxy.info^
@@ -4609,6 +4616,7 @@ zrh1-ns01.monzoon.net
 ||thecodeil.com^
 ||thefreevpn.com^
 ||themeaningofallmeaningsforallofthemeaningsmeanings.lol^
+||thenuke.org^
 ||theproxies.net^
 ||theproxy.bz^
 ||theproxy.cc^
@@ -4710,6 +4718,7 @@ zrh1-ns01.monzoon.net
 ||tradeadspace.info^
 ||trafflink.xyz^
 ||traffmonetizer.com^
+||travelvpn.info^
 ||trf01.dnscry.pt^
 ||tri-dns.net^
 ||trialproxy.com^
@@ -4731,6 +4740,7 @@ zrh1-ns01.monzoon.net
 ||tunnelbear.com^
 ||tunnelbear.s3.amazonaws.com^
 ||turbohide.org^
+||turbossh.com^
 ||turbotrackvpn.com^
 ||turbovpn.co^
 ||turbovpn.com^
@@ -4994,6 +5004,8 @@ zrh1-ns01.monzoon.net
 ||videomy.online^
 ||videonew.online^
 ||videoproxy.site^
+||videounblock.com^
+||videounblocked.com^
 ||videounblocker.net^
 ||vidproxy.com^
 ||vie01.dnscry.pt^
@@ -5062,8 +5074,10 @@ zrh1-ns01.monzoon.net
 ||vpnclientapp.com^
 ||vpncompare.co.uk^
 ||vpncrmerp.co.cc^
+||vpndaily.com^
 ||vpndeluxe.com^
 ||vpndock.com^
+||vpndog.com^
 ||vpneasy.info^
 ||vpnfan.com^
 ||vpnfree.info^
@@ -5139,6 +5153,7 @@ zrh1-ns01.monzoon.net
 ||vps4.scho.io^
 ||vpschito.duckdns.org^
 ||vpsus3.pzhg.me^
+||vtcuong.site^
 ||vyprvpn.com^
 ||waitfree.us^
 ||walln.com^
@@ -5161,6 +5176,7 @@ zrh1-ns01.monzoon.net
 ||webproxy.com^
 ||webproxy.ich-war-hier.de^
 ||webproxy.online^
+||webproxy.to^
 ||webproxy.uk.com^
 ||webproxy.us.com^
 ||webproxy.us^
