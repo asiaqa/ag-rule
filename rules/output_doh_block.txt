@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 26 Feb 2025 15:46 UTC
+! Last modified: 27 Feb 2025 15:47 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3788
+! Number of entries: 3771
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0226.1546.22
+! Version: 2025.0227.1547.06
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1031,6 +1031,7 @@ google-public-dns-b.google.com
 goose.buckyfan.net
 gru01.dnscry.pt
 guard.sntrk.ru
+gustamadh.dynv6.net
 gva01.dnscry.pt
 gztech.me
 h.gjrick.tw
@@ -1601,7 +1602,6 @@ zrh1-ns01.monzoon.net
 ||2.dnscrypt-cert.dns.seby.io^
 ||2.dnscrypt-cert.ffmuc.net^
 ||2.dnscrypt-cert.opendns.com^
-||2.dnscrypt-cert.pumplex.com^
 ||2.dnscrypt-cert.quad9.net^
 ||2.dnscrypt-cert.shield-2.dnsbycomodo.com^
 ||233py.com^
@@ -1803,7 +1803,6 @@ zrh1-ns01.monzoon.net
 ||animeproxy.net^
 ||aniscartujo.com^
 ||anonine.com^
-||anonproxy.eu^
 ||anonproxy.org^
 ||anonvpn.io^
 ||anonwebproxy.com^
@@ -2479,7 +2478,6 @@ zrh1-ns01.monzoon.net
 ||dns.korzhyk.pp.ua^
 ||dns.kosan.moe^
 ||dns.kukal.cz^
-||dns.kusoneko.moe^
 ||dns.kuuhaku.moe^
 ||dns.kxy.ink^
 ||dns.l337.site^
@@ -2580,7 +2578,6 @@ zrh1-ns01.monzoon.net
 ||dns.psociety.de^
 ||dns.pub^
 ||dns.pumpkinvrar.com^
-||dns.pumplex.com^
 ||dns.qrtz.club^
 ||dns.quad9.net^
 ||dns.quiet.rocks^
@@ -3042,7 +3039,6 @@ zrh1-ns01.monzoon.net
 ||fasttime.info^
 ||fastusaproxy.com^
 ||fastvpn.im^
-||fastvpn.me^
 ||favoriteshoes.us^
 ||fbproxies.info^
 ||fdns1.dismail.de^
@@ -3246,7 +3242,6 @@ zrh1-ns01.monzoon.net
 ||google-public-dns-b.google.com^
 ||goose.buckyfan.net^
 ||goosevpn.com^
-||goproxy.asia^
 ||gotrusted.com^
 ||gowork.info^
 ||gpreport.us^
@@ -3282,7 +3277,6 @@ zrh1-ns01.monzoon.net
 ||happy-vpn.com^
 ||harbaletsstudy.com^
 ||hax.co.id^
-||headproxy.com^
 ||heiwanotameno.com^
 ||hel01.dnscry.pt^
 ||helios.plan9-dns.com^
@@ -3546,7 +3540,6 @@ zrh1-ns01.monzoon.net
 ||lax01.dnscry.pt^
 ||lax02.dnscry.pt^
 ||le-vpn.com^
-||leafyvpn.net^
 ||ledfordmiddleschool.xyz^
 ||leekemx.com^
 ||leeway.uz^
@@ -4046,7 +4039,6 @@ zrh1-ns01.monzoon.net
 ||protonvpn.com^
 ||protonvpn.net^
 ||prounlock.org^
-||provpn.info^
 ||provpnaccounts.com^
 ||prox.pw^
 ||prox.rocks^
@@ -4882,7 +4874,6 @@ zrh1-ns01.monzoon.net
 ||unblockit.onl^
 ||unblockit.pages.dev^
 ||unblockit.pro^
-||unblockit.rsvp^
 ||unblockit.uno^
 ||unblockmate.com^
 ||unblockme.us^
@@ -4913,7 +4904,6 @@ zrh1-ns01.monzoon.net
 ||unblockweb.co^
 ||unblockweb.one^
 ||unblockweb.org^
-||unblockwebsite.online^
 ||unblockwebsites.com^
 ||unblockyouku.com^
 ||unblockyouku.org^
@@ -5021,7 +5011,6 @@ zrh1-ns01.monzoon.net
 ||vpn-professional.company^
 ||vpn-proxies.co.cc^
 ||vpn-sd.ff.avast.com^
-||vpn-server.xyz^
 ||vpn-services.co.cc^
 ||vpn-tw.teng.sh^
 ||vpn.ac^
@@ -5104,7 +5093,6 @@ zrh1-ns01.monzoon.net
 ||vpnprivacy.com^
 ||vpnprivacy.services^
 ||vpnpro.com^
-||vpnproxy.online^
 ||vpnproxy.org^
 ||vpnproxy.pw^
 ||vpnproxy.site^
@@ -5143,7 +5131,6 @@ zrh1-ns01.monzoon.net
 ||vps4.scho.io^
 ||vpschito.duckdns.org^
 ||vpsus3.pzhg.me^
-||vtcuong.site^
 ||vyprvpn.com^
 ||waitfree.us^
 ||walln.com^
@@ -5221,7 +5208,6 @@ zrh1-ns01.monzoon.net
 ||writingessaypros.com^
 ||wtools.eu^
 ||www-admin.mehtionthebeat.com^
-||www-bruh.xenon.lol^
 ||www-croxy.ghgi.site^
 ||www-funny.pinkertonmc.com^
 ||www-nsc.moebh.me^
@@ -5291,7 +5277,6 @@ zrh1-ns01.monzoon.net
 ||yovbak.com^
 ||yoyovpn.org^
 ||ytcroxyproxy.com^
-||yui.cat^
 ||yul01.dnscry.pt^
 ||yunyun.is.my.waifu.cz^
 ||yussy-is.so-gorgeo.us.kg^
@@ -5299,7 +5284,6 @@ zrh1-ns01.monzoon.net
 ||yuyuproxy.com^
 ||yuyuproxy.online^
 ||yvr01.dnscry.pt^
-||yxorproxy.com^
 ||yyc01.dnscry.pt^
 ||yyz01.dnscry.pt^
 ||zacebookpk.com^
