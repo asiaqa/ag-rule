@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 27 Feb 2025 15:47 UTC
+! Last modified: 28 Feb 2025 23:37 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3771
+! Number of entries: 3772
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0227.1547.06
+! Version: 2025.0228.2337.09
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -3428,7 +3428,6 @@ zxcvb.pp.ua
 ||ipchanging.com^
 ||ipfreely.io^
 ||ipinator.com^
-||ipoac.nl^
 ||iportal.me^
 ||ipprotectionauth.goog^
 ||ipredator.se^
@@ -4269,6 +4268,7 @@ zxcvb.pp.ua
 ||resolv3.trash.net^
 ||resolve2.r9x.cc^
 ||resolver-eu.haringstad.com^
+||resolver.dnsprivacy.org.uk^
 ||resolver.r0cket.net^
 ||resolver.rferee.dev^
 ||resolver.sunet.se^
@@ -5316,3 +5316,4 @@ zxcvb.pp.ua
 ||zrh1-ns01.monzoon.net^
 ||zscalertwo.net^
 ||zwyr157wwiu6eior.com^
+||zxcvb.pp.ua^
