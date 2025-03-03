@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 02 Mar 2025 04:06 UTC
+! Last modified: 03 Mar 2025 03:50 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3843
+! Number of entries: 3845
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0302.0406.19
+! Version: 2025.0303.0350.52
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1549,6 +1549,7 @@ zxcvb.pp.ua
 ||1.dns.noridev.moe^
 ||1010000.online^
 ||108023.xyz^
+||10bestvpn.co.uk^
 ||123-24.eport.gr^
 ||123-proxy.net^
 ||123-proxy.org^
@@ -1905,7 +1906,6 @@ zxcvb.pp.ua
 ||beevpn.com^
 ||bestaitool.news^
 ||bestfreevpn.com^
-||bestmod.site^
 ||bestproxy.xyz^
 ||bestssh.net^
 ||bestukvpn.com^
@@ -1935,7 +1935,6 @@ zxcvb.pp.ua
 ||blackhole.myon.lu^
 ||blacklogic.com^
 ||blackvpn.com^
-||blahn.space^
 ||blewpass.com^
 ||blitz-setup.ahadns.com^
 ||blitz.ahadns.com^
@@ -1991,7 +1990,6 @@ zxcvb.pp.ua
 ||bunkerbustervpn.com^
 ||bvpn.com^
 ||byewall.com^
-||bypass.pw^
 ||bypassable.com^
 ||bypassed.wtf^
 ||bypasser.us^
@@ -2074,7 +2072,6 @@ zxcvb.pp.ua
 ||comss.ru^
 ||confirmedvpn.com^
 ||connectionvpn.com^
-||console.carestyle.org^
 ||consumervpn.trendmicro.com^
 ||contassh.com^
 ||contentabc.com^
@@ -2301,7 +2298,6 @@ zxcvb.pp.ua
 ||dns.cabbage.zone^
 ||dns.cahlen.com^
 ||dns.carson-family.com^
-||dns.carter.me^
 ||dns.caspervk.net^
 ||dns.cctld.kg^
 ||dns.ceai.com.tw^
@@ -2741,7 +2737,6 @@ zxcvb.pp.ua
 ||dns2.nextdns.io^
 ||dns2.prima-solusindo.com^
 ||dns2.saferbfc.org^
-||dns3.dns-ga.de^
 ||dns4me.net^
 ||dns9.quad9.net^
 ||dnsblock.grisumedia.de^
@@ -3603,6 +3598,7 @@ zxcvb.pp.ua
 ||lookingglass.site^
 ||lopana.com^
 ||ltlxvxjjmvhn.me^
+||lucasmaia.org^
 ||lukscasino-479-tr.xyz^
 ||lukscasino-542-tr.xyz^
 ||lukscasino-929-tr.xyz^
@@ -3688,7 +3684,6 @@ zxcvb.pp.ua
 ||miniprox.info^
 ||mita-is.so-gorgeo.us.kg^
 ||mitmproxy.org^
-||mnrv.trade^
 ||moamao.shop^
 ||mobilejump.mobi^
 ||mobilevpn.net^
@@ -3862,10 +3857,17 @@ zxcvb.pp.ua
 ||ny1.nixnet.xyz^
 ||nyc-ny-us.prcdn.net^
 ||nyc01.dnscry.pt^
+||nym.com^
+||nym.community^
+||nym.dev^
+||nym.network^
+||nymtech.net^
+||nymvpn.com^
 ||o.rsaikat.com^
 ||o1.lt^
 ||o2comm-prd.norton.com^
 ||obamna.gamefr.xyz^
+||obscura.net^
 ||oceanbrowser.co^
 ||octohide.com^
 ||octovpn.net^
