@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 03 Mar 2025 03:50 UTC
+! Last modified: 04 Mar 2025 03:51 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3845
+! Number of entries: 3852
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0303.0350.52
+! Version: 2025.0304.0351.53
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1593,6 +1593,7 @@ zxcvb.pp.ua
 ||1a.ns.ozer.im^
 ||1and1-dns.de^
 ||1banproxy.com^
+||1clickvpn.com^
 ||1clickvpn.net^
 ||1uzxr3b3jraw5nlmnvbsikiioud2vilw5.web-networking.com^
 ||2.dns.noridev.moe^
@@ -1787,6 +1788,7 @@ zxcvb.pp.ua
 ||aliveproxies.com^
 ||alleesph.online^
 ||allunblocked.com^
+||alohabrowser.com^
 ||alphabr.online^
 ||alphabrowser.xyz^
 ||aluu.xyz^
@@ -2407,7 +2409,6 @@ zxcvb.pp.ua
 ||dns.ginovs.nl^
 ||dns.girino.org^
 ||dns.glf.wtf^
-||dns.glorydns.com^
 ||dns.gnb09.id^
 ||dns.goldplate.org^
 ||dns.google.com^
@@ -3001,6 +3002,7 @@ zxcvb.pp.ua
 ||englandproxy.co.uk^
 ||enproxy.com^
 ||enrollkirgo.com^
+||eonvpn.com^
 ||epicbrowser.com^
 ||erproxy.tk^
 ||esel.stusta.mhn.de^
@@ -3090,6 +3092,7 @@ zxcvb.pp.ua
 ||flyvpn.com^
 ||fnt01.dnscry.pt^
 ||for-privacy.net^
+||forestvpn.com^
 ||fortniters.info^
 ||forwardproxie.com^
 ||fpn.firefox.com^
@@ -3231,6 +3234,7 @@ zxcvb.pp.ua
 ||gfwvpn.com^
 ||ghadrboland.ir^
 ||ghanau.uk^
+||ghostbrowser.com^
 ||ghostpath.com^
 ||gibblets.top^
 ||gifttrees.us^
@@ -3297,7 +3301,6 @@ zxcvb.pp.ua
 ||heiwanotameno.com^
 ||hel01.dnscry.pt^
 ||helios.plan9-dns.com^
-||helloworld.cx^
 ||helpmehide.net^
 ||herbalserver.me^
 ||heroproxy.com^
@@ -3425,7 +3428,6 @@ zxcvb.pp.ua
 ||imperio.top^
 ||in-disguise.com^
 ||incog.works^
-||indialifes.com^
 ||indiaproxy.win^
 ||indo-ssh.com^
 ||ines.zfn.uni-bremen.de^
@@ -3441,6 +3443,7 @@ zxcvb.pp.ua
 ||internetcloak.com^
 ||intervpn.com^
 ||intl-alliance.com^
+||invisv.com^
 ||iow-dns.bitdefender.net^
 ||ioxy.de^
 ||ipbuzz.net^
@@ -3598,6 +3601,7 @@ zxcvb.pp.ua
 ||lon01.dnscry.pt^
 ||lookingglass.site^
 ||lopana.com^
+||loubonde.xyz^
 ||ltlxvxjjmvhn.me^
 ||lucasmaia.org^
 ||lukscasino-479-tr.xyz^
@@ -3685,6 +3689,7 @@ zxcvb.pp.ua
 ||miniprox.info^
 ||mita-is.so-gorgeo.us.kg^
 ||mitmproxy.org^
+||mnrv.trade^
 ||moamao.shop^
 ||mobilejump.mobi^
 ||mobilevpn.net^
@@ -4154,6 +4159,7 @@ zxcvb.pp.ua
 ||proxy.vpner.com^
 ||proxy.wynd.network^
 ||proxy.yt^
+||proxy0101.com^
 ||proxy2014.net^
 ||proxy2link.com^
 ||proxy2you.com^
@@ -5293,6 +5299,7 @@ zxcvb.pp.ua
 ||www-proxy.ladifsoftware.com^
 ||www-proxy.migastep.com^
 ||www-proxy.retportal.com^
+||www-proxy.sayed.page^
 ||www-proxy.sodemc.com^
 ||www-proxy2.blueboy.cf^
 ||www-rf4.forestberrypi.com^
