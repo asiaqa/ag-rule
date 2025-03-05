@@ -32,7 +32,7 @@ jobs:
       
     - name: Install hostlist-complier
       run: |
-        npm i -g @adguard/hostlist-compiler
+        npm i -g @adguard/hostlist-compiler@v1.0.35
         
     - name: Set folder condition, variables and timezone
       run: |
