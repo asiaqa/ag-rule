@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 04 Mar 2025 15:54 UTC
+! Last modified: 05 Mar 2025 03:52 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3850
+! Number of entries: 3845
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0304.1554.15
+! Version: 2025.0305.0352.17
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1682,7 +1682,6 @@ zxcvb.pp.ua
 ||adg.jnorton.us^
 ||adg.khon.dev^
 ||adg.rueiliu.space^
-||adg.tshost.no^
 ||adguard-dns.com^
 ||adguard-kartoffel.zernico.de^
 ||adguard-vpn.com^
@@ -3191,7 +3190,6 @@ zxcvb.pp.ua
 ||gb-lon-w-f-1.nashkan.net^
 ||gb-lon-w-p-1.nashkan.net^
 ||gb-lon-w-p-2.nashkan.net^
-||gclouddns.com^
 ||gecko.fun^
 ||geckovpn.xyz^
 ||geekproxy.com^
@@ -3545,7 +3543,6 @@ zxcvb.pp.ua
 ||kr1.ooroot.com^
 ||kr2.ooroot.com^
 ||kronos.plan9-dns.com^
-||krtekvpn.duckdns.org^
 ||kryptovpn.kryptotel.net^
 ||kx-97795-tr.xyz^
 ||kyoheitensai.com^
@@ -3765,7 +3762,6 @@ zxcvb.pp.ua
 ||netvpn.us^
 ||new-proxy-sites.blogspot.com^
 ||new-proxy.com.de^
-||newads-cdn.com^
 ||newd.rezyro.com^
 ||newipnow.com^
 ||newshosting.com^
@@ -3777,7 +3773,6 @@ zxcvb.pp.ua
 ||ngrok.io^
 ||ngrok.pizza^
 ||ngrok.pro^
-||ngsw1234.com^
 ||nice-autosurf.com^
 ||nicsezcheckfbi.gov^
 ||nightlymoon.us.kg^
