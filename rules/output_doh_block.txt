@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 05 Mar 2025 03:52 UTC
+! Last modified: 06 Mar 2025 03:49 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3845
+! Number of entries: 3841
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0305.0352.17
+! Version: 2025.0306.0349.32
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -3191,6 +3191,7 @@ zxcvb.pp.ua
 ||gb-lon-w-f-1.nashkan.net^
 ||gb-lon-w-p-1.nashkan.net^
 ||gb-lon-w-p-2.nashkan.net^
+||gclouddns.com^
 ||gecko.fun^
 ||geckovpn.xyz^
 ||geekproxy.com^
@@ -3544,6 +3545,7 @@ zxcvb.pp.ua
 ||kr1.ooroot.com^
 ||kr2.ooroot.com^
 ||kronos.plan9-dns.com^
+||krtekvpn.duckdns.org^
 ||kryptovpn.kryptotel.net^
 ||kx-97795-tr.xyz^
 ||kyoheitensai.com^
@@ -4339,7 +4341,6 @@ zxcvb.pp.ua
 ||rhys1901.biz^
 ||ric.openbld.net^
 ||ricko.is^
-||rifhchj.uk^
 ||ringvpn.com^
 ||riseup.net^
 ||rnblyatclub.online^
@@ -4443,7 +4444,6 @@ zxcvb.pp.ua
 ||shalenkov.dev^
 ||sharejav.com^
 ||sharevpn.org^
-||shaw2426.org^
 ||shazamio.online^
 ||shellfire.net^
 ||shelljacket.us^
@@ -4494,7 +4494,6 @@ zxcvb.pp.ua
 ||smartydns.com^
 ||smellyal.isreally.pro^
 ||smellypay.isreally.pro^
-||snapxs.com^
 ||snowproxy.com^
 ||socialnetworkinfo.us^
 ||socks-proxy.net^
@@ -4711,7 +4710,6 @@ zxcvb.pp.ua
 ||timetohide.me^
 ||timmes.nl^
 ||timurpoyraz.com^
-||tinf0il.tech^
 ||tinfoil-is-ass.xyz^
 ||titaniumnetwork.org^
 ||tj.jamesxue.xyz^
@@ -4970,10 +4968,10 @@ zxcvb.pp.ua
 ||unblockyouku.org^
 ||unblockyoutube.co^
 ||unblockyoutube.video^
-||unblockyoutubeatschool.com^
 ||unblockytproxy.com^
 ||uncensored-dot.dnswarden.com^
 ||uncensoreddns.org^
+||underage-gambling.site^
 ||undofilters.com^
 ||unicast.censurfridns.dk^
 ||unifiedvpn.com^
@@ -5032,7 +5030,6 @@ zxcvb.pp.ua
 ||utunnel.io^
 ||uvpn.me^
 ||uw-dns.rubyfish.cn^
-||uyureufasod.xyz^
 ||v.dnscrypt.uk^
 ||v2.xx3210766.live^
 ||vanheim.ff.avast.com^
@@ -5294,7 +5291,6 @@ zxcvb.pp.ua
 ||www-proxy2.blueboy.cf^
 ||www-rf4.forestberrypi.com^
 ||www-vpn.52oupa.com^
-||www-web.r-2.top^
 ||www-yy.in6.to^
 ||www.chungocoai.name.vn^
 ||www.i.cpfrx.info^
