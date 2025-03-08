@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 07 Mar 2025 16:00 UTC
+! Last modified: 07 Mar 2025 23:50 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3845
+! Number of entries: 3855
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0307.1600.07
+! Version: 2025.0307.2350.41
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1981,6 +1981,7 @@ zxcvb.pp.ua
 ||browsebridge.com^
 ||browsec.com^
 ||browser.lol^
+||browserling.com^
 ||bru-be.prcdn.net^
 ||bru01.dnscry.pt^
 ||btguard.com^
@@ -3074,6 +3075,7 @@ zxcvb.pp.ua
 ||filterbypass.me^
 ||finalbreaths.xyz^
 ||finchvpn.com^
+||fineproxy.org^
 ||finevpn.org^
 ||fireprox.net^
 ||firstcontact.site^
@@ -3326,6 +3328,7 @@ zxcvb.pp.ua
 ||hidemebro.com^
 ||hidemefast.net^
 ||hidemenow.net^
+||hidemium.io^
 ||hidemy.io^
 ||hidemy.name^
 ||hidemyass.co.uk^
@@ -3915,6 +3918,7 @@ zxcvb.pp.ua
 ||opengw.net^
 ||opennic1.eth-services.de^
 ||openproxy.space^
+||openproxylist.com^
 ||opentunnel.net^
 ||openvpn-ssh.com^
 ||openvpn.cc^
@@ -4119,6 +4123,7 @@ zxcvb.pp.ua
 ||proxy-123.com^
 ||proxy-2014.com^
 ||proxy-2015.info^
+||proxy-best.com^
 ||proxy-bypass.com^
 ||proxy-german.de^
 ||proxy-internet.info^
@@ -4176,6 +4181,7 @@ zxcvb.pp.ua
 ||proxybuss.com^
 ||proxycloud.net^
 ||proxycloyd.com^
+||proxycompass.com^
 ||proxydrop.com^
 ||proxydude.red^
 ||proxydude.xyz^
@@ -4196,6 +4202,7 @@ zxcvb.pp.ua
 ||proxyist.com^
 ||proxyium.com^
 ||proxyium.org^
+||proxylister.com^
 ||proxylistpro.com^
 ||proxyload.net^
 ||proxymaster.me^
@@ -4220,6 +4227,7 @@ zxcvb.pp.ua
 ||proxyserver.buzz^
 ||proxyserver.com^
 ||proxyserverlist24.top^
+||proxyshare.com^
 ||proxysheep.com^
 ||proxysite.cc^
 ||proxysite.cloud^
@@ -4237,6 +4245,7 @@ zxcvb.pp.ua
 ||proxysurfing.org^
 ||proxythis.info^
 ||proxytime.net^
+||proxytitan.com^
 ||proxytoplay.com^
 ||proxyturbo.com^
 ||proxyunblock.site^
@@ -4501,6 +4510,7 @@ zxcvb.pp.ua
 ||snowproxy.com^
 ||socialnetworkinfo.us^
 ||socks-proxy.net^
+||sockslist.us^
 ||sof01.dnscry.pt^
 ||solaxy.live^
 ||soleilvpn-app.com^
