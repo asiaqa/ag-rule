@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 07 Mar 2025 23:50 UTC
+! Last modified: 08 Mar 2025 15:59 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3855
+! Number of entries: 3848
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0307.2350.41
+! Version: 2025.0308.1559.37
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1718,6 +1718,7 @@ zxcvb.pp.ua
 ||adguard.londonwebnerd.cloud^
 ||adguard.maison.gifino.fr^
 ||adguard.marto.si^
+||adguard.mattiafenzi.uk^
 ||adguard.meddy94.de^
 ||adguard.neon0404.space^
 ||adguard.oms-ctr.ru^
@@ -3014,12 +3015,10 @@ zxcvb.pp.ua
 ||eu2-browse.startpage.com^
 ||europe-west3-topvpn-873d5.cloudfunctions.net^
 ||eurproxy.com^
-||evacraft.xyz^
 ||evn01.dnscry.pt^
 ||evpn.net^
 ||evyy.net^
 ||ewon.biz^
-||excitedmurashin.com^
 ||expatshield.com^
 ||expressapisv2.net^
 ||expressvpn.com^
@@ -3172,7 +3171,6 @@ zxcvb.pp.ua
 ||freevpnsoftware.net^
 ||freewebproxy.eu^
 ||freewebproxyserver.net^
-||freeworldwideproxy.app^
 ||freexite.com^
 ||freeyouproxytube.com^
 ||freeyoutube.net^
@@ -3299,7 +3297,6 @@ zxcvb.pp.ua
 ||happy-vpn.com^
 ||harbaletsstudy.com^
 ||hax.co.id^
-||hdjptube.site^
 ||heiwanotameno.com^
 ||hel01.dnscry.pt^
 ||helios.plan9-dns.com^
@@ -3685,7 +3682,6 @@ zxcvb.pp.ua
 ||microvpn.com^
 ||mikezhang.xyz^
 ||mil01.dnscry.pt^
-||milanopuma.ir^
 ||minilla.store^
 ||miniprox.com^
 ||miniprox.info^
@@ -3968,7 +3964,6 @@ zxcvb.pp.ua
 ||paradise-human.shop^
 ||paranoia.mydns.network^
 ||parkviewenglish.buzz^
-||parsazr.ir^
 ||pashagame456.com^
 ||pates.services.sfr.fr.casepp.sfr.fr^
 ||paulo.nom.za^
@@ -4274,7 +4269,6 @@ zxcvb.pp.ua
 ||purevpn.fr^
 ||pushokey.com^
 ||pushvpn.com^
-||px.jarnus.xyz^
 ||pxaa.com^
 ||pyproxy.com^
 ||qdns02.nymterm.com^
@@ -4646,7 +4640,6 @@ zxcvb.pp.ua
 ||tailscale.com^
 ||takhtakh.domyah.net^
 ||talk2m.com^
-||tancheetiong.online^
 ||tbjr6.com^
 ||tbs01.dnscry.pt^
 ||tbunet.com^
@@ -4794,6 +4787,7 @@ zxcvb.pp.ua
 ||tubeunblock.net^
 ||tujenasnaszato.xyz^
 ||tungdnsne.duckdns.org^
+||tunnel.googlezip.net^
 ||tunnelbear.com^
 ||tunnelbear.s3.amazonaws.com^
 ||turbohide.org^
@@ -5302,7 +5296,6 @@ zxcvb.pp.ua
 ||www-proxy.retportal.com^
 ||www-proxy.sayed.page^
 ||www-proxy.sodemc.com^
-||www-proxy2.blueboy.cf^
 ||www-rf4.forestberrypi.com^
 ||www-vpn.52oupa.com^
 ||www-yy.in6.to^
