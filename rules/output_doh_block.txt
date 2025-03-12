@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 11 Mar 2025 16:08 UTC
+! Last modified: 12 Mar 2025 04:03 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3845
+! Number of entries: 3835
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0311.1608.52
+! Version: 2025.0312.0403.20
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -2646,7 +2646,6 @@ zxcvb.pp.ua
 ||dns.tesem.dog^
 ||dns.thebuckners.org^
 ||dns.thegoodsource.net^
-||dns.theres.one^
 ||dns.therifleman.name^
 ||dns.thiz.top^
 ||dns.tierradeayala.com^
@@ -3483,7 +3482,6 @@ zxcvb.pp.ua
 ||jkdns.me^
 ||jkt01.dnscry.pt^
 ||jnb01.dnscry.pt^
-||johneldenring.lol^
 ||johnkellyprivate.com^
 ||joker81fansbase.site^
 ||jongserver.xyz^
@@ -3500,6 +3498,7 @@ zxcvb.pp.ua
 ||jupitervpn.ninja^
 ||juproxy.com^
 ||jurbedout.com^
+||jurre-home.duckdns.org^
 ||justahotm3ss.xyz^
 ||justhost.bedro.cloud^
 ||justproxy.co.uk^
@@ -3533,6 +3532,7 @@ zxcvb.pp.ua
 ||kr1.ooroot.com^
 ||kr2.ooroot.com^
 ||kronos.plan9-dns.com^
+||krtekvpn.duckdns.org^
 ||kryptovpn.kryptotel.net^
 ||kx-97795-tr.xyz^
 ||kyoheitensai.com^
@@ -3592,7 +3592,6 @@ zxcvb.pp.ua
 ||lumes.jp^
 ||luminati.io^
 ||luminatinet.com^
-||luna-is.so-gorgeo.us.kg^
 ||lurk.info^
 ||lux1.nixnet.xyz^
 ||luxembourg.privacy-dns.pw^
@@ -3643,7 +3642,6 @@ zxcvb.pp.ua
 ||maxfong.cc^
 ||maxvpn.info^
 ||mazevpn.com^
-||mecca-is.so-gorgeo.us.kg^
 ||mediahint.com^
 ||mediavpn.com^
 ||mega123proxy.com^
@@ -3668,7 +3666,6 @@ zxcvb.pp.ua
 ||minilla.store^
 ||miniprox.com^
 ||miniprox.info^
-||mita-is.so-gorgeo.us.kg^
 ||mitmproxy.org^
 ||mnrv.trade^
 ||moamao.shop^
@@ -3717,7 +3714,6 @@ zxcvb.pp.ua
 ||myproxy.link^
 ||myproxy.lol^
 ||myproxysite.org^
-||myrra-is.so-gorgeo.us.kg^
 ||myspaceunlock.com^
 ||mytunneling.com^
 ||myturtle.net^
@@ -3730,7 +3726,6 @@ zxcvb.pp.ua
 ||n5.lsasss.com^
 ||naganohara-yoimiya.momokko.moe^
 ||najiakeji.top^
-||nana-is.so-gorgeo.us.kg^
 ||nanoproxy.com^
 ||napps-1.com^
 ||napps-2.com^
@@ -3765,10 +3760,8 @@ zxcvb.pp.ua
 ||ngrok.pro^
 ||nice-autosurf.com^
 ||nicsezcheckfbi.gov^
-||nightlymoon.us.kg^
 ||nightowlvpn.com^
 ||nimbleway.com^
-||nindy-is.so-gorgeo.us.kg^
 ||ninjabrowse.com^
 ||ninjacloak.com^
 ||ninjaproxy.co.uk^
@@ -3786,7 +3779,6 @@ zxcvb.pp.ua
 ||nodepay.ai^
 ||nodes.gen4.ninja^
 ||noodlevpn.com^
-||nora-is.so-gorgeo.us.kg^
 ||nordaccount.com^
 ||nordcdn.com^
 ||nordvpn.com^
@@ -3794,7 +3786,6 @@ zxcvb.pp.ua
 ||northghost.com^
 ||notlong.com^
 ||notvpn.io^
-||nova-is.so-gorgeo.us.kg^
 ||novatech.fun^
 ||novembeer.ru^
 ||nowcache.com^
@@ -4241,6 +4232,7 @@ zxcvb.pp.ua
 ||pub.xapktech.xyz^
 ||publicdnsserver.com^
 ||pukanuragan.ru^
+||punono.duckdns.org^
 ||pupilproxy.com^
 ||purchase-some.hotglue.click^
 ||puredns.org^
@@ -4469,7 +4461,6 @@ zxcvb.pp.ua
 ||siteunblocked.website^
 ||siteunblocked.xyz^
 ||sitework.info^
-||sitha-is.so-gorgeo.us.kg^
 ||sjc01.dnscry.pt^
 ||skibidislicers.xyz^
 ||skydragoness.com^
@@ -4636,7 +4627,6 @@ zxcvb.pp.ua
 ||testdomainname.xyz^
 ||testguard.meexx.de^
 ||testpilot.firefox.com^
-||tetty-is.so-gorgeo.us.kg^
 ||tgbio.ru^
 ||thankvpn.com^
 ||the-cloak.com^
@@ -4769,6 +4759,7 @@ zxcvb.pp.ua
 ||tubeunblock.me^
 ||tubeunblock.net^
 ||tujenasnaszato.xyz^
+||tungdnsne.duckdns.org^
 ||tunnel.googlezip.net^
 ||tunnelbear.com^
 ||tunnelbear.s3.amazonaws.com^
@@ -5332,7 +5323,6 @@ zxcvb.pp.ua
 ||ytcroxyproxy.com^
 ||yul01.dnscry.pt^
 ||yunyun.is.my.waifu.cz^
-||yussy-is.so-gorgeo.us.kg^
 ||yuvelirtut.website^
 ||yuyuproxy.com^
 ||yuyuproxy.online^
