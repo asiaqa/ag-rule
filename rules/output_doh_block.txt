@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 12 Mar 2025 16:07 UTC
+! Last modified: 13 Mar 2025 04:00 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3835
+! Number of entries: 3830
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0312.1607.38
+! Version: 2025.0313.0400.54
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -2347,7 +2347,6 @@ zxcvb.pp.ua
 ||dns.dyn1.de^
 ||dns.eddi.net^
 ||dns.edgeburnmedia.com^
-||dns.edison42.dev^
 ||dns.editechstudio.com^
 ||dns.efficientdocuments.com^
 ||dns.elemental.software^
@@ -2434,7 +2433,6 @@ zxcvb.pp.ua
 ||dns.islandnet.com^
 ||dns.janl.eu^
 ||dns.jhangy.us^
-||dns.jichi.io^
 ||dns.jinwoo.dev^
 ||dns.jiyi.eu^
 ||dns.joaofidelix.com.br^
@@ -2820,7 +2818,6 @@ zxcvb.pp.ua
 ||doh.infracell.net^
 ||doh.iucc.ac.il^
 ||doh.jeroenhd.nl^
-||doh.kekew.info^
 ||doh.kel.pe^
 ||doh.kidzonet.io^
 ||doh.killtw.im^
@@ -3525,7 +3522,6 @@ zxcvb.pp.ua
 ||kr1.ooroot.com^
 ||kr2.ooroot.com^
 ||kronos.plan9-dns.com^
-||krtekvpn.duckdns.org^
 ||kryptovpn.kryptotel.net^
 ||kx-97795-tr.xyz^
 ||kyoheitensai.com^
@@ -4225,7 +4221,6 @@ zxcvb.pp.ua
 ||pub.xapktech.xyz^
 ||publicdnsserver.com^
 ||pukanuragan.ru^
-||punono.duckdns.org^
 ||pupilproxy.com^
 ||purchase-some.hotglue.click^
 ||puredns.org^
@@ -4311,6 +4306,7 @@ zxcvb.pp.ua
 ||rfastvpn.co.cc^
 ||rfree1.blue-shield.at^
 ||rfree2.blue-shield.at^
+||rhehrbrb.wiki^
 ||rhys1901.biz^
 ||ric.openbld.net^
 ||ricko.is^
@@ -4752,7 +4748,6 @@ zxcvb.pp.ua
 ||tubeunblock.me^
 ||tubeunblock.net^
 ||tujenasnaszato.xyz^
-||tungdnsne.duckdns.org^
 ||tunnel.googlezip.net^
 ||tunnelbear.com^
 ||tunnelbear.s3.amazonaws.com^
