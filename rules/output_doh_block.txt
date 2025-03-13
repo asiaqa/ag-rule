@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 12 Mar 2025 04:03 UTC
+! Last modified: 12 Mar 2025 16:07 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
 ! Number of entries: 3835
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0312.0403.20
+! Version: 2025.0312.1607.38
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -393,7 +393,6 @@ dns.dremaxx.de
 dns.dyn1.de
 dns.eddi.net
 dns.edgeburnmedia.com
-dns.edison42.dev
 dns.editechstudio.com
 dns.efficientdocuments.com
 dns.elemental.software
@@ -478,7 +477,6 @@ dns.is0mino.com
 dns.ishan.pw
 dns.islandnet.com
 dns.jhangy.us
-dns.jichi.io
 dns.jinwoo.dev
 dns.jiyi.eu
 dns.joaofidelix.com.br
@@ -687,7 +685,6 @@ dns.tipsy.coffee
 dns.tls-data.de
 dns.tracker.ink
 dns.trust404.win
-dns.tryk.app
 dns.tuna.tsinghua.edu.cn
 dns.twnic.tw
 dns.txq.life
@@ -844,7 +841,6 @@ doh.eastus.pi-dns.com
 doh.eddi.net
 doh.ersei.net
 doh.eu.dnswarden.com
-doh.excdn.eu.org
 doh.familyshield.opendns.com
 doh.ffmuc.net
 doh.funil.de
@@ -858,7 +854,6 @@ doh.infotek.net.id
 doh.infracell.net
 doh.iucc.ac.il
 doh.jeroenhd.nl
-doh.kekew.info
 doh.kel.pe
 doh.kidzonet.io
 doh.killtw.im
@@ -1079,6 +1074,7 @@ jhb01.dnscry.pt
 jkdns.me
 jkt01.dnscry.pt
 jnb01.dnscry.pt
+johneldenring.lol
 jp-dns1.bancuh.com
 jp-kix.doh.sb
 jp-nrt.doh.sb
@@ -1107,7 +1103,6 @@ kr1.ooroot.com
 kr2.ooroot.com
 kracon.anycast.uncensoreddns.org
 kronos.plan9-dns.com
-krtekvpn.duckdns.org
 kx-97795-tr.xyz
 kz-pav-w-p-1.nashkan.net
 las-vegas.privacy-dns.pw
@@ -1306,7 +1301,6 @@ public-dns-a.dns.sb
 public-dns-b.dns.sb
 public.dns.iij.jp
 public.ns.nwps.fi
-punono.duckdns.org
 puredns.org
 qdns02.nymterm.com
 qlf-doh.inria.fr
@@ -1440,7 +1434,6 @@ tsm01.dnscry.pt
 ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
-tungdnsne.duckdns.org
 tuskythehusky.tech
 tw2.ooroot.com
 tyo01.dnscry.pt
@@ -2815,7 +2808,6 @@ zxcvb.pp.ua
 ||doh.eddi.net^
 ||doh.ersei.net^
 ||doh.eu.dnswarden.com^
-||doh.excdn.eu.org^
 ||doh.ffmuc.net^
 ||doh.funil.de^
 ||doh.funtopia.tv^
@@ -3482,6 +3474,7 @@ zxcvb.pp.ua
 ||jkdns.me^
 ||jkt01.dnscry.pt^
 ||jnb01.dnscry.pt^
+||johneldenring.lol^
 ||johnkellyprivate.com^
 ||joker81fansbase.site^
 ||jongserver.xyz^
