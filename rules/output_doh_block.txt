@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 13 Mar 2025 16:12 UTC
+! Last modified: 14 Mar 2025 16:33 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3835
+! Number of entries: 3837
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0313.1612.03
+! Version: 2025.0314.1633.59
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -81,7 +81,6 @@ adguard.jfchenier.ca
 adguard.johanliebert.top
 adguard.kasbot.net
 adguard.kiboko.it
-adguard.kss.ovh
 adguard.lege.despagne.net
 adguard.maison.gifino.fr
 adguard.marto.si
@@ -851,7 +850,6 @@ doh.infotek.net.id
 doh.infracell.net
 doh.iucc.ac.il
 doh.jeroenhd.nl
-doh.kekew.info
 doh.kel.pe
 doh.kidzonet.io
 doh.killtw.im
@@ -1692,7 +1690,6 @@ zxcvb.pp.ua
 ||adguard.kasbot.net^
 ||adguard.kiboko.it^
 ||adguard.konikoni428.com^
-||adguard.kss.ovh^
 ||adguard.leadseason.eu^
 ||adguard.lege.despagne.net^
 ||adguard.londonwebnerd.cloud^
@@ -1874,6 +1871,7 @@ zxcvb.pp.ua
 ||bananavpn.com^
 ||base99.com^
 ||bazooki-infra.dev^
+||bdns.io^
 ||bdns.link^
 ||bdns.nu^
 ||bdns.pro^
@@ -2666,7 +2664,6 @@ zxcvb.pp.ua
 ||dns.vishalk.com^
 ||dns.vmath.my.id^
 ||dns.vod11.xyz^
-||dns.vojtat.cz^
 ||dns.w3ctag.org^
 ||dns.wahr.top^
 ||dns.wang.art^
@@ -2982,6 +2979,7 @@ zxcvb.pp.ua
 ||eonvpn.com^
 ||epicbrowser.com^
 ||erproxy.tk^
+||error.proxy.startpage.com^
 ||esel.stusta.mhn.de^
 ||eth.link^
 ||ettego.com^
@@ -4124,6 +4122,7 @@ zxcvb.pp.ua
 ||proxy.wynd.network^
 ||proxy.yt^
 ||proxy0101.com^
+||proxy2.startpage.com^
 ||proxy2014.net^
 ||proxy2link.com^
 ||proxy2you.com^
@@ -4970,6 +4969,7 @@ zxcvb.pp.ua
 ||urban-vpn.com^
 ||url10.org^
 ||urology.wiki^
+||us-browse.startpage.com^
 ||us-chi-w-f-1.nashkan.net^
 ||us-chi-w-p-1.nashkan.net^
 ||us-hil-w-f-1.nashkan.net^
