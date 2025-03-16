@@ -3,13 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Last modified: 15 Mar 2025 00:26 UTC
+! Last modified: 16 Mar 2025 04:27 UTC
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Number of entries: 3836
+! Number of entries: 3841
 ! Syntax: AdBlock
 ! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Version: 2025.0315.0026.40
+! Version: 2025.0316.0427.05
 003153.xyz
 0ms.dev
 1.dns.noridev.moe
@@ -1585,12 +1585,14 @@ zxcvb.pp.ua
 ||24tunnel.com^
 ||28383829.com^
 ||28383829.site^
+||2a87.com^
 ||2fastsurfer.com^
 ||2fastsurfer.eu^
 ||2fastsurfer.us^
 ||2proxy.de^
 ||2proxyweb.com^
 ||2r34.com^
+||2ub.top^
 ||30t.online^
 ||351242444.xyz^
 ||37er19htfd.execute-api.us-east-1.amazonaws.com^
@@ -1633,6 +1635,7 @@ zxcvb.pp.ua
 ||abn01.dnscry.pt^
 ||aboba.pro^
 ||abouts.lol^
+||accessmeproxy.com^
 ||acdtop.com^
 ||aceproxy.com^
 ||acevpn.com^
@@ -1871,6 +1874,7 @@ zxcvb.pp.ua
 ||bananavpn.com^
 ||base99.com^
 ||bazooki-infra.dev^
+||bdns.io^
 ||bdns.link^
 ||bdns.nu^
 ||bdns.pro^
@@ -1953,6 +1957,7 @@ zxcvb.pp.ua
 ||bright4good.eco^
 ||brightvpn.com^
 ||britishproxy.com^
+||brothebro.com^
 ||brovpn.io^
 ||browse.startpage.com^
 ||browsebridge.com^
@@ -2252,6 +2257,7 @@ zxcvb.pp.ua
 ||dns.ashleyjackson.net^
 ||dns.asterimoon.com^
 ||dns.asysec.com^
+||dns.auapi.fun^
 ||dns.azsopro.net^
 ||dns.b33.space^
 ||dns.b612.me^
@@ -2780,7 +2786,6 @@ zxcvb.pp.ua
 ||doh.ccb-net.it^
 ||doh.centraleu.pi-dns.com^
 ||doh.cippapp.com^
-||doh.cnetwork.cloud^
 ||doh.cornes.me^
 ||doh.cox.net^
 ||doh.datacore.ch^
