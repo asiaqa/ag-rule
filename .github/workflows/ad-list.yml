@@ -116,7 +116,7 @@ jobs:
           echo "# Title: MP Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist" > ./publish/output_doh_block.txt
           echo "# Verison: $(date +%Y%m%d%H%M)" >> ./publish/output_doh_block.txt
           echo "# Expires: around 1 day" >> ./publish/output_doh_block.txt
-          echo ./publish/temp.txt >> ./publish/output_doh_block.txt && rm ./publish/temp.txt
+          cat ./publish/temp.txt >> ./publish/output_doh_block.txt && rm ./publish/temp.txt
           wget https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/best.txt -O ./publish/BT-Trackers.txt
           cp ./publish/hosts ./rules/hosts
           cp ./publish/output_doh_block.txt ./rules/output_doh_block.txt
