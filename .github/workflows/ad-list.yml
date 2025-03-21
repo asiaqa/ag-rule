@@ -122,6 +122,15 @@ jobs:
           cp ./publish/output_doh_block.txt ./rules/output_doh_block.txt
           cp ./publish/BT-Trackers.txt ./rules/BT-Trackers.txt
           
+    - name: Commit *.txt
+      run: |
+         echo `date +"%Y-%m-%d %H:%M:%S"` ZJC CKC >> ./rules/date.log
+         git config --global user.email ${{ secrets.EMAIL }}
+         git config --global user.name ${{ secrets.NAME }}
+         git add ./rules/output* ./output.txt ./output_simple.txt ./rules/date.log ./rules/hosts ./rules/output_doh_block.txt ./rules/BT-Trackers.txt
+         git commit -m "${{ env.RELEASE_NAME }}"
+         git push
+          
     - name: Release and upload assets
       uses: softprops/action-gh-release@v0.1.6
       with:
@@ -153,11 +162,3 @@ jobs:
             curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@release/${file}"
           done
     
-    - name: Commit *.txt
-      run: |
-         echo `date +"%Y-%m-%d %H:%M:%S"` ZJC CKC >> ./rules/date.log
-         git config --global user.email ${{ secrets.EMAIL }}
-         git config --global user.name ${{ secrets.NAME }}
-         git add ./rules/output* ./output.txt ./output_simple.txt ./rules/date.log ./rules/hosts ./rules/output_doh_block.txt ./rules/BT-Trackers.txt
-         git commit -m "${{ env.RELEASE_NAME }}"
-         git push
