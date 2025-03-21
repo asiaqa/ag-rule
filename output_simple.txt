@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202503211332
+# Verison: 202503211932
 # Expires: around 1 day
-# Total number of rules = 149239
+# Total number of rules = 149240
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -97618,6 +97618,9 @@ inapps.appsflyersdk.com^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
 ||feernhuhe.com^
+||vhje.cn^
+||bptnzp.top^
+||ajoxxit.top^
 ||spkh.cn^
 ||sodenneyg.com^
 ||zqntbc.top^
@@ -103683,9 +103686,6 @@ analytics-*.aasaam.com
 ||ziffdavis.com^
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
-||vhje.cn^
-||bptnzp.top^
-||ajoxxit.top^
 ||bdad.123pan.cn^
 ://a.ads.
 ://ad-api-
@@ -103763,6 +103763,7 @@ analytics-*.aasaam.com
 ||videoplaza.tv^
 ||wenoolgo.icu
 ||wpnrtnmrewunrtok.xyz^
+||80582834.xyz^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
