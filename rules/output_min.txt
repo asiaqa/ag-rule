@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202504111141
+# Verison: 202504111931
 # Expires: around 1 day
-# Total number of rules = 151211
+# Total number of rules = 151216
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -83680,6 +83680,10 @@ vkcdnservice.appspot.com^
 ||wz.allianz.fr^
 ||d1udjti6mtxz9q.cloudfront.net^
 |piwik.
+||dns-clientinfo.vtg.paramount.tech^
+||monitor.r53.cbsivideo.com^
+||monitor.ns1-s.rspcdn.net^
+||monitor.ns1-d.viacomtech.net^
 ||views.hulu.com^
 ||pixel.vreview.tv^
 ||d3aicbrzoy14kh.cloudfront.net^
@@ -97861,6 +97865,8 @@ inapps.appsflyersdk.com^
 ||chugveasoy.com^
 ||sfile.top^
 ||zqifmyt.icu^
+||xwtylm.top^
+||jmif.cn^
 ||tezlpl.icu^
 ||duuddots.com^
 ||mjik.cn^
@@ -103877,8 +103883,8 @@ analytics-*.aasaam.com
 ||ziffdavis.com^
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
-||xwtylm.top^
-||jmif.cn^
+||rvxo.cn^
+||idhaiafq.com^
 ||bdad.123pan.cn^
 ://a.ads.
 ://ad-api-
@@ -105063,7 +105069,6 @@ analytics-*.aasaam.com
 ||weblog.flyasiana.com^
 ||wh.ipaddress.com^
 ||wstats.e-wok.tv^
-||xp.apple.com^
 ||yes88kks.infinityscans.net^
 ||z737.thestar.com^
 ||za.qeeq.com^
