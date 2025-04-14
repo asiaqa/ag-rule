@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202504141144
+# Verison: 202504141931
 # Expires: around 1 day
-# Total number of rules = 151293
+# Total number of rules = 151341
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -22,6 +22,8 @@
 # https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt
 # https://raw.githubusercontent.com/Turtlecute33/toolz/refs/heads/master/src/d3host.adblock
 ####################################################################################
+||htagpa.tech^
+||call.thebutterfly.eu^
 ||xdrlthfhikvgm.club^
 ||measlepotomac.shop^
 ||parteinroll.xyz^
@@ -1453,7 +1455,6 @@
 ||q.tubetruck.com^
 ||qiaoxz.xyz^
 ||qovua60gue.tubewolf.com^
-||qq2025.monthfour0225.xyz^
 ||qsdr.mysunnylawn.com^
 ||quaizoa.xyz^
 ||qualification2.fun^
@@ -98085,6 +98086,9 @@ inapps.appsflyersdk.com^
 ||ergiekszra.com^
 ||txvq.cn^
 ||tqjojh.icu^
+||ztdbfz.top^
+||ovcnmtk.top^
+||qvcnmty.top^
 ||wvcnmte.top^
 ||tvcnmti.top^
 ||uvcnmtt.top^
@@ -104127,9 +104131,6 @@ analytics-*.aasaam.com
 ||ziffdavis.com^
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
-||ztdbfz.top^
-||ovcnmtk.top^
-||qvcnmty.top^
 ||bdad.123pan.cn^
 ://a.ads.
 ://ad-api-
@@ -104185,28 +104186,76 @@ analytics-*.aasaam.com
 .480x60.
 .728x90-
 .900x100.
+||171c856581.com^
+||2485may2024.com^
+||2514june2024.com^
+||44216f3fdf.com^
+||adaptunemployed.com^
 ||adswizz.com^
+||agrntewawxi.com^
 ||alipromo.com^
 ||alitems.com^
 ||atdmt.com^
 ||auditude.com^
+||b29b70e3ca.com^
 ||benelph.de^
+||boannred.com^
+||borrowhourglass.com^
+||busy-man.com^
 ||buyeasy.by^
+||cabbagereporterpayroll.com^
+||cilsammwcblcv.com^
+||columnstoodth.com^
+||contineyuedi.org^
+||coursestiffenjealous.com^
+||curriculumoutcry.com^
+||deeperregardingcontend.com^
+||driverhugoverblown.com^
+||ecretaboutt.org^
+||excavatenearbywand.com^
+||fbhelyqzqbnft.global^
 ||gaming001.site
 ||get-me-wow.
 ||googletagservices.com^
+||gravepteru.com^
+||hupot.site^
 ||imasdk.googleapis.com^
+||jremnjpr.com^
 ||kqzyfj.com^
+||letmenowme.biz^
 ||loadercdn.com^
+||mammasdamps.shop^
+||mannerthiscommissioner.com^
+||monthfour0225.xyz^
 ||noopapnoeic.digital
 ||ntv.io^
+||ofnuxnwaxhmxsv.com^
+||ognggibtebi.com^
 ||ojrq.net^
+||punchpantherwhip.com^
+||putimperturbable.com^
+||rewaawokwmjba.top^
 ||rubiconproject.com^
+||rugalnylon.com^
+||sattiostiounper.com^
+||scalenizambian.shop^
+||shboshbok.com^
+||somethingrealisticzero.com^
+||taut-nature.com^
+||tertiidamsite.com^
 ||totaladblock.com^
+||tripsisvellums.com^
 ||trust.zone^
+||tzhrmcnidxqwrb.com^
 ||videoplaza.tv^
 ||wenoolgo.icu
+||whaleslightestimposter.com^
+||whoisezh.com^
+||widenaccident.com^
 ||wpnrtnmrewunrtok.xyz^
+||ykqcsawnlnvsgo.com^
+||ynurfigldblbt.online^
+||zlkmmpslmbwui.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -104904,6 +104953,7 @@ analytics-*.aasaam.com
 -logging.nextmedia.com^
 ||pv.sohu.com^
 ||stats2.*.fdnames.com^
+||b.clipkit.co^
 ||stats-*.p2pnow.ru^
 ||tms-st.cdn.ngenix.net^
 ||mtm.qdqmedia.com
@@ -130477,7 +130527,6 @@ nanoGDPR.min.js^
 ||24x7th.com^
 ||2508june2024.com^
 ||2512june2024.com^
-||2514june2024.com^
 ||2518june2024.com^
 ||2526june2024.com^
 ||265ccb08af.com^
@@ -139979,7 +140028,6 @@ nanoGDPR.min.js^
 ||hsoub.com^
 ||a.hspvst.com^
 ||ht10h.vip^
-||htagpa.tech^
 ||cdn.html5maker.com^
 ||htmlcounter.com^
 ||httpads.com^
