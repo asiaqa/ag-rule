@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202504151143
+# Verison: 202504151932
 # Expires: around 1 day
-# Total number of rules = 151411
+# Total number of rules = 151432
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -83985,6 +83985,8 @@ vkcdnservice.appspot.com^
 ||wz.allianz.fr^
 ||d1udjti6mtxz9q.cloudfront.net^
 |piwik.
+||backend-pixel.zotek.io^
+||rudr-events.joybird.com^
 ||dns-clientinfo.vtg.paramount.tech^
 ||monitor.r53.cbsivideo.com^
 ||monitor.ns1-s.rspcdn.net^
@@ -98168,6 +98170,8 @@ inapps.appsflyersdk.com^
 ||thricrulnf.com^
 ||rtfgvz.icu^
 ||pekr.cn^
+||bhdnti.top^
+||bvcnmtv.top^
 ||ergiekszra.com^
 ||txvq.cn^
 ||tqjojh.icu^
@@ -104228,8 +104232,7 @@ analytics-*.aasaam.com
 ||ziffdavis.com^
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
-||bhdnti.top^
-||bvcnmtv.top^
+||iiyurraeoh.com^
 ||bdad.123pan.cn^
 ://a.ads.
 ://ad-api-
@@ -104285,28 +104288,47 @@ analytics-*.aasaam.com
 .480x60.
 .728x90-
 .900x100.
+||9e11ec3a56.com^
 ||adswizz.com^
 ||alipromo.com^
 ||alitems.com^
+||apdcekrulrpjd.online^
 ||atdmt.com^
 ||auditude.com^
 ||benelph.de^
+||bifszaojpkuq.com^
 ||buyeasy.by^
+||ccc9c93083.com^
+||dethijohoagra.com^
 ||gaming001.site
+||gdihvgebdej.com^
 ||get-me-wow.
 ||googletagservices.com^
+||haugloosigliwha.net^
 ||imasdk.googleapis.com^
+||jakseegrutso.net^
+||kewbnmbettrd.xyz^
 ||kqzyfj.com^
 ||loadercdn.com^
+||mfoizeiwlbijkn.com^
+||moobuphaloachu.net^
 ||noopapnoeic.digital
 ||ntv.io^
+||oaapfztunpmky.vip^
 ||ojrq.net^
+||pguzquckxbb.com^
 ||rubiconproject.com^
+||theltemtirg.net^
 ||totaladblock.com^
 ||trust.zone^
+||vhbhundyietwwc.com^
 ||videoplaza.tv^
+||vq4b0q.fun^
 ||wenoolgo.icu
 ||wpnrtnmrewunrtok.xyz^
+||wwaeljamkvayk.top^
+||zoiefwqhcaczun.com^
+||zpilkesyasa.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -129991,7 +130013,6 @@ nanoGDPR.min.js^
 ||super-1.vip^
 ||hongkongpost.cf^
 ||t.holmesmind.com^
-||ad.nownews.com^
 ||pizzaseo.com^
 ||wellview.com.tw^
 ||videoapi.manhuaren.com^
@@ -130355,6 +130376,7 @@ nanoGDPR.min.js^
 ||socket.99ai.world^
 ||api.googleapps.top^
 ||dogoitimil02.tw^
+||magzintopmark.lol^
 ||0-02.net^
 ||000free.us^
 ||000nethost.com^
@@ -151332,7 +151354,6 @@ nanoGDPR.min.js^
 ||zorpia.com^
 ||zosemien.sk^
 ||zotabox.com^
-||backend-pixel.zotek.io^
 ||matomo.zoumas.net^
 ||zp22.cn^
 ||metrics.zpabeta.net^
