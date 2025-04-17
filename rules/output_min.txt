@@ -1,7 +1,7 @@
 # Title: MP Min Adguard Home Rules List
-# Verison: 202504171142
+# Verison: 202504171931
 # Expires: around 1 day
-# Total number of rules = 151712
+# Total number of rules = 151728
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -22,6 +22,7 @@
 # https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt
 # https://raw.githubusercontent.com/Turtlecute33/toolz/refs/heads/master/src/d3host.adblock
 ####################################################################################
+||orquidea.ai^
 ||few-politics.com^
 ||dreary-hunt.com^
 ||craniolgozzan.com^
@@ -31720,7 +31721,6 @@ vkcdnservice.appspot.com^
 ||domainadvertising.com^
 ||dotomi.com^
 ||doubleclick.com^
-||doubleclick.net^
 ||doubleverify.com^
 ||dreamaquarium.com^
 ||dropkickmedia.com^
@@ -98380,6 +98380,11 @@ inapps.appsflyersdk.com^
 ||zywjpypco.7hujk.de^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||ewdk.cn^
+||fflbpi.top^
+||hbeafcac.top^
+||stildreans.com^
+||uucnmtt.top^
 ||vunqrotm.com^
 ||ghrs.cn^
 ||pjbbhj.icu^
@@ -103181,6 +103186,7 @@ analytics-*.aasaam.com
 ||tracking.shoptogether.buy.com^
 ||tracking.ustream.tv^
 ||adocean.cz^
+||doubleclick.net^
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||vahufapave.com^
 ||cewegncr.com^
@@ -104461,11 +104467,10 @@ analytics-*.aasaam.com
 ||ziffdavis.com^
 ||static.ziftsolutions.com^
 ||s.zkcdn.net^
-||ewdk.cn^
-||fflbpi.top^
-||hbeafcac.top^
-||stildreans.com^
-||uucnmtt.top^
+||iwcnmto.top^
+||dighavrap.com^
+||chienzul.com^
+||lkmgjfkhfh.top^
 ||bdad.123pan.cn^
 ://a.ads.
 ://ad-api-
@@ -104521,28 +104526,39 @@ analytics-*.aasaam.com
 .480x60.
 .728x90-
 .900x100.
+||ad2f8c6f8e.com^
 ||adswizz.com^
 ||alipromo.com^
 ||alitems.com^
+||aqndcybah.com^
 ||atdmt.com^
 ||auditude.com^
 ||benelph.de^
 ||buyeasy.by^
+||copycatsoirees.top^
+||ehkualecb.com^
 ||gaming001.site
 ||get-me-wow.
 ||googletagservices.com^
 ||imasdk.googleapis.com^
 ||kqzyfj.com^
 ||loadercdn.com^
+||lwxegrybymzah.love^
+||medlikeamate.org^
 ||noopapnoeic.digital
 ||ntv.io^
 ||ojrq.net^
+||ozmbzowg.com^
 ||rubiconproject.com^
+||sungtoaz.club^
 ||totaladblock.com^
 ||trust.zone^
+||vbptgoyketwhv.global^
 ||videoplaza.tv^
+||voidthemhen.org^
 ||wenoolgo.icu
 ||wpnrtnmrewunrtok.xyz^
+||wywkwqzkavlvw.top^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
