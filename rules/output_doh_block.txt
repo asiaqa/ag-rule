@@ -1,5 +1,5 @@
 # Title: MP Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-# Verison: 202510111929
+# Verison: 202510121141
 # Expires: around 1 day
 ||003153.xyz^
 ||1.dns.noridev.moe^
@@ -299,7 +299,6 @@
 ||dns.burgas.pro^
 ||dns.busold.ws^
 ||dns.butterfly87.sbs^
-||dns.cabbage.zone^
 ||dns.cahlen.com^
 ||dns.caliph.dev^
 ||dns.carson-family.com^
@@ -387,7 +386,6 @@
 ||dns.ffnw.de^
 ||dns.fgbk.net^
 ||dns.filipccz.eu^
-||dns.fizz.studio^
 ||dns.flatuslifir.is^
 ||dns.flightspace.net^
 ||dns.floriantinney.de^
@@ -419,7 +417,6 @@
 ||dns.hahnjo.de^
 ||dns.haka.se^
 ||dns.hakim.one^
-||dns.hakutakucn.com^
 ||dns.hanahira.dev^
 ||dns.hanmey.de^
 ||dns.hannielzhang.com^
@@ -767,7 +764,6 @@
 ||doh.buzz^
 ||doh.captnemo.in^
 ||doh.ccb-net.it^
-||doh.centraleu.pi-dns.com^
 ||doh.cippapp.com^
 ||doh.cleanbrowsing.org^
 ||doh.cnetwork.cloud^
@@ -788,9 +784,6 @@
 ||doh.dnslify.com^
 ||doh.domreg.lt^
 ||doh.dscloud.me^
-||doh.eastas.pi-dns.com^
-||doh.eastau.pi-dns.com^
-||doh.eastus.pi-dns.com^
 ||doh.eddi.net^
 ||doh.ersei.net^
 ||doh.eu.dnswarden.com^
@@ -808,6 +801,7 @@
 ||doh.infracell.net^
 ||doh.iucc.ac.il^
 ||doh.jeroenhd.nl^
+||doh.kekew.info^
 ||doh.kel.pe^
 ||doh.kidzonet.io^
 ||doh.killtw.im^
@@ -826,7 +820,6 @@
 ||doh.nic.lv^
 ||doh.niyawe.de^
 ||doh.nl.ahadns.net^
-||doh.northeu.pi-dns.com^
 ||doh.ntu.ssooss.win^
 ||doh.onedns.net^
 ||doh.opendns.com^
@@ -835,7 +828,6 @@
 ||doh.phdns3.lonet.org^
 ||doh.phdns4.lonet.org^
 ||doh.phdns5.lonet.org^
-||doh.pi-dns.com^
 ||doh.port53.dk^
 ||doh.powerdns.org^
 ||doh.pub^
@@ -864,7 +856,6 @@
 ||doh.valscosmos.com^
 ||doh.viatech.com.tw^
 ||doh.webnmail.de^
-||doh.westus.pi-dns.com^
 ||doh.wewitro.net^
 ||doh.xcom.pro^
 ||doh.xfinity.com^
@@ -880,22 +871,16 @@
 ||dot-de.blahdns.com^
 ||dot-sg.blahdns.com^
 ||dot.360.cn^
-||dot.centraleu.pi-dns.com^
 ||dot.cox.net^
-||dot.eastas.pi-dns.com^
-||dot.eastau.pi-dns.com^
-||dot.eastus.pi-dns.com^
 ||dot.ffmuc.net^
 ||dot.la.ahadns.net^
 ||dot.libredns.gr^
 ||dot.nl.ahadns.net^
-||dot.northeu.pi-dns.com^
 ||dot.pub^
 ||dot.quickline.ch^
 ||dot.seby.io^
 ||dot.tiar.app^
 ||dot.tooli.ca^
-||dot.westus.pi-dns.com^
 ||dot.xfinity.com^
 ||dot1.applied-privacy.net^
 ||dot1.appliedprivacy.net^
@@ -981,7 +966,6 @@
 ||goose.buckyfan.net^
 ||gru01.dnscry.pt^
 ||guard.sntrk.ru^
-||gustamadh.dynv6.net^
 ||gva01.dnscry.pt^
 ||gztech.me^
 ||h.gjrick.tw^
@@ -5308,6 +5292,7 @@
 ||dns.briac-mlb.fr^
 ||dns.brionesserver.net^
 ||dns.c0ntroller.de^
+||dns.cabbage.zone^
 ||dns.ch295.ru^
 ||dns.chalkychalk.com^
 ||dns.chaosen3.co.uk^
@@ -5374,6 +5359,7 @@
 ||dns.fc.idv.tw^
 ||dns.fdue.de^
 ||dns.fifux.be^
+||dns.fizz.studio^
 ||dns.flux24.net^
 ||dns.flyer.vn^
 ||dns.foxyfy.net^
@@ -5394,6 +5380,7 @@
 ||dns.gupthabrothers.in^
 ||dns.gussguss.ovh^
 ||dns.h0schi.cloud^
+||dns.hakutakucn.com^
 ||dns.haoxuan.me^
 ||dns.hashemlabs.co.uk^
 ||dns.hee.ink^
@@ -5822,6 +5809,7 @@
 ||doh.blockerdns.com^
 ||doh.boje8.me^
 ||doh.bugdns.com^
+||doh.centraleu.pi-dns.com^
 ||doh.cloud-sekeng.com^
 ||doh.controld.com^
 ||doh.corpa.me^
@@ -5829,12 +5817,14 @@
 ||doh.de.blahdns.com^
 ||doh.dnswarden.com^
 ||doh.e7.work^
+||doh.eastas.pi-dns.com^
+||doh.eastau.pi-dns.com^
+||doh.eastus.pi-dns.com^
 ||doh.eieidns.com^
 ||doh.fatucloud.gosprout.org^
 ||doh.greenwood.eu.org^
 ||doh.hugang8.cn^
 ||doh.iqiyi.com^
-||doh.kekew.info^
 ||doh.koduarve.ee^
 ||doh.lujiacai.top^
 ||doh.manish.ltd^
@@ -5842,9 +5832,11 @@
 ||doh.meetz.pw^
 ||doh.mochou.site^
 ||doh.nexen.cloud^
+||doh.northeu.pi-dns.com^
 ||doh.nukys.ca^
 ||doh.p2cdn.cn^
 ||doh.palapa.net.id^
+||doh.pi-dns.com^
 ||doh.plaawan.uk^
 ||doh.plop.cc^
 ||doh.ptqy.gitv.tv^
@@ -5857,6 +5849,7 @@
 ||doh.ultradns.com^
 ||doh.us.moe.tips^
 ||doh.westeu.pi-dns.com^
+||doh.westus.pi-dns.com^
 ||doh.xorlet.ru^
 ||doh.zhongbr.uk^
 ||doh1.blahdns.com^
@@ -5883,10 +5876,16 @@
 ||dot-jp.blahdns.com^
 ||dot-public.exitstat.us^
 ||dot.anir0y.in^
+||dot.centraleu.pi-dns.com^
+||dot.eastas.pi-dns.com^
+||dot.eastau.pi-dns.com^
+||dot.eastus.pi-dns.com^
 ||dot.gordmo.com^
 ||dot.modsh.top^
+||dot.northeu.pi-dns.com^
 ||dot.occ.top^
 ||dot.qooqle.date^
+||dot.westus.pi-dns.com^
 ||dotserver.douyucdn.cn^
 ||dotvpn.com^
 ||doublehop.me^
@@ -6690,6 +6689,7 @@
 ||gumm.org^
 ||gurtyo.sino.tw^
 ||guruproxy.net^
+||gustamadh.dynv6.net^
 ||gvirabi.com^
 ||gw1.dns.haynetwork.id^
 ||gwopboyded.com^
