@@ -111,7 +111,7 @@ jobs:
           wget https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts -O ./publish/hosts
           wget https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains.txt -O ./publish/output_doh_block1.txt
           wget https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt -O ./publish/output_doh_block2.txt
-          wget https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh.txt -O ./publish/output_doh_block3.txt
+          wget https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt -O ./publish/output_doh_block3.txt
           cat ./publish/output_doh_block1.txt ./publish/output_doh_block2.txt ./publish/output_doh_block3.txt | sort | uniq > ./publish/output_doh_block.txt
           awk '!/!/ && !/\[/ { if (/^\|\|.+?\^$/) { if (!seen[$0]++) print } else { line = "||" $0 "^"; if (!seen[line]++) print line } }' ./publish/output_doh_block.txt > ./publish/temp.txt
           echo "# Title: MP Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist" > ./publish/output_doh_block.txt
