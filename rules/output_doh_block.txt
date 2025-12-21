@@ -1,5 +1,5 @@
 # Title: MP Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-# Verison: 202512211208
+# Verison: 202512211933
 # Expires: around 1 day
 ||003153.xyz^
 ||0ms.dev^
@@ -29,6 +29,7 @@
 ||adblock.dns.mullvad.net^
 ||adblock.doh.mullvad.net^
 ||adblock.indianets.net^
+||adblock.krctech.dev^
 ||adblock.leenit.kr^
 ||adblock.mydns.network^
 ||adblockersite.com^
@@ -58,7 +59,6 @@
 ||adguard.easez.net^
 ||adguard.ef67daisuki.club^
 ||adguard.ender.fr^
-||adguard.gambini.org^
 ||adguard.gbrossi.com.br^
 ||adguard.haneulo.com^
 ||adguard.hartley.cloud^
@@ -149,6 +149,7 @@
 ||bestwon203.com^
 ||biying.flymlc.com^
 ||bl.eq.md^
+||blackhole.myon.lu^
 ||blitz-setup.ahadns.com^
 ||blitz.ahadns.com^
 ||block.abstergo.it^
@@ -527,6 +528,7 @@
 ||dns.neilzone.co.uk^
 ||dns.netraptor.com.au^
 ||dns.netvpn.net^
+||dns.neubsi.at^
 ||dns.nextdns.io^
 ||dns.nguyendn.com^
 ||dns.nick-slowinski.de^
@@ -604,6 +606,7 @@
 ||dns.skrep.eu^
 ||dns.skrep.in^
 ||dns.slinkyman.net^
+||dns.smartguard.io^
 ||dns.soldier.terumi.club^
 ||dns.spil.co.id^
 ||dns.spirio.fr^
@@ -634,7 +637,6 @@
 ||dns.therifleman.name^
 ||dns.tipsy.coffee^
 ||dns.tls-data.de^
-||dns.tracker.ink^
 ||dns.tryk.app^
 ||dns.tuna.tsinghua.edu.cn^
 ||dns.twnic.tw^
@@ -737,10 +739,10 @@
 ||doh-pure.onedns.net^
 ||doh-random-upstream.nicolas-dorriere.fr^
 ||doh-sg.blahdns.com^
-||doh.18bit.cn^
 ||doh.233py.com^
 ||doh.30x.me^
 ||doh.360.cn^
+||doh.42l.fr^
 ||doh.aaaab3n.moe^
 ||doh.abraservice.xyz^
 ||doh.angry.im^
@@ -816,7 +818,6 @@
 ||doh.opendns.com^
 ||doh.phdns1.lonet.org^
 ||doh.phdns2.lonet.org^
-||doh.powerdns.org^
 ||doh.pub^
 ||doh.pyry.me^
 ||doh.qis.io^
@@ -1021,11 +1022,14 @@
 ||jp1.f7b6h9.tk^
 ||jp2.ooroot.com^
 ||jpdns.cola16.app^
+||jurre-home.duckdns.org^
 ||justhost.bedro.cloud^
 ||juuri.hagezi.org^
 ||kaiwu.xyz^
 ||keithchung.hopto.org^
+||kids.dns0.eu^
 ||kids.ns.nwps.fi^
+||kilabit.info^
 ||kiri.nonexiste.net^
 ||kiv01.dnscry.pt^
 ||ko-18948-tr.xyz^
@@ -1214,6 +1218,7 @@
 ||public-dns-b.dns.sb^
 ||public.dns.iij.jp^
 ||public.ns.nwps.fi^
+||punono.duckdns.org^
 ||puredns.org^
 ||qdns02.nymterm.com^
 ||qlf-doh.inria.fr^
@@ -1311,7 +1316,6 @@
 ||sitdns.com^
 ||sjc01.dnscry.pt^
 ||sky.rethinkdns.com^
-||skydragoness.com^
 ||slc01.dnscry.pt^
 ||sm2.doh.pub^
 ||sof01.dnscry.pt^
@@ -1600,7 +1604,6 @@
 ||adbl-tslagter.nl^
 ||adblock-dot.dnswarden.com^
 ||adblock.freeddns.org^
-||adblock.krctech.dev^
 ||adblock.renedis.nl^
 ||adblocker.institutobancario.edu.mx^
 ||adblockluna.com^
@@ -1692,6 +1695,7 @@
 ||adguard.fam-rodenburg.nl^
 ||adguard.fatu.systems^
 ||adguard.frece.de^
+||adguard.gambini.org^
 ||adguard.gattow.com^
 ||adguard.georgev22.com^
 ||adguard.ghkyzz.us^
@@ -2123,7 +2127,6 @@
 ||bkk01.dnscry.pt^
 ||blackdragon6699.diskstation.me^
 ||blackhole.gugainfo.com.br^
-||blackhole.myon.lu^
 ||blacklogic.com^
 ||blackvpn.com^
 ||blade.lixd.club^
@@ -2861,7 +2864,6 @@
 ||dns.nekofish.cc^
 ||dns.nerdytechgeeks.co.za^
 ||dns.netrve.net^
-||dns.neubsi.at^
 ||dns.nguyendangduong.codes^
 ||dns.nhtsky.com^
 ||dns.niccoli.cc^
@@ -2951,7 +2953,6 @@
 ||dns.skous.dedyn.io^
 ||dns.skuy.co.id^
 ||dns.sledge.cc^
-||dns.smartguard.io^
 ||dns.snaketech.com.br^
 ||dns.sneakypanda.org^
 ||dns.srijan.site^
@@ -2982,6 +2983,7 @@
 ||dns.tkhome.nl^
 ||dns.tomitomix.net^
 ||dns.tooizi.eu^
+||dns.tracker.ink^
 ||dns.trifanov-online.ru^
 ||dns.truong.fi^
 ||dns.trust404.win^
@@ -3139,8 +3141,8 @@
 ||doh-lb-sg.dnsflex.com^
 ||doh-lb-tr.dnsflex.com^
 ||doh-rs.whalebone.io^
+||doh.18bit.cn^
 ||doh.2kil.com^
-||doh.42l.fr^
 ||doh.aipps.vip^
 ||doh.almir1904.eu^
 ||doh.amonsul.net^
@@ -3179,6 +3181,7 @@
 ||doh.phdns5.lonet.org^
 ||doh.plaawan.uk^
 ||doh.plop.cc^
+||doh.powerdns.org^
 ||doh.ptqy.gitv.tv^
 ||doh.rasmusminde.dk^
 ||doh.sa-sa.eu^
@@ -4067,7 +4070,6 @@
 ||jujuba.cafuringa.org^
 ||jupitervpn.ninja^
 ||juproxy.com^
-||jurre-home.duckdns.org^
 ||justahotm3ss.xyz^
 ||justcors.com^
 ||justdoit.tuquy.com^
@@ -4108,7 +4110,6 @@
 ||kickassproxy.com^
 ||kids.5ososea.com^
 ||kids.vietdns.vn^
-||kilabit.info^
 ||killads.vpms.xyz^
 ||kind-bear-286.nstabiology.org^
 ||kind-fox-975.k12biology.com^
@@ -5015,7 +5016,6 @@
 ||publicdnsserver.com^
 ||publicproxy.org^
 ||pulsewire.atamanco.eu^
-||punono.duckdns.org^
 ||pupilproxy.com^
 ||purchase-some.hotglue.click^
 ||pure-cloud-838.k12biology.com^
@@ -5352,6 +5352,7 @@
 ||skipdns.link^
 ||skipns.com^
 ||skoolisawsom76.nien.jumpingcrab.com^
+||skydragoness.com^
 ||skynet.2bsafe.info^
 ||skynetinternet.com.br^
 ||skyssh.co^
@@ -5957,6 +5958,7 @@
 ||urban-vpn.com^
 ||url10.org^
 ||us-ash-w-f-1.nashkan.net^
+||us-browse.startpage.com^
 ||us-dal-w-p-1.nashkan.net^
 ||us-east-production-25671.rkimport.com^
 ||us-east-production-36887.jpleventos.cl^
@@ -5968,7 +5970,6 @@
 ||us.novali.date^
 ||us.rslvr.eu^
 ||us.sc92.cn^
-||us1-browse.startpage.com^
 ||us2-browse.startpage.com^
 ||us44nas.top^
 ||usa-proxy.org^
