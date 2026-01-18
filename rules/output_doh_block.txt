@@ -1,5 +1,5 @@
 # Title: MP Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-# Verison: 202601181213
+# Verison: 202601181931
 # Expires: around 1 day
 ||003153.xyz^
 ||0ms.dev^
@@ -29,6 +29,7 @@
 ||adblock.dns.mullvad.net^
 ||adblock.doh.mullvad.net^
 ||adblock.indianets.net^
+||adblock.krctech.dev^
 ||adblock.leenit.kr^
 ||adblock.mydns.network^
 ||adblockersite.com^
@@ -148,6 +149,7 @@
 ||bestwon203.com^
 ||biying.flymlc.com^
 ||bl.eq.md^
+||blackhole.myon.lu^
 ||blitz-setup.ahadns.com^
 ||blitz.ahadns.com^
 ||block.abstergo.it^
@@ -178,6 +180,7 @@
 ||chromium.dns.nextdns.io^
 ||chuncheon.dnsovertor.cc^
 ||clean.dnsforge.de^
+||cleanbrowsing.org^
 ||clientdns3.softcom.net^
 ||cloud.198.games^
 ||cloud.samutz.com^
@@ -194,11 +197,11 @@
 ||console.carestyle.org^
 ||cph01.dnscry.pt^
 ||crypto.sx^
+||cube.neubsi.at^
 ||cubedns.com^
 ||cvt01.dnscry.pt^
 ||cynntex.fun^
 ||d.adguard-dns.com^
-||d.apemlegit.my.id^
 ||d.bod.lol^
 ||d.niaox.com^
 ||d.toairs.com^
@@ -235,7 +238,6 @@
 ||dns-nosec.quad9.net^
 ||dns-privacy.puregeni.us^
 ||dns-public.ibakerserver.pt^
-||dns-tls.bitwiseshift.net^
 ||dns-unfiltered.adguard.com^
 ||dns.0ooo.icu^
 ||dns.13evl.com^
@@ -372,7 +374,6 @@
 ||dns.eddi.net^
 ||dns.edgeburnmedia.com^
 ||dns.edgy.network^
-||dns.efficientdocuments.com^
 ||dns.elemental.software^
 ||dns.eliv.kr^
 ||dns.engineer.web.id^
@@ -479,6 +480,7 @@
 ||dns.lars-lehmann.net^
 ||dns.lepilleur.com^
 ||dns.lermer.nl^
+||dns.levonet.sk^
 ||dns.lgprk.com^
 ||dns.liberador.net^
 ||dns.lightmaster.pw^
@@ -515,6 +517,7 @@
 ||dns.mullvad.net^
 ||dns.murgi.de^
 ||dns.muxinghe.cn^
+||dns.mzjtechnology.com^
 ||dns.mzrme.cn^
 ||dns.n23.io^
 ||dns.nako.kr^
@@ -732,7 +735,6 @@
 ||doh-pure.onedns.net^
 ||doh-random-upstream.nicolas-dorriere.fr^
 ||doh-sg.blahdns.com^
-||doh.18bit.cn^
 ||doh.233py.com^
 ||doh.30x.me^
 ||doh.360.cn^
@@ -944,6 +946,7 @@
 ||goose.buckyfan.net^
 ||gru01.dnscry.pt^
 ||guard.sntrk.ru^
+||gustamadh.dynv6.net^
 ||gva01.dnscry.pt^
 ||gztech.me^
 ||h.gjrick.tw^
@@ -1009,13 +1012,13 @@
 ||jp1.f7b6h9.tk^
 ||jp2.ooroot.com^
 ||jpdns.cola16.app^
+||jurre-home.duckdns.org^
 ||justhost.bedro.cloud^
 ||juuri.hagezi.org^
 ||kaiwu.xyz^
 ||keithchung.hopto.org^
 ||kids.ns.nwps.fi^
 ||kilabit.info^
-||kiri.nonexiste.net^
 ||kiv01.dnscry.pt^
 ||ko-18948-tr.xyz^
 ||kr-sel.doh.sb^
@@ -1023,6 +1026,7 @@
 ||kr2.ooroot.com^
 ||kracon.anycast.uncensoreddns.org^
 ||kronos.plan9-dns.com^
+||krtekvpn.duckdns.org^
 ||kx-97795-tr.xyz^
 ||kz-pav-w-p-1.nashkan.net^
 ||las-vegas.privacy-dns.pw^
@@ -1118,7 +1122,6 @@
 ||ns4.opennameserver.org^
 ||nsc.torgues.net^
 ||nsec.arnor.org^
-||ntwrkh.pro^
 ||nue01.dnscry.pt^
 ||nvi-dns.bitdefender.net^
 ||ny.teradns.org^
@@ -1143,6 +1146,7 @@
 ||ord01.dnscry.pt^
 ||ordns.he.net^
 ||ore-dns.bitdefender.net^
+||osefcorp.duckdns.org^
 ||p0.freedns.controld.com^
 ||p1.freedns.controld.com^
 ||p2.freedns.controld.com^
@@ -1187,6 +1191,7 @@
 ||public-dns-b.dns.sb^
 ||public.dns.iij.jp^
 ||public.ns.nwps.fi^
+||punono.duckdns.org^
 ||puredns.org^
 ||qdns02.nymterm.com^
 ||qlf-doh.inria.fr^
@@ -1222,6 +1227,7 @@
 ||resolver2.absolight.net^
 ||resolver2.ipv6-sandbox.opendns.com^
 ||resolver2.opendns.com^
+||resolver3.absolight.net^
 ||resolver4.dns.openinternet.io^
 ||rethinkdns.com^
 ||revelio.top^
@@ -1323,9 +1329,12 @@
 ||trf01.dnscry.pt^
 ||tri-dns.net^
 ||tributh.net^
+||truta.org^
 ||tsm01.dnscry.pt^
 ||ttag.dns.nomu.pw^
+||tuandns.duckdns.org^
 ||tujenasnaszato.xyz^
+||tungdnsne.duckdns.org^
 ||tuskythehusky.tech^
 ||tw2.ooroot.com^
 ||tyo01.dnscry.pt^
@@ -1781,7 +1790,6 @@
 ||adb.intienquan.io.vn^
 ||adblock-dot.dnswarden.com^
 ||adblock.freeddns.org^
-||adblock.krctech.dev^
 ||adblock.renedis.nl^
 ||adblocker.institutobancario.edu.mx^
 ||adblockluna.com^
@@ -2578,7 +2586,6 @@
 ||blackbull.news^
 ||blackdragon6699.diskstation.me^
 ||blackhole.gugainfo.com.br^
-||blackhole.myon.lu^
 ||blacklogic.com^
 ||blackvpn.com^
 ||blade.lixd.club^
@@ -2849,7 +2856,6 @@
 ||classroom.hkieca.com^
 ||cld.996969.xyz^
 ||clean.hadan-dns.de^
-||cleanbrowsing.org^
 ||clearvpn.co.uk^
 ||clearvpn.com^
 ||clever-vpn.net^
@@ -2975,7 +2981,6 @@
 ||cryptroute.com^
 ||cskl119.xyz^
 ||ct-vpn.com^
-||cube.neubsi.at^
 ||cuisine.run^
 ||curd.io^
 ||curser.dev^
@@ -2992,6 +2997,7 @@
 ||cyliu.idv.tw^
 ||cyphyl.com^
 ||czkaite88.xyz^
+||d.apemlegit.my.id^
 ||d.dnns.fun^
 ||d.gametechnet.com^
 ||d.hansj.cc^
@@ -3260,6 +3266,7 @@
 ||dns-sjc.imo.im^
 ||dns-telkominfra.disacloud.com^
 ||dns-three.lins.co.tt^
+||dns-tls.bitwiseshift.net^
 ||dns-tunnel-check.googlezip.net^
 ||dns-uk.puregeni.us^
 ||dns-us.ibmcloud.top^
@@ -3374,6 +3381,7 @@
 ||dns.dzkji.cn^
 ||dns.edc-pws.com^
 ||dns.edgeworkssystems.ca^
+||dns.efficientdocuments.com^
 ||dns.electrotm.org^
 ||dns.eliv.co.kr^
 ||dns.engineer-lib.ru^
@@ -3493,7 +3501,6 @@
 ||dns.labar.re^
 ||dns.lauraeguido.com^
 ||dns.lavir.com^
-||dns.levonet.sk^
 ||dns.libost.xyz^
 ||dns.lifeym.xyz^
 ||dns.lildinosaur.com^
@@ -3538,7 +3545,6 @@
 ||dns.multi30.pl^
 ||dns.musikantit.fi^
 ||dns.mytest.cc^
-||dns.mzjtechnology.com^
 ||dns.native.cat^
 ||dns.ndo.dev^
 ||dns.nekofish.cc^
@@ -3886,6 +3892,7 @@
 ||doh-lb-sg.dnsflex.com^
 ||doh-lb-tr.dnsflex.com^
 ||doh-rs.whalebone.io^
+||doh.18bit.cn^
 ||doh.2kil.com^
 ||doh.361.best^
 ||doh.aipps.vip^
@@ -4645,7 +4652,6 @@
 ||guigu.dns.army^
 ||gumm.org^
 ||guruproxy.net^
-||gustamadh.dynv6.net^
 ||gvgxatxp72i.online^
 ||gvirabi.com^
 ||gw-px-le-4223-3w5hsuiikq-ey.a.run.app^
@@ -5225,7 +5231,6 @@
 ||jujuba.cafuringa.org^
 ||juker3.xyz^
 ||juproxy.com^
-||jurre-home.duckdns.org^
 ||justahotm3ss.xyz^
 ||justcors.com^
 ||justdoit.tuquy.com^
@@ -5284,6 +5289,7 @@
 ||kind-wolf-912.shuttle.lol^
 ||kingsurfproxy.com^
 ||kintoun.alves.cc^
+||kiri.nonexiste.net^
 ||kirov.unicom.cloudns.be^
 ||kiwifunke.duckdns.org^
 ||kjmserwis.pl^
@@ -5318,7 +5324,6 @@
 ||krafty31.duckdns.org^
 ||krasivovpn.ru^
 ||krdns.cola16.app^
-||krtekvpn.duckdns.org^
 ||kryptovpn.kryptotel.net^
 ||ks7aoe.site^
 ||ksho.uk^
@@ -5822,6 +5827,7 @@
 ||nsown.com^
 ||nsv4w.com^
 ||nthelead.com^
+||ntwrkh.pro^
 ||nucleusvpn.com^
 ||nuevita.org^
 ||nvpn.net^
@@ -5928,7 +5934,6 @@
 ||orxwaicjss.laboratoriosdavis.cl^
 ||os4work.com^
 ||oscnl.site^
-||osefcorp.duckdns.org^
 ||ospylac.com^
 ||osqcsmm.shop^
 ||ot4axb6.online^
@@ -6373,7 +6378,6 @@
 ||publicproxy.org^
 ||puhr.top^
 ||pulsewire.atamanco.eu^
-||punono.duckdns.org^
 ||pupilproxy.com^
 ||puppyfood.info^
 ||pure-cloud-838.k12biology.com^
@@ -6540,7 +6544,6 @@
 ||resolver1.hosting-cloud.net^
 ||resolver2.dyndnsinternetguide.com^
 ||resolver2.hosting-cloud.net^
-||resolver3.absolight.net^
 ||resolvers-cn.httpdns.aliyuncs.com^
 ||resov.wehao.net^
 ||restaurantgift.us^
@@ -7281,7 +7284,6 @@
 ||trueproxy.com^
 ||trust.zone^
 ||trustedproxies.com^
-||truta.org^
 ||trutri.org^
 ||truvium.xyz^
 ||tryfairy.xyz^
@@ -7289,11 +7291,9 @@
 ||ts653d.duckdns.org^
 ||tsgqi2p2na3m7q.net^
 ||tsr01.dnscry.pt^
-||tuandns.duckdns.org^
 ||tuantran.cloud^
 ||tubeprox.com^
 ||tubeunblock.me^
-||tungdnsne.duckdns.org^
 ||tunnel.googlezip.net^
 ||tunnelbear.com^
 ||tunnelbear.s3.amazonaws.com^
