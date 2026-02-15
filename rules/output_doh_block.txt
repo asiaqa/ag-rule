@@ -1,5 +1,5 @@
 # Title: MP Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-# Verison: 202602151304
+# Verison: 202602151940
 # Expires: around 1 day
 ||003153.xyz^
 ||0ms.dev^
@@ -29,7 +29,6 @@
 ||adblock.dns.mullvad.net^
 ||adblock.doh.mullvad.net^
 ||adblock.indianets.net^
-||adblock.krctech.dev^
 ||adblock.leenit.kr^
 ||adblock.mydns.network^
 ||adblockersite.com^
@@ -180,7 +179,6 @@
 ||chromium.dns.nextdns.io^
 ||chuncheon.dnsovertor.cc^
 ||clean.dnsforge.de^
-||cleanbrowsing.org^
 ||clientdns3.softcom.net^
 ||cloud.198.games^
 ||cloud.samutz.com^
@@ -443,6 +441,7 @@
 ||dns.ihaveacloud.com^
 ||dns.ikataruto.com^
 ||dns.iki.my.id^
+||dns.imaicool.com^
 ||dns.imchristian.de^
 ||dns.immanuelschaffer.de^
 ||dns.inforlogia.com^
@@ -496,6 +495,7 @@
 ||dns.lobbygod.com^
 ||dns.luma-medien.com^
 ||dns.maitrekuc.fr^
+||dns.maolaohei.xyz^
 ||dns.marasov.id^
 ||dns.marbledfennec.net^
 ||dns.mateo.ovh^
@@ -537,7 +537,6 @@
 ||dns.njal.la^
 ||dns.nodoa.me^
 ||dns.novali.date^
-||dns.novg.net^
 ||dns.npe.bz^
 ||dns.nullgate.net^
 ||dns.numerus.com^
@@ -739,7 +738,6 @@
 ||doh-pure.onedns.net^
 ||doh-random-upstream.nicolas-dorriere.fr^
 ||doh-sg.blahdns.com^
-||doh.18bit.cn^
 ||doh.233py.com^
 ||doh.30x.me^
 ||doh.360.cn^
@@ -1109,7 +1107,6 @@
 ||ns.net.kg^
 ||ns.nwps.fi^
 ||ns.ral9005.org^
-||ns.trcnet.fi^
 ||ns0.fdn.fr^
 ||ns1.dotls.org^
 ||ns1.fdn.fr^
@@ -1162,6 +1159,7 @@
 ||par01.dnscry.pt^
 ||paranoia.mydns.network^
 ||pashagame456.com^
+||pates.services.sfr.fr.casepp.sfr.fr^
 ||paulo.nom.za^
 ||pdns.faelix.net^
 ||pdns.itxe.net^
@@ -1214,7 +1212,8 @@
 ||rdu01.dnscry.pt^
 ||regiopolis.cloud^
 ||renardbleu.dev^
-||res-acst3.absolight.net^
+||res-acst1.absolight.net^
+||res-acst2.absolight.net^
 ||resolv.flokinet.net^
 ||resolv1.trash.net^
 ||resolv2.trash.net^
@@ -1226,10 +1225,10 @@
 ||resolver.sunet.se^
 ||resolver.unstoppable.io^
 ||resolver1-fs.opendns.com^
-||resolver1.absolight.net^
 ||resolver1.ipv6-sandbox.opendns.com^
 ||resolver1.opendns.com^
 ||resolver2-fs.opendns.com^
+||resolver2.absolight.net^
 ||resolver2.ipv6-sandbox.opendns.com^
 ||resolver2.opendns.com^
 ||resolver3.absolight.net^
@@ -1333,7 +1332,6 @@
 ||trf01.dnscry.pt^
 ||tri-dns.net^
 ||tributh.net^
-||truta.org^
 ||tsm01.dnscry.pt^
 ||ttag.dns.nomu.pw^
 ||tuandns.duckdns.org^
@@ -2218,6 +2216,7 @@
 ||adb.aiec.vn^
 ||adb.intienquan.io.vn^
 ||adblock.freeddns.org^
+||adblock.krctech.dev^
 ||adblock.renedis.nl^
 ||adblocker.institutobancario.edu.mx^
 ||adblockluna.com^
@@ -3989,6 +3988,7 @@
 ||classtime.canalspa.cl^
 ||cld.996969.xyz^
 ||clean.hadan-dns.de^
+||cleanbrowsing.org^
 ||clearvpn.co.uk^
 ||clearvpn.com^
 ||clever-com.nicher.cl^
@@ -5136,7 +5136,6 @@
 ||dns.mailcastle.in^
 ||dns.malhuda.com^
 ||dns.mandre.dev^
-||dns.maolaohei.xyz^
 ||dns.marcbond.uk^
 ||dns.marschi.de^
 ||dns.matthias-prost.com^
@@ -5181,6 +5180,7 @@
 ||dns.ninhs.org^
 ||dns.nominal.network^
 ||dns.nonomi.cc^
+||dns.novg.net^
 ||dns.ntccloud.vn^
 ||dns.ntr.lol^
 ||dns.nubecita.biz^
@@ -5537,6 +5537,7 @@
 ||doh-lb-sg.dnsflex.com^
 ||doh-lb-tr.dnsflex.com^
 ||doh-rs.whalebone.io^
+||doh.18bit.cn^
 ||doh.2kil.com^
 ||doh.361.best^
 ||doh.aipps.vip^
@@ -9815,6 +9816,7 @@
 ||ns.hjk.me^
 ||ns.solutics.ec^
 ||ns.solutionsbest.de^
+||ns.trcnet.fi^
 ||ns01.nerdytechgeeks.co.za^
 ||ns02.nerdytechgeeks.co.za^
 ||ns03.nerdytechgeeks.co.za^
@@ -10108,7 +10110,6 @@
 ||passageplace.com^
 ||passiveapp.com^
 ||passssssssssword.easterndns.com^
-||pates.services.sfr.fr.casepp.sfr.fr^
 ||patreos.lntxbox.com^
 ||patrickstar.spacetechnology.net^
 ||patronize.bury.abrdns.com^
@@ -11070,8 +11071,7 @@
 ||repocket-production.s3.fr-par.scw.cloud^
 ||repocket.co^
 ||repsdemo.online^
-||res-acst1.absolight.net^
-||res-acst2.absolight.net^
+||res-acst3.absolight.net^
 ||res.zijji.com^
 ||research.africa.com^
 ||research.canadianlocomotivelogistics.ca^
@@ -11091,9 +11091,9 @@
 ||resolver.dns.eban.eu.org^
 ||resolver.frank-ruan.com^
 ||resolver.haringstad.com^
+||resolver1.absolight.net^
 ||resolver1.amlegion.org^
 ||resolver1.hosting-cloud.net^
-||resolver2.absolight.net^
 ||resolver2.hosting-cloud.net^
 ||resolvers-cn.httpdns.aliyuncs.com^
 ||resource.lesec.dedyn.io^
@@ -12669,6 +12669,7 @@
 ||trunklease.com^
 ||trust.zone^
 ||trustedproxies.com^
+||truta.org^
 ||truthskip.org^
 ||trutri.org^
 ||truvium.xyz^
