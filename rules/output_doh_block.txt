@@ -1,5 +1,5 @@
 # Title: MP Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-# Verison: 202603131255
+# Verison: 202603131949
 # Expires: around 1 day
 ||003153.xyz^
 ||0ms.dev^
@@ -29,6 +29,7 @@
 ||adblock.dns.mullvad.net^
 ||adblock.doh.mullvad.net^
 ||adblock.indianets.net^
+||adblock.krctech.dev^
 ||adblock.leenit.kr^
 ||adblock.mydns.network^
 ||adblockersite.com^
@@ -54,7 +55,6 @@
 ||adguard.bonsirven.eu^
 ||adguard.dantynes.cyou^
 ||adguard.dekonix.ru^
-||adguard.depieri.net^
 ||adguard.easez.net^
 ||adguard.ef67daisuki.club^
 ||adguard.ender.fr^
@@ -147,7 +147,6 @@
 ||bestwon203.com^
 ||biying.flymlc.com^
 ||bl.eq.md^
-||blackhole.myon.lu^
 ||blitz-setup.ahadns.com^
 ||block.abstergo.it^
 ||blocker.thethorsens.org^
@@ -370,11 +369,13 @@
 ||dns.dnswarden.com^
 ||dns.dotnet.win^
 ||dns.dremaxx.de^
+||dns.dyn1.de^
 ||dns.dynx.pro^
 ||dns.eddi.net^
 ||dns.edgeburnmedia.com^
 ||dns.edgy.network^
 ||dns.edison42.dev^
+||dns.efficientdocuments.com^
 ||dns.elemental.software^
 ||dns.eliv.kr^
 ||dns.engineer.web.id^
@@ -390,6 +391,7 @@
 ||dns.fehlsprache.de^
 ||dns.ffnw.de^
 ||dns.filipccz.eu^
+||dns.fizz.studio^
 ||dns.flatuslifir.is^
 ||dns.flightspace.net^
 ||dns.floriantinney.de^
@@ -439,6 +441,7 @@
 ||dns.ihaveacloud.com^
 ||dns.ikataruto.com^
 ||dns.iki.my.id^
+||dns.imaicool.com^
 ||dns.imchristian.de^
 ||dns.immanuelschaffer.de^
 ||dns.inforlogia.com^
@@ -528,7 +531,6 @@
 ||dns.neilzone.co.uk^
 ||dns.netraptor.com.au^
 ||dns.netvpn.net^
-||dns.neubsi.at^
 ||dns.nextdns.io^
 ||dns.nguyendn.com^
 ||dns.nick-slowinski.de^
@@ -604,7 +606,6 @@
 ||dns.skrep.eu^
 ||dns.skrep.in^
 ||dns.slinkyman.net^
-||dns.smartguard.io^
 ||dns.soldier.terumi.club^
 ||dns.spil.co.id^
 ||dns.spirio.fr^
@@ -738,6 +739,7 @@
 ||doh-pure.onedns.net^
 ||doh-random-upstream.nicolas-dorriere.fr^
 ||doh-sg.blahdns.com^
+||doh.18bit.cn^
 ||doh.233py.com^
 ||doh.30x.me^
 ||doh.360.cn^
@@ -1211,6 +1213,7 @@
 ||rdu01.dnscry.pt^
 ||regiopolis.cloud^
 ||renardbleu.dev^
+||res-acst1.absolight.net^
 ||res-acst2.absolight.net^
 ||res-acst3.absolight.net^
 ||resolv.flokinet.net^
@@ -1331,7 +1334,6 @@
 ||trf01.dnscry.pt^
 ||tri-dns.net^
 ||tributh.net^
-||truta.org^
 ||tsm01.dnscry.pt^
 ||ttag.dns.nomu.pw^
 ||tuandns.duckdns.org^
@@ -2332,7 +2334,6 @@
 ||adb-wan.xaoimoon.fr^
 ||adb.aiec.vn^
 ||adblock.freeddns.org^
-||adblock.krctech.dev^
 ||adblock.renedis.nl^
 ||adblocker.institutobancario.edu.mx^
 ||adblockluna.com^
@@ -2419,6 +2420,7 @@
 ||adguard.cnbeining.com^
 ||adguard.crestfallen.de^
 ||adguard.dbase.in.rs^
+||adguard.depieri.net^
 ||adguard.dervart.ru^
 ||adguard.dessoi.cloud^
 ||adguard.dientutronghuong.com^
@@ -3596,6 +3598,7 @@
 ||blackbull.news^
 ||blackdragon6699.diskstation.me^
 ||blackhole.gugainfo.com.br^
+||blackhole.myon.lu^
 ||blacklogic.com^
 ||blackpeoplehistory.latinliturgy.com^
 ||blackpilmethodsarethegoat.graphicon.org^
@@ -5561,11 +5564,9 @@
 ||dns.druta.me^
 ||dns.dualhosting.eu^
 ||dns.dumk.in^
-||dns.dyn1.de^
 ||dns.dzkji.cn^
 ||dns.edc-pws.com^
 ||dns.edgeworkssystems.ca^
-||dns.efficientdocuments.com^
 ||dns.electrotm.org^
 ||dns.eliv.co.kr^
 ||dns.engineer-lib.ru^
@@ -5589,7 +5590,6 @@
 ||dns.fc.idv.tw^
 ||dns.fdue.de^
 ||dns.fifux.be^
-||dns.fizz.studio^
 ||dns.flux24.net^
 ||dns.flyer.vn^
 ||dns.freddys.my.id^
@@ -5739,6 +5739,7 @@
 ||dns.ndo.dev^
 ||dns.nerdytechgeeks.co.za^
 ||dns.netrve.net^
+||dns.neubsi.at^
 ||dns.nhtsky.com^
 ||dns.niccoli.cc^
 ||dns.nicolas.vip^
@@ -5838,6 +5839,7 @@
 ||dns.skuy.co.id^
 ||dns.sky-plex.com^
 ||dns.sledge.cc^
+||dns.smartguard.io^
 ||dns.snaketech.com.br^
 ||dns.sneakypanda.org^
 ||dns.srijan.site^
@@ -6101,7 +6103,6 @@
 ||doh-lb-sg.dnsflex.com^
 ||doh-lb-tr.dnsflex.com^
 ||doh-rs.whalebone.io^
-||doh.18bit.cn^
 ||doh.2kil.com^
 ||doh.361.best^
 ||doh.aipps.vip^
@@ -12572,7 +12573,6 @@
 ||repocket.co^
 ||repogoogle.com^
 ||repsdemo.online^
-||res-acst1.absolight.net^
 ||res.zijji.com^
 ||research.africa.com^
 ||research.canadianlocomotivelogistics.ca^
@@ -14439,6 +14439,7 @@
 ||trunklease.com^
 ||trust.zone^
 ||trustedproxies.com^
+||truta.org^
 ||truthskip.org^
 ||trutri.org^
 ||truvexia.ru^
