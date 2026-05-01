@@ -318,7 +318,50 @@ func readLinesFromFile(path string) []string {
 	return lines
 }
 
-func RunDNSFilter(inputFile string, outputFile string, configPath string) {
+func LoadWhitelist(path string) map[string]bool {
+	whitelist := make(map[string]bool)
+
+	data, err := os.ReadFile(path)
+	if err != nil {
+		fmt.Println("Whitelist not found, using empty whitelist:", err)
+		return whitelist
+	}
+
+	scanner := bufio.NewScanner(strings.NewReader(string(data)))
+	for scanner.Scan() {
+		line := strings.TrimSpace(scanner.Text())
+		if line != "" && !strings.HasPrefix(line, "#") {
+			whitelist[strings.ToLower(line)] = true
+		}
+	}
+
+	fmt.Printf("Loaded %d whitelist entries\n", len(whitelist))
+	return whitelist
+}
+
+func FilterWhitelistFromDead(deadDomains []string, whitelist map[string]bool) []string {
+	if len(whitelist) == 0 {
+		return deadDomains
+	}
+
+	var filtered []string
+	removedCount := 0
+
+	for _, domain := range deadDomains {
+		lowerDomain := strings.ToLower(domain)
+		if whitelist[lowerDomain] {
+			removedCount++
+			fmt.Printf("Whitelist protected: %s\n", domain)
+			continue
+		}
+		filtered = append(filtered, domain)
+	}
+
+	fmt.Printf("Removed %d whitelisted domains from dead list\n", removedCount)
+	return filtered
+}
+
+func RunDNSFilter(inputFile string, outputFile string, configPath string, whitelistPath string) {
 	config := LoadDNSConfig(configPath)
 
 	if !config.Enabled {
@@ -430,7 +473,12 @@ func RunDNSFilter(inputFile string, outputFile string, configPath string) {
 
 	allDeadDomains := append(deadFromCache, newDeadDomains...)
 
-	fmt.Printf("Total dead domains: %d\n", len(allDeadDomains))
+	fmt.Printf("Total dead domains before whitelist: %d\n", len(allDeadDomains))
+
+	whitelist := LoadWhitelist(whitelistPath)
+	allDeadDomains = FilterWhitelistFromDead(allDeadDomains, whitelist)
+
+	fmt.Printf("Total dead domains after whitelist: %d\n", len(allDeadDomains))
 
 	if err := SaveDomainCache(cache, config.CacheFile); err != nil {
 		fmt.Printf("Warning: Failed to save cache: %v\n", err)
