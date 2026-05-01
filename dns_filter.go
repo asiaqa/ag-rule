@@ -199,13 +199,12 @@ func RunPuredns(domains []string, config DNSConfig) ([]string, error) {
 	}
 
 	aliveFile := filepath.Join(tmpDir, "alive.txt")
-	deadFile := filepath.Join(tmpDir, "dead.txt")
 
 	cmd := exec.Command("puredns", "resolve", domainsFile,
 		"--resolvers", resolversFile,
 		"--quiet",
 		"--write", aliveFile,
-		"--write-failures", deadFile,
+		"--skip-wildcard-filter",
 	)
 
 	cmd.Stdout = os.Stdout
@@ -221,8 +220,19 @@ func RunPuredns(domains []string, config DNSConfig) ([]string, error) {
 		fmt.Printf("puredns completed successfully (took %s)\n", elapsed.Round(time.Second))
 	}
 
-	deadDomains := readLinesFromFile(deadFile)
 	aliveDomains := readLinesFromFile(aliveFile)
+
+	aliveSet := make(map[string]bool)
+	for _, d := range aliveDomains {
+		aliveSet[strings.ToLower(d)] = true
+	}
+
+	var deadDomains []string
+	for _, domain := range domains {
+		if !aliveSet[strings.ToLower(domain)] {
+			deadDomains = append(deadDomains, domain)
+		}
+	}
 
 	fmt.Printf("puredns results: %d alive, %d dead\n", len(aliveDomains), len(deadDomains))
 
