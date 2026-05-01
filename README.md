@@ -3,7 +3,6 @@
 [![Go Version](https://img.shields.io/badge/Go-1.19-00ADD8?logo=go&logoColor=white)](https://golang.org/)
 [![Updates Per Day](https://img.shields.io/badge/Updates-3%2Fday-brightgreen)](https://github.com/asiaqa/ag-rule/actions)
 [![Rules](https://img.shields.io/badge/Rules-1M%2B-blue)](https://github.com/asiaqa/ag-rule)
-[![GitHub Stars](https://img.shields.io/github/stars/asiaqa/ag-rule?style=social)](https://github.com/asiaqa/ag-rule/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/asiaqa/ag-rule?style=social)](https://github.com/asiaqa/ag-rule/network/members)
 
 # ag-rule
