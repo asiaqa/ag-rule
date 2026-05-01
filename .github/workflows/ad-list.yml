@@ -47,10 +47,10 @@ jobs:
           
     - name: Run main.go
       run: |
-          go run main.go "./setting/super_rules.txt" out_super.txt "./setting/custom.txt" super
-          go run main.go "./setting/full_rules.txt" out_full.txt "./setting/custom.txt" full
-          go run main.go "./setting/medium_rules.txt" out_med.txt "./setting/custom.txt" medium
-          go run main.go "./setting/min_rules.txt" out_min.txt "./setting/custom.txt" min
+          go run *.go "./setting/super_rules.txt" out_super.txt "./setting/custom.txt" super
+          go run *.go "./setting/full_rules.txt" out_full.txt "./setting/custom.txt" full
+          go run *.go "./setting/medium_rules.txt" out_med.txt "./setting/custom.txt" medium
+          go run *.go "./setting/min_rules.txt" out_min.txt "./setting/custom.txt" min
     
     - name: Create output_super.txt
       run: |
