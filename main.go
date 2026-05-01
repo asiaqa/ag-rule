@@ -195,8 +195,9 @@ func main() {
 	if !skipDNS {
 		fmt.Println("Starting DNS NXDOMAIN filtering...")
 		dnsConfigPath := "./setting/dns_config.json"
+		whitelistPath := "./setting/whitelist.txt"
 		filteredOutput := outputFile + ".filtered"
-		RunDNSFilter(outputFile, filteredOutput, dnsConfigPath)
+		RunDNSFilter(outputFile, filteredOutput, dnsConfigPath, whitelistPath)
 
 		if _, err := os.Stat(filteredOutput); err == nil {
 			remove(outputFile)
