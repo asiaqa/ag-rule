@@ -129,12 +129,29 @@ jobs:
           cp ./publish/output_doh_block.txt ./rules/output_doh_block.txt
           cp ./publish/BT-Trackers.txt ./rules/BT-Trackers.txt
           
+    - name: Update README with rule counts
+      run: |
+          super=$(wc -l < ./rules/output_super.txt | tr -d ' ')
+          full=$(wc -l < ./rules/output_full.txt | tr -d ' ')
+          medium=$(wc -l < ./rules/output_medium.txt | tr -d ' ')
+          min=$(wc -l < ./rules/output_min.txt | tr -d ' ')
+          # Format numbers with k suffix
+          super_fmt=$(echo "scale=0; ${super}/1000" | bc)k
+          full_fmt=$(echo "scale=0; ${full}/1000" | bc)k
+          medium_fmt=$(echo "scale=0; ${medium}/1000" | bc)k
+          min_fmt=$(echo "scale=0; ${min}/1000" | bc)k
+          sed -i "s/{{SUPER_COUNT}}/${super_fmt}/g" README.md
+          sed -i "s/{{FULL_COUNT}}/${full_fmt}/g" README.md
+          sed -i "s/{{MEDIUM_COUNT}}/${medium_fmt}/g" README.md
+          sed -i "s/{{MIN_COUNT}}/${min_fmt}/g" README.md
+          echo "Updated README with counts: Super=${super_fmt}, Full=${full_fmt}, Medium=${medium_fmt}, Min=${min_fmt}"
+          
     - name: Commit *.txt
       run: |
          echo `date +"%Y-%m-%d %H:%M:%S"` ZJC CKC >> ./rules/date.log
          git config --global user.email ${{ secrets.EMAIL }}
          git config --global user.name ${{ secrets.NAME }}
-         git add ./rules/output* ./output.txt ./output_simple.txt ./rules/date.log ./rules/hosts ./rules/output_doh_block.txt ./rules/BT-Trackers.txt ./rules/dead_domains.txt ./rules/dns_cache.json ./resolvers.txt
+         git add ./rules/output* ./output.txt ./output_simple.txt ./rules/date.log ./rules/hosts ./rules/output_doh_block.txt ./rules/BT-Trackers.txt ./rules/dead_domains.txt ./rules/dns_cache.json ./resolvers.txt README.md
          git commit -m "${{ env.RELEASE_NAME }}"
          git push
           
