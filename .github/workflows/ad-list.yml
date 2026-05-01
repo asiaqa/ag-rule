@@ -34,6 +34,10 @@ jobs:
       run: |
         npm i -g @adguard/hostlist-compiler@v1.0.35
         
+    - name: Install puredns
+      run: |
+        go install github.com/d3mondev/puredns/v2@latest
+        
     - name: Set folder condition, variables and timezone
       run: |
           sudo cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
@@ -43,10 +47,10 @@ jobs:
           
     - name: Run main.go
       run: |
-          go run main.go "./setting/super_rules.txt" out_super.txt "./setting/custom.txt"
-          go run main.go "./setting/full_rules.txt" out_full.txt "./setting/custom.txt"
-          go run main.go "./setting/medium_rules.txt" out_med.txt "./setting/custom.txt"
-          go run main.go "./setting/min_rules.txt" out_min.txt "./setting/custom.txt"
+          go run main.go "./setting/super_rules.txt" out_super.txt "./setting/custom.txt" super
+          go run main.go "./setting/full_rules.txt" out_full.txt "./setting/custom.txt" full
+          go run main.go "./setting/medium_rules.txt" out_med.txt "./setting/custom.txt" medium
+          go run main.go "./setting/min_rules.txt" out_min.txt "./setting/custom.txt" min
     
     - name: Create output_super.txt
       run: |
@@ -128,7 +132,7 @@ jobs:
          echo `date +"%Y-%m-%d %H:%M:%S"` ZJC CKC >> ./rules/date.log
          git config --global user.email ${{ secrets.EMAIL }}
          git config --global user.name ${{ secrets.NAME }}
-         git add ./rules/output* ./output.txt ./output_simple.txt ./rules/date.log ./rules/hosts ./rules/output_doh_block.txt ./rules/BT-Trackers.txt
+         git add ./rules/output* ./output.txt ./output_simple.txt ./rules/date.log ./rules/hosts ./rules/output_doh_block.txt ./rules/BT-Trackers.txt ./rules/dead_domains.txt ./rules/dns_cache.json ./resolvers.txt
          git commit -m "${{ env.RELEASE_NAME }}"
          git push
           
@@ -162,4 +166,3 @@ jobs:
           for file in $(ls); do
             curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@release/${file}"
           done
-    
