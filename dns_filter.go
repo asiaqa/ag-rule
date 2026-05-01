@@ -134,7 +134,67 @@ func IsPurednsInstalled() bool {
 	return err == nil
 }
 
+func IsMassdnsInstalled() bool {
+	_, err := exec.LookPath("massdns")
+	return err == nil
+}
+
+func InstallMassdns() error {
+	if IsMassdnsInstalled() {
+		fmt.Println("massdns is already installed")
+		return nil
+	}
+
+	fmt.Println("Installing massdns...")
+
+	// Clone and build massdns
+	tmpDir, err := os.MkdirTemp("", "massdns_build")
+	if err != nil {
+		return fmt.Errorf("failed to create temp dir: %v", err)
+	}
+	defer os.RemoveAll(tmpDir)
+
+	// Clone
+	cmd := exec.Command("git", "clone", "--depth", "1", "https://github.com/blechschmidt/massdns.git", tmpDir)
+	cmd.Stdout = os.Stdout
+	cmd.Stderr = os.Stderr
+	if err := cmd.Run(); err != nil {
+		return fmt.Errorf("failed to clone massdns: %v", err)
+	}
+
+	// Build
+	cmd = exec.Command("make")
+	cmd.Dir = tmpDir
+	cmd.Stdout = os.Stdout
+	cmd.Stderr = os.Stderr
+	if err := cmd.Run(); err != nil {
+		return fmt.Errorf("failed to build massdns: %v", err)
+	}
+
+	// Copy binary to /usr/local/bin
+	binPath := filepath.Join(tmpDir, "bin", "massdns")
+	cmd = exec.Command("sudo", "cp", binPath, "/usr/local/bin/massdns")
+	cmd.Stdout = os.Stdout
+	cmd.Stderr = os.Stderr
+	if err := cmd.Run(); err != nil {
+		return fmt.Errorf("failed to copy massdns binary: %v", err)
+	}
+
+	// Verify
+	if !IsMassdnsInstalled() {
+		return fmt.Errorf("massdns installed but not found in PATH")
+	}
+
+	fmt.Println("massdns installed successfully")
+	return nil
+}
+
 func InstallPuredns() error {
+	// Install massdns first (puredns dependency)
+	if err := InstallMassdns(); err != nil {
+		return fmt.Errorf("failed to install massdns: %v", err)
+	}
+
 	if IsPurednsInstalled() {
 		fmt.Println("puredns is already installed")
 		return nil
