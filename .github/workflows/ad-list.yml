@@ -11,17 +11,23 @@ on:
     - cron: 21 11 * * *
     - cron: 01 3 * * *
 
+concurrency:
+  group: ad-list-processing
+  cancel-in-progress: true
+
 jobs:
 
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-
-    - name: Set up Go 1.x.y
-      uses: actions/setup-go@v3
       with:
-        go-version: 1.19
+        fetch-depth: 0
+
+    - name: Set up Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: '1.21'
         check-latest: true
         
     - name: Use Node.js
@@ -37,9 +43,33 @@ jobs:
     - name: Install puredns and dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y build-essential git
+        sudo apt-get install -y build-essential git bc
         go install github.com/d3mondev/puredns/v2@latest
         
+    - name: Source health check
+      run: |
+          echo "Checking source URLs..."
+          failed=0
+          total=0
+          for file in ./setting/*_rules.txt; do
+            while IFS= read -r url; do
+              url=$(echo "$url" | tr -d '[:space:]')
+              [ -z "$url" ] && continue
+              [[ "$url" == \#* ]] && continue
+              total=$((total + 1))
+              status=$(curl -s -o /dev/null -w "%{http_code}" --connect-timeout 5 --max-time 10 "$url" 2>/dev/null || echo "000")
+              if [ "$status" != "200" ]; then
+                echo "FAIL [$status]: $url"
+                failed=$((failed + 1))
+              fi
+            done < "$file"
+          done
+          echo "Health check complete: $((total - failed))/$total sources OK"
+          if [ $failed -gt 0 ]; then
+            echo "WARNING: $failed sources failed health check"
+          fi
+          echo "SOURCE_HEALTH=$((total - failed))/$total" >> $GITHUB_ENV
+          
     - name: Set folder condition, variables and timezone
       run: |
           sudo cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
@@ -47,12 +77,17 @@ jobs:
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           rm -f ./out*.txt
           
-    - name: Run main.go
+    - name: Run main.go - Super tier
       run: |
           go run *.go "./setting/super_rules.txt" out_super.txt "./setting/custom.txt" super
-          go run *.go "./setting/full_rules.txt" out_full.txt "./setting/custom.txt" full
-          go run *.go "./setting/medium_rules.txt" out_med.txt "./setting/custom.txt" medium
-          go run *.go "./setting/min_rules.txt" out_min.txt "./setting/custom.txt" min
+          
+    - name: Run main.go - Full/Medium/Min tiers
+      run: |
+          go run *.go "./setting/full_rules.txt" out_full.txt "./setting/custom.txt" full --skip-dns &
+          go run *.go "./setting/medium_rules.txt" out_med.txt "./setting/custom.txt" medium --skip-dns &
+          go run *.go "./setting/min_rules.txt" out_min.txt "./setting/custom.txt" min --skip-dns &
+          wait
+          echo "All tiers completed"
     
     - name: Create output_super.txt
       run: |
@@ -106,6 +141,39 @@ jobs:
           echo "####################################################################################" >> output_min.txt
           cat out_min.txt  >> output_min.txt
           echo "####################################################################################" >> output_min.txt
+
+    - name: Update README with rule counts
+      run: |
+          super=$(wc -l < ./rules/output_super.txt | tr -d ' ')
+          full=$(wc -l < ./rules/output_full.txt | tr -d ' ')
+          medium=$(wc -l < ./rules/output_medium.txt | tr -d ' ')
+          min=$(wc -l < ./rules/output_min.txt | tr -d ' ')
+          super_fmt=$(echo "scale=0; ${super}/1000" | bc)k
+          full_fmt=$(echo "scale=0; ${full}/1000" | bc)k
+          medium_fmt=$(echo "scale=0; ${medium}/1000" | bc)k
+          min_fmt=$(echo "scale=0; ${min}/1000" | bc)k
+          sed -i "s/{{SUPER_COUNT}}/${super_fmt}/g" README.md
+          sed -i "s/{{FULL_COUNT}}/${full_fmt}/g" README.md
+          sed -i "s/{{MEDIUM_COUNT}}/${medium_fmt}/g" README.md
+          sed -i "s/{{MIN_COUNT}}/${min_fmt}/g" README.md
+          echo "SUPER_COUNT=${super_fmt}" >> $GITHUB_ENV
+          echo "FULL_COUNT=${full_fmt}" >> $GITHUB_ENV
+          echo "MEDIUM_COUNT=${medium_fmt}" >> $GITHUB_ENV
+          echo "MIN_COUNT=${min_fmt}" >> $GITHUB_ENV
+          echo "Updated README with counts: Super=${super_fmt}, Full=${full_fmt}, Medium=${medium_fmt}, Min=${min_fmt}"
+          
+    - name: Rule count tracking
+      run: |
+          super=$(wc -l < ./rules/output_super.txt | tr -d ' ')
+          full=$(wc -l < ./rules/output_full.txt | tr -d ' ')
+          medium=$(wc -l < ./rules/output_medium.txt | tr -d ' ')
+          min=$(wc -l < ./rules/output_min.txt | tr -d ' ')
+          timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          if [ -f ./rules/rule_counts.json ]; then
+            cp ./rules/rule_counts.json ./rules/rule_counts.json.bak
+          fi
+          echo "{\"timestamp\":\"${timestamp}\",\"super\":${super},\"full\":${full},\"medium\":${medium},\"min\":${min}}" >> ./rules/rule_counts.json
+          echo "Rule counts tracked: Super=${super}, Full=${full}, Medium=${medium}, Min=${min}"
           
     - name: move output file
       run: |
@@ -129,30 +197,13 @@ jobs:
           cp ./publish/output_doh_block.txt ./rules/output_doh_block.txt
           cp ./publish/BT-Trackers.txt ./rules/BT-Trackers.txt
           
-    - name: Update README with rule counts
-      run: |
-          super=$(wc -l < ./rules/output_super.txt | tr -d ' ')
-          full=$(wc -l < ./rules/output_full.txt | tr -d ' ')
-          medium=$(wc -l < ./rules/output_medium.txt | tr -d ' ')
-          min=$(wc -l < ./rules/output_min.txt | tr -d ' ')
-          # Format numbers with k suffix
-          super_fmt=$(echo "scale=0; ${super}/1000" | bc)k
-          full_fmt=$(echo "scale=0; ${full}/1000" | bc)k
-          medium_fmt=$(echo "scale=0; ${medium}/1000" | bc)k
-          min_fmt=$(echo "scale=0; ${min}/1000" | bc)k
-          sed -i "s/{{SUPER_COUNT}}/${super_fmt}/g" README.md
-          sed -i "s/{{FULL_COUNT}}/${full_fmt}/g" README.md
-          sed -i "s/{{MEDIUM_COUNT}}/${medium_fmt}/g" README.md
-          sed -i "s/{{MIN_COUNT}}/${min_fmt}/g" README.md
-          echo "Updated README with counts: Super=${super_fmt}, Full=${full_fmt}, Medium=${medium_fmt}, Min=${min_fmt}"
-          
     - name: Commit *.txt
       run: |
-         echo `date +"%Y-%m-%d %H:%M:%S"` ZJC CKC >> ./rules/date.log
+         echo "$(date +"%Y-%m-%d %H:%M:%S") ZJC CKC Super=$(wc -l < ./rules/output_super.txt | tr -d ' ') Full=$(wc -l < ./rules/output_full.txt | tr -d ' ') Medium=$(wc -l < ./rules/output_medium.txt | tr -d ' ') Min=$(wc -l < ./rules/output_min.txt | tr -d ' ')" >> ./rules/date.log
          git config --global user.email ${{ secrets.EMAIL }}
          git config --global user.name ${{ secrets.NAME }}
-         git add ./rules/output* ./output.txt ./output_simple.txt ./rules/date.log ./rules/hosts ./rules/output_doh_block.txt ./rules/BT-Trackers.txt ./rules/dead_domains.txt ./rules/dns_cache.json ./resolvers.txt README.md
-         git commit -m "${{ env.RELEASE_NAME }}"
+         git add ./rules/output* ./output.txt ./output_simple.txt ./rules/date.log ./rules/hosts ./rules/output_doh_block.txt ./rules/BT-Trackers.txt ./rules/dead_domains.txt ./rules/dns_cache.json ./resolvers.txt ./rules/rule_counts.json README.md
+         git commit -m "${{ env.RELEASE_NAME }} | Super: ${{ env.SUPER_COUNT }} | Full: ${{ env.FULL_COUNT }} | Medium: ${{ env.MEDIUM_COUNT }} | Min: ${{ env.MIN_COUNT }} | Health: ${{ env.SOURCE_HEALTH }}"
          git push
           
     - name: Release and upload assets
@@ -162,6 +213,15 @@ jobs:
           tag_name: ${{ env.TAG_NAME }}
           draft: false
           prerelease: false
+          body: |
+            ## Rule Counts
+            - Super: ${{ env.SUPER_COUNT }}
+            - Full: ${{ env.FULL_COUNT }}
+            - Medium: ${{ env.MEDIUM_COUNT }}
+            - Min: ${{ env.MIN_COUNT }}
+            
+            ## Source Health
+            ${{ env.SOURCE_HEALTH }}
           files: |
             ./publish/*
       env:
