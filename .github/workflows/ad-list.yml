@@ -83,15 +83,15 @@ jobs:
 
     - name: Run main.go - Full tier
       run: |
-        go run *.go "./setting/full_rules.txt" out_full.txt "./setting/custom.txt" full --skip-dns
+        go run *.go "./setting/full_rules.txt" out_full.txt "./setting/custom.txt" full
 
     - name: Run main.go - Medium tier
       run: |
-        go run *.go "./setting/medium_rules.txt" out_med.txt "./setting/custom.txt" medium --skip-dns
+        go run *.go "./setting/medium_rules.txt" out_med.txt "./setting/custom.txt" medium
 
     - name: Run main.go - Min tier
       run: |
-        go run *.go "./setting/min_rules.txt" out_min.txt "./setting/custom.txt" min --skip-dns
+        go run *.go "./setting/min_rules.txt" out_min.txt "./setting/custom.txt" min
 
     - name: Create output_super.txt
       run: |
@@ -147,10 +147,10 @@ jobs:
 
     - name: Update README with rule counts
       run: |
-        super=$(wc -l < ./rules/output_super.txt | tr -d ' ')
-        full=$(wc -l < ./rules/output_full.txt | tr -d ' ')
-        medium=$(wc -l < ./rules/output_medium.txt | tr -d ' ')
-        min=$(wc -l < ./rules/output_min.txt | tr -d ' ')
+        super=$(wc -l < ./output_super.txt | tr -d ' ')
+        full=$(wc -l < ./output_full.txt | tr -d ' ')
+        medium=$(wc -l < ./output_medium.txt | tr -d ' ')
+        min=$(wc -l < ./output_min.txt | tr -d ' ')
         super_fmt=$(echo "scale=0; ${super}/1000" | bc)k
         full_fmt=$(echo "scale=0; ${full}/1000" | bc)k
         medium_fmt=$(echo "scale=0; ${medium}/1000" | bc)k
@@ -167,10 +167,10 @@ jobs:
 
     - name: Rule count tracking
       run: |
-        super=$(wc -l < ./rules/output_super.txt | tr -d ' ')
-        full=$(wc -l < ./rules/output_full.txt | tr -d ' ')
-        medium=$(wc -l < ./rules/output_medium.txt | tr -d ' ')
-        min=$(wc -l < ./rules/output_min.txt | tr -d ' ')
+        super=$(wc -l < ./output_super.txt | tr -d ' ')
+        full=$(wc -l < ./output_full.txt | tr -d ' ')
+        medium=$(wc -l < ./output_medium.txt | tr -d ' ')
+        min=$(wc -l < ./output_min.txt | tr -d ' ')
         timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
         if [ -f ./rules/rule_counts.json ]; then
           cp ./rules/rule_counts.json ./rules/rule_counts.json.bak
@@ -202,7 +202,7 @@ jobs:
 
     - name: Commit *.txt
       run: |
-        echo "$(date +"%Y-%m-%d %H:%M:%S") ZJC CKC Super=$(wc -l < ./rules/output_super.txt | tr -d ' ') Full=$(wc -l < ./rules/output_full.txt | tr -d ' ') Medium=$(wc -l < ./rules/output_medium.txt | tr -d ' ') Min=$(wc -l < ./rules/output_min.txt | tr -d ' ')" >> ./rules/date.log
+        echo "$(date +"%Y-%m-%d %H:%M:%S") ZJC CKC Super=$(wc -l < ./output_super.txt | tr -d ' ') Full=$(wc -l < ./output_full.txt | tr -d ' ') Medium=$(wc -l < ./output_medium.txt | tr -d ' ') Min=$(wc -l < ./output_min.txt | tr -d ' ')" >> ./rules/date.log
         git config --global user.email ${{ secrets.EMAIL }}
         git config --global user.name ${{ secrets.NAME }}
         git add ./rules/output* ./output.txt ./output_simple.txt ./rules/date.log ./rules/hosts ./rules/output_doh_block.txt ./rules/BT-Trackers.txt ./rules/dead_domains.txt ./rules/dns_cache.json ./resolvers.txt ./rules/rule_counts.json README.md
