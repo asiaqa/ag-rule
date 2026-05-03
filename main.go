@@ -197,7 +197,7 @@ func main() {
 		dnsConfigPath := "./setting/dns_config.json"
 		whitelistPath := "./setting/whitelist.txt"
 		filteredOutput := outputFile + ".filtered"
-		RunDNSFilter(outputFile, filteredOutput, dnsConfigPath, whitelistPath)
+		RunDNSFilter(outputFile, filteredOutput, dnsConfigPath, whitelistPath, tier)
 
 		if _, err := os.Stat(filteredOutput); err == nil {
 			remove(outputFile)
