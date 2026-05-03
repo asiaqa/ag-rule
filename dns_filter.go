@@ -381,7 +381,7 @@ func CleanupStaleCache(cache map[string]CacheEntry, maxAgeDays int) int {
 	return removed
 }
 
-func RunDNSFilter(inputFile string, outputFile string, configPath string, whitelistPath string) {
+func RunDNSFilter(inputFile string, outputFile string, configPath string, whitelistPath string, tier string) {
 	config := LoadDNSConfig(configPath)
 
 	if !config.Enabled {
@@ -512,19 +512,26 @@ func RunDNSFilter(inputFile string, outputFile string, configPath string, whitel
 		fmt.Println("Cache saved to:", config.CacheFile)
 	}
 
-	deadDomainsContent := fmt.Sprintf("# Dead domains list - generated %s\n", time.Now().UTC().Format(time.RFC3339))
+	deadDomainsContent := fmt.Sprintf("# Dead domains - %s tier - generated %s\n", tier, time.Now().UTC().Format(time.RFC3339))
 	deadDomainsContent += fmt.Sprintf("# Total: %d domains\n", len(allDeadDomains))
 	deadDomainsContent += "# These domains returned NXDOMAIN or failed DNS resolution\n#\n"
-	deadDomainsContent += strings.Join(allDeadDomains, "\n") + "\n"
+	deadDomainsContent += strings.Join(allDeadDomains, "\n") + "\n\n"
 
 	deadDir := filepath.Dir(config.DeadDomainsFile)
 	if deadDir != "" && deadDir != "." {
 		os.MkdirAll(deadDir, 0755)
 	}
-	if err := os.WriteFile(config.DeadDomainsFile, []byte(deadDomainsContent), 0644); err != nil {
-		fmt.Printf("Warning: Failed to save dead domains: %v\n", err)
+
+	// Append to file instead of overwrite
+	f, err := os.OpenFile(config.DeadDomainsFile, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		fmt.Printf("Warning: Failed to open dead domains file: %v\n", err)
 	} else {
-		fmt.Println("Dead domains saved to:", config.DeadDomainsFile)
+		if _, err := f.WriteString(deadDomainsContent); err != nil {
+			fmt.Printf("Warning: Failed to write dead domains: %v\n", err)
+		}
+		f.Close()
+		fmt.Println("Dead domains appended to:", config.DeadDomainsFile)
 	}
 
 	deadSet := make(map[string]bool)
