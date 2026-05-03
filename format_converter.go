@@ -128,8 +128,12 @@ func ConvertFormat(inputFile string, outputDir string, tier string, config Forma
 	}
 }
 
-func AddHeaders(outputDir string, config FormatsConfig, rulesDir string) {
-	for _, tier := range config.Tiers {
+func AddHeaders(outputDir string, config FormatsConfig, rulesDir string, currentTier string) {
+	tiers := config.Tiers
+	if currentTier != "" {
+		tiers = []string{currentTier}
+	}
+	for _, tier := range tiers {
 		for _, format := range config.Formats {
 			var suffix string
 			switch format {
