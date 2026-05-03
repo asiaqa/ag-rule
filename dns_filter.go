@@ -361,6 +361,26 @@ func FilterWhitelistFromDead(deadDomains []string, whitelist map[string]bool) []
 	return filtered
 }
 
+func CleanupStaleCache(cache map[string]CacheEntry, maxAgeDays int) int {
+	cutoff := time.Now().UTC().AddDate(0, 0, -maxAgeDays)
+	removed := 0
+
+	for domain, entry := range cache {
+		checkedAt, err := time.Parse(time.RFC3339, entry.CheckedAt)
+		if err != nil {
+			delete(cache, domain)
+			removed++
+			continue
+		}
+		if checkedAt.Before(cutoff) {
+			delete(cache, domain)
+			removed++
+		}
+	}
+
+	return removed
+}
+
 func RunDNSFilter(inputFile string, outputFile string, configPath string, whitelistPath string) {
 	config := LoadDNSConfig(configPath)
 
@@ -400,6 +420,12 @@ func RunDNSFilter(inputFile string, outputFile string, configPath string, whitel
 
 	cache := LoadDomainCache(config.CacheFile)
 	fmt.Printf("Cache entries loaded: %d\n", len(cache))
+
+	// Clean up entries older than 7 days
+	staleRemoved := CleanupStaleCache(cache, 7)
+	if staleRemoved > 0 {
+		fmt.Printf("Cleaned up %d stale cache entries (>7 days old)\n", staleRemoved)
+	}
 
 	var toCheck []string
 	var deadFromCache []string
