@@ -157,6 +157,10 @@ jobs:
         full_fmt=$(echo "scale=0; ${full}/1000" | bc)k
         medium_fmt=$(echo "scale=0; ${medium}/1000" | bc)k
         min_fmt=$(echo "scale=0; ${min}/1000" | bc)k
+        sed -i 's/\*\*Super\*\* ([0-9]*k)/\*\*Super\*\* ({{SUPER_COUNT}})/g' README.md
+        sed -i 's/\*\*Full\*\* ([0-9]*k)/\*\*Full\*\* ({{FULL_COUNT}})/g' README.md
+        sed -i 's/\*\*Medium\*\* ([0-9]*k)/\*\*Medium\*\* ({{MEDIUM_COUNT}})/g' README.md
+        sed -i 's/\*\*Min\*\* ([0-9]*k)/\*\*Min\*\* ({{MIN_COUNT}})/g' README.md
         sed -i "s/{{SUPER_COUNT}}/${super_fmt}/g" README.md
         sed -i "s/{{FULL_COUNT}}/${full_fmt}/g" README.md
         sed -i "s/{{MEDIUM_COUNT}}/${medium_fmt}/g" README.md
