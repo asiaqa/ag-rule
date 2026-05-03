@@ -233,7 +233,7 @@ func main() {
 	os.MkdirAll(rulesDir, 0755)
 
 	ConvertFormat(outputFile, outputDir, tier, config)
-	AddHeaders(outputDir, config, rulesDir)
+	AddHeaders(outputDir, config, rulesDir, tier)
 
 	for _, format := range config.Formats {
 		var suffix string
