@@ -76,6 +76,8 @@ jobs:
         echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
         echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
         rm -f ./out*.txt
+        # Clear dead domains file for fresh accumulation
+        > ./rules/dead_domains.txt
 
     - name: Run main.go - Super tier
       run: |
@@ -147,10 +149,10 @@ jobs:
 
     - name: Update README with rule counts
       run: |
-        super=$(wc -l < ./output_super.txt | tr -d ' ')
-        full=$(wc -l < ./output_full.txt | tr -d ' ')
-        medium=$(wc -l < ./output_medium.txt | tr -d ' ')
-        min=$(wc -l < ./output_min.txt | tr -d ' ')
+        super=$(wc -l < out_super.txt | tr -d ' ')
+        full=$(wc -l < out_full.txt | tr -d ' ')
+        medium=$(wc -l < out_med.txt | tr -d ' ')
+        min=$(wc -l < out_min.txt | tr -d ' ')
         super_fmt=$(echo "scale=0; ${super}/1000" | bc)k
         full_fmt=$(echo "scale=0; ${full}/1000" | bc)k
         medium_fmt=$(echo "scale=0; ${medium}/1000" | bc)k
@@ -164,13 +166,14 @@ jobs:
         echo "MEDIUM_COUNT=${medium_fmt}" >> $GITHUB_ENV
         echo "MIN_COUNT=${min_fmt}" >> $GITHUB_ENV
         echo "Updated README with counts: Super=${super_fmt}, Full=${full_fmt}, Medium=${medium_fmt}, Min=${min_fmt}"
+        echo "DEBUG: super=${super} full=${full} medium=${medium} min=${min}"
 
     - name: Rule count tracking
       run: |
-        super=$(wc -l < ./output_super.txt | tr -d ' ')
-        full=$(wc -l < ./output_full.txt | tr -d ' ')
-        medium=$(wc -l < ./output_medium.txt | tr -d ' ')
-        min=$(wc -l < ./output_min.txt | tr -d ' ')
+        super=$(wc -l < out_super.txt | tr -d ' ')
+        full=$(wc -l < out_full.txt | tr -d ' ')
+        medium=$(wc -l < out_med.txt | tr -d ' ')
+        min=$(wc -l < out_min.txt | tr -d ' ')
         timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
         if [ -f ./rules/rule_counts.json ]; then
           cp ./rules/rule_counts.json ./rules/rule_counts.json.bak
