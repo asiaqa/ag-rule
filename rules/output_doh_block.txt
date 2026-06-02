@@ -1,5 +1,5 @@
 # Title: MP Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-# Verison: 202606020116
+# Verison: 202606021615
 # Expires: around 1 day
 ||003153.xyz^
 ||0ms.dev^
@@ -390,6 +390,7 @@
 ||dns.freyja.pw^
 ||dns.froth.zone^
 ||dns.fullaccesstointernet.jp.eu.org^
+||dns.furrix.zone^
 ||dns.furrydns.de^
 ||dns.futuredns.me^
 ||dns.gamban.com^
@@ -484,7 +485,6 @@
 ||dns.luma-medien.com^
 ||dns.lvolland.fr^
 ||dns.maitrekuc.fr^
-||dns.maolaohei.xyz^
 ||dns.marasov.id^
 ||dns.marbledfennec.net^
 ||dns.mateo.ovh^
@@ -586,9 +586,11 @@
 ||dns.sellan.fr^
 ||dns.sev.monster^
 ||dns.shareworx.net^
+||dns.shecan.ir^
 ||dns.sheggi.ch^
 ||dns.silen.org^
 ||dns.silentlybren.com^
+||dns.simplylinux.ch^
 ||dns.sindominio.net^
 ||dns.sitdns.com^
 ||dns.skrep.eu^
@@ -715,6 +717,7 @@
 ||doh-2.seby.io^
 ||doh-ca.naftalie.net^
 ||doh-de.blahdns.com^
+||doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr^
 ||doh-ipv6.crypto.sx^
 ||doh-primary-pool.detoxifypornblocker.com^
 ||doh-primary-pool.goodbyegambling.com^
@@ -905,6 +908,7 @@
 ||fra1.eyecay.xyz^
 ||frd4wvnobp.cloudflare-gateway.com^
 ||free.bravedns.com^
+||free.shecan.ir^
 ||freedns.controld.com^
 ||freedom.mydns.network^
 ||frog.dns.qwer.pw^
@@ -1053,6 +1057,7 @@
 ||mru01.dnscry.pt^
 ||muc01.dnscry.pt^
 ||muli.stusta.mhn.de^
+||multi.dns.marbledfennec.net^
 ||muxyuji.ru^
 ||myatris.sbs^
 ||n5.lsasss.com^
@@ -1160,6 +1165,7 @@
 ||privacydns.go6lab.si^
 ||private.canadianshield.cira.ca^
 ||privatnas.servebeer.com^
+||pro.shecan.ir^
 ||project-evoex.de^
 ||protected.canadianshield.cira.ca^
 ||protective.joindns4.eu^
@@ -1304,7 +1310,6 @@
 ||ttag.dns.nomu.pw^
 ||tuandns.duckdns.org^
 ||tujenasnaszato.xyz^
-||tungdnsne.duckdns.org^
 ||tuskythehusky.tech^
 ||tyo01.dnscry.pt^
 ||tyo02.dnscry.pt^
@@ -1395,7 +1400,6 @@
 ||041ad0cfb636.xyz^
 ||04a0f262f2f391ead91af1f0ecc6ef3a.top^
 ||0538c3060b94774da3ee011552255739.top^
-||069538.xyz^
 ||06f7d4f2f41cbff183fa241167a3c7444b3cf00c.com^
 ||0815cloud.de^
 ||084899.cn^
@@ -1481,7 +1485,6 @@
 ||123down.org^
 ||123fr.info^
 ||123free.info^
-||123goproxy.com^
 ||123hideip.com^
 ||123inside.net^
 ||123jsq.top^
@@ -1489,15 +1492,12 @@
 ||123music.app^
 ||123proxy.app^
 ||123proxy.biz^
-||123proxy.cool^
 ||123roms.com^
 ||123rooms.net^
 ||123sports.org^
 ||123streaming.org^
 ||123sumo.net^
-||123superproxy.com^
 ||123torr.com^
-||123ultraproxy.com^
 ||123unblocked.com^
 ||123xhj.com^
 ||1243523605.rsc.cdn77.org^
@@ -5611,7 +5611,6 @@
 ||dns.friezer.eu^
 ||dns.fsociety.club^
 ||dns.fulgore.fr^
-||dns.furrix.zone^
 ||dns.fxdc.ru^
 ||dns.gearworks.app^
 ||dns.geekbyte.de^
@@ -5716,6 +5715,7 @@
 ||dns.mailcastle.in^
 ||dns.malhuda.com^
 ||dns.mandre.dev^
+||dns.maolaohei.xyz^
 ||dns.maomaovpn.com^
 ||dns.marcbond.uk^
 ||dns.marschi.de^
@@ -5839,11 +5839,9 @@
 ||dns.servizimv.it^
 ||dns.sgp.hicn.site^
 ||dns.shaw.ca^
-||dns.shecan.ir^
 ||dns.shimul.me^
 ||dns.shrike.ru^
 ||dns.sildom.me^
-||dns.simplylinux.ch^
 ||dns.skous.dedyn.io^
 ||dns.skuy.co.id^
 ||dns.sky-plex.com^
@@ -6117,7 +6115,6 @@
 ||dogta5.com^
 ||dogvpn.me^
 ||doh-03.spectrum.com^
-||doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr^
 ||doh-dns-apple-com.v.aaplimg.com^
 ||doh-lb-atl.dnsflex.com^
 ||doh-lb-br.dnsflex.com^
@@ -7618,7 +7615,6 @@
 ||free-vpnplanet-ru.net^
 ||free-vpnplanet.net^
 ||free-webproxy.com^
-||free.shecan.ir^
 ||free2surfvpn.com^
 ||freeanimesonline.com^
 ||freebananaman.mooo.com^
@@ -12810,7 +12806,6 @@
 ||pro-2.ddnsfree.com^
 ||pro-3.ddnsgeek.com^
 ||pro-tower.com^
-||pro.shecan.ir^
 ||pro0oxy.blogspot.com^
 ||proalgebra.manutec.co^
 ||proariel.dns-dynamic.net^
