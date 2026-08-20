@@ -1,5 +1,5 @@
 # Title: MP Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-# Verison: 202608192001
+# Verison: 202608201203
 # Expires: around 1 day
 ||003153.xyz^
 ||0ms.dev^
@@ -37,6 +37,7 @@
 ||adg.geili.me^
 ||adg.jnorton.us^
 ||adg.khon.dev^
+||adg.rueiliu.space^
 ||adg.tshost.no^
 ||adg.yybyy.wiki^
 ||adguard-dns.com^
@@ -237,6 +238,7 @@
 ||dns.9999.sg^
 ||dns.a47.me^
 ||dns.aa.net.uk^
+||dns.aaytorr.com^
 ||dns.abdullahabas.de^
 ||dns.adguard-dns.com^
 ||dns.adguard.com^
@@ -404,6 +406,7 @@
 ||dns.google.com^
 ||dns.grqu.de^
 ||dns.guard.io^
+||dns.guardmydns.com^
 ||dns.gutwe.in^
 ||dns.ha-dvin.pp.ua^
 ||dns.hahnjo.de^
@@ -418,6 +421,7 @@
 ||dns.horcrux.vip^
 ||dns.hostux.net^
 ||dns.hotta.page^
+||dns.huas.me^
 ||dns.hujiayucc.cn^
 ||dns.huseynov.work^
 ||dns.iamanuragh.in^
@@ -655,6 +659,7 @@
 ||dns.yatima.tv^
 ||dns.yuu-g.net^
 ||dns.zemows.industries^
+||dns.zfsystem.tech^
 ||dns.zui.lol^
 ||dns.zzuhacker.cn^
 ||dns0.eu^
@@ -693,13 +698,17 @@
 ||dnscache0.ns71.net^
 ||dnsdoh.art^
 ||dnsenc.com^
+||dnses.alekberg.net^
 ||dnsforfamily.com^
 ||dnsforge.de^
 ||dnsguard.pub^
 ||dnslow.me^
+||dnsnl-noads.alekberg.net^
+||dnsnl.alekberg.net^
 ||dnsotls.lab.nic.cl^
 ||dnspub.restena.lu^
 ||dnsse-noads.alekberg.net^
+||dnsse.alekberg.net^
 ||dnstls.mobik.com^
 ||dnsvps.familiamv.net^
 ||dnswebvsn.com^
@@ -808,6 +817,7 @@
 ||doh.syshero.org^
 ||doh.sz-dns.com^
 ||doh.technochat.in^
+||doh.thio.me^
 ||doh.tiar.app^
 ||doh.tiarap.org^
 ||doh.totoro.pub^
@@ -911,6 +921,7 @@
 ||gb-lon-w-f-1.nashkan.net^
 ||gb-lon-w-p-1.nashkan.net^
 ||gb-lon-w-p-2.nashkan.net^
+||gclouddns.com^
 ||geg01.dnscry.pt^
 ||geshido.vpn.geshido.ru^
 ||getdnsapi.net^
@@ -920,7 +931,6 @@
 ||google-public-dns-b.google.com^
 ||goose.buckyfan.net^
 ||greatideasforlife.lol^
-||gustamadh.dynv6.net^
 ||gva01.dnscry.pt^
 ||gztech.me^
 ||h.gjrick.tw^
@@ -1023,7 +1033,6 @@
 ||mad01.dnscry.pt^
 ||mail.data.haus^
 ||mailer.amlegion.org^
-||mainframe.dewed.de^
 ||man01.dnscry.pt^
 ||maqgie.xyz^
 ||mask-api.icloud.com^
@@ -1094,7 +1103,7 @@
 ||nz01.dns4me.net^
 ||o.rsaikat.com^
 ||o1.lt^
-||odoh-target-noads-se.alekberg.net^
+||odoh-target-noads.alekberg.net^
 ||odoh.cloudflare-dns.com^
 ||odoh.crypto.sx^
 ||odvr.nic.cz^
@@ -1334,6 +1343,7 @@
 ||vps.robotboard.de^
 ||vpsus3.pzhg.me^
 ||vtcuong.site^
+||wantaquddin.com^
 ||waw01.dnscry.pt^
 ||waw02.dnscry.pt^
 ||wdns.233py.com^
@@ -1354,7 +1364,6 @@
 ||xholgm.top^
 ||xmr.land^
 ||xn--durhre-yxa.de^
-||xorbiadns.com^
 ||ychen.cf^
 ||ychen.gq^
 ||yhz01.dnscry.pt^
@@ -2584,7 +2593,6 @@
 ||adg.lintasjrg.xyz^
 ||adg.proprietarypenguin.com^
 ||adg.rokh.biz^
-||adg.rueiliu.space^
 ||adg.spacework.com.mx^
 ||adg5yvi.ngatngay.net^
 ||adgaurd.lingmont.net^
@@ -5669,7 +5677,6 @@
 ||dns.985900.xyz^
 ||dns.aaflalo.me^
 ||dns.aaronplayzgaming.com^
-||dns.aaytorr.com^
 ||dns.abdullahabas.online^
 ||dns.abhimankolte.com^
 ||dns.abppro.ru^
@@ -5801,7 +5808,6 @@
 ||dns.grinevich.eu^
 ||dns.groupesaintmichel.fr^
 ||dns.gsmseti.net^
-||dns.guardmydns.com^
 ||dns.gupthabrothers.in^
 ||dns.gussguss.ovh^
 ||dns.h0schi.cloud^
@@ -5819,7 +5825,6 @@
 ||dns.hostingim.com^
 ||dns.housedenolf.be^
 ||dns.huanmave.cc^
-||dns.huas.me^
 ||dns.hub.com.de^
 ||dns.huizegunsing.nl^
 ||dns.huth.nu^
@@ -6110,7 +6115,6 @@
 ||dns.yyaan.com^
 ||dns.yyaan.top^
 ||dns.zarchbox.fr^
-||dns.zfsystem.tech^
 ||dns.zky666.fun^
 ||dns.zmobiletech.com^
 ||dns0.permafrostmiami.com^
@@ -6189,17 +6193,13 @@
 ||dnscrypt-cert.ffmuc.net^
 ||dnscrypt.ca^
 ||dnscrypt.info^
-||dnses.alekberg.net^
 ||dnsguard.hte.vn^
 ||dnshostnamelol.easterndns.com^
 ||dnslify.com^
 ||dnsmm.mywire.org^
-||dnsnl-noads.alekberg.net^
-||dnsnl.alekberg.net^
 ||dnspod.com^
 ||dnsprivacy.org.uk^
 ||dnsresolver02.ddns.net^
-||dnsse.alekberg.net^
 ||dnssec.dns.enginyring.com^
 ||dnssecure.aluwela.se^
 ||dnsserver.mailchan.eu^
@@ -6347,7 +6347,6 @@
 ||doh.rasmusminde.dk^
 ||doh.sa-sa.eu^
 ||doh.sww.net.id^
-||doh.thio.me^
 ||doh.this.web.id^
 ||doh.tritan-bb.net^
 ||doh.tsmu.co.id^
@@ -7932,7 +7931,6 @@
 ||gbbyeprd.com^
 ||gbupm5ik.com^
 ||gc.cyberbeta.cn^
-||gclouddns.com^
 ||gcpddns.duckdns.org^
 ||gcsdfgdt.com^
 ||gcvipaff.cc^
@@ -8339,6 +8337,7 @@
 ||gummydummy.xyz^
 ||guoguocloud.com^
 ||guruvpn.com^
+||gustamadh.dynv6.net^
 ||gusvpn.help^
 ||guzesqdro.dev^
 ||gvcbwwq.com^
@@ -10648,6 +10647,7 @@
 ||mail.sailforeducation.org^
 ||mailproxy.info^
 ||maincloud.ir^
+||mainframe.dewed.de^
 ||mainlandvpnapp.com^
 ||mainssh.com^
 ||maintainbrain.us^
@@ -11733,7 +11733,7 @@
 ||oculta.me^
 ||odeum.zelator.cloud-ip.cc^
 ||ododep.ru^
-||odoh-target-noads.alekberg.net^
+||odoh-target-noads-se.alekberg.net^
 ||odoh-target-se.alekberg.net^
 ||odoh-target.alekberg.net^
 ||odpi3ekk.com^
@@ -15928,7 +15928,6 @@
 ||wandana.franklinfamily.au^
 ||wandayun.com^
 ||wanjuwawa.cn^
-||wantaquddin.com^
 ||wanxianggw.com^
 ||warawarexeza34216547.easterndns.com^
 ||warninglog.com^
@@ -16505,6 +16504,7 @@
 ||xolvento.ru^
 ||xomverta.ru^
 ||xonlrnrujxbx.com^
+||xorbiadns.com^
 ||xorniva.ru^
 ||xortbv.cc^
 ||xorvila.ru^
