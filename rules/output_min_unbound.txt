@@ -1,7 +1,7 @@
 # Title: MP Min Unbound Format Rules List
-# Version: 202609230008
+# Version: 202609231639
 # Expires: around 1 day
-# Total number of rules = 179169
+# Total number of rules = 179257
 # Below are the links of the adblock rules
 # https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 # https://adaway.org/hosts.txt
@@ -23,8 +23,12 @@
 # https://raw.githubusercontent.com/Turtlecute33/toolz/refs/heads/master/src/d3host.adblock
 # https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt
 ####################################################################################
+local-zone: "studdisablerely.com" NXDOMAIN
+local-zone: "acceptablefabric.com" NXDOMAIN
+local-zone: "azlfmivp.in" NXDOMAIN
 local-zone: "alaphoid.com" NXDOMAIN
 local-zone: "colossalteacher.com" NXDOMAIN
+local-zone: "referwhen.com" NXDOMAIN
 local-zone: "0xclicks.com" NXDOMAIN
 local-zone: "rudimentarytheoreticalrome.com" NXDOMAIN
 local-zone: "eadygos.com" NXDOMAIN
@@ -6836,6 +6840,7 @@ local-zone: "abh.jp" NXDOMAIN
 local-zone: "abideantiquarianinflict.com" NXDOMAIN
 local-zone: "abidebrokestow.com" NXDOMAIN
 local-zone: "abiosisfog.cfd" NXDOMAIN
+local-zone: "abiosissemarum.cfd" NXDOMAIN
 local-zone: "abjectexcessatheism.com" NXDOMAIN
 local-zone: "abjectjunctionlatest.com" NXDOMAIN
 local-zone: "abjmkkoavoaor.top" NXDOMAIN
@@ -7036,8 +7041,10 @@ local-zone: "aculagdnfquvf.site" NXDOMAIN
 local-zone: "aculeipicacho.qpon" NXDOMAIN
 local-zone: "acuteprone.com" NXDOMAIN
 local-zone: "acvddzqjjsofe.online" NXDOMAIN
+local-zone: "acwpzzpptupkf.online" NXDOMAIN
 local-zone: "acxcfztcvheoa.space" NXDOMAIN
 local-zone: "acyxssqjdvfaj.space" NXDOMAIN
+local-zone: "aczhuwlna.com" NXDOMAIN
 local-zone: "aczqghbgetaef.store" NXDOMAIN
 local-zone: "ad-api.gl-inet.com" NXDOMAIN
 local-zone: "ad-back.net" NXDOMAIN
@@ -7595,6 +7602,7 @@ local-zone: "agileskincareunrented.com" NXDOMAIN
 local-zone: "agitatechampionship.com" NXDOMAIN
 local-zone: "agitatedfoot.com" NXDOMAIN
 local-zone: "agjrfocatndh.com" NXDOMAIN
+local-zone: "agjrfynvhlupc.online" NXDOMAIN
 local-zone: "agkiswnwkklqt.space" NXDOMAIN
 local-zone: "agle21xe2anfddirite.com" NXDOMAIN
 local-zone: "agletssneb.com" NXDOMAIN
@@ -8608,9 +8616,11 @@ local-zone: "axoxktmvnhtav.site" NXDOMAIN
 local-zone: "axpedsqboflar.space" NXDOMAIN
 local-zone: "axshhgmltiycy.site" NXDOMAIN
 local-zone: "axupfpniadauk.site" NXDOMAIN
+local-zone: "axvepvjfdoefp.online" NXDOMAIN
 local-zone: "axvjfzbwezssw.site" NXDOMAIN
 local-zone: "axwpbsweuwclq.space" NXDOMAIN
 local-zone: "axwyfulzdxrdi.space" NXDOMAIN
+local-zone: "axxhogvlydesy.site" NXDOMAIN
 local-zone: "axxqqibnjdunk.space" NXDOMAIN
 local-zone: "ay.delivery" NXDOMAIN
 local-zone: "ay267.com" NXDOMAIN
@@ -8635,6 +8645,7 @@ local-zone: "aytbhnsvjqdrv.site" NXDOMAIN
 local-zone: "ayujucfsngjvl.space" NXDOMAIN
 local-zone: "ayuyublipped.com" NXDOMAIN
 local-zone: "ayyegtlbnqown.space" NXDOMAIN
+local-zone: "ayzxfofcvxdpp.online" NXDOMAIN
 local-zone: "azaxqkrhbivtg.online" NXDOMAIN
 local-zone: "azazyjjovmyow.top" NXDOMAIN
 local-zone: "azbjisdbhjwdq.website" NXDOMAIN
@@ -8730,6 +8741,7 @@ local-zone: "ballismmalaise.qpon" NXDOMAIN
 local-zone: "balloonshrived.cyou" NXDOMAIN
 local-zone: "ballroomprudentauditorium.com" NXDOMAIN
 local-zone: "balmyrind.com" NXDOMAIN
+local-zone: "baloeazsxqyuz.online" NXDOMAIN
 local-zone: "balonpupates.cyou" NXDOMAIN
 local-zone: "balphyra.com" NXDOMAIN
 local-zone: "balunkalends.com" NXDOMAIN
@@ -9124,6 +9136,7 @@ local-zone: "bhfrttttyyruo.store" NXDOMAIN
 local-zone: "bhheuhvupxzpk.space" NXDOMAIN
 local-zone: "bhhvaweewcrdj.space" NXDOMAIN
 local-zone: "bhizbekkstvnr.online" NXDOMAIN
+local-zone: "bhjkpnfsgejvo.com" NXDOMAIN
 local-zone: "bhketuklhhavv.website" NXDOMAIN
 local-zone: "bhkpngxrdqwdp.site" NXDOMAIN
 local-zone: "bhkvnjxhuqwpg.space" NXDOMAIN
@@ -9417,6 +9430,7 @@ local-zone: "bmurfsjsvvfhy.space" NXDOMAIN
 local-zone: "bmwaeghntpfdb.online" NXDOMAIN
 local-zone: "bmwjdcvvlhbrb.space" NXDOMAIN
 local-zone: "bmxavtdjqvdqn.store" NXDOMAIN
+local-zone: "bmxpsxdqliuhj.space" NXDOMAIN
 local-zone: "bn5x.net" NXDOMAIN
 local-zone: "bnakoeekmxmyl.website" NXDOMAIN
 local-zone: "bnbgdqjurxsoo.site" NXDOMAIN
@@ -9647,6 +9661,7 @@ local-zone: "bqxnpvzbrurde.online" NXDOMAIN
 local-zone: "bracecherry.com" NXDOMAIN
 local-zone: "bracemascara.com" NXDOMAIN
 local-zone: "bracketauthorizedportray.com" NXDOMAIN
+local-zone: "braiderbojite.cfd" NXDOMAIN
 local-zone: "brainlyads.com" NXDOMAIN
 local-zone: "brainsoptionsshirt.com" NXDOMAIN
 local-zone: "brakiefissive.com" NXDOMAIN
@@ -9903,6 +9918,7 @@ local-zone: "bureauxcope.casa" NXDOMAIN
 local-zone: "burglargiggleportion.com" NXDOMAIN
 local-zone: "burglarycirculationintense.com" NXDOMAIN
 local-zone: "burntdoormantdoormantjoan.com" NXDOMAIN
+local-zone: "bursaemeshier.shop" NXDOMAIN
 local-zone: "burseedphaedo.cfd" NXDOMAIN
 local-zone: "burstingsteed.com" NXDOMAIN
 local-zone: "burwfuhpwjlme.site" NXDOMAIN
@@ -10044,6 +10060,7 @@ local-zone: "cabccumqxzevy.space" NXDOMAIN
 local-zone: "cabininestimable.com" NXDOMAIN
 local-zone: "cabinzenith.com" NXDOMAIN
 local-zone: "cabvrkooukotb.website" NXDOMAIN
+local-zone: "cabywork.shop" NXDOMAIN
 local-zone: "cachegorilla.com" NXDOMAIN
 local-zone: "cachuadirked.top" NXDOMAIN
 local-zone: "cacklegrievingtank.com" NXDOMAIN
@@ -10443,7 +10460,6 @@ local-zone: "cgmfhzvqykwxg.store" NXDOMAIN
 local-zone: "cgpjpvvcadzrp.store" NXDOMAIN
 local-zone: "cgsaxsvjvswcu.space" NXDOMAIN
 local-zone: "cgvxzkfcfkkhk.site" NXDOMAIN
-local-zone: "cgyurxmdccrbd.space" NXDOMAIN
 local-zone: "chaerel.com" NXDOMAIN
 local-zone: "chagnougroalry.net" NXDOMAIN
 local-zone: "chaibsoacmo.com" NXDOMAIN
@@ -11661,6 +11677,7 @@ local-zone: "cvpdkmzxvnzng.online" NXDOMAIN
 local-zone: "cvqfwzrnkvtun.website" NXDOMAIN
 local-zone: "cvqpuusbccduh.online" NXDOMAIN
 local-zone: "cvuestnhwbnix.site" NXDOMAIN
+local-zone: "cvuydvdirfxxq.site" NXDOMAIN
 local-zone: "cvwgltvuviniv.space" NXDOMAIN
 local-zone: "cvxbbrcunmulw.site" NXDOMAIN
 local-zone: "cvxkkuhbqgwxo.space" NXDOMAIN
@@ -11895,6 +11912,7 @@ local-zone: "davtwymjlx.com" NXDOMAIN
 local-zone: "dawac.com" NXDOMAIN
 local-zone: "dawedunthink.cfd" NXDOMAIN
 local-zone: "dawnfilthscribble.com" NXDOMAIN
+local-zone: "dawnyoxanate.qpon" NXDOMAIN
 local-zone: "dawonfjvwjcaj.online" NXDOMAIN
 local-zone: "daxtgseqgwbsn.space" NXDOMAIN
 local-zone: "daxtnnqlppovj.space" NXDOMAIN
@@ -12503,6 +12521,7 @@ local-zone: "djbrsguqvbhmv.space" NXDOMAIN
 local-zone: "djelabquercic.com" NXDOMAIN
 local-zone: "djesraoslkxvh.space" NXDOMAIN
 local-zone: "djgqucjpunwhs.store" NXDOMAIN
+local-zone: "djibjamowntzl.online" NXDOMAIN
 local-zone: "djinsulnar.com" NXDOMAIN
 local-zone: "djizmhnngvfhi.site" NXDOMAIN
 local-zone: "djlhiuwpvqwyf.online" NXDOMAIN
@@ -12605,7 +12624,6 @@ local-zone: "dngzvmztykhkw.online" NXDOMAIN
 local-zone: "dnibrjbhidpyq.space" NXDOMAIN
 local-zone: "dniiypanzutzi.site" NXDOMAIN
 local-zone: "dnjdkumlkguwr.online" NXDOMAIN
-local-zone: "dnjdwrkwxtduw.website" NXDOMAIN
 local-zone: "dnjuijdqxhzka.site" NXDOMAIN
 local-zone: "dnkpxpnpxgxoy.website" NXDOMAIN
 local-zone: "dnllyhkrumiui.website" NXDOMAIN
@@ -12865,6 +12883,7 @@ local-zone: "drutsylaylzqx.site" NXDOMAIN
 local-zone: "drwfkzlumcyob.space" NXDOMAIN
 local-zone: "drwkodaraalca.online" NXDOMAIN
 local-zone: "dry-wear.pro" NXDOMAIN
+local-zone: "dryhachug.in" NXDOMAIN
 local-zone: "dryperception.com" NXDOMAIN
 local-zone: "dryqsjk.com" NXDOMAIN
 local-zone: "dryreactionpublicly.com" NXDOMAIN
@@ -13397,6 +13416,7 @@ local-zone: "ejuacikpcxjyk.online" NXDOMAIN
 local-zone: "ejubffgqqurwz.space" NXDOMAIN
 local-zone: "ejufwpkpikrgy.space" NXDOMAIN
 local-zone: "ejwxlplhgzzhf.store" NXDOMAIN
+local-zone: "ejxaihnkjwwce.space" NXDOMAIN
 local-zone: "ejxhiitnxgwun.site" NXDOMAIN
 local-zone: "ejzdijlxrxwlg.site" NXDOMAIN
 local-zone: "ekalpuvefezyo.website" NXDOMAIN
@@ -13474,6 +13494,7 @@ local-zone: "elkunbalanceunfounded.com" NXDOMAIN
 local-zone: "ellipticaltrack.com" NXDOMAIN
 local-zone: "elmmmgfvzerqt.space" NXDOMAIN
 local-zone: "elmolkyqhjfwn.online" NXDOMAIN
+local-zone: "elntlrutxdavp.online" NXDOMAIN
 local-zone: "elogiado.info" NXDOMAIN
 local-zone: "elonreptiloid.com" NXDOMAIN
 local-zone: "eloquentgossipold.com" NXDOMAIN
@@ -13520,6 +13541,7 @@ local-zone: "emergencystopped.com" NXDOMAIN
 local-zone: "emergeskid.com" NXDOMAIN
 local-zone: "emeruperize.cfd" NXDOMAIN
 local-zone: "emhjekwvkwnvz.website" NXDOMAIN
+local-zone: "emhmrefbsfpnb.space" NXDOMAIN
 local-zone: "eminencehillsidenutrition.com" NXDOMAIN
 local-zone: "eminentbonusmeals.com" NXDOMAIN
 local-zone: "eminentcleaveproduces.com" NXDOMAIN
@@ -13531,6 +13553,7 @@ local-zone: "emitprocured.com" NXDOMAIN
 local-zone: "emivppsinqkji.website" NXDOMAIN
 local-zone: "emkmvkigfexgt.online" NXDOMAIN
 local-zone: "emkofukupnkmq.site" NXDOMAIN
+local-zone: "emlcrypmmupcd.site" NXDOMAIN
 local-zone: "emlifok.info" NXDOMAIN
 local-zone: "emnurrtgmjcil.website" NXDOMAIN
 local-zone: "emnwivlrmorwm.website" NXDOMAIN
@@ -13565,6 +13588,7 @@ local-zone: "enbpnlaiatvav.space" NXDOMAIN
 local-zone: "encasehighlight.com" NXDOMAIN
 local-zone: "enchantmentwhichever.com" NXDOMAIN
 local-zone: "encirclesheriffemit.com" NXDOMAIN
+local-zone: "enclosehapper.cfd" NXDOMAIN
 local-zone: "encodediagnosisrelish.com" NXDOMAIN
 local-zone: "encodewallacecockroach.com" NXDOMAIN
 local-zone: "encouragedflamboyant.com" NXDOMAIN
@@ -13631,8 +13655,10 @@ local-zone: "enqbhjqulihto.com" NXDOMAIN
 local-zone: "enraged-contest.pro" NXDOMAIN
 local-zone: "enrageobesejan.com" NXDOMAIN
 local-zone: "enrageperplexparable.com" NXDOMAIN
+local-zone: "enrailtwiddly.cfd" NXDOMAIN
 local-zone: "enrolleoutdate.qpon" NXDOMAIN
 local-zone: "enrtx.com" NXDOMAIN
+local-zone: "enruinsipping.shop" NXDOMAIN
 local-zone: "ensignpancreasrun.com" NXDOMAIN
 local-zone: "ensmwonhtzpdh.space" NXDOMAIN
 local-zone: "ensurerlustily.cfd" NXDOMAIN
@@ -13700,6 +13726,7 @@ local-zone: "eosopqdrtglpx.online" NXDOMAIN
 local-zone: "eostvofsqqsvi.site" NXDOMAIN
 local-zone: "eousnkffnnbes.space" NXDOMAIN
 local-zone: "eovhjagicwtxn.site" NXDOMAIN
+local-zone: "eowmjxlvrsqgx.website" NXDOMAIN
 local-zone: "eoxmqlvcylamr.online" NXDOMAIN
 local-zone: "eoymwwdawroxg.website" NXDOMAIN
 local-zone: "epacash.com" NXDOMAIN
@@ -14403,6 +14430,7 @@ local-zone: "ffcnjt9y5bin1k.rest" NXDOMAIN
 local-zone: "ffdagjkfnjmil.site" NXDOMAIN
 local-zone: "ffdlzdsluvwjn.online" NXDOMAIN
 local-zone: "ffhuaiwestbtl.site" NXDOMAIN
+local-zone: "ffjqjsiovhjku.site" NXDOMAIN
 local-zone: "ffjrpdfduteic.website" NXDOMAIN
 local-zone: "ffjzmuwqcpdsq.online" NXDOMAIN
 local-zone: "fflbmjgdjfsgt.site" NXDOMAIN
@@ -14764,6 +14792,7 @@ local-zone: "fnoxmhkwrkhxv.space" NXDOMAIN
 local-zone: "fnqhhshfbpkwp.site" NXDOMAIN
 local-zone: "fnqrrpcctwbjz.site" NXDOMAIN
 local-zone: "fnrrvyypkcckq.online" NXDOMAIN
+local-zone: "fnwptrtgscjth.space" NXDOMAIN
 local-zone: "fnwzpizgrausd.site" NXDOMAIN
 local-zone: "fnxnaancusfqt.website" NXDOMAIN
 local-zone: "fnxnwiljhvvjr.site" NXDOMAIN
@@ -15106,6 +15135,7 @@ local-zone: "fugarafilters.cfd" NXDOMAIN
 local-zone: "fugitivedepart.com" NXDOMAIN
 local-zone: "fugitiverancidpry.com" NXDOMAIN
 local-zone: "fugmotts.cyou" NXDOMAIN
+local-zone: "fugohpvw.in" NXDOMAIN
 local-zone: "fugsslosher.com" NXDOMAIN
 local-zone: "fuhrerssubbase.cyou" NXDOMAIN
 local-zone: "fuhzuajqwcmyl.site" NXDOMAIN
@@ -15182,6 +15212,7 @@ local-zone: "fwcvdfgoeayyo.site" NXDOMAIN
 local-zone: "fwfzomszkhywg.online" NXDOMAIN
 local-zone: "fwhiygzlhmklt.website" NXDOMAIN
 local-zone: "fwhpmbyhxazcj.space" NXDOMAIN
+local-zone: "fwkqnknqmuful.site" NXDOMAIN
 local-zone: "fwlpazuvbhmkg.online" NXDOMAIN
 local-zone: "fwmknvveyfahw.site" NXDOMAIN
 local-zone: "fwnezrrjmbjjl.space" NXDOMAIN
@@ -15210,7 +15241,6 @@ local-zone: "fxmnba.com" NXDOMAIN
 local-zone: "fxmqcaqliainn.site" NXDOMAIN
 local-zone: "fxnrjqnlbfoap.site" NXDOMAIN
 local-zone: "fxpggmzdyikza.online" NXDOMAIN
-local-zone: "fxqhwuhglgnzl.online" NXDOMAIN
 local-zone: "fxqixgyrslaqo.store" NXDOMAIN
 local-zone: "fxrokhvydhadu.website" NXDOMAIN
 local-zone: "fxsdyahhcwykb.website" NXDOMAIN
@@ -15272,6 +15302,7 @@ local-zone: "g33tr4c3r.com" NXDOMAIN
 local-zone: "g5kl83he.xyz" NXDOMAIN
 local-zone: "g8tor.com" NXDOMAIN
 local-zone: "g9qnk89pd5ic.com" NXDOMAIN
+local-zone: "gaarcjwkvwecp.site" NXDOMAIN
 local-zone: "gabbartjigsaws.shop" NXDOMAIN
 local-zone: "gadgetfortunatelysunny.com" NXDOMAIN
 local-zone: "gadmagckfy.com" NXDOMAIN
@@ -15440,6 +15471,7 @@ local-zone: "gdqmnvweycjnl.website" NXDOMAIN
 local-zone: "gdsavcfiitlxs.online" NXDOMAIN
 local-zone: "gdsfkwghjspep.site" NXDOMAIN
 local-zone: "gdtrbrsyziwmw.website" NXDOMAIN
+local-zone: "gdttmehgfwawc.space" NXDOMAIN
 local-zone: "gdzrozskajiuk.space" NXDOMAIN
 local-zone: "gearcambridge.com" NXDOMAIN
 local-zone: "gebebrfkdqsci.store" NXDOMAIN
@@ -15587,6 +15619,7 @@ local-zone: "ghostsinstance.com" NXDOMAIN
 local-zone: "ghsnhdmwjklks.website" NXDOMAIN
 local-zone: "ghswqnoilsxuj.store" NXDOMAIN
 local-zone: "ghthgfkiomvth.online" NXDOMAIN
+local-zone: "ghtqgeconydgx.online" NXDOMAIN
 local-zone: "ghuaigotrnbxi.online" NXDOMAIN
 local-zone: "ghudhopaxoks.in" NXDOMAIN
 local-zone: "ghxjliswdiiax.space" NXDOMAIN
@@ -15825,6 +15858,7 @@ local-zone: "gnpzciyryovft.site" NXDOMAIN
 local-zone: "gnqzrwjwyjtgy.site" NXDOMAIN
 local-zone: "gnrenarsmfyys.website" NXDOMAIN
 local-zone: "gnrhougqgjthr.site" NXDOMAIN
+local-zone: "gntelbdzwdmej.site" NXDOMAIN
 local-zone: "gntwuwuetfkzg.space" NXDOMAIN
 local-zone: "gnutplhbojrfe.site" NXDOMAIN
 local-zone: "gnuzwzdkplpqu.space" NXDOMAIN
@@ -15898,6 +15932,7 @@ local-zone: "goodsmoke.pro" NXDOMAIN
 local-zone: "goodwillmarshyeverybody.com" NXDOMAIN
 local-zone: "goodwillnourishmentcousins.com" NXDOMAIN
 local-zone: "goodytwoironical.com" NXDOMAIN
+local-zone: "goofingoxetone.cyou" NXDOMAIN
 local-zone: "googie-anaiytics.com" NXDOMAIN
 local-zone: "googleapi.club" NXDOMAIN
 local-zone: "gooierworrit.com" NXDOMAIN
@@ -16260,6 +16295,7 @@ local-zone: "gxtihgivnpgei.online" NXDOMAIN
 local-zone: "gxvdzkmvwmgua.online" NXDOMAIN
 local-zone: "gxvlkzwimkiyb.site" NXDOMAIN
 local-zone: "gxxbifvsjhseu.space" NXDOMAIN
+local-zone: "gxxjkfetbszah.space" NXDOMAIN
 local-zone: "gxxoijakeoete.website" NXDOMAIN
 local-zone: "gxybewqjluanq.online" NXDOMAIN
 local-zone: "gybmppuezjtqe.space" NXDOMAIN
@@ -16683,6 +16719,7 @@ local-zone: "hhcqjifspiqrd.online" NXDOMAIN
 local-zone: "hhdfwrsoaohsf.space" NXDOMAIN
 local-zone: "hhepwzpsjkkms.site" NXDOMAIN
 local-zone: "hhfjwombklgjp.site" NXDOMAIN
+local-zone: "hhgneajrszhjj.online" NXDOMAIN
 local-zone: "hhhrrcaljmtcw.website" NXDOMAIN
 local-zone: "hhit.xyz" NXDOMAIN
 local-zone: "hhjcuoyaaekut.site" NXDOMAIN
@@ -16879,6 +16916,7 @@ local-zone: "hnnwonwjeiqpq.space" NXDOMAIN
 local-zone: "hnrgmc.com" NXDOMAIN
 local-zone: "hnsbsgnqcvqmn.site" NXDOMAIN
 local-zone: "hntiprpnvgsfh.site" NXDOMAIN
+local-zone: "hntpdgunj.com" NXDOMAIN
 local-zone: "hnvhpxetfugpx.online" NXDOMAIN
 local-zone: "hnvroitwwrvsf.website" NXDOMAIN
 local-zone: "hnwbhkraakeyp.site" NXDOMAIN
@@ -17099,6 +17137,7 @@ local-zone: "hsfcuorcijlne.website" NXDOMAIN
 local-zone: "hsjjoaotgdfzw.online" NXDOMAIN
 local-zone: "hsjpqusfppyjf.site" NXDOMAIN
 local-zone: "hskdsrrhfeyqp.website" NXDOMAIN
+local-zone: "hslaforiuhcnw.online" NXDOMAIN
 local-zone: "hslfwaivfolvz.site" NXDOMAIN
 local-zone: "hsmehkdosatlz.space" NXDOMAIN
 local-zone: "hsmgnobyomsea.space" NXDOMAIN
@@ -17320,6 +17359,7 @@ local-zone: "hzqqldqfjsyjn.site" NXDOMAIN
 local-zone: "hzr0dm28m17c.com" NXDOMAIN
 local-zone: "hzskcsmxnzmcz.website" NXDOMAIN
 local-zone: "hztyxtbcouoas.site" NXDOMAIN
+local-zone: "hzusggbhniujn.online" NXDOMAIN
 local-zone: "i8xkjci7nd.com" NXDOMAIN
 local-zone: "i993.com" NXDOMAIN
 local-zone: "i9pyfcl6ouoljr.rest" NXDOMAIN
@@ -17330,6 +17370,7 @@ local-zone: "iadnsamqheemb.space" NXDOMAIN
 local-zone: "iaeaadfleusbk.site" NXDOMAIN
 local-zone: "iafixnjsgasps.store" NXDOMAIN
 local-zone: "iagrus.com" NXDOMAIN
+local-zone: "iagvzqhmdeggc.site" NXDOMAIN
 local-zone: "iahivizxhvblx.online" NXDOMAIN
 local-zone: "iahlyftiumutx.site" NXDOMAIN
 local-zone: "iahnnpirzmphe.space" NXDOMAIN
@@ -17513,7 +17554,6 @@ local-zone: "igpnpnmbommga.website" NXDOMAIN
 local-zone: "igpwtjptsdthn.space" NXDOMAIN
 local-zone: "igsfxaiigsrog.site" NXDOMAIN
 local-zone: "igshhiazyqoxv.space" NXDOMAIN
-local-zone: "igthvafyjttys.online" NXDOMAIN
 local-zone: "igtjqemgdlibm.site" NXDOMAIN
 local-zone: "igvkixoxvsvih.space" NXDOMAIN
 local-zone: "igvnfhtdjqkqx.website" NXDOMAIN
@@ -18016,7 +18056,6 @@ local-zone: "invle.co" NXDOMAIN
 local-zone: "invoiceboldmansfield.com" NXDOMAIN
 local-zone: "invol.co" NXDOMAIN
 local-zone: "involvingparentalducks.com" NXDOMAIN
-local-zone: "invotfiadtkvo.online" NXDOMAIN
 local-zone: "inwardupsettingcudgel.com" NXDOMAIN
 local-zone: "inwmizqchqjlk.space" NXDOMAIN
 local-zone: "inwrapsecunda.shop" NXDOMAIN
@@ -18049,6 +18088,7 @@ local-zone: "ioobtchinryox.online" NXDOMAIN
 local-zone: "iopiopiop.net" NXDOMAIN
 local-zone: "ioqiesjyenibm.site" NXDOMAIN
 local-zone: "ioqmlykmgplfz.space" NXDOMAIN
+local-zone: "ioqyfomedejll.online" NXDOMAIN
 local-zone: "iosjscxobtbkk.store" NXDOMAIN
 local-zone: "iotfovmvclciq.site" NXDOMAIN
 local-zone: "iothkkqpgplrc.website" NXDOMAIN
@@ -18102,6 +18142,7 @@ local-zone: "iredirect.net" NXDOMAIN
 local-zone: "irefmahnxfphq.space" NXDOMAIN
 local-zone: "irenealtogether.com" NXDOMAIN
 local-zone: "irfgithdpoadi.site" NXDOMAIN
+local-zone: "irftxyuzhsowq.site" NXDOMAIN
 local-zone: "irgdnasjxgdsp.site" NXDOMAIN
 local-zone: "irhngzxlaxjrs.space" NXDOMAIN
 local-zone: "irhqvzwgldygv.space" NXDOMAIN
@@ -18219,7 +18260,6 @@ local-zone: "itwiuqabxvxzu.site" NXDOMAIN
 local-zone: "itxbnfhbnwbsn.online" NXDOMAIN
 local-zone: "itxbyjztilkas.site" NXDOMAIN
 local-zone: "itxkepoxyqgfx.site" NXDOMAIN
-local-zone: "iuafztnmegezp.website" NXDOMAIN
 local-zone: "iubehzyrwcdid.site" NXDOMAIN
 local-zone: "iudoetilkfdxu.site" NXDOMAIN
 local-zone: "iufmhnbxvkzcy.store" NXDOMAIN
@@ -18251,6 +18291,7 @@ local-zone: "ivimjfjoifusn.space" NXDOMAIN
 local-zone: "ivioukpnweuhr.space" NXDOMAIN
 local-zone: "iviovqxlpvptw.space" NXDOMAIN
 local-zone: "ivoxkuybivbme.space" NXDOMAIN
+local-zone: "ivpnxhqsbbuabi.com" NXDOMAIN
 local-zone: "ivsuqzosbdrir.site" NXDOMAIN
 local-zone: "ivuaqimnwpvdc.space" NXDOMAIN
 local-zone: "ivuczbqiwdocn.online" NXDOMAIN
@@ -18335,6 +18376,7 @@ local-zone: "izeeto.com" NXDOMAIN
 local-zone: "izfmabddupcbd.space" NXDOMAIN
 local-zone: "izfogaydloceo.site" NXDOMAIN
 local-zone: "izirjftafazzm.website" NXDOMAIN
+local-zone: "izjbgrgowopaz.space" NXDOMAIN
 local-zone: "izjvndjendqdv.website" NXDOMAIN
 local-zone: "izkivydhiqfjx.store" NXDOMAIN
 local-zone: "izngibxwtlvqg.site" NXDOMAIN
@@ -18369,6 +18411,7 @@ local-zone: "jacketzerobelieved.com" NXDOMAIN
 local-zone: "jackpotave.com" NXDOMAIN
 local-zone: "jacksonbateaux.com" NXDOMAIN
 local-zone: "jadcenter.com" NXDOMAIN
+local-zone: "jadedsingle.com" NXDOMAIN
 local-zone: "jadehlbswdlqw.online" NXDOMAIN
 local-zone: "jadeinvitelawsuit.com" NXDOMAIN
 local-zone: "jadjkuofzwad.com" NXDOMAIN
@@ -18730,7 +18773,6 @@ local-zone: "jnhffeitzaycd.online" NXDOMAIN
 local-zone: "jnjkkvkfwnlrd.site" NXDOMAIN
 local-zone: "jnlevhmebqcxc.website" NXDOMAIN
 local-zone: "jnljmuyjaiohr.online" NXDOMAIN
-local-zone: "jnmncpoktqope.online" NXDOMAIN
 local-zone: "jnmqhpecyjrnf.online" NXDOMAIN
 local-zone: "jnps3tlw.xyz" NXDOMAIN
 local-zone: "jnqahbreekala.space" NXDOMAIN
@@ -18835,6 +18877,8 @@ local-zone: "jq8efbj3wcfhqblq3.rest" NXDOMAIN
 local-zone: "jqacpuetzhjta.space" NXDOMAIN
 local-zone: "jqcebapfvycrv.site" NXDOMAIN
 local-zone: "jqchmauxbwkru.online" NXDOMAIN
+local-zone: "jqdhcjqfxmyjn.space" NXDOMAIN
+local-zone: "jqdjqblbwrryg.website" NXDOMAIN
 local-zone: "jqdphtvtvyvwd.online" NXDOMAIN
 local-zone: "jqfffomcfppgu.space" NXDOMAIN
 local-zone: "jqhxsrqhvztee.site" NXDOMAIN
@@ -19026,6 +19070,7 @@ local-zone: "jvqijvdhihczy.online" NXDOMAIN
 local-zone: "jvqkmdzgbabzv.site" NXDOMAIN
 local-zone: "jvqlisbixnxaz.space" NXDOMAIN
 local-zone: "jvrbmsrtvpzst.site" NXDOMAIN
+local-zone: "jvrnjnwovuynf.com" NXDOMAIN
 local-zone: "jvrppsfgbhesf.site" NXDOMAIN
 local-zone: "jvsspnnctftej.site" NXDOMAIN
 local-zone: "jvwuejwrelcst.space" NXDOMAIN
@@ -19118,7 +19163,6 @@ local-zone: "kaascypher.com" NXDOMAIN
 local-zone: "kabovvcteuyzk.online" NXDOMAIN
 local-zone: "kabqgaklabehk.website" NXDOMAIN
 local-zone: "kadime.cc" NXDOMAIN
-local-zone: "kaejflvkdzfje.space" NXDOMAIN
 local-zone: "kagocvncavfqi.store" NXDOMAIN
 local-zone: "kahblkqxbjscd.website" NXDOMAIN
 local-zone: "kahenyptedkzt.website" NXDOMAIN
@@ -19190,6 +19234,7 @@ local-zone: "kbwndlwdzdffp.space" NXDOMAIN
 local-zone: "kbzevgvukgueg.store" NXDOMAIN
 local-zone: "kcafupebrgybq.website" NXDOMAIN
 local-zone: "kcbwifgbxzubj.site" NXDOMAIN
+local-zone: "kcczyopijhtqk.space" NXDOMAIN
 local-zone: "kcdnbeczdhqea.space" NXDOMAIN
 local-zone: "kcgjjpqihtwly.online" NXDOMAIN
 local-zone: "kchhccjmzipel.site" NXDOMAIN
@@ -19433,7 +19478,6 @@ local-zone: "kjrastwgntzqe.website" NXDOMAIN
 local-zone: "kjtipyiisrgig.site" NXDOMAIN
 local-zone: "kkdtsmnnxvirs.site" NXDOMAIN
 local-zone: "kkezithfo.in" NXDOMAIN
-local-zone: "kkfqwzosvkpst.website" NXDOMAIN
 local-zone: "kkjacvibctssz.website" NXDOMAIN
 local-zone: "kkjlieuijcafr.website" NXDOMAIN
 local-zone: "kklfpamrrieqe.site" NXDOMAIN
@@ -19458,7 +19502,6 @@ local-zone: "klgxuwphntkxr.space" NXDOMAIN
 local-zone: "klgyqkigeuxno.store" NXDOMAIN
 local-zone: "klhczqubhsjgi.store" NXDOMAIN
 local-zone: "klhhiezuiaykb.site" NXDOMAIN
-local-zone: "klhykcweghrno.space" NXDOMAIN
 local-zone: "kliksaya.com" NXDOMAIN
 local-zone: "klixfeed.com" NXDOMAIN
 local-zone: "kljwtxkvtiinc.store" NXDOMAIN
@@ -19635,6 +19678,7 @@ local-zone: "kqtqgoyjmbtev.site" NXDOMAIN
 local-zone: "kqudkxaqzmfxe.site" NXDOMAIN
 local-zone: "kqwvgzulratqt.space" NXDOMAIN
 local-zone: "kqwvqvapfvajp.online" NXDOMAIN
+local-zone: "kqzfufmmrzdox.space" NXDOMAIN
 local-zone: "kqzopzbcmjduw.space" NXDOMAIN
 local-zone: "kra18.com" NXDOMAIN
 local-zone: "kraaloomiacs.com" NXDOMAIN
@@ -19717,6 +19761,7 @@ local-zone: "kufvqdstaemar.site" NXDOMAIN
 local-zone: "kugeshuffle.com" NXDOMAIN
 local-zone: "kujifkvgkygii.site" NXDOMAIN
 local-zone: "kukyzzgcbrwdl.online" NXDOMAIN
+local-zone: "kulekbfzgldzw.space" NXDOMAIN
 local-zone: "kulqdzhpmvokp.online" NXDOMAIN
 local-zone: "kulturbreasts.cyou" NXDOMAIN
 local-zone: "kumpulblogger.com" NXDOMAIN
@@ -19741,6 +19786,7 @@ local-zone: "kvoltomolbbxg.store" NXDOMAIN
 local-zone: "kvqecputivmxv.online" NXDOMAIN
 local-zone: "kvqiteyuyzxfc.website" NXDOMAIN
 local-zone: "kvsadman.com" NXDOMAIN
+local-zone: "kvsosyysxmdwd.site" NXDOMAIN
 local-zone: "kvvrumekpjnwy.store" NXDOMAIN
 local-zone: "kvxzhhrvxjomq.website" NXDOMAIN
 local-zone: "kvyeerabknmjk.store" NXDOMAIN
@@ -19783,6 +19829,7 @@ local-zone: "kxg49cluu2t3g7.rest" NXDOMAIN
 local-zone: "kxgteafuhnpoz.online" NXDOMAIN
 local-zone: "kxjxjuoyfawwf.website" NXDOMAIN
 local-zone: "kxkevndharpyq.website" NXDOMAIN
+local-zone: "kxkicrbtclkhr.website" NXDOMAIN
 local-zone: "kxkseuauiccdo.website" NXDOMAIN
 local-zone: "kxmebjwzwynks.space" NXDOMAIN
 local-zone: "kxmujssflgqac.site" NXDOMAIN
@@ -19802,6 +19849,7 @@ local-zone: "kymertbbdefgn.space" NXDOMAIN
 local-zone: "kymlcoiczalym.site" NXDOMAIN
 local-zone: "kyogwmrsywtnk.site" NXDOMAIN
 local-zone: "kyptefpuxucqc.website" NXDOMAIN
+local-zone: "kypwvjoni.com" NXDOMAIN
 local-zone: "kyriedowager.com" NXDOMAIN
 local-zone: "kytrzcenkcvyo.space" NXDOMAIN
 local-zone: "kyuulknnhnune.online" NXDOMAIN
@@ -19970,10 +20018,12 @@ local-zone: "layerrepeatedlychancy.com" NXDOMAIN
 local-zone: "layingframingcomrade.com" NXDOMAIN
 local-zone: "layouthonouredbuyer.com" NXDOMAIN
 local-zone: "laytroops.com" NXDOMAIN
+local-zone: "lazifzfeaurax.site" NXDOMAIN
 local-zone: "lazycollection.pro" NXDOMAIN
 local-zone: "lbaegdiunhilf.site" NXDOMAIN
 local-zone: "lbbjokeqbzwqk.top" NXDOMAIN
 local-zone: "lbbkrsxzhoumc.space" NXDOMAIN
+local-zone: "lbdntfvcafqjp.online" NXDOMAIN
 local-zone: "lbdphmpwmwdzw.online" NXDOMAIN
 local-zone: "lbefscvpuihal.website" NXDOMAIN
 local-zone: "lbfespmneslew.space" NXDOMAIN
@@ -20391,8 +20441,8 @@ local-zone: "ljnqievhkrsia.online" NXDOMAIN
 local-zone: "ljpdwxykkqyxk.online" NXDOMAIN
 local-zone: "ljpnovfknjqyl.space" NXDOMAIN
 local-zone: "ljuknwtnaqlgq.site" NXDOMAIN
-local-zone: "ljuwszfrsytto.website" NXDOMAIN
 local-zone: "ljwaerigtjrxe.store" NXDOMAIN
+local-zone: "ljwtspzqfavas.website" NXDOMAIN
 local-zone: "ljybybyerzreq.top" NXDOMAIN
 local-zone: "ljyhzllzoymxq.space" NXDOMAIN
 local-zone: "ljzwuvseqsecn.online" NXDOMAIN
@@ -20438,6 +20488,7 @@ local-zone: "llfpaondsunun.site" NXDOMAIN
 local-zone: "llfyjvskyxnsv.site" NXDOMAIN
 local-zone: "llglxmzxsmcgo.space" NXDOMAIN
 local-zone: "llhobralwmgcc.website" NXDOMAIN
+local-zone: "lljdutrpfyuiw.online" NXDOMAIN
 local-zone: "lljoetsjbpukj.online" NXDOMAIN
 local-zone: "llktlhwchinzl.site" NXDOMAIN
 local-zone: "llljluuarqxai.site" NXDOMAIN
@@ -21140,6 +21191,7 @@ local-zone: "maxserving.com" NXDOMAIN
 local-zone: "maxudijuz.com" NXDOMAIN
 local-zone: "maybejanuarycosmetics.com" NXDOMAIN
 local-zone: "mayhemabjure.com" NXDOMAIN
+local-zone: "mayhemsfloras.cyou" NXDOMAIN
 local-zone: "mayorcabbagedemolish.com" NXDOMAIN
 local-zone: "mayportfolioshrine.com" NXDOMAIN
 local-zone: "mayworthutlike.shop" NXDOMAIN
@@ -21279,6 +21331,7 @@ local-zone: "mennlumqmgddz.site" NXDOMAIN
 local-zone: "menrdrxjpdvky.space" NXDOMAIN
 local-zone: "mentionbounceclimate.com" NXDOMAIN
 local-zone: "mentionideablit.com" NXDOMAIN
+local-zone: "mephcelyzolkf.space" NXDOMAIN
 local-zone: "mepuyu.xyz" NXDOMAIN
 local-zone: "mercenaryslaveryplays.com" NXDOMAIN
 local-zone: "merchandisevat.com" NXDOMAIN
@@ -21957,6 +22010,7 @@ local-zone: "mujnvzqpnzxet.site" NXDOMAIN
 local-zone: "mujwqivmsqpzf.site" NXDOMAIN
 local-zone: "mukrirumpy.cyou" NXDOMAIN
 local-zone: "muleterritorywitchcraft.com" NXDOMAIN
+local-zone: "mulgmzzbvwqcl.space" NXDOMAIN
 local-zone: "multipledrawers.com" NXDOMAIN
 local-zone: "multiplewhenceingredient.com" NXDOMAIN
 local-zone: "multirackaffability.com" NXDOMAIN
@@ -22002,6 +22056,7 @@ local-zone: "musicnote.info" NXDOMAIN
 local-zone: "muskiespalatia.cfd" NXDOMAIN
 local-zone: "muskitsstealth.cfd" NXDOMAIN
 local-zone: "musoparhnhgye.space" NXDOMAIN
+local-zone: "mussalpipeage.cyou" NXDOMAIN
 local-zone: "musselmerchant.com" NXDOMAIN
 local-zone: "musty-salt.pro" NXDOMAIN
 local-zone: "mustyacreunicorn.com" NXDOMAIN
@@ -22068,6 +22123,7 @@ local-zone: "mwyxaylcphacl.site" NXDOMAIN
 local-zone: "mwzovcuzsqpyv.site" NXDOMAIN
 local-zone: "mwztyflmatxei.site" NXDOMAIN
 local-zone: "mxbcibnxexjrj.space" NXDOMAIN
+local-zone: "mxehpzensjvcd.website" NXDOMAIN
 local-zone: "mxfglajkqrwsv.online" NXDOMAIN
 local-zone: "mxfuwvrxudpkr.website" NXDOMAIN
 local-zone: "mxgeppnjtbyig.site" NXDOMAIN
@@ -22132,6 +22188,7 @@ local-zone: "myowvxxsjkwvp.space" NXDOMAIN
 local-zone: "mypdcitiidimv.space" NXDOMAIN
 local-zone: "mypopads.com" NXDOMAIN
 local-zone: "myroledance.com" NXDOMAIN
+local-zone: "myrpoluowphmic.com" NXDOMAIN
 local-zone: "myrqqcpjiaabh.space" NXDOMAIN
 local-zone: "myrrhbehorn.com" NXDOMAIN
 local-zone: "mysmbkoapuust.website" NXDOMAIN
@@ -22306,7 +22363,6 @@ local-zone: "nbufgllosxslp.site" NXDOMAIN
 local-zone: "nbuipljbiahdp.website" NXDOMAIN
 local-zone: "nbvcsyjsoojpd.online" NXDOMAIN
 local-zone: "nbvlkenmkihrl.website" NXDOMAIN
-local-zone: "nbvmqxuglqoqs.website" NXDOMAIN
 local-zone: "nbwsvoludimjl.online" NXDOMAIN
 local-zone: "nbxcijnlqfrbd.website" NXDOMAIN
 local-zone: "nbyzajbqcjruf.online" NXDOMAIN
@@ -22349,7 +22405,6 @@ local-zone: "ndkdobohmlqxw.website" NXDOMAIN
 local-zone: "ndourapfeafmy.space" NXDOMAIN
 local-zone: "ndqpopziznuuq.space" NXDOMAIN
 local-zone: "ndqsunkdzliuy.space" NXDOMAIN
-local-zone: "ndrblnijlromv.space" NXDOMAIN
 local-zone: "ndroip.com" NXDOMAIN
 local-zone: "ndtkxygpdzcdq.website" NXDOMAIN
 local-zone: "ndtlhvhfeokmc.website" NXDOMAIN
@@ -22705,6 +22760,7 @@ local-zone: "nnacfikowpsjw.online" NXDOMAIN
 local-zone: "nnacoevirghpr.store" NXDOMAIN
 local-zone: "nnblhywxxvofw.space" NXDOMAIN
 local-zone: "nncgorhtrjrjn.store" NXDOMAIN
+local-zone: "nndauituswshm.space" NXDOMAIN
 local-zone: "nngbfvlqkyunr.space" NXDOMAIN
 local-zone: "nngdtjuftbkzb.website" NXDOMAIN
 local-zone: "nnhbqqzpsyoid.online" NXDOMAIN
@@ -22911,7 +22967,6 @@ local-zone: "nrtkdhscnykcv.online" NXDOMAIN
 local-zone: "nrtoclgdzeoml.site" NXDOMAIN
 local-zone: "nrtuphnatfvjn.site" NXDOMAIN
 local-zone: "nruqhuxxortxi.online" NXDOMAIN
-local-zone: "nrutzdaq.com" NXDOMAIN
 local-zone: "nrvqlwhrwgzfu.site" NXDOMAIN
 local-zone: "nrwunwdxsvcct.online" NXDOMAIN
 local-zone: "nryfifdmpeotb.site" NXDOMAIN
@@ -22944,6 +22999,7 @@ local-zone: "ntkgkyalavlcs.space" NXDOMAIN
 local-zone: "ntkmmopjrpqdx.store" NXDOMAIN
 local-zone: "ntmchqsdzhtxl.site" NXDOMAIN
 local-zone: "ntnfiubxkrufo.store" NXDOMAIN
+local-zone: "ntntmjorwgqed.site" NXDOMAIN
 local-zone: "ntobfyzxjkatt.space" NXDOMAIN
 local-zone: "ntoftheusysia.info" NXDOMAIN
 local-zone: "ntoftheusysianedt.info" NXDOMAIN
@@ -23029,6 +23085,7 @@ local-zone: "nvqvibvtalsmj.online" NXDOMAIN
 local-zone: "nvrblck.com" NXDOMAIN
 local-zone: "nvsucjifrawbf.online" NXDOMAIN
 local-zone: "nvsvlphrynhoq.website" NXDOMAIN
+local-zone: "nvvrkxdypcwmv.space" NXDOMAIN
 local-zone: "nvwfdjlpjpzpt.site" NXDOMAIN
 local-zone: "nvwmvpmsaiuer.space" NXDOMAIN
 local-zone: "nvxntvdttjbrg.site" NXDOMAIN
@@ -23250,6 +23307,7 @@ local-zone: "ocpnroag.com" NXDOMAIN
 local-zone: "ocpolgam.com" NXDOMAIN
 local-zone: "ocpwlmqdpkdnn.site" NXDOMAIN
 local-zone: "ocqmbcwysestl.website" NXDOMAIN
+local-zone: "ocqywlcwfwypz.online" NXDOMAIN
 local-zone: "ocrgduldhsxkc.site" NXDOMAIN
 local-zone: "ocrlmgqgqlfqt.store" NXDOMAIN
 local-zone: "ocsdkiwkrndeo.site" NXDOMAIN
@@ -23500,6 +23558,7 @@ local-zone: "okiiajtpeyycg.website" NXDOMAIN
 local-zone: "okiyfmhdmtvgs.website" NXDOMAIN
 local-zone: "okjlteobj.com" NXDOMAIN
 local-zone: "okjrzejattkco.online" NXDOMAIN
+local-zone: "okku84mt.xyz" NXDOMAIN
 local-zone: "oklajbxfhfmqa.site" NXDOMAIN
 local-zone: "oknvsixaeqvai.site" NXDOMAIN
 local-zone: "oko.net" NXDOMAIN
@@ -23683,6 +23742,7 @@ local-zone: "oouutjpavsxfv.site" NXDOMAIN
 local-zone: "oowqcmolqtwai.online" NXDOMAIN
 local-zone: "oowvaygribfhj.space" NXDOMAIN
 local-zone: "ooydxblhaegrz.website" NXDOMAIN
+local-zone: "oozngsbnluicy.website" NXDOMAIN
 local-zone: "op00.biz" NXDOMAIN
 local-zone: "op01.biz" NXDOMAIN
 local-zone: "op02.biz" NXDOMAIN
@@ -23746,6 +23806,7 @@ local-zone: "oqisfnvewbcaz.online" NXDOMAIN
 local-zone: "oqkbvcvsokqjc.online" NXDOMAIN
 local-zone: "oqkhxgzljvqzr.store" NXDOMAIN
 local-zone: "oqmiadfkmlcwz.website" NXDOMAIN
+local-zone: "oqmjiikaoomyy.online" NXDOMAIN
 local-zone: "oqpelffjccmjf.space" NXDOMAIN
 local-zone: "oqphmccprsyie.site" NXDOMAIN
 local-zone: "oqtxcfuumplee.website" NXDOMAIN
@@ -23835,6 +23896,7 @@ local-zone: "osiseouvxbgzj.online" NXDOMAIN
 local-zone: "osjbeyssyyunp.site" NXDOMAIN
 local-zone: "oskiwood.com" NXDOMAIN
 local-zone: "osmmdczessxuq.site" NXDOMAIN
+local-zone: "osmmfycaqh.in" NXDOMAIN
 local-zone: "osmosisfalerno.com" NXDOMAIN
 local-zone: "osncrdtgymcux.online" NXDOMAIN
 local-zone: "osooufqwzakqo.online" NXDOMAIN
@@ -23898,7 +23960,6 @@ local-zone: "oujwauznuwofh.site" NXDOMAIN
 local-zone: "ounbiwssqohds.online" NXDOMAIN
 local-zone: "oundhertobeconsist.org" NXDOMAIN
 local-zone: "oungimuk.net" NXDOMAIN
-local-zone: "oupcqqltw.com" NXDOMAIN
 local-zone: "ouphouch.com" NXDOMAIN
 local-zone: "oupvfjtyxfxky.site" NXDOMAIN
 local-zone: "ouqnsrtmguuyd.site" NXDOMAIN
@@ -24004,6 +24065,7 @@ local-zone: "owhdishcnrrzq.space" NXDOMAIN
 local-zone: "owhnkemicd.com" NXDOMAIN
 local-zone: "owhqhuralnt.in" NXDOMAIN
 local-zone: "owixyzasgmdgl.website" NXDOMAIN
+local-zone: "owjltsnxaoetm.site" NXDOMAIN
 local-zone: "owlerydominos.cam" NXDOMAIN
 local-zone: "owlkswgtbygtu.site" NXDOMAIN
 local-zone: "owlunimmvn.com" NXDOMAIN
@@ -24040,6 +24102,7 @@ local-zone: "oxlffequrkka.com" NXDOMAIN
 local-zone: "oxlmsxqhjtykk.online" NXDOMAIN
 local-zone: "oxmhrrzmoqnco.online" NXDOMAIN
 local-zone: "oxrdktkaktdod.online" NXDOMAIN
+local-zone: "oxreevtzvttav.space" NXDOMAIN
 local-zone: "oxromskyinhfv.site" NXDOMAIN
 local-zone: "oxrqbdaslqcek.space" NXDOMAIN
 local-zone: "oxshgkbicsayq.website" NXDOMAIN
@@ -24146,6 +24209,7 @@ local-zone: "paeastei.net" NXDOMAIN
 local-zone: "paehakooyuygo.website" NXDOMAIN
 local-zone: "paehceman.com" NXDOMAIN
 local-zone: "paetitrsmslrq.website" NXDOMAIN
+local-zone: "pafmvycsjgbxc.space" NXDOMAIN
 local-zone: "pageantlethal.com" NXDOMAIN
 local-zone: "pagejunky.com" NXDOMAIN
 local-zone: "pagerrentablespotlight.com" NXDOMAIN
@@ -25018,6 +25082,7 @@ local-zone: "politicsdryer.com" NXDOMAIN
 local-zone: "politicsgrowinghollow.com" NXDOMAIN
 local-zone: "politytriumphal.com" NXDOMAIN
 local-zone: "polityyearlinggullible.com" NXDOMAIN
+local-zone: "polleebubonic.cfd" NXDOMAIN
 local-zone: "pollenunmoved.com" NXDOMAIN
 local-zone: "pollingramblefunctions.com" NXDOMAIN
 local-zone: "pollpublicly.com" NXDOMAIN
@@ -25209,6 +25274,7 @@ local-zone: "pqsjujuhicwrx.online" NXDOMAIN
 local-zone: "pqthctoaotsik.online" NXDOMAIN
 local-zone: "pqtrzqahglzco.website" NXDOMAIN
 local-zone: "pqturjkvszovy.website" NXDOMAIN
+local-zone: "pqudfrhrve.com" NXDOMAIN
 local-zone: "pqudnqrlwleqr.site" NXDOMAIN
 local-zone: "pqvkgjvxmpgtj.site" NXDOMAIN
 local-zone: "pqwdiwikgevnn.site" NXDOMAIN
@@ -25587,6 +25653,7 @@ local-zone: "ptlwm.com" NXDOMAIN
 local-zone: "ptlxskwprwfri.space" NXDOMAIN
 local-zone: "ptmbqrzsbevkh.store" NXDOMAIN
 local-zone: "ptmsaizsfobeys.com" NXDOMAIN
+local-zone: "ptmswdrrentsd.site" NXDOMAIN
 local-zone: "ptnjphvurekdw.space" NXDOMAIN
 local-zone: "ptougeegnep.net" NXDOMAIN
 local-zone: "ptp22.com" NXDOMAIN
@@ -26127,6 +26194,7 @@ local-zone: "qozwuskwwzqua.space" NXDOMAIN
 local-zone: "qpastswynfzcb.space" NXDOMAIN
 local-zone: "qpbiyued.com" NXDOMAIN
 local-zone: "qpecjovestjhj.space" NXDOMAIN
+local-zone: "qpenhtsnsfcff.website" NXDOMAIN
 local-zone: "qpetanezqhixk.website" NXDOMAIN
 local-zone: "qpfxfxdwnuxrd.space" NXDOMAIN
 local-zone: "qphrpxcvautxa.space" NXDOMAIN
@@ -26470,6 +26538,7 @@ local-zone: "raisedfaraway.com" NXDOMAIN
 local-zone: "raisedghostsscalpel.com" NXDOMAIN
 local-zone: "raisedlicenseexpedient.com" NXDOMAIN
 local-zone: "raisedtributeefficacious.com" NXDOMAIN
+local-zone: "raisinggrannyexplode.com" NXDOMAIN
 local-zone: "raisingpeppermint.com" NXDOMAIN
 local-zone: "raisqahsubhte.space" NXDOMAIN
 local-zone: "rajeezwhksdfl.site" NXDOMAIN
@@ -27692,6 +27761,7 @@ local-zone: "rydwbtjetdesf.site" NXDOMAIN
 local-zone: "ryecypress.com" NXDOMAIN
 local-zone: "ryevvglciwjxz.site" NXDOMAIN
 local-zone: "ryiklaawtjuus.online" NXDOMAIN
+local-zone: "ryknkrwqlndj.com" NXDOMAIN
 local-zone: "ryknsblynbifq.store" NXDOMAIN
 local-zone: "ryminos.com" NXDOMAIN
 local-zone: "ryopbbxgbdqhr.site" NXDOMAIN
@@ -27917,6 +27987,7 @@ local-zone: "scabbedcoaches.com" NXDOMAIN
 local-zone: "scabrinrightly.cyou" NXDOMAIN
 local-zone: "scakuvap.com" NXDOMAIN
 local-zone: "scaldsheetdeterrent.com" NXDOMAIN
+local-zone: "scalenivitriol.cyou" NXDOMAIN
 local-zone: "scalibur.io" NXDOMAIN
 local-zone: "scallopafford.com" NXDOMAIN
 local-zone: "scalpdoubtless.com" NXDOMAIN
@@ -28187,6 +28258,7 @@ local-zone: "seqmfwzsktmuj.site" NXDOMAIN
 local-zone: "sequenceclickmeasles.com" NXDOMAIN
 local-zone: "ser678uikl.xyz" NXDOMAIN
 local-zone: "sereanstanza.com" NXDOMAIN
+local-zone: "serfdomearned.cyou" NXDOMAIN
 local-zone: "serfishshawn.cyou" NXDOMAIN
 local-zone: "serinuspotions.com" NXDOMAIN
 local-zone: "serinuswelling.com" NXDOMAIN
@@ -28448,6 +28520,7 @@ local-zone: "signaladsdirect.top" NXDOMAIN
 local-zone: "signamentswithd.com" NXDOMAIN
 local-zone: "signaturewoundedgraduation.com" NXDOMAIN
 local-zone: "signedquick.com" NXDOMAIN
+local-zone: "signergorsedd.cyou" NXDOMAIN
 local-zone: "significanceoutmatch.com" NXDOMAIN
 local-zone: "significantrapid.com" NXDOMAIN
 local-zone: "signingunwilling.com" NXDOMAIN
@@ -28994,7 +29067,7 @@ local-zone: "sparrowaboveaveragedefence.com" NXDOMAIN
 local-zone: "sparse-code.com" NXDOMAIN
 local-zone: "spatacquaint.com" NXDOMAIN
 local-zone: "spatioludwig.com" NXDOMAIN
-local-zone: "spckcoegblznt.site" NXDOMAIN
+local-zone: "spazdxocserwy.website" NXDOMAIN
 local-zone: "spcyzybmoffjj.space" NXDOMAIN
 local-zone: "spdate.com" NXDOMAIN
 local-zone: "speakclash.com" NXDOMAIN
@@ -29386,6 +29459,7 @@ local-zone: "stowhiwhothu.com" NXDOMAIN
 local-zone: "stpd.cloud" NXDOMAIN
 local-zone: "stpoutpersonally.com" NXDOMAIN
 local-zone: "stquality.org" NXDOMAIN
+local-zone: "stragepatins.qpon" NXDOMAIN
 local-zone: "straightenedphiladelphiarequire.com" NXDOMAIN
 local-zone: "straightenedsleepyanalysis.com" NXDOMAIN
 local-zone: "straightenframe.com" NXDOMAIN
@@ -29781,7 +29855,6 @@ local-zone: "sxpfxhjtdcqqs.website" NXDOMAIN
 local-zone: "sxprtoqjwbvuq.website" NXDOMAIN
 local-zone: "sxqhzzojiirxq.space" NXDOMAIN
 local-zone: "sxsftevgkwlam.site" NXDOMAIN
-local-zone: "sxspuqxqsdgen.website" NXDOMAIN
 local-zone: "sxwifqvoodcxn.space" NXDOMAIN
 local-zone: "sxxiocnjyqhxe.website" NXDOMAIN
 local-zone: "sxyrrjgrkwsvw.site" NXDOMAIN
@@ -30143,7 +30216,9 @@ local-zone: "tgmbxplmlsclp.space" NXDOMAIN
 local-zone: "tgtrjjlpjntes.space" NXDOMAIN
 local-zone: "tguyxzkrxgzqt.online" NXDOMAIN
 local-zone: "tgvtlpjqnsiwm.site" NXDOMAIN
+local-zone: "thafqlstoiluv.site" NXDOMAIN
 local-zone: "thagrechulo.com" NXDOMAIN
+local-zone: "thairsqojopzz.online" NXDOMAIN
 local-zone: "thakdsafoqczb.space" NXDOMAIN
 local-zone: "thankdilapidation.com" NXDOMAIN
 local-zone: "thankfultale.pro" NXDOMAIN
@@ -30362,7 +30437,6 @@ local-zone: "tjkqgceypcapf.store" NXDOMAIN
 local-zone: "tjktbalmpgghx.space" NXDOMAIN
 local-zone: "tjmchkmpqfszj.online" NXDOMAIN
 local-zone: "tjndwmaotgyix.online" NXDOMAIN
-local-zone: "tjnuztjtlqihq.site" NXDOMAIN
 local-zone: "tjosjuihqnxke.online" NXDOMAIN
 local-zone: "tjqwbnhnazllz.online" NXDOMAIN
 local-zone: "tjswoufpfcltp.online" NXDOMAIN
@@ -30600,6 +30674,7 @@ local-zone: "touchdowndeveloping.com" NXDOMAIN
 local-zone: "touchstronglymuseum.com" NXDOMAIN
 local-zone: "toughtgyrator.cfd" NXDOMAIN
 local-zone: "toughtvictor.qpon" NXDOMAIN
+local-zone: "tourismwea.shop" NXDOMAIN
 local-zone: "touristbaconwrath.com" NXDOMAIN
 local-zone: "tournamentnoble.com" NXDOMAIN
 local-zone: "towardconnectionsbat.com" NXDOMAIN
@@ -31054,12 +31129,12 @@ local-zone: "tvgjgmnnumqmf.online" NXDOMAIN
 local-zone: "tvgpueilyophl.space" NXDOMAIN
 local-zone: "tviqzqsrdvofl.website" NXDOMAIN
 local-zone: "tvkfxtoydfqtf.online" NXDOMAIN
-local-zone: "tvkvhjiwcfvgv.website" NXDOMAIN
 local-zone: "tvkygzrsdfycp.space" NXDOMAIN
 local-zone: "tvlhgokjy.com" NXDOMAIN
 local-zone: "tvlsiednsircj.online" NXDOMAIN
 local-zone: "tvmulesmelt.com" NXDOMAIN
 local-zone: "tvmx-defender.pro" NXDOMAIN
+local-zone: "tvnfoipaskoru.website" NXDOMAIN
 local-zone: "tvprocessing.com" NXDOMAIN
 local-zone: "tvpyhjuiywlex.space" NXDOMAIN
 local-zone: "tvqamnmdgqaes.space" NXDOMAIN
@@ -31204,6 +31279,7 @@ local-zone: "uads.cc" NXDOMAIN
 local-zone: "uagzghuaqcmdo.online" NXDOMAIN
 local-zone: "uahgfhnjufgre.space" NXDOMAIN
 local-zone: "uahxjnvxojuse.online" NXDOMAIN
+local-zone: "uahyxsgrkfinj.online" NXDOMAIN
 local-zone: "uaiugdbudbdfz.store" NXDOMAIN
 local-zone: "uaiyuaosnibki.website" NXDOMAIN
 local-zone: "uajgfkbpypbsa.site" NXDOMAIN
@@ -31277,6 +31353,7 @@ local-zone: "ucyierazwsrpa.store" NXDOMAIN
 local-zone: "udasijerkish.qpon" NXDOMAIN
 local-zone: "udbaa.com" NXDOMAIN
 local-zone: "uddougqbgbhmg.website" NXDOMAIN
+local-zone: "udempnhxtsuvt.site" NXDOMAIN
 local-zone: "udfaguykrfeur.site" NXDOMAIN
 local-zone: "udggmzfrdhxcs.site" NXDOMAIN
 local-zone: "udjolmaphsyfo.online" NXDOMAIN
@@ -31443,6 +31520,7 @@ local-zone: "ulbruiqadlmaa.online" NXDOMAIN
 local-zone: "ulbsqeyjjthea.site" NXDOMAIN
 local-zone: "ulcvtuslxtkxx.site" NXDOMAIN
 local-zone: "uldhyajkjmcdw.online" NXDOMAIN
+local-zone: "uldicxfsbtprz.site" NXDOMAIN
 local-zone: "ulgmucrlctvsl.store" NXDOMAIN
 local-zone: "ulhbwdxzwifhg.site" NXDOMAIN
 local-zone: "ulhpxqtmsmnbo.site" NXDOMAIN
@@ -32013,6 +32091,7 @@ local-zone: "uwxtoegtarqfw.online" NXDOMAIN
 local-zone: "uxahhowennlqf.website" NXDOMAIN
 local-zone: "uxazhgibyblus.store" NXDOMAIN
 local-zone: "uxcjzhltqcgxy.space" NXDOMAIN
+local-zone: "uxerwhlrkkhsb.site" NXDOMAIN
 local-zone: "uxevhnhwanwgg.site" NXDOMAIN
 local-zone: "uxfvatxoqvrpf.space" NXDOMAIN
 local-zone: "uxgipzzehpttp.online" NXDOMAIN
@@ -32175,6 +32254,7 @@ local-zone: "vawonybnkgclb.site" NXDOMAIN
 local-zone: "vax-now.com" NXDOMAIN
 local-zone: "vaxjhqfaahmgt.site" NXDOMAIN
 local-zone: "vazypteke.pro" NXDOMAIN
+local-zone: "vbaknyfhgkayf.space" NXDOMAIN
 local-zone: "vbbpuopouymio.online" NXDOMAIN
 local-zone: "vbcojhroxkoaf.online" NXDOMAIN
 local-zone: "vbcyjhxqcfanz.site" NXDOMAIN
@@ -32660,6 +32740,7 @@ local-zone: "vozpublic.com" NXDOMAIN
 local-zone: "vpbhuddvufxvb.space" NXDOMAIN
 local-zone: "vpbjuracackcm.online" NXDOMAIN
 local-zone: "vpcjijijkzhjv.space" NXDOMAIN
+local-zone: "vpfjruhgzfjy.com" NXDOMAIN
 local-zone: "vpico.com" NXDOMAIN
 local-zone: "vpipi.com" NXDOMAIN
 local-zone: "vpjzefvydxeuz.site" NXDOMAIN
@@ -32691,7 +32772,6 @@ local-zone: "vqqjqbkzclwav.website" NXDOMAIN
 local-zone: "vqrdiduoqypac.site" NXDOMAIN
 local-zone: "vqrwdwrmxbelz.website" NXDOMAIN
 local-zone: "vqxppnlrcbxlh.site" NXDOMAIN
-local-zone: "vqyvocot.com" NXDOMAIN
 local-zone: "vqyxituzcibhx.online" NXDOMAIN
 local-zone: "vqzoqqnjolnbl.site" NXDOMAIN
 local-zone: "vradfvwfmwvaw.space" NXDOMAIN
@@ -32710,6 +32790,7 @@ local-zone: "vrukwwkeszzfg.space" NXDOMAIN
 local-zone: "vruongxiww.in" NXDOMAIN
 local-zone: "vruophobjm.in" NXDOMAIN
 local-zone: "vrwzecqcyjfmy.site" NXDOMAIN
+local-zone: "vrzasswvgpsvg.com" NXDOMAIN
 local-zone: "vs3.com" NXDOMAIN
 local-zone: "vsavbpsnxdrgt.online" NXDOMAIN
 local-zone: "vsaxhrlatnlcn.space" NXDOMAIN
@@ -32792,6 +32873,7 @@ local-zone: "vvldgmgejrhja.online" NXDOMAIN
 local-zone: "vvltexsrdpmas.website" NXDOMAIN
 local-zone: "vvolnzdglprvf.store" NXDOMAIN
 local-zone: "vvskgwkxrdtaf.space" NXDOMAIN
+local-zone: "vvslrpwkkqvwe.online" NXDOMAIN
 local-zone: "vvtshyprijnwi.website" NXDOMAIN
 local-zone: "vvvshlnaxlbyp.website" NXDOMAIN
 local-zone: "vvwrajbckvfng.website" NXDOMAIN
@@ -32801,6 +32883,7 @@ local-zone: "vwcmeebcmvgbq.website" NXDOMAIN
 local-zone: "vwcsjufzjcqen.site" NXDOMAIN
 local-zone: "vwcwncsrsedyd.space" NXDOMAIN
 local-zone: "vwetgvfpqybfu.space" NXDOMAIN
+local-zone: "vwfspzlxijfwh.website" NXDOMAIN
 local-zone: "vwfwdxariknxp.website" NXDOMAIN
 local-zone: "vwfxuhjgwwent.online" NXDOMAIN
 local-zone: "vwjsiywwgynud.online" NXDOMAIN
@@ -33530,6 +33613,7 @@ local-zone: "wmhq8tw8t5ju3y.rest" NXDOMAIN
 local-zone: "wmkyrnbejgyku.website" NXDOMAIN
 local-zone: "wmlatpmbcaebl.space" NXDOMAIN
 local-zone: "wmndlomarcydl.site" NXDOMAIN
+local-zone: "wmnozidurlrin.online" NXDOMAIN
 local-zone: "wmnxcxftfbpbr.space" NXDOMAIN
 local-zone: "wmober.com" NXDOMAIN
 local-zone: "wmoylynifuain.space" NXDOMAIN
@@ -33699,7 +33783,6 @@ local-zone: "wqgkqkjxrhike.site" NXDOMAIN
 local-zone: "wqhcjdmfwykdm.site" NXDOMAIN
 local-zone: "wqhgmzdbdgasc.space" NXDOMAIN
 local-zone: "wqhlaexymgkyu.site" NXDOMAIN
-local-zone: "wqhsibprqqvgr.website" NXDOMAIN
 local-zone: "wqkptgmrlkkel.online" NXDOMAIN
 local-zone: "wqldvxtfwamtu.online" NXDOMAIN
 local-zone: "wqmzwffcyubkd.site" NXDOMAIN
@@ -33759,6 +33842,7 @@ local-zone: "wrrqigpzmekcd.space" NXDOMAIN
 local-zone: "wrufer.com" NXDOMAIN
 local-zone: "wruixgttpajyx.online" NXDOMAIN
 local-zone: "wrvxrwbqvnzdr.space" NXDOMAIN
+local-zone: "wrwdjceohptlq.site" NXDOMAIN
 local-zone: "wrxdsplmtfwzp.space" NXDOMAIN
 local-zone: "wrxixuknpvjxm.website" NXDOMAIN
 local-zone: "wrysrtitoqbgn.online" NXDOMAIN
@@ -33903,6 +33987,7 @@ local-zone: "wyhifdpatl.com" NXDOMAIN
 local-zone: "wyjvdqyexgomq.online" NXDOMAIN
 local-zone: "wylhcncknyyzr.website" NXDOMAIN
 local-zone: "wylmptdfafbkh.site" NXDOMAIN
+local-zone: "wylomsirxcwzj.site" NXDOMAIN
 local-zone: "wymdgrewpljln.online" NXDOMAIN
 local-zone: "wymimtskbceow.space" NXDOMAIN
 local-zone: "wynskutmbuyie.online" NXDOMAIN
@@ -34488,7 +34573,6 @@ local-zone: "xwxkorepqjcnt.site" NXDOMAIN
 local-zone: "xwxtztqyihcrk.space" NXDOMAIN
 local-zone: "xwzbpkku-i.site" NXDOMAIN
 local-zone: "xxaqqsdsafmre.online" NXDOMAIN
-local-zone: "xxbifrkzadx.com" NXDOMAIN
 local-zone: "xxdlfjdtazsju.website" NXDOMAIN
 local-zone: "xxezsifdsivsa.site" NXDOMAIN
 local-zone: "xxhtuyqbjcqrq.site" NXDOMAIN
@@ -34534,6 +34618,7 @@ local-zone: "xypmbdsisnrqe.site" NXDOMAIN
 local-zone: "xyqmulylfoizu.online" NXDOMAIN
 local-zone: "xyroxqxhjcjzd.store" NXDOMAIN
 local-zone: "xyuqvvrvdmelc.space" NXDOMAIN
+local-zone: "xyxiqtwkjqflt.site" NXDOMAIN
 local-zone: "xyz0k4gfs.xyz" NXDOMAIN
 local-zone: "xz0wefju.fun" NXDOMAIN
 local-zone: "xzbyhyxkzfbpa.space" NXDOMAIN
@@ -34542,9 +34627,9 @@ local-zone: "xzgkarpqxpybo.site" NXDOMAIN
 local-zone: "xzgmenaqcdmbn.site" NXDOMAIN
 local-zone: "xziicydjexrii.online" NXDOMAIN
 local-zone: "xzkqduqxaavac.site" NXDOMAIN
-local-zone: "xzlvqpiyweikr.website" NXDOMAIN
 local-zone: "xzlzfiseeuxfw.site" NXDOMAIN
 local-zone: "xzmauynuxqecg.website" NXDOMAIN
+local-zone: "xzqghszflefma.website" NXDOMAIN
 local-zone: "xzqpz.com" NXDOMAIN
 local-zone: "xzshonsscrjzu.online" NXDOMAIN
 local-zone: "xzzcqmzxuxhue.site" NXDOMAIN
@@ -34740,6 +34825,7 @@ local-zone: "ygpqxubqk.com" NXDOMAIN
 local-zone: "ygqakovleohew.website" NXDOMAIN
 local-zone: "ygqikkpytkhlt.space" NXDOMAIN
 local-zone: "ygtonnwghswtx.space" NXDOMAIN
+local-zone: "ygvvrkvmbx.com" NXDOMAIN
 local-zone: "ygxmyhimubyyl.website" NXDOMAIN
 local-zone: "yhbatwdehlcrz.website" NXDOMAIN
 local-zone: "yhbcii.com" NXDOMAIN
@@ -34891,6 +34977,7 @@ local-zone: "ynjcztxozetqx.site" NXDOMAIN
 local-zone: "ynjryqkgtlixu.space" NXDOMAIN
 local-zone: "ynlodkuuacugx.site" NXDOMAIN
 local-zone: "ynlucjumrddkg.website" NXDOMAIN
+local-zone: "ynolbfbdoatpr.space" NXDOMAIN
 local-zone: "ynossspikirow.online" NXDOMAIN
 local-zone: "ynppqrvsmwfpz.space" NXDOMAIN
 local-zone: "yntaegulwgqur.site" NXDOMAIN
@@ -34969,6 +35056,7 @@ local-zone: "ypocjgogabqjj.website" NXDOMAIN
 local-zone: "ypphgndtjnpyf.online" NXDOMAIN
 local-zone: "yptrupbkfmlue.site" NXDOMAIN
 local-zone: "ypwcttlciuuzu.online" NXDOMAIN
+local-zone: "ypwleucghfbka.site" NXDOMAIN
 local-zone: "ypxdakreabzhk.website" NXDOMAIN
 local-zone: "ypztdrxavedah.space" NXDOMAIN
 local-zone: "yqaatqlisyrma.site" NXDOMAIN
@@ -35046,7 +35134,6 @@ local-zone: "yuckelobongo.com" NXDOMAIN
 local-zone: "yucvgdirvufyw.space" NXDOMAIN
 local-zone: "yudrrrrerqovu.site" NXDOMAIN
 local-zone: "yueifltdoegld.space" NXDOMAIN
-local-zone: "yuftjgkqg.com" NXDOMAIN
 local-zone: "yugaashir.cyou" NXDOMAIN
 local-zone: "yugdsedjhquho.space" NXDOMAIN
 local-zone: "yugkagyfbrdkl.online" NXDOMAIN
@@ -35054,6 +35141,7 @@ local-zone: "yuinrlqwhmubn.site" NXDOMAIN
 local-zone: "yuintbradshed.com" NXDOMAIN
 local-zone: "yujzxbsiqbzwh.site" NXDOMAIN
 local-zone: "yukexxkccjcum.space" NXDOMAIN
+local-zone: "yulrknhzufvql.space" NXDOMAIN
 local-zone: "yumenetworks.com" NXDOMAIN
 local-zone: "yummyadvertiseexploded.com" NXDOMAIN
 local-zone: "yummymembership.com" NXDOMAIN
@@ -35071,6 +35159,7 @@ local-zone: "yuwbmzjqimdmn.space" NXDOMAIN
 local-zone: "yuwseujcjavak.space" NXDOMAIN
 local-zone: "yuylxumqqrmnv.space" NXDOMAIN
 local-zone: "yuyykdjtkdpat.store" NXDOMAIN
+local-zone: "yuzebnpwgmbmu.space" NXDOMAIN
 local-zone: "yuztrvzsjtfgo.space" NXDOMAIN
 local-zone: "yvbcuorcvinxz.online" NXDOMAIN
 local-zone: "yvdfmcmebhove.website" NXDOMAIN
@@ -35140,6 +35229,7 @@ local-zone: "yypsmobejtdoh.space" NXDOMAIN
 local-zone: "yyptbmcxlkvnq.online" NXDOMAIN
 local-zone: "yyqrofyyvjfyo.space" NXDOMAIN
 local-zone: "yyroyyipsitcf.site" NXDOMAIN
+local-zone: "yyvvkczsfrlkn.online" NXDOMAIN
 local-zone: "yyxaooxwjxofv.space" NXDOMAIN
 local-zone: "yyxnoegkqkavu.space" NXDOMAIN
 local-zone: "yyxpearkrincp.site" NXDOMAIN
@@ -35191,7 +35281,6 @@ local-zone: "zangocash.com" NXDOMAIN
 local-zone: "zanypotential.com" NXDOMAIN
 local-zone: "zaoymyowyehjk.online" NXDOMAIN
 local-zone: "zapcwcnbcnmjo.space" NXDOMAIN
-local-zone: "zapkjnzbcwrob.space" NXDOMAIN
 local-zone: "zapotezincky.com" NXDOMAIN
 local-zone: "zaqxmbjhdyvmx.website" NXDOMAIN
 local-zone: "zargfqoxakpoo.online" NXDOMAIN
@@ -35333,6 +35422,7 @@ local-zone: "zgdpbluaecobd.space" NXDOMAIN
 local-zone: "zgdtldkyevtdw.space" NXDOMAIN
 local-zone: "zgegvpswvuaec.site" NXDOMAIN
 local-zone: "zgeudikcnrlho.space" NXDOMAIN
+local-zone: "zgexbduodkzeu.space" NXDOMAIN
 local-zone: "zgfubuaenxdzl.site" NXDOMAIN
 local-zone: "zgfyftltnhkgs.website" NXDOMAIN
 local-zone: "zggphctvgvisx.site" NXDOMAIN
@@ -35558,7 +35648,6 @@ local-zone: "zottjlemsnnrj.website" NXDOMAIN
 local-zone: "zouyfpkgawryi.online" NXDOMAIN
 local-zone: "zovidree.com" NXDOMAIN
 local-zone: "zowcdcnlpcxla.online" NXDOMAIN
-local-zone: "zpdsdwcfb.com" NXDOMAIN
 local-zone: "zpgnipitynywq.space" NXDOMAIN
 local-zone: "zpgtcgqdycckj.online" NXDOMAIN
 local-zone: "zpifugiaprqwn.store" NXDOMAIN
@@ -35635,6 +35724,7 @@ local-zone: "zshjukefzjlcs.website" NXDOMAIN
 local-zone: "zshmxmqikyzsw.online" NXDOMAIN
 local-zone: "zshukagtdzstb.online" NXDOMAIN
 local-zone: "zsiezzoevasxb.space" NXDOMAIN
+local-zone: "zsiuorvrnkpbw.website" NXDOMAIN
 local-zone: "zsleznwqqjcjw.site" NXDOMAIN
 local-zone: "zsnlodckthbjz.online" NXDOMAIN
 local-zone: "zsnrhqltxmsdp.site" NXDOMAIN
@@ -35643,7 +35733,6 @@ local-zone: "zsoizzlzhfsas.online" NXDOMAIN
 local-zone: "zsojxqnwplhim.online" NXDOMAIN
 local-zone: "zsqsrxnbnnsat.online" NXDOMAIN
 local-zone: "zsszrgvbeisuv.space" NXDOMAIN
-local-zone: "zstfxyiijfsiy.space" NXDOMAIN
 local-zone: "zsuejpybfctjl.website" NXDOMAIN
 local-zone: "zsvgzjokrypla.online" NXDOMAIN
 local-zone: "zsxlvqcwdpmto.online" NXDOMAIN
@@ -35761,7 +35850,6 @@ local-zone: "zxjnlsqprjjqo.space" NXDOMAIN
 local-zone: "zxjshtdjvtfhb.site" NXDOMAIN
 local-zone: "zxmkhbsmmuikc.online" NXDOMAIN
 local-zone: "zxnymrendoxms.space" NXDOMAIN
-local-zone: "zxokndyjenmgz.online" NXDOMAIN
 local-zone: "zxqvocyhiggng.site" NXDOMAIN
 local-zone: "zxrntgssqzdre.space" NXDOMAIN
 local-zone: "zxsvveyeixhmm.space" NXDOMAIN
@@ -35807,6 +35895,7 @@ local-zone: "zzvvdnorisful.space" NXDOMAIN
 local-zone: "zzwoijqhphevn.site" NXDOMAIN
 local-zone: "zzxvxomlkpvcl.website" NXDOMAIN
 local-zone: "zzxzemoirgkui.website" NXDOMAIN
+local-zone: "zzybrnbumgxif.space" NXDOMAIN
 local-zone: "zzzmjfixezere.site" NXDOMAIN
 local-zone: "zzzmxvoxooaat.site" NXDOMAIN
 local-zone: "cdnweb3.pages.dev" NXDOMAIN
@@ -37005,7 +37094,6 @@ local-zone: "punctualbut.com" NXDOMAIN
 local-zone: "puzzledrally.com" NXDOMAIN
 local-zone: "quietlythough.com" NXDOMAIN
 local-zone: "rampfat.com" NXDOMAIN
-local-zone: "referwhen.com" NXDOMAIN
 local-zone: "scientificfor.com" NXDOMAIN
 local-zone: "scowlswitchmore.com" NXDOMAIN
 local-zone: "sincedialover.com" NXDOMAIN
@@ -135208,6 +135296,8 @@ local-zone: "twiz.wizaly.fr" NXDOMAIN
 local-zone: "wiz.sncf-connect.com" NXDOMAIN
 local-zone: "wz.allianz.fr" NXDOMAIN
 local-zone: "d1udjti6mtxz9q.cloudfront.net" NXDOMAIN
+local-zone: "analytics.sportigio.com" NXDOMAIN
+local-zone: "bzr.openai.com" NXDOMAIN
 local-zone: "rlog.baifentan.com" NXDOMAIN
 local-zone: "analytics.laxamentum.tech" NXDOMAIN
 local-zone: "u.omgjav.com" NXDOMAIN
@@ -138828,7 +138918,6 @@ local-zone: "botdetection.hbrsd.com" NXDOMAIN
 local-zone: "bs.yandex.ru" NXDOMAIN
 local-zone: "buffet.identityservices.io" NXDOMAIN
 local-zone: "bundle.9gtb.com" NXDOMAIN
-local-zone: "bzr.openai.com" NXDOMAIN
 local-zone: "c.amazinglybrilliant.com.au" NXDOMAIN
 local-zone: "c.live.com" NXDOMAIN
 local-zone: "c.trkn.it" NXDOMAIN
@@ -139543,6 +139632,7 @@ local-zone: "dr6vcclmzwk74.cloudfront.net" NXDOMAIN
 local-zone: "dty0ycn35t4d2.cloudfront.net" NXDOMAIN
 local-zone: "du4rq1xqh3i1k.cloudfront.net" NXDOMAIN
 local-zone: "duu8lzqdm8tsz.cloudfront.net" NXDOMAIN
+local-zone: "duvkog4eyegl0.cloudfront.net" NXDOMAIN
 local-zone: "dy2xcjk8s1dbz.cloudfront.net" NXDOMAIN
 local-zone: "dzgwautxzdtn9.cloudfront.net" NXDOMAIN
 local-zone: "ascpqnj-oam.global.ssl.fastly.net" NXDOMAIN
@@ -141288,6 +141378,7 @@ local-zone: "rentpenny.com" NXDOMAIN
 local-zone: "repeatsweater.com" NXDOMAIN
 local-zone: "repfineart.com" NXDOMAIN
 local-zone: "replaceroute.com" NXDOMAIN
+local-zone: "replantable.com" NXDOMAIN
 local-zone: "republicfarm.net" NXDOMAIN
 local-zone: "rescueothers.com" NXDOMAIN
 local-zone: "rescuerhino.com" NXDOMAIN
@@ -141484,6 +141575,7 @@ local-zone: "silentcredit.com" NXDOMAIN
 local-zone: "silentjackal.com" NXDOMAIN
 local-zone: "silentsingle.com" NXDOMAIN
 local-zone: "siliconslow.com" NXDOMAIN
+local-zone: "siliconuser.com" NXDOMAIN
 local-zone: "sillyscrew.com" NXDOMAIN
 local-zone: "simplenaming.com" NXDOMAIN
 local-zone: "simplesafari.com" NXDOMAIN
@@ -141520,6 +141612,7 @@ local-zone: "slimsense.net" NXDOMAIN
 local-zone: "slinksuggestion.com" NXDOMAIN
 local-zone: "slopesoap.com" NXDOMAIN
 local-zone: "smallershops.com" NXDOMAIN
+local-zone: "smartbuildnow.com" NXDOMAIN
 local-zone: "smashquartz.com" NXDOMAIN
 local-zone: "smashshoe.com" NXDOMAIN
 local-zone: "smashsurprise.com" NXDOMAIN
@@ -141675,6 +141768,7 @@ local-zone: "stocktheme.com" NXDOMAIN
 local-zone: "stomachscience.com" NXDOMAIN
 local-zone: "stonepole.com" NXDOMAIN
 local-zone: "stonetumble.com" NXDOMAIN
+local-zone: "stopcast.net" NXDOMAIN
 local-zone: "stopstomach.com" NXDOMAIN
 local-zone: "straightnest.com" NXDOMAIN
 local-zone: "straindrinks.com" NXDOMAIN
@@ -142426,6 +142520,7 @@ local-zone: "stat.clichehosting.de" NXDOMAIN
 local-zone: "statistics.klicktel.de" NXDOMAIN
 local-zone: "statistik.motorpresse.de" NXDOMAIN
 local-zone: "statistik.simaja.de" NXDOMAIN
+local-zone: "stats.betternet.de" NXDOMAIN
 local-zone: "stats.blogoscoop.net" NXDOMAIN
 local-zone: "stats.clickforknowledge.com" NXDOMAIN
 local-zone: "stats.digital-natives.de" NXDOMAIN
@@ -142508,6 +142603,7 @@ local-zone: "pr.nss.netease.com" NXDOMAIN
 local-zone: "report.meituan.com" NXDOMAIN
 local-zone: "ssac.suning.com" NXDOMAIN
 local-zone: "stat.ws.126.net" NXDOMAIN
+local-zone: "stat.youpin.mi.com" NXDOMAIN
 local-zone: "sugs.m.sm.cn" NXDOMAIN
 local-zone: "tce.alicdn.com" NXDOMAIN
 local-zone: "tr.n2.hk" NXDOMAIN
@@ -142803,6 +142899,8 @@ local-zone: "smartclip.net" NXDOMAIN
 local-zone: "softclick.com.br" NXDOMAIN
 local-zone: "solution911.com" NXDOMAIN
 local-zone: "templates.buscape.com" NXDOMAIN
+local-zone: "nevalyashka.link" NXDOMAIN
+local-zone: "aj2663.bid" NXDOMAIN
 local-zone: "sentry.rstprgapipt.com" NXDOMAIN
 local-zone: "vertiguzha.link" NXDOMAIN
 local-zone: "crmared.com" NXDOMAIN
@@ -146234,6 +146332,7 @@ local-zone: "chamsockhachang.com" NXDOMAIN
 local-zone: "chanle79.me" NXDOMAIN
 local-zone: "chanlemomo.vin" NXDOMAIN
 local-zone: "chanlemomo.zyrosite.com" NXDOMAIN
+local-zone: "check-products.org" NXDOMAIN
 local-zone: "chuongtrinhgionghaatvietnhii2021.weebly.com" NXDOMAIN
 local-zone: "chuongtrinhgionghatvietnamnhi2021.weebly.com" NXDOMAIN
 local-zone: "chuyendoitienquote-nhantien24h.weebly.com" NXDOMAIN
@@ -146309,6 +146408,7 @@ local-zone: "elitiorecfreetoo.cc" NXDOMAIN
 local-zone: "emoney2017.com" NXDOMAIN
 local-zone: "emoneyspace.com" NXDOMAIN
 local-zone: "employee.mywire.org" NXDOMAIN
+local-zone: "en-ledger.com" NXDOMAIN
 local-zone: "essbritanidim.club" NXDOMAIN
 local-zone: "evay.info" NXDOMAIN
 local-zone: "eximbank.xyz" NXDOMAIN
@@ -146996,6 +147096,10 @@ local-zone: "tulajdonostol.com" NXDOMAIN
 local-zone: "webminute.hu" NXDOMAIN
 local-zone: "hash.trafficmanager.net" NXDOMAIN
 local-zone: "cnzz.trafficmanager.net" NXDOMAIN
+local-zone: "dan4irc1i.com" NXDOMAIN
+local-zone: "rsrldrnubehntu.com" NXDOMAIN
+local-zone: "5jj6zcxpo.com" NXDOMAIN
+local-zone: "zri2wv8u1.com" NXDOMAIN
 local-zone: "4k3nzijpm0.com" NXDOMAIN
 local-zone: "tpvqrzryebtfhu.com" NXDOMAIN
 local-zone: "03mnj87wir.com" NXDOMAIN
@@ -151815,25 +151919,15 @@ local-zone: "s.zkcdn.net" NXDOMAIN
 local-zone: "bdad.123pan.cn" NXDOMAIN
 local-zone: "alipromo.com" NXDOMAIN
 local-zone: "alitems.com" NXDOMAIN
-local-zone: "axxhogvlydesy.site" NXDOMAIN
 local-zone: "buyeasy.by" NXDOMAIN
-local-zone: "elntlrutxdavp.online" NXDOMAIN
 local-zone: "imasdk.googleapis.com" NXDOMAIN
-local-zone: "jvrnjnwovuynf.com" NXDOMAIN
-local-zone: "kxkicrbtclkhr.website" NXDOMAIN
 local-zone: "loadercdn.com" NXDOMAIN
 local-zone: "monetag.com" NXDOMAIN
 local-zone: "ojrq.net" NXDOMAIN
-local-zone: "owjltsnxaoetm.site" NXDOMAIN
 local-zone: "redirectingat.com" NXDOMAIN
 local-zone: "rubiconproject.com" NXDOMAIN
-local-zone: "spazdxocserwy.website" NXDOMAIN
 local-zone: "totaladblock.com" NXDOMAIN
-local-zone: "vbaknyfhgkayf.space" NXDOMAIN
-local-zone: "vpfjruhgzfjy.com" NXDOMAIN
-local-zone: "vwfspzlxijfwh.website" NXDOMAIN
 local-zone: "wpnrtnmrewunrtok.xyz" NXDOMAIN
-local-zone: "ypwleucghfbka.site" NXDOMAIN
 local-zone: "html-load.cc" NXDOMAIN
 local-zone: "srv.tunefindforfans.com" NXDOMAIN
 local-zone: "smartclip.com" NXDOMAIN
@@ -157710,6 +157804,8 @@ local-zone: "clientlog.music.163.com" NXDOMAIN
 local-zone: "count.candou.com" NXDOMAIN
 local-zone: "count5.pconline.com.cn" NXDOMAIN
 local-zone: "counter.people.cn" NXDOMAIN
+local-zone: "countly.mail.163.com" NXDOMAIN
+local-zone: "cstaticdun.126.net" NXDOMAIN
 local-zone: "cstm.baidu.com" NXDOMAIN
 local-zone: "data.bilibili.com" NXDOMAIN
 local-zone: "df.huya.com" NXDOMAIN
@@ -157770,6 +157866,7 @@ local-zone: "t.home.news.cn" NXDOMAIN
 local-zone: "tj.img4399.com" NXDOMAIN
 local-zone: "tk.d.mi.com" NXDOMAIN
 local-zone: "tongji.mafengwo.cn" NXDOMAIN
+local-zone: "tongji.meizu.com" NXDOMAIN
 local-zone: "tongji.techweb.com.cn" NXDOMAIN
 local-zone: "tongji.xinmin.cn" NXDOMAIN
 local-zone: "tr.price.com.hk" NXDOMAIN
@@ -158222,7 +158319,6 @@ local-zone: "272829.cc" NXDOMAIN
 local-zone: "27admin.com" NXDOMAIN
 local-zone: "2a.com.cn" NXDOMAIN
 local-zone: "2bj.cn" NXDOMAIN
-local-zone: "2bxvrc1.com" NXDOMAIN
 local-zone: "t.2d-c.cn" NXDOMAIN
 local-zone: "2hiu.com" NXDOMAIN
 local-zone: "2miners.com" NXDOMAIN
@@ -158456,6 +158552,7 @@ local-zone: "6604.org" NXDOMAIN
 local-zone: "661291.com" NXDOMAIN
 local-zone: "6613167.cn" NXDOMAIN
 local-zone: "66666119.com" NXDOMAIN
+local-zone: "sdk-track.66mobi.com" NXDOMAIN
 local-zone: "attach.66rpg.com" NXDOMAIN
 local-zone: "66wen.com" NXDOMAIN
 local-zone: "6711.com" NXDOMAIN
@@ -158654,7 +158751,6 @@ local-zone: "acgbenzi.com" NXDOMAIN
 local-zone: "acloud.com" NXDOMAIN
 local-zone: "acoxcv.cn" NXDOMAIN
 local-zone: "acpprograms.org" NXDOMAIN
-local-zone: "acrilicoporto.pt" NXDOMAIN
 local-zone: "acsbap.com" NXDOMAIN
 local-zone: "acstat.com" NXDOMAIN
 local-zone: "actionbutton.co" NXDOMAIN
@@ -158691,10 +158787,12 @@ local-zone: "adfoc.us" NXDOMAIN
 local-zone: "adfox.ru" NXDOMAIN
 local-zone: "adfunds.org" NXDOMAIN
 local-zone: "adfunlink.com" NXDOMAIN
+local-zone: "xadsmartget.adgain.cn" NXDOMAIN
 local-zone: "media.adget.cn" NXDOMAIN
 local-zone: "adgoji.com" NXDOMAIN
 local-zone: "adhai.com" NXDOMAIN
 local-zone: "adhouyi.com" NXDOMAIN
+local-zone: "sdk.adhuanxiao.com" NXDOMAIN
 local-zone: "display.adhudong.com" NXDOMAIN
 local-zone: "l.adiers.com" NXDOMAIN
 local-zone: "adinall.com" NXDOMAIN
@@ -158927,7 +159025,6 @@ local-zone: "allergodil.hu" NXDOMAIN
 local-zone: "allxing.net" NXDOMAIN
 local-zone: "allyes.cn" NXDOMAIN
 local-zone: "connect.api.almirall.com" NXDOMAIN
-local-zone: "alphapicaficagency.com" NXDOMAIN
 local-zone: "altabold1.com" NXDOMAIN
 local-zone: "alternativas.ru" NXDOMAIN
 local-zone: "marketing.altn.com" NXDOMAIN
@@ -158945,7 +159042,6 @@ local-zone: "campaign-tapad.s3.amazonaws.com" NXDOMAIN
 local-zone: "html5adkit.plusmo.s3.amazonaws.com" NXDOMAIN
 local-zone: "iacpromotion.s3.amazonaws.com" NXDOMAIN
 local-zone: "inneractive-assets.s3.amazonaws.com" NXDOMAIN
-local-zone: "kong07.s3.us-east-1.amazonaws.com" NXDOMAIN
 local-zone: "strikeadcdn.s3.amazonaws.com" NXDOMAIN
 local-zone: "checkip.amazonaws.com" NXDOMAIN
 local-zone: "log.amemv.com" NXDOMAIN
@@ -159038,6 +159134,7 @@ local-zone: "atpanel.com" NXDOMAIN
 local-zone: "atplay.cn" NXDOMAIN
 local-zone: "atsptp.com" NXDOMAIN
 local-zone: "attributionapp.com" NXDOMAIN
+local-zone: "users.atw.hu" NXDOMAIN
 local-zone: "au737.com" NXDOMAIN
 local-zone: "audicontadores.com" NXDOMAIN
 local-zone: "audioadx.com" NXDOMAIN
@@ -159526,6 +159623,7 @@ local-zone: "tf.caohua.com" NXDOMAIN
 local-zone: "tfssl.caohua.com" NXDOMAIN
 local-zone: "capcap621.cn" NXDOMAIN
 local-zone: "cappushino.com" NXDOMAIN
+local-zone: "booking.captcha-message-extranet.com" NXDOMAIN
 local-zone: "capturly.com" NXDOMAIN
 local-zone: "car156.net" NXDOMAIN
 local-zone: "baidua1.cardbaobao.com" NXDOMAIN
@@ -159592,7 +159690,6 @@ local-zone: "channeladvisor.com" NXDOMAIN
 local-zone: "soft.chaomeng8.com" NXDOMAIN
 local-zone: "j.chaorenjiaoshi.com" NXDOMAIN
 local-zone: "1.chcx.cn" NXDOMAIN
-local-zone: "checkfivem.com" NXDOMAIN
 local-zone: "checkreferrer.io" NXDOMAIN
 local-zone: "cheetoclient.com" NXDOMAIN
 local-zone: "atrace.chelaile.net.cn" NXDOMAIN
@@ -159631,7 +159728,6 @@ local-zone: "chinauma.net" NXDOMAIN
 local-zone: "stats.chinaz.com" NXDOMAIN
 local-zone: "chinazmob.com" NXDOMAIN
 local-zone: "chinesean.com" NXDOMAIN
-local-zone: "chiptune.com" NXDOMAIN
 local-zone: "chiq-cloud.com" NXDOMAIN
 local-zone: "chiroartist.com" NXDOMAIN
 local-zone: "chlbiz.com" NXDOMAIN
@@ -159754,7 +159850,6 @@ local-zone: "cnyibs.com" NXDOMAIN
 local-zone: "cnzz.cn" NXDOMAIN
 local-zone: "nusatoyota.co.id" NXDOMAIN
 local-zone: "tp.triple.co.il" NXDOMAIN
-local-zone: "150.co.il" NXDOMAIN
 local-zone: "netcore.co.in" NXDOMAIN
 local-zone: "higreens.co.in" NXDOMAIN
 local-zone: "upchemicals.co.in" NXDOMAIN
@@ -159979,6 +160074,7 @@ local-zone: "datacaciques.com" NXDOMAIN
 local-zone: "datacoral.com" NXDOMAIN
 local-zone: "datadoghq.eu" NXDOMAIN
 local-zone: "datadome.co" NXDOMAIN
+local-zone: "adsmartget.datads.cn" NXDOMAIN
 local-zone: "datadsk.com" NXDOMAIN
 local-zone: "datafront.co" NXDOMAIN
 local-zone: "api.consentjs.datagrail.io" NXDOMAIN
@@ -160084,9 +160180,10 @@ local-zone: "omnikool.discovery.com" NXDOMAIN
 local-zone: "displink.com" NXDOMAIN
 local-zone: "polls.services.disqus.com" NXDOMAIN
 local-zone: "divvanews.com" NXDOMAIN
+local-zone: "pica-a-display.diwodiwo.xyz" NXDOMAIN
+local-zone: "pica-ad-api.diwodiwo.xyz" NXDOMAIN
 local-zone: "ad-channel.diwodiwo.xyz" NXDOMAIN
 local-zone: "ad-display.diwodiwo.xyz" NXDOMAIN
-local-zone: "pica-ad-api.diwodiwo.xyz" NXDOMAIN
 local-zone: "diwuyu.com" NXDOMAIN
 local-zone: "dkeyn.com" NXDOMAIN
 local-zone: "dkjn1bal2.com" NXDOMAIN
@@ -160106,6 +160203,7 @@ local-zone: "dnset.com" NXDOMAIN
 local-zone: "info.meihua.docer.com" NXDOMAIN
 local-zone: "doceree.com" NXDOMAIN
 local-zone: "fpb.docin.com" NXDOMAIN
+local-zone: "oim.doganltd.com.tr" NXDOMAIN
 local-zone: "doglobal.com" NXDOMAIN
 local-zone: "doglobal.net" NXDOMAIN
 local-zone: "dojomojo.com" NXDOMAIN
@@ -160174,7 +160272,9 @@ local-zone: "duanat.com" NXDOMAIN
 local-zone: "src.duanxin520.com" NXDOMAIN
 local-zone: "androidgo.duapp.com" NXDOMAIN
 local-zone: "bu2.duba.com" NXDOMAIN
+local-zone: "ertdyfiabwggujakd.duckdns.org" NXDOMAIN
 local-zone: "lifeisabouthavingfun448.duckdns.org" NXDOMAIN
+local-zone: "out-agent.duckdns.org" NXDOMAIN
 local-zone: "tiwanlinm.duckdns.org" NXDOMAIN
 local-zone: "duct-master.com" NXDOMAIN
 local-zone: "dugesheying.com" NXDOMAIN
@@ -160666,7 +160766,6 @@ local-zone: "cp.ggyapp.com" NXDOMAIN
 local-zone: "shqdown.ggzuhao.com" NXDOMAIN
 local-zone: "stats.dmp.ghac.cn" NXDOMAIN
 local-zone: "ghmproperties.com" NXDOMAIN
-local-zone: "ghostclient.net" NXDOMAIN
 local-zone: "cookies.giant.cz" NXDOMAIN
 local-zone: "log-sdk.gifshow.com" NXDOMAIN
 local-zone: "ulogjs.gifshow.com" NXDOMAIN
@@ -160700,6 +160799,7 @@ local-zone: "m.gjiak.com" NXDOMAIN
 local-zone: "e.gk277.cn" NXDOMAIN
 local-zone: "m.gk277.cn" NXDOMAIN
 local-zone: "gl.ink" NXDOMAIN
+local-zone: "glbeletronica.com.br" NXDOMAIN
 local-zone: "a.glcdn.co" NXDOMAIN
 local-zone: "globalbank.us" NXDOMAIN
 local-zone: "seal.globalsign.com" NXDOMAIN
@@ -160733,6 +160833,7 @@ local-zone: "promotion.gomlab.com" NXDOMAIN
 local-zone: "sdn.gongkao.hn.cn" NXDOMAIN
 local-zone: "gongyichuangyi.net" NXDOMAIN
 local-zone: "e.goodgz.cn" NXDOMAIN
+local-zone: "cdn.file6.goodid.com" NXDOMAIN
 local-zone: "goodmeasure.io" NXDOMAIN
 local-zone: "goodreviews.io" NXDOMAIN
 local-zone: "adsense.google.cn" NXDOMAIN
@@ -161094,6 +161195,7 @@ local-zone: "sdk.hzsanjiaomao.com" NXDOMAIN
 local-zone: "m.hzuic.com" NXDOMAIN
 local-zone: "hzxfmc.com" NXDOMAIN
 local-zone: "hzyuw.com" NXDOMAIN
+local-zone: "sdk.hzzfcm.com" NXDOMAIN
 local-zone: "fgp.i8l7tg.cn" NXDOMAIN
 local-zone: "iadpush.com" NXDOMAIN
 local-zone: "m.iangp.com" NXDOMAIN
@@ -161177,8 +161279,6 @@ local-zone: "cookieapi2.incomit.dk" NXDOMAIN
 local-zone: "increasingly.co" NXDOMAIN
 local-zone: "dlres.ind9ed.com" NXDOMAIN
 local-zone: "ssp.indexmob.com" NXDOMAIN
-local-zone: "indonesias.me" NXDOMAIN
-local-zone: "indusenterprises.co" NXDOMAIN
 local-zone: "inferclick.com" NXDOMAIN
 local-zone: "infineon-community.com" NXDOMAIN
 local-zone: "infoprodata.com" NXDOMAIN
@@ -161339,7 +161439,6 @@ local-zone: "japps.cn" NXDOMAIN
 local-zone: "jasmin.com" NXDOMAIN
 local-zone: "jav23.com" NXDOMAIN
 local-zone: "static.javhd.com" NXDOMAIN
-local-zone: "jawaratekno.com" NXDOMAIN
 local-zone: "icws.jb51.net" NXDOMAIN
 local-zone: "jbcbio.cn" NXDOMAIN
 local-zone: "jbflil.cn" NXDOMAIN
@@ -161612,7 +161711,6 @@ local-zone: "a.koudai.com" NXDOMAIN
 local-zone: "tj.koudaitong.com" NXDOMAIN
 local-zone: "kpr2exp21.com" NXDOMAIN
 local-zone: "bundle.kpzip.com" NXDOMAIN
-local-zone: "d.kpzip.com" NXDOMAIN
 local-zone: "mininews.kpzip.com" NXDOMAIN
 local-zone: "krakenoptimize.com" NXDOMAIN
 local-zone: "krpano.org" NXDOMAIN
@@ -161869,7 +161967,6 @@ local-zone: "loldyttw.net" NXDOMAIN
 local-zone: "lomark.cn" NXDOMAIN
 local-zone: "lomejordesalamanca.es" NXDOMAIN
 local-zone: "longterminvestmentsolutions.com" NXDOMAIN
-local-zone: "loop-lumen.com" NXDOMAIN
 local-zone: "loopa.net.au" NXDOMAIN
 local-zone: "looyu.com" NXDOMAIN
 local-zone: "loupan99.com" NXDOMAIN
@@ -162110,7 +162207,6 @@ local-zone: "sentry.mindbox.ru" NXDOMAIN
 local-zone: "mindmanager.cn" NXDOMAIN
 local-zone: "mindmapper.cc" NXDOMAIN
 local-zone: "ccm19.mindpark.at" NXDOMAIN
-local-zone: "minecraft-cheats.com" NXDOMAIN
 local-zone: "minero.cc" NXDOMAIN
 local-zone: "minescripts.info" NXDOMAIN
 local-zone: "a1.mingyihui.net" NXDOMAIN
@@ -162312,7 +162408,6 @@ local-zone: "static.live.nagezan.net" NXDOMAIN
 local-zone: "ytapi1.nagezan.net" NXDOMAIN
 local-zone: "namaacont.com" NXDOMAIN
 local-zone: "namedq.com" NXDOMAIN
-local-zone: "namuvpn.com" NXDOMAIN
 local-zone: "logs.nandu.com" NXDOMAIN
 local-zone: "1.nanrenwo.net" NXDOMAIN
 local-zone: "2.nanrenwo.net" NXDOMAIN
@@ -162539,6 +162634,7 @@ local-zone: "u.oppomobile.com" NXDOMAIN
 local-zone: "adsfs-in.oppomobile.com" NXDOMAIN
 local-zone: "httpdns.push.oppomobile.com" NXDOMAIN
 local-zone: "api.open.oppomobile.com" NXDOMAIN
+local-zone: "opsecmod.st" NXDOMAIN
 local-zone: "optimonk.com" NXDOMAIN
 local-zone: "optimove.net" NXDOMAIN
 local-zone: "optkit.com" NXDOMAIN
@@ -162584,6 +162680,7 @@ local-zone: "page2rss.com" NXDOMAIN
 local-zone: "pagechoice.com" NXDOMAIN
 local-zone: "pagechoice.net" NXDOMAIN
 local-zone: "pageimprove.io" NXDOMAIN
+local-zone: "palharesinformatica.com.br" NXDOMAIN
 local-zone: "palm-ad.cn" NXDOMAIN
 local-zone: "connect.panarottis.co.za" NXDOMAIN
 local-zone: "pangle.cn" NXDOMAIN
@@ -162612,7 +162709,6 @@ local-zone: "pbgrd.com" NXDOMAIN
 local-zone: "m.pcaoo.com" NXDOMAIN
 local-zone: "ivy.pcauto.com.cn" NXDOMAIN
 local-zone: "down.pcclear.com" NXDOMAIN
-local-zone: "14-0-204-188.static.pccw-hkt.com" NXDOMAIN
 local-zone: "pcidata.cn" NXDOMAIN
 local-zone: "count6.pconline.com.cn" NXDOMAIN
 local-zone: "imgad0.pconline.com.cn" NXDOMAIN
@@ -162721,7 +162817,6 @@ local-zone: "jtug.code.poyang.com" NXDOMAIN
 local-zone: "log.cs.pp.cn" NXDOMAIN
 local-zone: "server.m.pp.cn" NXDOMAIN
 local-zone: "smi.pp.ua" NXDOMAIN
-local-zone: "del.sou.pp.ua" NXDOMAIN
 local-zone: "pp385.com" NXDOMAIN
 local-zone: "pp9899.com" NXDOMAIN
 local-zone: "ppa18.com" NXDOMAIN
@@ -162753,6 +162848,7 @@ local-zone: "premiumimpression.com" NXDOMAIN
 local-zone: "prepstarcenter.com" NXDOMAIN
 local-zone: "registration.presonus.com" NXDOMAIN
 local-zone: "prestige-client.org" NXDOMAIN
+local-zone: "prestigeclient.st" NXDOMAIN
 local-zone: "aos-creative.prf.hn" NXDOMAIN
 local-zone: "aos.prf.hn" NXDOMAIN
 local-zone: "t.pridat.eu" NXDOMAIN
@@ -162770,6 +162866,7 @@ local-zone: "consent.prointernet.com" NXDOMAIN
 local-zone: "endpoint.project0.cc" NXDOMAIN
 local-zone: "projetodegente.com" NXDOMAIN
 local-zone: "propush.net" NXDOMAIN
+local-zone: "protherapycenter.com" NXDOMAIN
 local-zone: "d.provenexpert.net" NXDOMAIN
 local-zone: "provesrc.com" NXDOMAIN
 local-zone: "provify.io" NXDOMAIN
@@ -163045,6 +163142,7 @@ local-zone: "qq4g.cn" NXDOMAIN
 local-zone: "qq61.com" NXDOMAIN
 local-zone: "qq937.com" NXDOMAIN
 local-zone: "qqdwz.com" NXDOMAIN
+local-zone: "down.qqfarmer.com.cn" NXDOMAIN
 local-zone: "5.qqm98.com" NXDOMAIN
 local-zone: "sdk-ab-config.qquanquan.com" NXDOMAIN
 local-zone: "tracelog-debug.qquanquan.com" NXDOMAIN
@@ -163166,7 +163264,6 @@ local-zone: "reprocautious.com" NXDOMAIN
 local-zone: "research.net" NXDOMAIN
 local-zone: "researchintel.com" NXDOMAIN
 local-zone: "reservphotoinstay.one" NXDOMAIN
-local-zone: "reservphotoinstaynow.shop" NXDOMAIN
 local-zone: "resetdigital.co" NXDOMAIN
 local-zone: "resulticks.com" NXDOMAIN
 local-zone: "retargetapp.com" NXDOMAIN
@@ -163182,7 +163279,6 @@ local-zone: "revsci.net" NXDOMAIN
 local-zone: "rexuebi.com" NXDOMAIN
 local-zone: "rgyun.com" NXDOMAIN
 local-zone: "m.rhcapass.com" NXDOMAIN
-local-zone: "rheddh.com" NXDOMAIN
 local-zone: "consent2.rheinische-anzeigenblaetter.de" NXDOMAIN
 local-zone: "rightmessage.com" NXDOMAIN
 local-zone: "132.red-81-42-249.staticip.rima-tde.net" NXDOMAIN
@@ -163306,7 +163402,6 @@ local-zone: "scorespro.com" NXDOMAIN
 local-zone: "m.scoue.com" NXDOMAIN
 local-zone: "scoutle.com" NXDOMAIN
 local-zone: "screen13.com" NXDOMAIN
-local-zone: "kbskitchen1.screenconnect.com" NXDOMAIN
 local-zone: "paretandassociates.screenconnect.com" NXDOMAIN
 local-zone: "students16.screenconnect.com" NXDOMAIN
 local-zone: "screenconnect.pro" NXDOMAIN
@@ -163352,7 +163447,6 @@ local-zone: "senzapudore.it" NXDOMAIN
 local-zone: "senzari.com" NXDOMAIN
 local-zone: "seon.io" NXDOMAIN
 local-zone: "seordl.cn" NXDOMAIN
-local-zone: "seputartuban.com" NXDOMAIN
 local-zone: "serv-ac.com" NXDOMAIN
 local-zone: "service-cmp.com" NXDOMAIN
 local-zone: "sessionstack.com" NXDOMAIN
@@ -163417,9 +163511,7 @@ local-zone: "tt.shxinjie.cn" NXDOMAIN
 local-zone: "sidelinesapp.com" NXDOMAIN
 local-zone: "sifakaoshi360.com" NXDOMAIN
 local-zone: "sift.com" NXDOMAIN
-local-zone: "sigmaclient.net" NXDOMAIN
 local-zone: "sigmob.com" NXDOMAIN
-local-zone: "signalfx.com" NXDOMAIN
 local-zone: "signaly.co" NXDOMAIN
 local-zone: "signatu.com" NXDOMAIN
 local-zone: "silver-hubdachwohnwagen.de" NXDOMAIN
@@ -163461,7 +163553,6 @@ local-zone: "slog.sina.com.cn" NXDOMAIN
 local-zone: "asd.sincetrade.com" NXDOMAIN
 local-zone: "adsys.sinovision.net" NXDOMAIN
 local-zone: "sirdata.eu" NXDOMAIN
-local-zone: "sirenasultana.com" NXDOMAIN
 local-zone: "siteplug.com" NXDOMAIN
 local-zone: "siteswithcontent.com" NXDOMAIN
 local-zone: "privacy-cdn.sixfifty.com" NXDOMAIN
@@ -163472,6 +163563,7 @@ local-zone: "sk-comtel.com" NXDOMAIN
 local-zone: "skyblock-addons.com" NXDOMAIN
 local-zone: "skyblock-extras.org" NXDOMAIN
 local-zone: "skyjh.cn" NXDOMAIN
+local-zone: "skymoders.top" NXDOMAIN
 local-zone: "skysa.com" NXDOMAIN
 local-zone: "sleeknote.com" NXDOMAIN
 local-zone: "slidedeck.com" NXDOMAIN
@@ -163677,7 +163769,6 @@ local-zone: "streammobs.com" NXDOMAIN
 local-zone: "streamsend.com" NXDOMAIN
 local-zone: "streamspread.com" NXDOMAIN
 local-zone: "streem.com.au" NXDOMAIN
-local-zone: "studiogioeli.it" NXDOMAIN
 local-zone: "gdpr.studybreakmedia.com" NXDOMAIN
 local-zone: "consent.stuff.tv" NXDOMAIN
 local-zone: "stuowq.cn" NXDOMAIN
@@ -163755,9 +163846,9 @@ local-zone: "t2click.com" NXDOMAIN
 local-zone: "ta80.com" NXDOMAIN
 local-zone: "tadpull.com" NXDOMAIN
 local-zone: "taggrs.io" NXDOMAIN
-local-zone: "en.taichuan.com" NXDOMAIN
 local-zone: "h5.taihao.cc" NXDOMAIN
 local-zone: "glores2.taisantech.com" NXDOMAIN
+local-zone: "talkandtypeapp.com" NXDOMAIN
 local-zone: "talkingdata.com" NXDOMAIN
 local-zone: "talkingdata.com.cn" NXDOMAIN
 local-zone: "tamedia.com.tw" NXDOMAIN
@@ -163913,6 +164004,7 @@ local-zone: "thecounter.com" NXDOMAIN
 local-zone: "consent.thecountrysmallholder.com" NXDOMAIN
 local-zone: "alerts.thedailystar.net" NXDOMAIN
 local-zone: "consent.thegreatoutdoorsmag.com" NXDOMAIN
+local-zone: "thehaider.com" NXDOMAIN
 local-zone: "theholidayroads.com" NXDOMAIN
 local-zone: "thejierou.net" NXDOMAIN
 local-zone: "jobs.thejobnetwork.com" NXDOMAIN
@@ -163994,7 +164086,6 @@ local-zone: "top100.ru" NXDOMAIN
 local-zone: "top8onlinegame.com" NXDOMAIN
 local-zone: "topacad.com" NXDOMAIN
 local-zone: "topitme.com" NXDOMAIN
-local-zone: "topmark-tuitioncentre.co.uk" NXDOMAIN
 local-zone: "toponad.com" NXDOMAIN
 local-zone: "topstat.cn" NXDOMAIN
 local-zone: "toptracker.ru" NXDOMAIN
@@ -164173,7 +164264,6 @@ local-zone: "ee.uh64b.cn" NXDOMAIN
 local-zone: "m.uh64b.cn" NXDOMAIN
 local-zone: "uhabo.com" NXDOMAIN
 local-zone: "m.uhor8.cn" NXDOMAIN
-local-zone: "file.uhsea.com" NXDOMAIN
 local-zone: "uhygtf1.com" NXDOMAIN
 local-zone: "ujian.cc" NXDOMAIN
 local-zone: "get.ukg.com" NXDOMAIN
@@ -164207,7 +164297,6 @@ local-zone: "cdn.iads.unitychina.cn" NXDOMAIN
 local-zone: "unityads.unitychina.cn" NXDOMAIN
 local-zone: "splash-ads.unitychina.cn" NXDOMAIN
 local-zone: "unta.cn" NXDOMAIN
-local-zone: "nerve.untergrund.net" NXDOMAIN
 local-zone: "unusual.ai" NXDOMAIN
 local-zone: "uodoo.com" NXDOMAIN
 local-zone: "w.uohz.cn" NXDOMAIN
@@ -164530,6 +164619,7 @@ local-zone: "optanon.blob.core.windows.net" NXDOMAIN
 local-zone: "1oavsblobprodcus350.blob.core.windows.net" NXDOMAIN
 local-zone: "37bvsblobprodcus311.blob.core.windows.net" NXDOMAIN
 local-zone: "best10cdn.blob.core.windows.net" NXDOMAIN
+local-zone: "fileupdates.blob.core.windows.net" NXDOMAIN
 local-zone: "hotelembuguacu.blob.core.windows.net" NXDOMAIN
 local-zone: "msoftdatastore.z22.web.core.windows.net" NXDOMAIN
 local-zone: "xblgdvrassets3010.blob.core.windows.net" NXDOMAIN
@@ -164578,6 +164668,7 @@ local-zone: "m.wqiuj.com" NXDOMAIN
 local-zone: "wqmobile.com" NXDOMAIN
 local-zone: "wrvdmh.cn" NXDOMAIN
 local-zone: "wsds.cn" NXDOMAIN
+local-zone: "soft.wsyhn.com" NXDOMAIN
 local-zone: "wts.one" NXDOMAIN
 local-zone: "wts2.one" NXDOMAIN
 local-zone: "nads.wuaiso.com" NXDOMAIN
@@ -165955,7 +166046,6 @@ local-zone: "www.14studies.org" NXDOMAIN
 local-zone: "www.14tharmoreddivision.org" NXDOMAIN
 local-zone: "www.14wctoh.org" NXDOMAIN
 local-zone: "ir-sdk.dun.163.com" NXDOMAIN
-local-zone: "countly.mail.163.com" NXDOMAIN
 local-zone: "ad.mh.163.com" NXDOMAIN
 local-zone: "ipv4.music.163.com" NXDOMAIN
 local-zone: "fcount-api.webapp.163.com" NXDOMAIN
@@ -166092,7 +166182,6 @@ local-zone: "i.5432kk.com" NXDOMAIN
 local-zone: "mint-mobile.58dp.net" NXDOMAIN
 local-zone: "www.5mno3.com" NXDOMAIN
 local-zone: "api.64e23e873ff04bfa2bbc2ae45430381281e7f360.com" NXDOMAIN
-local-zone: "sdk-track.66mobi.com" NXDOMAIN
 local-zone: "api.6f0088725badd19291a5fa178ba5d2933f4aa537.com" NXDOMAIN
 local-zone: "metric.6p71hs.top" NXDOMAIN
 local-zone: "api.76aca206c0e2134956dc03c144fe7ad2.com" NXDOMAIN
@@ -166168,7 +166257,6 @@ local-zone: "analytics.aderserve.com" NXDOMAIN
 local-zone: "activate-gumtree.adfixus.com" NXDOMAIN
 local-zone: "rts.adfixus.com" NXDOMAIN
 local-zone: "www.adforce.com" NXDOMAIN
-local-zone: "xadsmartget.adgain.cn" NXDOMAIN
 local-zone: "tracking.adgoon.it" NXDOMAIN
 local-zone: "cdn-ao.adison.co" NXDOMAIN
 local-zone: "analytics.adjust-digital.com" NXDOMAIN
@@ -168001,7 +168089,6 @@ local-zone: "analytics.api.dat.com" NXDOMAIN
 local-zone: "umami.datacentermedia.com" NXDOMAIN
 local-zone: "analytics.datacite.org" NXDOMAIN
 local-zone: "metrics.agent.datadoghq.com" NXDOMAIN
-local-zone: "adsmartget.datads.cn" NXDOMAIN
 local-zone: "usage.dataiku.com" NXDOMAIN
 local-zone: "log.datarecoverybonus.live" NXDOMAIN
 local-zone: "matomo.datasanalytics.com" NXDOMAIN
@@ -168141,7 +168228,6 @@ local-zone: "measure.displate.com" NXDOMAIN
 local-zone: "links.services.disqus.com" NXDOMAIN
 local-zone: "www.dividano.de" NXDOMAIN
 local-zone: "piwik.diw.de" NXDOMAIN
-local-zone: "pica-a-display.diwodiwo.xyz" NXDOMAIN
 local-zone: "look.djfiln.com" NXDOMAIN
 local-zone: "matomo.dkrz.de" NXDOMAIN
 local-zone: "analytics.dkv.global" NXDOMAIN
@@ -169247,7 +169333,6 @@ local-zone: "marketplace-ios-b343.hyprmx.com" NXDOMAIN
 local-zone: "marketplace-ios-b353.hyprmx.com" NXDOMAIN
 local-zone: "marketplace-ios-b362.hyprmx.com" NXDOMAIN
 local-zone: "analytics.hyundaidealer.com" NXDOMAIN
-local-zone: "sdk.hzzfcm.com" NXDOMAIN
 local-zone: "www.i-ksiazka.pl" NXDOMAIN
 local-zone: "fsx.i-run.fr" NXDOMAIN
 local-zone: "www.i-soon.net" NXDOMAIN
@@ -169871,7 +169956,6 @@ local-zone: "mis.g.mi.com" NXDOMAIN
 local-zone: "in.tv.global.mi.com" NXDOMAIN
 local-zone: "idm.iot.mi.com" NXDOMAIN
 local-zone: "api.jr.mi.com" NXDOMAIN
-local-zone: "stat.youpin.mi.com" NXDOMAIN
 local-zone: "e.mi.com" NXDOMAIN
 local-zone: "pandora.mi.com" NXDOMAIN
 local-zone: "adserver.miasto-info.pl" NXDOMAIN
@@ -171139,6 +171223,13 @@ local-zone: "ads-monitoring.shziyi.com" NXDOMAIN
 local-zone: "sgtm.sw.siemens.com" NXDOMAIN
 local-zone: "metrics.siemens-cdn.com" NXDOMAIN
 local-zone: "t.signaletre.com" NXDOMAIN
+local-zone: "rum-ingest.au0.signalfx.com" NXDOMAIN
+local-zone: "rum-ingest.eu0.signalfx.com" NXDOMAIN
+local-zone: "rum-ingest.mon0.signalfx.com" NXDOMAIN
+local-zone: "rum-ingest.us0.signalfx.com" NXDOMAIN
+local-zone: "rum-ingest.us1.signalfx.com" NXDOMAIN
+local-zone: "rum-ingest.us2.signalfx.com" NXDOMAIN
+local-zone: "cdn.signalfx.com" NXDOMAIN
 local-zone: "www.signalhq.com" NXDOMAIN
 local-zone: "t.signauxdeux.com" NXDOMAIN
 local-zone: "t.signauxtrois.com" NXDOMAIN
@@ -171812,6 +171903,7 @@ local-zone: "safe.ucweb.com" NXDOMAIN
 local-zone: "stats.udara.io" NXDOMAIN
 local-zone: "oil.ughmouldhusky.com" NXDOMAIN
 local-zone: "sp.uhaul.com" NXDOMAIN
+local-zone: "file.uhsea.com" NXDOMAIN
 local-zone: "android-appmon.ui-portal.com" NXDOMAIN
 local-zone: "www.uk-tweed-jackets.com" NXDOMAIN
 local-zone: "www.ukbanners.com" NXDOMAIN
@@ -172993,7 +173085,6 @@ local-zone: "ac-log.com" NXDOMAIN
 local-zone: "academiaprogreso.com" NXDOMAIN
 local-zone: "academy-market.com" NXDOMAIN
 local-zone: "accademianazionalevirgiliana.org" NXDOMAIN
-local-zone: "acceptablefabric.com" NXDOMAIN
 local-zone: "access-radar.jp" NXDOMAIN
 local-zone: "accesssearch.click" NXDOMAIN
 local-zone: "acclaimhist.com" NXDOMAIN
@@ -173263,7 +173354,6 @@ local-zone: "aj2376.online" NXDOMAIN
 local-zone: "aj2438.online" NXDOMAIN
 local-zone: "aj2563.bid" NXDOMAIN
 local-zone: "aj2577.bid" NXDOMAIN
-local-zone: "aj2663.bid" NXDOMAIN
 local-zone: "aj3043.bid" NXDOMAIN
 local-zone: "ajansepika.com" NXDOMAIN
 local-zone: "ajiang.net" NXDOMAIN
@@ -174075,7 +174165,6 @@ local-zone: "cheapinsuranceservicestips.com" NXDOMAIN
 local-zone: "cheapmondo.com" NXDOMAIN
 local-zone: "cheatnhack.com" NXDOMAIN
 local-zone: "cheatspcgames.net" NXDOMAIN
-local-zone: "check-products.org" NXDOMAIN
 local-zone: "check-updates.net" NXDOMAIN
 local-zone: "checkoutera.com" NXDOMAIN
 local-zone: "checkpage.org" NXDOMAIN
@@ -174494,6 +174583,7 @@ local-zone: "dergoodting.com" NXDOMAIN
 local-zone: "designatshop.com" NXDOMAIN
 local-zone: "designkoktail.com" NXDOMAIN
 local-zone: "designpant.com" NXDOMAIN
+local-zone: "deskflashlive.lat" NXDOMAIN
 local-zone: "despairglowingassembled.com" NXDOMAIN
 local-zone: "dessaly.com" NXDOMAIN
 local-zone: "desteroide.de" NXDOMAIN
@@ -177134,7 +177224,7 @@ local-zone: "pjiptn.com" NXDOMAIN
 local-zone: "pklnau.ru" NXDOMAIN
 local-zone: "pkoplink.com" NXDOMAIN
 local-zone: "pkygraajhdap.com" NXDOMAIN
-local-zone: "pl21vnu294b.cyou" NXDOMAIN
+local-zone: "pl-oferta538175.sbs" NXDOMAIN
 local-zone: "plaims.com" NXDOMAIN
 local-zone: "plainstats.com" NXDOMAIN
 local-zone: "plane.cat" NXDOMAIN
@@ -177287,7 +177377,6 @@ local-zone: "pulse-vol.com" NXDOMAIN
 local-zone: "pumaqmqix.com" NXDOMAIN
 local-zone: "pummys.com" NXDOMAIN
 local-zone: "punch-out-corona.com" NXDOMAIN
-local-zone: "puniceous-bolero.shop" NXDOMAIN
 local-zone: "punkcase.com" NXDOMAIN
 local-zone: "purelywhitedeluxe.com" NXDOMAIN
 local-zone: "purethc.com" NXDOMAIN
@@ -177321,7 +177410,6 @@ local-zone: "qingniatouzi.com" NXDOMAIN
 local-zone: "qip.ru" NXDOMAIN
 local-zone: "qitoshalan.xyz" NXDOMAIN
 local-zone: "qjgsy.cn" NXDOMAIN
-local-zone: "ql12x629.cyou" NXDOMAIN
 local-zone: "qlfvmcy1sp.com" NXDOMAIN
 local-zone: "qlturalnik.pl" NXDOMAIN
 local-zone: "qnpamkpu.shop" NXDOMAIN
@@ -177815,7 +177903,6 @@ local-zone: "signals-analytics.com" NXDOMAIN
 local-zone: "signinsolution.com" NXDOMAIN
 local-zone: "sikelocci.com" NXDOMAIN
 local-zone: "silenthill24.biz" NXDOMAIN
-local-zone: "siliconuser.com" NXDOMAIN
 local-zone: "silnymuz.com" NXDOMAIN
 local-zone: "sim-max.ru" NXDOMAIN
 local-zone: "simanalytics.nl" NXDOMAIN
@@ -179135,6 +179222,7 @@ local-zone: "zeppy.io" NXDOMAIN
 local-zone: "zer0-l0ve.com" NXDOMAIN
 local-zone: "zero-tools.com" NXDOMAIN
 local-zone: "zerocha.jp" NXDOMAIN
+local-zone: "zeronvaltonia.com" NXDOMAIN
 local-zone: "zesemen.cz" NXDOMAIN
 local-zone: "zesty-career.com" NXDOMAIN
 local-zone: "zeta.com" NXDOMAIN
